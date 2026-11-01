@@ -800,8 +800,16 @@ footer li { break-inside: avoid; margin-bottom: 3px; }
   $("#modal").addEventListener("click", (e) => { if (e.target.id === "modal") closeModal(); });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeModal(); });
 
-  fetch("data.json", { cache: "no-store" })
-    .then((r) => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+  // Dados do dia: o agente atualiza data.json no GitHub (sem gastar deploy no Netlify).
+  // Busca a versão do GitHub e a cópia local e usa a mais recente.
+  const DATA_REMOTE = "https://raw.githubusercontent.com/alcantarainvestimentos/radar-alcantara/main/data.json";
+  const getJSON = (u) => fetch(u, { cache: "no-store" }).then((r) => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); });
+  Promise.allSettled([getJSON(DATA_REMOTE + "?t=" + Date.now()), getJSON("data.json")])
+    .then(([rem, loc]) => {
+      const ok = [rem, loc].filter((x) => x.status === "fulfilled").map((x) => x.value);
+      if (!ok.length) throw (loc.reason || rem.reason);
+      return ok.sort((a, b) => String(b.atualizado_em || "").localeCompare(String(a.atualizado_em || "")))[0];
+    })
     .then((d) => { render(d); startLive(d); mountTV(); mountNews(); tick(); setInterval(tick, 30000); })
     .catch((e) => { $("#app").innerHTML = `<p class="err">Não consegui carregar os dados (data.json): ${esc(e.message)}. Recarregue a página; se continuar, peça ao Claude para republicar o terminal.</p>`; $("#stamp").textContent = "sem dados"; });
 })();
