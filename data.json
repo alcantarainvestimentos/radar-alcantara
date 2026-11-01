@@ -1,0 +1,686 @@
+{
+  "atualizado_em": "2026-10-30T21:29:13-03:00",
+  "referencia": "Fechamento de sexta, 30/10/2026 (cripto às 21h30)",
+  "postura": {
+    "estado": "RISK-OFF",
+    "positivos": 1,
+    "total": 6,
+    "desde": "2026-10-26",
+    "conviccao": "ALTA",
+    "resumo": "Pior semana da história do Ibovespa (−18,1%), dólar +9% e DI longo acima de 15% com o risco fiscal do novo mandato. Lá fora, Fed sinalizando alta em dezembro, tecnologia em correção e Brent acima de US$ 113; só o VIX, levemente abaixo de 20, ficou positivo."
+  },
+  "sinais": [
+    {
+      "nome": "Ibovespa 5 pregões",
+      "valor": "−18,1%",
+      "estado": "neg",
+      "regra": "Positivo se o índice subiu nos últimos 5 pregões"
+    },
+    {
+      "nome": "Ibovespa 1 mês",
+      "valor": "−9,9%",
+      "estado": "neg",
+      "regra": "Positivo se o índice está acima de 1 mês atrás"
+    },
+    {
+      "nome": "Dólar 5 pregões",
+      "valor": "+9,0%",
+      "estado": "neg",
+      "regra": "Positivo se o dólar caiu na semana (real mais forte)"
+    },
+    {
+      "nome": "DI longo na semana",
+      "valor": "+266 bp",
+      "estado": "neg",
+      "regra": "Positivo se a taxa do DI longo caiu na semana"
+    },
+    {
+      "nome": "VIX",
+      "valor": "19,42",
+      "estado": "pos",
+      "regra": "Positivo se o VIX está abaixo de 20"
+    },
+    {
+      "nome": "S&P 500 no dia",
+      "valor": "−1,82%",
+      "estado": "neg",
+      "regra": "Positivo se o S&P 500 subiu no último pregão"
+    }
+  ],
+  "mercados": [
+    {
+      "codigo": "WIN",
+      "nome": "Ibovespa",
+      "vies": "baixa",
+      "nivel": "167.922 pts",
+      "dia": -0.75,
+      "semana": -18.12,
+      "mes": -9.88,
+      "nota": "5ª queda seguida. Máx. do dia 169.185, mín. 167.008. Futuro a 170.060."
+    },
+    {
+      "codigo": "WDO",
+      "nome": "Dólar comercial",
+      "vies": "alta",
+      "nivel": "R$ 5,444",
+      "dia": 1.05,
+      "semana": 9.04,
+      "mes": 5.31,
+      "nota": "Dólar futuro dez. a R$ 5,471. Tocou R$ 5,60 na segunda (26/10)."
+    },
+    {
+      "codigo": "DI F31",
+      "nome": "Juros longos",
+      "vies": "alta",
+      "nivel": "15,30%",
+      "dia": null,
+      "semana": 2.66,
+      "mes": null,
+      "nota": "De 12,64% para 15,30% na semana (+266 bp). Variação da semana em pontos percentuais."
+    },
+    {
+      "codigo": "BTC",
+      "nome": "Bitcoin",
+      "vies": "baixa",
+      "nivel": "US$ 76.765",
+      "dia": -2.5,
+      "semana": null,
+      "mes": -7.9,
+      "nota": "Testa a faixa de US$ 75–77 mil vigiada por analistas. Saques da Binance seguem suspensos; retomada prevista até domingo."
+    }
+  ],
+  "fita": [
+    {
+      "nome": "IBOV",
+      "valor": "167.922",
+      "var": -0.75
+    },
+    {
+      "nome": "USD/BRL",
+      "valor": "5,444",
+      "var": 1.05
+    },
+    {
+      "nome": "S&P 500",
+      "valor": "7.580",
+      "var": -1.82
+    },
+    {
+      "nome": "NASDAQ",
+      "valor": "25.437",
+      "var": -2.86
+    },
+    {
+      "nome": "DOW",
+      "valor": "51.770",
+      "var": -1.09
+    },
+    {
+      "nome": "VIX",
+      "valor": "19,42",
+      "var": 12.91
+    },
+    {
+      "nome": "BRENT",
+      "valor": "113,43",
+      "var": 2.37
+    },
+    {
+      "nome": "OURO",
+      "valor": "3.899",
+      "var": -3.3
+    },
+    {
+      "nome": "BTC",
+      "valor": "76.765",
+      "var": -2.5
+    },
+    {
+      "nome": "ETH",
+      "valor": "2.234",
+      "var": -5.3
+    }
+  ],
+  "valor_justo": [
+    {
+      "titulo": "Ibovespa",
+      "rotulo": "Abaixo do valor estrutural",
+      "justo": "193.000 pts",
+      "atual": "167.922 pts",
+      "gap": -13.0,
+      "detalhe": "Alvo do Inter para o fim de 2026 com P/L de 9,5x. No nível atual, o P/L implícito fica perto de 8,3x. Estimativa de agosto, antes do choque eleitoral."
+    },
+    {
+      "titulo": "Dólar vs Focus",
+      "rotulo": "Acima da expectativa",
+      "justo": "R$ 5,05",
+      "atual": "R$ 5,444",
+      "gap": 7.8,
+      "detalhe": "Focus de 26/10 para o fim de 2026, coletado antes do segundo turno. A próxima edição deve revisar o câmbio para cima."
+    }
+  ],
+  "alertas": [
+    {
+      "nivel": "critico",
+      "titulo": "Binance: saques ainda suspensos",
+      "texto": "Ataque de US$ 6,3 bi à carteira quente. Segundo o aviso nº 2, cerca de 80% dos fundos já foram repostos e os saques voltam em fases, por moeda, até domingo (1/11). A prova de reservas sai antes de segunda (2/11). Confira o status antes de operar."
+    },
+    {
+      "nivel": "atencao",
+      "titulo": "B3 fechada na segunda (Finados) e Copom na quarta",
+      "texto": "Próximo pregão só na terça, 3/11, já com as eleições americanas no mesmo dia. Copom decide a Selic (13,75%) na quarta, 4/11; o mercado espera manutenção."
+    },
+    {
+      "nivel": "atencao",
+      "titulo": "Ormuz e Fed pressionam o exterior",
+      "texto": "Minas atingiram navios-tanque em Ormuz e o Brent (jan.) subiu a US$ 113,43. Dirigentes do Fed pedem novas altas, e a CME vê 76% de chance de alta em dezembro."
+    }
+  ],
+  "indicadores": [
+    {
+      "id": "selic",
+      "grupo": "Brasil",
+      "nome": "Selic",
+      "valor": "13,75%",
+      "estado": "neutro",
+      "selo": "Copom 4/11",
+      "agora": "Mantida desde setembro, após cinco cortes de 0,25 p.p. O Focus de 26/10 ainda via 13,25% no fim de 2026, mas foi coletado antes do choque.",
+      "o_que_e": "A taxa básica de juros definida pelo Copom a cada 45 dias. Serve de base para o CDI e para o custo do crédito no país.",
+      "como_ler": "Selic em queda tende a favorecer bolsa, varejo e construção. Uma pausa ou alta pressiona esses setores e fortalece a renda fixa."
+    },
+    {
+      "id": "ipca",
+      "grupo": "Brasil",
+      "nome": "IPCA 2026 (Focus)",
+      "valor": "5,19%",
+      "estado": "neg",
+      "selo": "acima do teto",
+      "agora": "Acima do teto da meta (4,5%). Para 2027 a projeção é 4,34%. O dólar mais alto ainda não está nessas contas.",
+      "o_que_e": "A inflação oficial do Brasil, aqui pela mediana das projeções do Boletim Focus para o ano.",
+      "como_ler": "Projeções subindo reduzem o espaço para cortes da Selic. Acima de 4,5% o Banco Central está fora da meta."
+    },
+    {
+      "id": "curva",
+      "grupo": "Brasil",
+      "nome": "DI janeiro/2031",
+      "valor": "15,30%",
+      "estado": "neg",
+      "selo": "+266 bp na semana",
+      "agora": "A parte longa da curva abriu forte com o risco fiscal do novo mandato. O CDI está em 13,65%.",
+      "o_que_e": "A taxa de juros que o mercado cobra para emprestar ao governo até 2031. Mede o prêmio de risco de longo prazo.",
+      "como_ler": "DI longo subindo encarece o valuation das ações, principalmente de empresas de crescimento e ligadas ao consumo. Queda costuma anteceder alta da bolsa."
+    },
+    {
+      "id": "cambio",
+      "grupo": "Brasil",
+      "nome": "Dólar comercial",
+      "valor": "R$ 5,444",
+      "estado": "neg",
+      "selo": "+5,3% no mês",
+      "agora": "A Ptax foi de R$ 5,04 para R$ 5,42 na semana. Na máxima de segunda, o dólar chegou a R$ 5,60.",
+      "o_que_e": "A cotação do dólar no mercado à vista.",
+      "como_ler": "Dólar subindo favorece exportadoras (Suzano, Embraer, petroleiras) e pressiona a inflação e as empresas endividadas em moeda estrangeira."
+    },
+    {
+      "id": "emprego",
+      "grupo": "Brasil",
+      "nome": "Desemprego (IBGE)",
+      "valor": "5,2%",
+      "estado": "pos",
+      "selo": "trimestre até set.",
+      "agora": "O mercado de trabalho segue apertado, o que sustenta o consumo, mas também a inflação de serviços.",
+      "o_que_e": "A taxa de desocupação da PNAD Contínua, em trimestre móvel.",
+      "como_ler": "Desemprego baixo é bom para a economia, mas dificulta a queda da inflação e o corte de juros."
+    },
+    {
+      "id": "fed",
+      "grupo": "EUA",
+      "nome": "Fed Funds",
+      "valor": "3,75–4,00%",
+      "estado": "neg",
+      "selo": "76% de chance de alta em dez.",
+      "agora": "Mantidos em 28/10 por 10 a 2. Na sexta, Musalem (St. Louis) disse que novo aperto será necessário 'em breve' e Logan (Dallas) defendeu pelo menos duas altas de 0,25 p.p.",
+      "o_que_e": "A taxa básica de juros dos EUA, definida pelo Fomc.",
+      "como_ler": "Juros altos nos EUA atraem capital para lá e tendem a fortalecer o dólar contra moedas emergentes como o real."
+    },
+    {
+      "id": "pce",
+      "grupo": "EUA",
+      "nome": "PCE (set.)",
+      "valor": "3,6% a/a",
+      "estado": "neg",
+      "selo": "núcleo 3,1%",
+      "agora": "Subiu de 3,4% em agosto para 3,6% em setembro, alta de 0,5% no mês, em linha com o esperado.",
+      "o_que_e": "A medida de inflação preferida do Fed, baseada nos gastos de consumo.",
+      "como_ler": "PCE subindo aumenta a chance de alta de juros nos EUA. Dados abaixo do esperado aliviam os mercados emergentes."
+    },
+    {
+      "id": "treasury",
+      "grupo": "EUA",
+      "nome": "Treasury 10 anos",
+      "valor": "4,94%",
+      "estado": "neutro",
+      "selo": "−4 bp no dia",
+      "agora": "Recuou com a busca por segurança na queda das ações de tecnologia. O de 2 anos fechou em 4,56%.",
+      "o_que_e": "O rendimento do título de 10 anos do governo americano, referência global de juros.",
+      "como_ler": "Acima de 4,5% os juros pesam sobre as ações no mundo todo. Quedas costumam aliviar a bolsa brasileira e o real."
+    },
+    {
+      "id": "vix",
+      "grupo": "Global",
+      "nome": "VIX",
+      "valor": "19,42",
+      "estado": "neutro",
+      "selo": "+12,9% no dia",
+      "agora": "Subiu com a queda de tecnologia (Intel −28,6%, semicondutores −7,2%), mas fechou logo abaixo de 20.",
+      "o_que_e": "O índice de volatilidade implícita do S&P 500, conhecido como o índice do medo.",
+      "como_ler": "Abaixo de 15 indica calma, entre 15 e 20 é normal, e acima de 20 o mercado está estressado. Picos costumam vir com fuga de emergentes."
+    },
+    {
+      "id": "brent",
+      "grupo": "Global",
+      "nome": "Petróleo Brent",
+      "valor": "US$ 113,43",
+      "estado": "neutro",
+      "selo": "+2,4% (jan.)",
+      "agora": "Contrato de janeiro. O de dezembro venceu a US$ 117,64. Sobe com minas atingindo navios-tanque no Estreito de Ormuz.",
+      "o_que_e": "A referência internacional de preço do petróleo.",
+      "como_ler": "Brent alto favorece PETR4, PRIO3 e BRAV3, mas pressiona a inflação e os custos de aéreas e logística."
+    },
+    {
+      "id": "ouro",
+      "grupo": "Global",
+      "nome": "Ouro",
+      "valor": "US$ 3.899",
+      "estado": "neg",
+      "selo": "−3,3%",
+      "agora": "Menor nível em um ano, em meio à venda generalizada de ativos e à expectativa de alta de juros nos EUA.",
+      "o_que_e": "O preço da onça-troy de ouro.",
+      "como_ler": "Ouro subindo sinaliza busca por proteção. Quedas fortes junto com bolsas podem indicar venda forçada para cobrir perdas."
+    }
+  ],
+  "cripto": {
+    "itens": [
+      {
+        "nome": "BTC",
+        "valor": "US$ 76.765",
+        "var": -2.5,
+        "nota": "Faixa de US$ 75–77 mil é o suporte vigiado (Compass Point)"
+      },
+      {
+        "nome": "ETH",
+        "valor": "US$ 2.234",
+        "var": -5.3,
+        "nota": "Faixa de 24h: US$ 2.179 a US$ 2.359"
+      },
+      {
+        "nome": "Liquidações 24h",
+        "valor": "US$ 1,53 bi",
+        "var": null,
+        "nota": "84% em posições compradas (30/10)"
+      },
+      {
+        "nome": "HYPE",
+        "valor": "US$ 91,72",
+        "var": 2.9,
+        "nota": "Subiu contra o mercado; parceria ICE/Trade[XYZ] para perpétuos nos EUA"
+      }
+    ]
+  },
+  "setores": {
+    "periodo": "Outubro/2026",
+    "altas": [
+      {
+        "ticker": "PRIO3",
+        "var": 16.32
+      },
+      {
+        "ticker": "SUZB3",
+        "var": 15.9
+      },
+      {
+        "ticker": "PETR3",
+        "var": 9.43
+      },
+      {
+        "ticker": "CXSE3",
+        "var": 7.44
+      },
+      {
+        "ticker": "PETR4",
+        "var": 5.91
+      },
+      {
+        "ticker": "BBSE3",
+        "var": 5.44
+      }
+    ],
+    "baixas": [
+      {
+        "ticker": "VAMO3",
+        "var": -47.11
+      },
+      {
+        "ticker": "HAPV3",
+        "var": -39.74
+      },
+      {
+        "ticker": "CYRE3",
+        "var": -37.28
+      },
+      {
+        "ticker": "CSNA3",
+        "var": -35.12
+      },
+      {
+        "ticker": "BEEF3",
+        "var": -34.62
+      },
+      {
+        "ticker": "BBAS3",
+        "var": -28.45
+      }
+    ],
+    "leitura": "Com o choque fiscal, o dinheiro foi para receita em dólar e caixa forte: petróleo, celulose, seguradoras e telecom. Bancos, varejo, construção, saúde e educação, mais sensíveis aos juros, lideraram as quedas."
+  },
+  "agenda": [
+    {
+      "data": "2026-11-02",
+      "hora": "",
+      "evento": "B3 fechada (Finados)",
+      "peso": "medio"
+    },
+    {
+      "data": "2026-11-02",
+      "hora": "12h",
+      "evento": "ISM industrial de outubro (EUA)",
+      "peso": "medio"
+    },
+    {
+      "data": "2026-11-03",
+      "hora": "",
+      "evento": "Eleições de meio de mandato nos EUA e início do Copom",
+      "peso": "alto"
+    },
+    {
+      "data": "2026-11-04",
+      "hora": "após 18h",
+      "evento": "Decisão do Copom sobre a Selic (13,75%)",
+      "peso": "alto"
+    },
+    {
+      "data": "2026-11-06",
+      "hora": "10h30",
+      "evento": "Payroll de outubro (EUA)",
+      "peso": "alto"
+    }
+  ],
+  "historico": [
+    {
+      "data": "2026-09-30",
+      "ibov": 186340.46,
+      "dolar": 5.172,
+      "btc": 83342
+    },
+    {
+      "data": "2026-10-23",
+      "ibov": 205082.56,
+      "dolar": 4.993,
+      "btc": null
+    },
+    {
+      "data": "2026-10-26",
+      "ibov": 176611,
+      "dolar": 5.407,
+      "btc": null
+    },
+    {
+      "data": "2026-10-27",
+      "ibov": 175710.05,
+      "dolar": 5.349,
+      "btc": null
+    },
+    {
+      "data": "2026-10-28",
+      "ibov": 170999,
+      "dolar": 5.34,
+      "btc": null
+    },
+    {
+      "data": "2026-10-29",
+      "ibov": 169186.42,
+      "dolar": 5.387,
+      "btc": null
+    },
+    {
+      "data": "2026-10-30",
+      "ibov": 167921.8,
+      "dolar": 5.444,
+      "btc": 77894
+    }
+  ],
+  "fontes": [
+    {
+      "nome": "B3 Bora Investir — fechamento 30/10",
+      "url": "https://borainvestir.b3.com.br/noticias/mercado/ibovespa-b3-recua-puxado-por-exterior-e-fecha-outubro-com-9-dolar-vai-a-r-544/"
+    },
+    {
+      "nome": "Investing.com — Ibovespa e dólar 30/10",
+      "url": "https://br.investing.com/news/stock-market-news/ibovespa-e-dolar-hoje-ibov-tem-maior-queda-semanal-da-historia-com-fiscal-de-lula-2110448"
+    },
+    {
+      "nome": "InfoMoney — ao vivo 30/10 (DI e destaques de 29/10)",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-30102026/"
+    },
+    {
+      "nome": "Money Times — tempo real 30/10",
+      "url": "https://www.moneytimes.com.br/tempo-real-30-10-26-lils/"
+    },
+    {
+      "nome": "Capp Notes — Closing Look 30/10",
+      "url": "https://cappnotes.substack.com/p/closing-look-friday-october-30-2026"
+    },
+    {
+      "nome": "Reuters via Investing.com — Wall Street 30/10",
+      "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes-4986163"
+    },
+    {
+      "nome": "The Wall Street Republic — petróleo e cripto 30/10",
+      "url": "https://thewallstreetrepublic.substack.com/p/intel-falls-2858-the-nasdaq-100-enters"
+    },
+    {
+      "nome": "Times Brasil — Binance prevê retomar saques",
+      "url": "https://timesbrasil.com.br/cripto-brasil/bitcoin/binance-preve-retomar-saques-em-ate-30-horas-apos-ataque-hacker-de-us-63-bilhoes/"
+    },
+    {
+      "nome": "CoinDesk — analistas após o ataque à Binance",
+      "url": "https://www.coindesk.com/markets/2026/10/30/wall-street-analysts-urge-investors-to-buy-crypto-stocks-on-weakness-after-usd6-3-billion-binance-hack"
+    },
+    {
+      "nome": "24/7 Wall St. — Hyperliquid",
+      "url": "https://247wallst.com/investing/cryptocurrency/2026/10/30/hyperliquid-hype-rose-4-while-crypto-fell-7-after-the-binance-hack-is-money-moving-from-binance-to-hyperliquid/"
+    },
+    {
+      "nome": "CoinGecko — BTC e ETH",
+      "url": "https://www.coingecko.com/en/coins/bitcoin"
+    },
+    {
+      "nome": "Sou Brasília — Focus 26/10",
+      "url": "https://soubrasilia.com/focus-26-outubro-2026-ipca-5-19-pib-1-80-selic-13-25-dolar-5-05/"
+    },
+    {
+      "nome": "Money Times — valuation do Ibovespa (Inter)",
+      "url": "https://www.moneytimes.com.br/inter-estima-o-valuation-justo-para-o-ibovespa-e-ainda-enxerga-espaco-para-recuperacao-em-2026-confira-apsa/"
+    },
+    {
+      "nome": "PANews — Binance: 80% reposto e retomada em fases",
+      "url": "https://panews.io/articles/01a18e5f-d62b-74bb-b55c-a2cae7755753"
+    }
+  ],
+  "notas": "VIX e Brent corrigidos para os fechamentos finais de 30/10 (Brent pelo contrato de janeiro). Fechamentos de 26/10 e 28/10 calculados a partir das variações publicadas. Informação para estudo, não recomendação de investimento.",
+  "config": {
+    "brapi_token": "",
+    "whatsapp": "",
+    "instagram": "alcantarainvestimentos"
+  },
+  "juros_liquidez": {
+    "brasil": {
+      "selic": "13,75%",
+      "copom": {
+        "data": "2026-11-04",
+        "manter": 62,
+        "cortar": 28,
+        "fonte": "Termômetro do Copom (Valor Investe), 27/10"
+      },
+      "focus": [
+        {
+          "rotulo": "Hoje",
+          "selic": 13.75
+        },
+        {
+          "rotulo": "Fim 2026",
+          "selic": 13.25
+        },
+        {
+          "rotulo": "Fim 2027",
+          "selic": 11.75
+        }
+      ],
+      "focus_fonte": "Focus de 26/10, coletado antes do 2º turno",
+      "curva": {
+        "data": "29/10",
+        "pontos": [
+          {
+            "v": "jan/27",
+            "t": 13.639
+          },
+          {
+            "v": "jan/28",
+            "t": 14.325
+          },
+          {
+            "v": "jan/29",
+            "t": 14.745
+          },
+          {
+            "v": "jan/31",
+            "t": 15.05
+          },
+          {
+            "v": "jan/33",
+            "t": 15.135
+          },
+          {
+            "v": "jan/35",
+            "t": 15.115
+          }
+        ]
+      },
+      "leitura": "A curva DI está acima da Selic em todos os vértices a partir de 2028: o mercado deixou de precificar cortes e cobra prêmio fiscal de mais de 1 ponto no longo prazo."
+    },
+    "eua": {
+      "fed": "3,75–4,00%",
+      "efetiva": 3.88,
+      "fedwatch": {
+        "reuniao": "dez/2026",
+        "alta": 79.6,
+        "manter": 20.4,
+        "fonte": "CME FedWatch, 30/10"
+      },
+      "curva": {
+        "data": "28/10",
+        "pontos": [
+          {
+            "v": "3m",
+            "t": 4.18
+          },
+          {
+            "v": "2a",
+            "t": 4.67
+          },
+          {
+            "v": "5a",
+            "t": 4.85
+          },
+          {
+            "v": "10a",
+            "t": 5.05
+          },
+          {
+            "v": "30a",
+            "t": 5.37
+          }
+        ]
+      },
+      "leitura": "Curva positivamente inclinada (2a 4,67% × 10a 5,05%). Com PCE de 3,6% e dois votos por alta no Fomc, o mercado vê quase 80% de chance de alta em dezembro. O 10 anos recuou para cerca de 4,92% em 30/10."
+    },
+    "credito_eua": {
+      "hy_oas": 3.14,
+      "data": "28/10",
+      "media": 3.21,
+      "min": 2.59,
+      "max": 4.69,
+      "periodo": "mai/2023 a out/2026",
+      "sinais": [
+        {
+          "estado": "neutro",
+          "texto": "Spread high yield em 3,14%, perto da média recente (3,21%): o crédito médio ainda não precifica estresse."
+        },
+        {
+          "estado": "neg",
+          "texto": "Spreads dos papéis CCC, os de pior nota, nas máximas em 4 anos: estresse concentrado nas empresas mais frágeis."
+        },
+        {
+          "estado": "neg",
+          "texto": "High yield europeu no spread mais largo desde 2009 (29/10)."
+        }
+      ],
+      "fonte": "ICE BofA US High Yield OAS (FRED, via MacroRadar); Seeking Alpha; Bloomberg"
+    },
+    "liquidez": {
+      "m2_global": 103.66,
+      "m2_data": "ago/2026",
+      "m2_nota": "Recorde. Subiu cerca de US$ 1 tri em agosto, 10º mês seguido de alta. Soma do M2 de EUA, Zona do Euro, Japão e China.",
+      "m2_fonte": "MacroMicro, via CoinGabbar (28/09)",
+      "fed_ativos": 6745.6,
+      "tga": 1015.6,
+      "rrp": 325.8,
+      "reservas": 2895.2,
+      "fed_data": "28/10",
+      "fed_semana": -8.0,
+      "fed_ano": 158.6,
+      "fed_fonte": "Federal Reserve, H.4.1 de 28/10",
+      "leitura": "Liquidez global em recorde costuma sustentar ativos de risco e cripto com defasagem. No curto prazo, o TGA acima de US$ 1 tri drena reservas do sistema nos EUA."
+    }
+  },
+  "cursos": {
+    "titulo": "Cursos e e-books",
+    "intro": "Conteúdo da Alcantara para entender mercado, câmbio e cripto com método. Os primeiros materiais estão em produção.",
+    "itens": [
+      {
+        "tipo": "E-book",
+        "titulo": "Dólar e câmbio para empresas",
+        "descricao": "Como funciona o câmbio, o que encarece a operação e quando faz sentido usar OTC.",
+        "status": "em_breve",
+        "preco": "",
+        "link": ""
+      },
+      {
+        "tipo": "Curso",
+        "titulo": "Lendo o mercado com o Radar",
+        "descricao": "Postura do dia, curva de juros, liquidez e crédito: como cada indicador do Radar se encaixa.",
+        "status": "em_breve",
+        "preco": "",
+        "link": ""
+      },
+      {
+        "tipo": "E-book",
+        "titulo": "Cripto com segurança",
+        "descricao": "Custódia, corretoras, carteiras e os erros mais comuns de quem está começando.",
+        "status": "em_breve",
+        "preco": "",
+        "link": ""
+      }
+    ]
+  }
+}
