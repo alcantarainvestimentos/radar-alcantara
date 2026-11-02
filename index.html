@@ -4,6 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Radar Alcantara</title>
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#0b0a08">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -812,6 +816,22 @@ footer li { break-inside: avoid; margin-bottom: 3px; }
     })
     .then((d) => { render(d); startLive(d); mountTV(); mountNews(); tick(); setInterval(tick, 30000); })
     .catch((e) => { $("#app").innerHTML = `<p class="err">Não consegui carregar os dados (data.json): ${esc(e.message)}. Recarregue a página; se continuar, peça ao Claude para republicar o terminal.</p>`; $("#stamp").textContent = "sem dados"; });
+})();
+</script>
+<script>
+/* Contador de visitas próprio (sem cookies). Abra radaralcantara.com.br/?eu=1 uma vez para não contar as suas visitas. */
+(function () {
+  try {
+    var ls = window.localStorage, hoje = new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 10);
+    if (/[?&]eu=1/.test(location.search)) ls.setItem("radar_eu", "1");
+    if (ls.getItem("radar_eu") === "1") return;
+    var novo = ls.getItem("radar_dia") !== hoje ? 1 : 0; ls.setItem("radar_dia", hoje);
+    var ref = ""; try { var h = new URL(document.referrer).hostname; if (h && h !== location.hostname) ref = h.replace(/^www\./, "").replace(/^l\.|^lm\./, ""); } catch (e) {}
+    var u = new URLSearchParams(location.search).get("utm_source"); if (u) ref = u;
+    var body = JSON.stringify({ n: novo, r: ref, m: /Mobi|Android|iPhone/i.test(navigator.userAgent) ? 1 : 0 });
+    if (!(navigator.sendBeacon && navigator.sendBeacon("/api/hit", new Blob([body], { type: "application/json" }))))
+      fetch("/api/hit", { method: "POST", body: body, headers: { "content-type": "application/json" }, keepalive: true });
+  } catch (e) {}
 })();
 </script>
 </body>
