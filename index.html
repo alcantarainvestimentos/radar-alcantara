@@ -270,6 +270,11 @@ footer li { break-inside: avoid; margin-bottom: 3px; }
 .newslist li:last-child { border-bottom: 0; }
 .newslist a { color: var(--text); text-decoration: none; font-size: 15px; line-height: 1.4; }
 .newslist a:hover { color: var(--gold); }
+.nhead { display: flex; align-items: center; justify-content: space-between; gap: 10px; border-bottom: 1px solid var(--line); padding-right: 12px; flex-wrap: wrap; }
+.nhead h3 { border-bottom: 0; }
+.ntabs { display: flex; gap: 4px; padding: 6px 0; }
+.ntab { background: none; border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px; color: var(--muted); font-family: var(--font-mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; cursor: pointer; }
+.ntab[aria-selected="true"] { background: var(--gold); border-color: var(--gold); color: #17130b; font-weight: 600; }
 .nl-meta { display: flex; align-items: center; justify-content: space-between; gap: 10px; position: relative; flex-wrap: wrap; }
 .share { display: inline-flex; align-items: center; gap: 6px; background: none; border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; color: var(--muted); font-family: var(--font-mono); font-size: 11px; letter-spacing: .04em; cursor: pointer; }
 .share:hover, .share:focus-visible { color: var(--gold); border-color: var(--gold); }
@@ -334,6 +339,7 @@ footer li { break-inside: avoid; margin-bottom: 3px; }
       <a href="#macro">Macro</a>
       <a href="#mapas">Mapas</a>
       <a href="#cripto">Cripto</a>
+      <a href="#noticias">Notícias</a>
       <a href="#setores">Setores</a>
       <a href="#agenda">Agenda</a>
       <a href="#cursos">Cursos</a>
@@ -512,11 +518,12 @@ footer li { break-inside: avoid; margin-bottom: 3px; }
     "heat-spx": ["stock-heatmap", { dataSource: "SPX500", blockSize: "market_cap_basic", blockColor: "change", grouping: "sector", locale: "br", colorTheme: "dark", hasTopBar: false, isZoomEnabled: true, hasSymbolTooltip: true, isMonoSize: false, width: "100%", height: "100%" }],
     "calendar": ["events", { colorTheme: "dark", isTransparent: true, locale: "br", countryFilter: "br,us", importanceFilter: "0,1", width: "100%", height: "100%" }]
   };
-  const NEWS_FEEDS = [
-    ["Livecoins", "https://livecoins.com.br/feed/"],
-    ["Portal do Bitcoin", "https://portaldobitcoin.uol.com.br/feed/"],
-    ["Investing Brasil", "https://br.investing.com/rss/news_301.rss"],
-  ];
+  // Fallback (se /api/news falhar): leitura pelos feeds via rss2json.
+  const NEWS_FEEDS = {
+    cripto: [["Livecoins", "https://livecoins.com.br/feed/"], ["Portal do Bitcoin", "https://portaldobitcoin.uol.com.br/feed/"], ["Investing Brasil", "https://br.investing.com/rss/news_301.rss"]],
+    acoes: [["Money Times", "https://www.moneytimes.com.br/feed/"], ["Seu Dinheiro", "https://www.seudinheiro.com/feed/"], ["Investing Brasil", "https://br.investing.com/rss/news_25.rss"]],
+  };
+  let newsCat = "cripto";
   function ago(t) {
     const m = Math.max(0, Math.round((Date.now() - t) / 60000));
     if (m < 60) return `há ${m} min`;
@@ -524,19 +531,27 @@ footer li { break-inside: avoid; margin-bottom: 3px; }
     if (h < 24) return `há ${h} h`;
     return `há ${Math.round(h / 24)} d`;
   }
-  async function loadNews() {
-    const ul = document.getElementById("news-list");
-    if (!ul) return;
-    const res = await Promise.allSettled(NEWS_FEEDS.map(async ([src, url]) => {
-      const r = await fetch("https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(url));
-      const j = await r.json();
+  async function fetchNews(cat) {
+    try {
+      const r = await fetch("/api/news?cat=" + cat);
+      if (r.ok) { const j = await r.json(); if (j.items && j.items.length) return j.items; }
+    } catch (e) {}
+    const res = await Promise.allSettled(NEWS_FEEDS[cat].map(async ([src, url]) => {
+      const j = await (await fetch("https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(url))).json();
       if (j.status !== "ok") throw new Error(src);
       return j.items.map((i) => ({ src, title: i.title, link: i.link, t: new Date(i.pubDate.replace(" ", "T") + "Z").getTime() }));
     }));
     const seen = new Set();
-    const items = res.flatMap((r) => (r.status === "fulfilled" ? r.value : []))
+    return res.flatMap((r) => (r.status === "fulfilled" ? r.value : []))
       .filter((i) => i.title && !isNaN(i.t) && !seen.has(i.title) && seen.add(i.title))
       .sort((a, b) => b.t - a.t);
+  }
+  async function loadNews() {
+    const ul = document.getElementById("news-list");
+    if (!ul) return;
+    const cat = newsCat;
+    const items = await fetchNews(cat);
+    if (cat !== newsCat) return;
     showShared(items);
     items.splice(14);
     if (!items.length) { ul.innerHTML = `<li class="nl-empty">Não consegui carregar as notícias agora. Tento de novo em alguns minutos.</li>`; return; }
@@ -585,7 +600,17 @@ footer li { break-inside: avoid; margin-bottom: 3px; }
     if (pop.getBoundingClientRect().bottom > box.bottom) pop.classList.add("up");
     setTimeout(() => document.addEventListener("click", function off(ev) { if (!pop.contains(ev.target) && ev.target !== btn) { closeShare(); document.removeEventListener("click", off); } }), 0);
   }
-  function mountNews() { loadNews(); setInterval(loadNews, 10 * 60 * 1000); }
+  function mountNews() {
+    document.querySelectorAll(".ntab").forEach((b) => b.addEventListener("click", () => {
+      if (b.dataset.cat === newsCat) return;
+      newsCat = b.dataset.cat;
+      document.querySelectorAll(".ntab").forEach((x) => x.setAttribute("aria-selected", String(x === b)));
+      document.getElementById("news-list").innerHTML = '<li class="nl-empty">Carregando notícias…</li>';
+      loadNews();
+    }));
+    loadNews();
+    setInterval(loadNews, 3 * 60 * 1000);
+  }
   function mountTV() {
     document.querySelectorAll("[data-tv]").forEach((box) => {
       const [kind, cfg] = TV[box.dataset.tv];
@@ -733,7 +758,7 @@ footer li { break-inside: avoid; margin-bottom: 3px; }
       <section id="cripto">
         <p class="eyebrow">Cripto</p>
         <div class="crypto">${cr}</div>
-        <div class="tvbox news" style="margin-top:20px"><h3>Notícias cripto · ao vivo</h3><ul id="news-list" class="newslist"><li class="nl-empty">Carregando notícias…</li></ul></div>
+        <div class="tvbox news" id="noticias" style="margin-top:20px"><div class="nhead"><h3>Notícias · ao vivo</h3><div class="ntabs" role="tablist" aria-label="Tipo de notícia"><button type="button" class="ntab" role="tab" data-cat="cripto" aria-selected="true">Cripto</button><button type="button" class="ntab" role="tab" data-cat="acoes" aria-selected="false">Ações e mercado</button></div></div><ul id="news-list" class="newslist"><li class="nl-empty">Carregando notícias…</li></ul></div>
       </section>
       <section id="setores">
         <p class="eyebrow">Setores · ${esc(s.periodo)}</p>

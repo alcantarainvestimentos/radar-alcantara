@@ -3,7 +3,7 @@
 // GET  /api/n?id=xxxx                     → devolve a notícia, para o link radaralcantara.com.br/?n=xxxx continuar funcionando
 import { getStore } from "@netlify/blobs";
 
-const FONTES = ["livecoins.com.br", "portaldobitcoin.uol.com.br", "br.investing.com", "investing.com"];
+const FONTES = ["livecoins.com.br", "portaldobitcoin.uol.com.br", "investing.com", "moneytimes.com.br", "infomoney.com.br", "seudinheiro.com"];
 const okLink = (u) => { try { const h = new URL(u).hostname.replace(/^www\./, ""); return /^https?:$/.test(new URL(u).protocol) && FONTES.some((f) => h === f || h.endsWith("." + f)); } catch { return false; } };
 const txt = (s, n) => String(s || "").replace(/\s+/g, " ").trim().slice(0, n);
 
