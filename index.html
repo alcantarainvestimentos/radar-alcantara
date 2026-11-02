@@ -8,6 +8,18 @@
 <link rel="icon" type="image/png" href="/favicon.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#0b0a08">
+<meta name="description" content="Cotações, notícias e mapas do mercado ao vivo: bolsa, dólar, juros e cripto num só lugar. Grátis, da Alcantara Investimentos.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Radar Alcantara">
+<meta property="og:title" content="Radar Alcantara · mercado ao vivo">
+<meta property="og:description" content="Cotações, notícias e mapas do mercado ao vivo: bolsa, dólar, juros e cripto num só lugar. Grátis.">
+<meta property="og:url" content="https://radaralcantara.com.br/">
+<meta property="og:image" content="https://radaralcantara.com.br/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://radaralcantara.com.br/og.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -263,6 +275,11 @@ footer li { break-inside: avoid; margin-bottom: 3px; }
 .share:hover, .share:focus-visible { color: var(--gold); border-color: var(--gold); }
 .share svg { width: 13px; height: 13px; }
 .share-pop { position: absolute; right: 0; top: calc(100% + 6px); z-index: 20; display: flex; gap: 4px; flex-wrap: wrap; background: var(--panel); border: 1px solid var(--gold); border-radius: 8px; padding: 6px; box-shadow: 0 8px 24px rgba(0,0,0,.5); }
+.shared { border: 1px solid var(--gold); border-radius: 10px; padding: 22px 24px; margin: 4px 0 28px; background: linear-gradient(135deg, rgba(201,165,74,.12), transparent 60%), var(--panel); }
+.shared h2 { font-family: var(--font-display); font-weight: 400; color: var(--text); font-size: 28px; line-height: 1.2; margin: 6px 0 8px; }
+.shared .sh-meta { font-family: var(--font-mono); font-size: 12px; color: var(--muted); margin: 0 0 16px; }
+.shared .sh-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.shared .sh-note { color: var(--muted); font-size: 13px; margin: 14px 0 0; }
 .share-pop.up { top: auto; bottom: calc(100% + 6px); }
 .share-pop a, .share-pop button { color: var(--text); background: none; border: 0; text-decoration: none; font-family: var(--font-mono); font-size: 12px; padding: 6px 10px; border-radius: 6px; cursor: pointer; }
 .share-pop a:hover, .share-pop button:hover { background: var(--line); color: var(--gold); }
@@ -519,25 +536,46 @@ footer li { break-inside: avoid; margin-bottom: 3px; }
     const seen = new Set();
     const items = res.flatMap((r) => (r.status === "fulfilled" ? r.value : []))
       .filter((i) => i.title && !isNaN(i.t) && !seen.has(i.title) && seen.add(i.title))
-      .sort((a, b) => b.t - a.t).slice(0, 14);
+      .sort((a, b) => b.t - a.t);
+    showShared(items);
+    items.splice(14);
     if (!items.length) { ul.innerHTML = `<li class="nl-empty">Não consegui carregar as notícias agora. Tento de novo em alguns minutos.</li>`; return; }
     ul.innerHTML = items.map((i, k) => `<li><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a><div class="nl-meta"><span>${ago(i.t)} · ${esc(i.src)}</span><button type="button" class="share" data-k="${k}" aria-label="Compartilhar esta notícia">${SHARE_ICO}Compartilhar</button></div></li>`).join("");
     ul.onclick = (e) => { const b = e.target.closest(".share"); if (b) shareNews(items[+b.dataset.k], b); };
   }
   const SHARE_ICO = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="2.6" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="6" cy="12" r="2.6" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="19" r="2.6" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8.3 10.8l7.4-4.3M8.3 13.2l7.4 4.3" stroke="currentColor" stroke-width="1.8"/></svg>';
   function closeShare() { document.querySelectorAll(".share-pop").forEach((x) => x.remove()); }
+  // Link curto do Radar para a notícia: https://radaralcantara.com.br/?n=<id>
+  const newsId = (s) => { let x = 5381; for (let k = 0; k < s.length; k++) x = ((x * 33) ^ s.charCodeAt(k)) >>> 0; return x.toString(36); };
+  const radarLink = (i) => "https://radaralcantara.com.br/?n=" + newsId(i.link);
+  let sharedShown = false;
+  function showShared(all) {
+    const id = new URLSearchParams(location.search).get("n");
+    if (!id || sharedShown) return;
+    sharedShown = true;
+    const i = all.find((x) => newsId(x.link) === id);
+    const box = document.createElement("section");
+    box.className = "shared";
+    box.innerHTML = i
+      ? `<p class="eyebrow">Notícia compartilhada com você</p><h2>${esc(i.title)}</h2><p class="sh-meta">${ago(i.t)} · ${esc(i.src)}</p><div class="sh-actions"><a class="btn solid" href="${esc(i.link)}" target="_blank" rel="noopener">Ler a matéria completa ↗</a><a class="btn" href="#cripto">Mais notícias no Radar</a></div><p class="sh-note">Aqui no Radar Alcantara você acompanha cotações, notícias e mapas do mercado ao vivo, de graça.</p>`
+      : `<p class="eyebrow">Notícia compartilhada com você</p><h2>Essa notícia já saiu do nosso feed</h2><p class="sh-meta">Veja as mais recentes na seção de cripto.</p><div class="sh-actions"><a class="btn solid" href="#cripto">Ver notícias recentes</a></div>`;
+    const app = document.getElementById("app");
+    app.insertBefore(box, app.firstChild);
+    window.scrollTo({ top: 0 });
+  }
   async function shareNews(i, btn) {
-    const text = `${i.title} (${i.src})\n\nMais notícias e cotações ao vivo: radaralcantara.com.br`;
+    const link = radarLink(i);
+    const text = `📰 ${i.title} (${i.src})\n\nLeia no Radar Alcantara, com cotações e notícias do mercado ao vivo 👇`;
     if (navigator.share) {
-      try { await navigator.share({ title: i.title, text, url: i.link }); return; } catch (e) { if (e && e.name === "AbortError") return; }
+      try { await navigator.share({ title: i.title, text, url: link }); return; } catch (e) { if (e && e.name === "AbortError") return; }
     }
     closeShare();
-    const msg = encodeURIComponent(`${text}\n${i.link}`);
+    const msg = encodeURIComponent(`${text}\n${link}`);
     const pop = document.createElement("div");
     pop.className = "share-pop";
-    pop.innerHTML = `<a href="https://wa.me/?text=${msg}" target="_blank" rel="noopener">WhatsApp</a><a href="https://t.me/share/url?url=${encodeURIComponent(i.link)}&text=${encodeURIComponent(text)}" target="_blank" rel="noopener">Telegram</a><a href="https://x.com/intent/post?text=${encodeURIComponent(i.title + " via radaralcantara.com.br")}&url=${encodeURIComponent(i.link)}" target="_blank" rel="noopener">X</a><button type="button">Copiar link</button>`;
+    pop.innerHTML = `<a href="https://wa.me/?text=${msg}" target="_blank" rel="noopener">WhatsApp</a><a href="https://t.me/share/url?url=${encodeURIComponent(link)}&text=${encodeURIComponent(text)}" target="_blank" rel="noopener">Telegram</a><a href="https://x.com/intent/post?text=${encodeURIComponent("📰 " + i.title + " · via Radar Alcantara")}&url=${encodeURIComponent(link)}" target="_blank" rel="noopener">X</a><button type="button">Copiar link</button>`;
     pop.querySelector("button").onclick = async () => {
-      try { await navigator.clipboard.writeText(`${i.title}\n${i.link}\n\nradaralcantara.com.br`); pop.querySelector("button").textContent = "Copiado ✓"; } catch (e) { pop.querySelector("button").textContent = "Não deu para copiar"; }
+      try { await navigator.clipboard.writeText(`📰 ${i.title}\n${link}`); pop.querySelector("button").textContent = "Copiado ✓"; } catch (e) { pop.querySelector("button").textContent = "Não deu para copiar"; }
       setTimeout(closeShare, 1200);
     };
     btn.parentElement.appendChild(pop);
