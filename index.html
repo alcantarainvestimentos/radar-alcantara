@@ -258,6 +258,14 @@ footer li { break-inside: avoid; margin-bottom: 3px; }
 .newslist li:last-child { border-bottom: 0; }
 .newslist a { color: var(--text); text-decoration: none; font-size: 15px; line-height: 1.4; }
 .newslist a:hover { color: var(--gold); }
+.nl-meta { display: flex; align-items: center; justify-content: space-between; gap: 10px; position: relative; flex-wrap: wrap; }
+.share { display: inline-flex; align-items: center; gap: 6px; background: none; border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; color: var(--muted); font-family: var(--font-mono); font-size: 11px; letter-spacing: .04em; cursor: pointer; }
+.share:hover, .share:focus-visible { color: var(--gold); border-color: var(--gold); }
+.share svg { width: 13px; height: 13px; }
+.share-pop { position: absolute; right: 0; top: calc(100% + 6px); z-index: 20; display: flex; gap: 4px; flex-wrap: wrap; background: var(--panel); border: 1px solid var(--gold); border-radius: 8px; padding: 6px; box-shadow: 0 8px 24px rgba(0,0,0,.5); }
+.share-pop.up { top: auto; bottom: calc(100% + 6px); }
+.share-pop a, .share-pop button { color: var(--text); background: none; border: 0; text-decoration: none; font-family: var(--font-mono); font-size: 12px; padding: 6px 10px; border-radius: 6px; cursor: pointer; }
+.share-pop a:hover, .share-pop button:hover { background: var(--line); color: var(--gold); }
 .newslist span, .nl-empty { font-family: var(--font-mono); font-size: 11px; color: var(--muted); letter-spacing: .04em; }
 .lead { background: linear-gradient(120deg, var(--gold-soft), var(--panel) 55%); border: 1px solid rgba(201,165,74,.45); border-radius: 10px; padding: 22px 24px; display: flex; gap: 18px 28px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
 .lead h3 { margin: 0; font-family: var(--font-display); font-weight: 400; font-size: 28px; }
@@ -513,7 +521,29 @@ footer li { break-inside: avoid; margin-bottom: 3px; }
       .filter((i) => i.title && !isNaN(i.t) && !seen.has(i.title) && seen.add(i.title))
       .sort((a, b) => b.t - a.t).slice(0, 14);
     if (!items.length) { ul.innerHTML = `<li class="nl-empty">Não consegui carregar as notícias agora. Tento de novo em alguns minutos.</li>`; return; }
-    ul.innerHTML = items.map((i) => `<li><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a><span>${ago(i.t)} · ${esc(i.src)}</span></li>`).join("");
+    ul.innerHTML = items.map((i, k) => `<li><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a><div class="nl-meta"><span>${ago(i.t)} · ${esc(i.src)}</span><button type="button" class="share" data-k="${k}" aria-label="Compartilhar esta notícia">${SHARE_ICO}Compartilhar</button></div></li>`).join("");
+    ul.onclick = (e) => { const b = e.target.closest(".share"); if (b) shareNews(items[+b.dataset.k], b); };
+  }
+  const SHARE_ICO = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="2.6" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="6" cy="12" r="2.6" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="19" r="2.6" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8.3 10.8l7.4-4.3M8.3 13.2l7.4 4.3" stroke="currentColor" stroke-width="1.8"/></svg>';
+  function closeShare() { document.querySelectorAll(".share-pop").forEach((x) => x.remove()); }
+  async function shareNews(i, btn) {
+    const text = `${i.title} (${i.src})\n\nMais notícias e cotações ao vivo: radaralcantara.com.br`;
+    if (navigator.share) {
+      try { await navigator.share({ title: i.title, text, url: i.link }); return; } catch (e) { if (e && e.name === "AbortError") return; }
+    }
+    closeShare();
+    const msg = encodeURIComponent(`${text}\n${i.link}`);
+    const pop = document.createElement("div");
+    pop.className = "share-pop";
+    pop.innerHTML = `<a href="https://wa.me/?text=${msg}" target="_blank" rel="noopener">WhatsApp</a><a href="https://t.me/share/url?url=${encodeURIComponent(i.link)}&text=${encodeURIComponent(text)}" target="_blank" rel="noopener">Telegram</a><a href="https://x.com/intent/post?text=${encodeURIComponent(i.title + " via radaralcantara.com.br")}&url=${encodeURIComponent(i.link)}" target="_blank" rel="noopener">X</a><button type="button">Copiar link</button>`;
+    pop.querySelector("button").onclick = async () => {
+      try { await navigator.clipboard.writeText(`${i.title}\n${i.link}\n\nradaralcantara.com.br`); pop.querySelector("button").textContent = "Copiado ✓"; } catch (e) { pop.querySelector("button").textContent = "Não deu para copiar"; }
+      setTimeout(closeShare, 1200);
+    };
+    btn.parentElement.appendChild(pop);
+    const box = btn.closest("ul").getBoundingClientRect();
+    if (pop.getBoundingClientRect().bottom > box.bottom) pop.classList.add("up");
+    setTimeout(() => document.addEventListener("click", function off(ev) { if (!pop.contains(ev.target) && ev.target !== btn) { closeShare(); document.removeEventListener("click", off); } }), 0);
   }
   function mountNews() { loadNews(); setInterval(loadNews, 10 * 60 * 1000); }
   function mountTV() {
