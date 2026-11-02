@@ -549,11 +549,12 @@ footer li { break-inside: avoid; margin-bottom: 3px; }
   const newsId = (s) => { let x = 5381; for (let k = 0; k < s.length; k++) x = ((x * 33) ^ s.charCodeAt(k)) >>> 0; return x.toString(36); };
   const radarLink = (i) => "https://radaralcantara.com.br/?n=" + newsId(i.link);
   let sharedShown = false;
-  function showShared(all) {
+  async function showShared(all) {
     const id = new URLSearchParams(location.search).get("n");
     if (!id || sharedShown) return;
     sharedShown = true;
-    const i = all.find((x) => newsId(x.link) === id);
+    let i = all.find((x) => newsId(x.link) === id);
+    if (!i) { try { const r = await fetch("/api/n?id=" + encodeURIComponent(id)); if (r.ok) i = await r.json(); } catch (e) {} }
     const box = document.createElement("section");
     box.className = "shared";
     box.innerHTML = i
@@ -565,6 +566,7 @@ footer li { break-inside: avoid; margin-bottom: 3px; }
   }
   async function shareNews(i, btn) {
     const link = radarLink(i);
+    try { fetch("/api/n", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ id: newsId(i.link), title: i.title, link: i.link, src: i.src, t: i.t }), keepalive: true }); } catch (e) {}
     const text = `📰 ${i.title} (${i.src})\n\nLeia no Radar Alcantara, com cotações e notícias do mercado ao vivo 👇`;
     if (navigator.share) {
       try { await navigator.share({ title: i.title, text, url: link }); return; } catch (e) { if (e && e.name === "AbortError") return; }
