@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-11-02T12:40:00-03:00",
-  "referencia": "Pregão de segunda, 02/11/2026 (parcial às 12h40; B3 fechada no Finados, Brasil segue no fechamento de 30/10)",
+  "atualizado_em": "2026-11-02T18:40:00-03:00",
+  "referencia": "Fechamento de segunda, 02/11/2026 (B3 fechada no Finados; Brasil segue no fechamento de 30/10)",
   "postura": {
     "estado": "RISK-OFF",
-    "positivos": 2,
+    "positivos": 0,
     "total": 6,
     "desde": "2026-10-26",
-    "conviccao": "MÉDIA",
-    "resumo": "B3 fechada no Finados: Ibovespa segue no fechamento de sexta (167.922, −18,1% na semana), dólar a R$ 5,44 e DI longo acima de 15% à espera do Copom de quarta. Lá fora, Wall Street sobe (S&P +0,6%, Dow +1%) com o Brent despencando ~6,6% para US$ 106 nas conversas EUA-Irã; a alta do S&P se soma ao VIX abaixo de 20 como sinal positivo, mas o Brasil ainda pesa."
+    "conviccao": "ALTA",
+    "resumo": "B3 fechada no Finados: Ibovespa segue no fechamento de sexta (167.922, −18,1% na semana), dólar a R$ 5,44 e DI longo acima de 15% à espera do Copom de quarta. Wall Street virou à tarde com nova venda de tecnologia: S&P −0,5%, Nasdaq −1,1% e VIX de volta acima de 20 (21,15); só o Dow subiu (+0,4%). Brent despencou ~7,6% para US$ 104,77 com a diplomacia EUA-Irã. Nenhum dos 6 sinais está positivo."
   },
   "sinais": [
     {
@@ -36,14 +36,14 @@
     },
     {
       "nome": "VIX",
-      "valor": "19,08",
-      "estado": "pos",
+      "valor": "21,15",
+      "estado": "neg",
       "regra": "Positivo se o VIX está abaixo de 20"
     },
     {
       "nome": "S&P 500 no dia",
-      "valor": "+0,59%",
-      "estado": "pos",
+      "valor": "−0,51%",
+      "estado": "neg",
       "regra": "Positivo se o S&P 500 subiu no último pregão"
     }
   ],
@@ -56,7 +56,7 @@
       "dia": -0.75,
       "semana": -18.12,
       "mes": -9.88,
-      "nota": "B3 fechada hoje (Finados). Última: 5ª queda seguida, mín. 167.008. Reabre na terça com Wall Street em alta e petróleo em forte queda, o que pode pesar em PETR4/PRIO3 e aliviar o resto."
+      "nota": "B3 fechada hoje (Finados). Última: 5ª queda seguida, mín. 167.008. Reabre na terça com Nasdaq −1,1%, VIX acima de 20 e Brent −7,6%, o que pesa em PETR4/PRIO3; Focus e eleições americanas no mesmo dia."
     },
     {
       "codigo": "WDO",
@@ -66,7 +66,7 @@
       "dia": 1.05,
       "semana": 9.04,
       "mes": 5.31,
-      "nota": "B3 fechada hoje. Dólar futuro dez. a R$ 5,471 na sexta. Petróleo −6,6%, Treasury de 10 anos em 4,90% e bolsas americanas em alta podem aliviar o real na reabertura; Copom na quarta."
+      "nota": "B3 fechada hoje. Dólar futuro dez. a R$ 5,471 na sexta. Petróleo em forte queda e Treasury de 10 anos em 4,89% ajudam o real, mas a aversão a risco em tecnologia e o VIX acima de 20 pesam contra; Copom na quarta."
     },
     {
       "codigo": "DI F31",
@@ -82,11 +82,11 @@
       "codigo": "BTC",
       "nome": "Bitcoin",
       "vies": "baixa",
-      "nivel": "US$ 77.813",
-      "dia": -0.14,
+      "nivel": "US$ 76.668",
+      "dia": -1.42,
       "semana": null,
       "mes": -7.9,
-      "nota": "Meio da manhã de segunda (EUA): estável perto de US$ 78 mil, faixa de 24h entre US$ 77,6 e 78,9 mil. Binance: saída líquida de US$ 3,64 bi no 1º dia de saques; co-CEO diz que a corrida desacelera. Suportes em US$ 77,5 mil e US$ 76,5 mil (MME 200). Fear & Greed 37 (medo)."
+      "nota": "Fechamento de Wall Street: perdeu o repique perto de US$ 79 mil e voltou para a faixa de US$ 76,7–77,3 mil com a venda de tecnologia. Binance: mais de US$ 6 bi saíram de carteiras ligadas à corretora em 24h (~3,6% dos ativos); diz ter reposto ~95% do que foi roubado. Coinbase −5% após rebaixamento do Morgan Stanley. Suportes em US$ 76,5 mil (MME 200) e US$ 75 mil."
     }
   ],
   "fita": [
@@ -102,38 +102,38 @@
     },
     {
       "nome": "S&P 500",
-      "valor": "7.625",
-      "var": 0.59
+      "valor": "7.541",
+      "var": -0.51
     },
     {
       "nome": "NASDAQ",
-      "valor": "25.615",
-      "var": 0.7
+      "valor": "25.164",
+      "var": -1.07
     },
     {
       "nome": "DOW",
-      "valor": "52.285",
-      "var": 1.0
+      "valor": "51.984",
+      "var": 0.41
     },
     {
       "nome": "VIX",
-      "valor": "19,08",
-      "var": -1.75
+      "valor": "21,15",
+      "var": 8.9
     },
     {
       "nome": "BRENT",
-      "valor": "105,94",
-      "var": -6.6
+      "valor": "104,77",
+      "var": -7.63
     },
     {
       "nome": "OURO",
-      "valor": "3.955",
-      "var": 1.43
+      "valor": "3.956",
+      "var": 1.47
     },
     {
       "nome": "BTC",
-      "valor": "77.813",
-      "var": -0.14
+      "valor": "76.668",
+      "var": -1.42
     },
     {
       "nome": "ETH",
@@ -162,18 +162,18 @@
   "alertas": [
     {
       "nivel": "atencao",
-      "titulo": "Binance: saques reabertos só em parte",
-      "texto": "No 1º dia de saques saíram US$ 4,65 bi e entraram US$ 1,01 bi (saída líquida de US$ 3,64 bi, 2,1% dos ativos). O co-CEO Yi He diz que a corrida está desacelerando, mas centenas de tokens seguem bloqueados até checagens de segurança. A prova de reservas completa sai até 3/11 (UTC). Confira status e filas antes de operar."
+      "titulo": "Binance: saídas passam de US$ 6 bi",
+      "texto": "Mais de US$ 6 bi deixaram carteiras ligadas à Binance em 24h após a reabertura dos saques (~3,6% dos US$ 171 bi em ativos; parte pode ser movimentação interna). A corretora diz ter reposto ~95% dos ativos roubados com caixa próprio. Centenas de tokens seguem bloqueados e a prova de reservas completa sai até 3/11 (UTC). Confira status e filas antes de operar."
     },
     {
       "nivel": "atencao",
-      "titulo": "Brent despenca ~6,6% com diplomacia EUA-Irã",
-      "texto": "Brent a cerca de US$ 106 depois de relatos de que o líder supremo do Irã aprovou negociações e de que Trump prefere a via diplomática; iranianos dizem que um acordo é possível após dois dias de conversas no Catar. Opep+ manteve metas até dezembro. Na reabertura da B3 (terça), atenção a PETR4, PRIO3 e BRAV3."
+      "titulo": "Tecnologia volta a cair; VIX acima de 20",
+      "texto": "Nasdaq virou de +1% para −1,1% no fechamento e o S&P caiu 0,5%: Oracle −8,7% após anunciar venda de US$ 10 bi em ações, Marvell −12,7% com a compra da Lumentum (US$ 115 bi). VIX subiu 8,9% para 21,15. Apple divulgou receita de US$ 114,5 bi (acima dos US$ 113,4 bi esperados), mas a ação recuava no after."
     },
     {
       "nivel": "info",
-      "titulo": "B3 fechada; Wall Street sobe com ISM forte",
-      "texto": "Finados hoje. Nos EUA, S&P +0,6% e Dow +1% no fim da manhã; ISM industrial de outubro veio em 55,5 (esperado 54,6), com preços pagos em 75,2. Apple divulga balanço após o fechamento. Terça: Focus, eleições americanas e JOLTS; quarta: Copom."
+      "titulo": "Brent despenca 7,6% com diplomacia EUA-Irã",
+      "texto": "Brent fechou perto de US$ 104,77, menor nível em quatro semanas, com Trump dizendo que o Irã quer um acordo. Na reabertura da B3 (terça), atenção a PETR4, PRIO3 e BRAV3. Terça: Focus, eleições de meio de mandato nos EUA e JOLTS; quarta: Copom."
     }
   ],
   "indicadores": [
@@ -258,10 +258,10 @@
       "id": "treasury",
       "grupo": "EUA",
       "nome": "Treasury 10 anos",
-      "valor": "4,90%",
+      "valor": "4,89%",
       "estado": "neutro",
-      "selo": "−2 bp (2/11)",
-      "agora": "Recua com a queda do petróleo, que alivia o medo de inflação. ISM industrial forte (55,5) e preços pagos em 75,2 limitam o alívio. O de 2 anos fechou sexta em 4,56%.",
+      "selo": "−3,5 bp (2/11)",
+      "agora": "Fechou em 4,89%, em queda com o tombo do petróleo, que alivia o medo de inflação. ISM industrial forte (55,5) e preços pagos em 75,2 limitam o alívio. O de 2 anos fechou sexta em 4,56%.",
       "o_que_e": "O rendimento do título de 10 anos do governo americano, referência global de juros.",
       "como_ler": "Acima de 4,5% os juros pesam sobre as ações no mundo todo. Quedas costumam aliviar a bolsa brasileira e o real."
     },
@@ -269,10 +269,10 @@
       "id": "vix",
       "grupo": "Global",
       "nome": "VIX",
-      "valor": "19,08",
-      "estado": "neutro",
-      "selo": "−1,8% (2/11)",
-      "agora": "Recua com a recuperação das bolsas americanas depois da venda de tecnologia de sexta; segue logo abaixo de 20.",
+      "valor": "21,15",
+      "estado": "neg",
+      "selo": "+8,9% (2/11)",
+      "agora": "Voltou acima de 20 com a virada das bolsas à tarde: nova venda de tecnologia (Oracle, Marvell, Micron, AMD) às vésperas das eleições americanas e do payroll.",
       "o_que_e": "O índice de volatilidade implícita do S&P 500, conhecido como o índice do medo.",
       "como_ler": "Abaixo de 15 indica calma, entre 15 e 20 é normal, e acima de 20 o mercado está estressado. Picos costumam vir com fuga de emergentes."
     },
@@ -280,10 +280,10 @@
       "id": "brent",
       "grupo": "Global",
       "nome": "Petróleo Brent",
-      "valor": "US$ 105,94",
+      "valor": "US$ 104,77",
       "estado": "neutro",
-      "selo": "−6,6% (2/11)",
-      "agora": "Despenca com sinais de saída diplomática para a guerra com o Irã: o líder supremo teria aprovado negociações e Trump prefere negociar. Opep+ manteve metas até dezembro. Na sexta, fechou a US$ 113,43. A Petrobras subiu o querosene de aviação em 7,2% em 1/11.",
+      "selo": "−7,6% (2/11)",
+      "agora": "Menor nível em quatro semanas com sinais de saída diplomática para a guerra com o Irã: Trump disse que o Irã quer um acordo e o líder supremo teria aprovado negociações. Opep+ manteve metas até dezembro. Na sexta, fechou a US$ 113,43.",
       "o_que_e": "A referência internacional de preço do petróleo.",
       "como_ler": "Brent alto favorece PETR4, PRIO3 e BRAV3, mas pressiona a inflação e os custos de aéreas e logística."
     },
@@ -291,9 +291,9 @@
       "id": "ouro",
       "grupo": "Global",
       "nome": "Ouro",
-      "valor": "US$ 3.955",
+      "valor": "US$ 3.956",
       "estado": "neg",
-      "selo": "+1,4% (2/11)",
+      "selo": "+1,5% (2/11)",
       "agora": "Recupera parte da queda depois de tocar o menor nível em um ano na sexta.",
       "o_que_e": "O preço da onça-troy de ouro.",
       "como_ler": "Ouro subindo sinaliza busca por proteção. Quedas fortes junto com bolsas podem indicar venda forçada para cobrir perdas."
@@ -303,9 +303,9 @@
     "itens": [
       {
         "nome": "BTC",
-        "valor": "US$ 77.813",
-        "var": -0.14,
-        "nota": "Estável perto de US$ 78 mil; Binance com saída líquida de US$ 3,64 bi e corrida desacelerando. Fundos à vista: −US$ 643 mi na sexta"
+        "valor": "US$ 76.668",
+        "var": -1.42,
+        "nota": "Devolveu o repique e fechou o dia em Wall Street perto de US$ 76,7 mil; Binance com mais de US$ 6 bi de saídas em 24h. Strategy comprou mais 810 BTC (849.327 no total)"
       },
       {
         "nome": "ETH",
@@ -379,15 +379,9 @@
   },
   "agenda": [
     {
-      "data": "2026-11-02",
-      "hora": "após 18h",
-      "evento": "B3 fechada (Finados). Apple divulga balanço após o fechamento nos EUA",
-      "peso": "medio"
-    },
-    {
       "data": "2026-11-03",
       "hora": "8h25",
-      "evento": "Focus; eleições de meio de mandato nos EUA; JOLTS (12h); prova de reservas da Binance; Itaú (3T26)",
+      "evento": "Focus; eleições de meio de mandato nos EUA; JOLTS (12h); prova de reservas da Binance; Itaú (3T26); B3 reabre após o Finados",
       "peso": "alto"
     },
     {
@@ -455,8 +449,16 @@
   ],
   "fontes": [
     {
-      "nome": "Trading Economics — bolsas dos EUA (2/11)",
-      "url": "https://tradingeconomics.com/united-states/stock-market"
+      "nome": "Yahoo Finance — fechamento de Wall Street (2/11)",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html"
+    },
+    {
+      "nome": "StockTitan — mercado hoje (2/11)",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-2-2026"
+    },
+    {
+      "nome": "CoinDesk — Binance, BTC e Apple (2/11)",
+      "url": "https://www.coindesk.com/markets/2026/11/02/live-updates-binance-records-usd6-billion-outflows-after-starting-withdrawals-less-then-4-of-total-holdings"
     },
     {
       "nome": "Trading Economics — Brent (2/11)",
@@ -465,22 +467,6 @@
     {
       "nome": "Trading Economics — ISM industrial de outubro",
       "url": "https://tradingeconomics.com/united-states/business-confidence"
-    },
-    {
-      "nome": "Yahoo Finance — mercados ao vivo (2/11)",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html"
-    },
-    {
-      "nome": "TheStreet — mercado hoje (2/11)",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-02-2026"
-    },
-    {
-      "nome": "Crypto & Finance report — Binance e BTC (2/11)",
-      "url": "https://tedpillows.substack.com/p/crypto-and-finance-market-report-e7d"
-    },
-    {
-      "nome": "CoinCentral — BTC e ETH (2/11)",
-      "url": "https://coincentral.com/bitcoin-btc-price-bounces-back-toward-79k-after-biggest-exchange-hack-ever"
     },
     {
       "nome": "InfoMoney — fechamento 30/10",
@@ -523,7 +509,7 @@
       "url": "https://soubrasilia.com/focus-26-outubro-2026-ipca-5-19-pib-1-80-selic-13-25-dolar-5-05/"
     }
   ],
-  "notas": "Segunda de Finados sem pregão na B3: bolsa, câmbio e juros do Brasil seguem no fechamento de sexta (30/10). Bolsas dos EUA, VIX, petróleo, ouro, Treasury e cripto conforme a última leitura confiável do meio do dia de 02/11 (por volta das 12h25; sem dado mais novo publicado às 12h40). Histórico sem novo ponto (sem pregão). Informação para estudo, não recomendação de investimento.",
+  "notas": "Segunda de Finados sem pregão na B3: bolsa, câmbio e juros do Brasil seguem no fechamento de sexta (30/10). Bolsas dos EUA, VIX, Treasury, ouro e BTC no fechamento de 02/11; Brent pela última leitura do fim da tarde. ETH sem dado confiável novo (mantido o da manhã). Histórico sem novo ponto (sem pregão). Informação para estudo, não recomendação de investimento.",
   "config": {
     "brapi_token": "",
     "whatsapp": "",
