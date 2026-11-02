@@ -526,8 +526,17 @@ footer li { break-inside: avoid; margin-bottom: 3px; }
       box.appendChild(sc);
     });
   }
+  // Feriados (data local de cada bolsa). O data.json pode acrescentar mais em config.feriados = { "B3": ["AAAA-MM-DD"], ... }.
+  const FERIADOS = {
+    "B3": ["2026-11-02", "2026-11-20", "2026-12-24", "2026-12-25", "2026-12-31"],
+    "Nova York": ["2026-11-26", "2026-12-25"],
+    "Londres": ["2026-12-25", "2026-12-28"],
+    "Tóquio": ["2026-11-03", "2026-11-23", "2026-12-31"]
+  };
+  const isHoliday = (n, ymd) => (FERIADOS[n] || []).includes(ymd);
+  // B3: pregão regular até 17h55 + leilão de fechamento até 18h (horário novo desde 03/11/2026).
   const MARKETS = [
-    { n: "B3", tz: "America/Sao_Paulo", s: [[600, 1075]] },
+    { n: "B3", tz: "America/Sao_Paulo", s: [[600, 1080]] },
     { n: "Nova York", tz: "America/New_York", s: [[570, 960]] },
     { n: "Londres", tz: "Europe/London", s: [[480, 990]] },
     { n: "Tóquio", tz: "Asia/Tokyo", s: [[540, 690], [750, 930]] },
@@ -537,13 +546,14 @@ footer li { break-inside: avoid; margin-bottom: 3px; }
     const el = $("#clock"); if (!el) return;
     const now = new Date();
     el.innerHTML = MARKETS.map((m) => {
-      const parts = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: m.tz, weekday: "short", hour: "2-digit", minute: "2-digit", hour12: false }).formatToParts(now).map((p) => [p.type, p.value]));
+      const parts = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: m.tz, weekday: "short", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false }).formatToParts(now).map((p) => [p.type, p.value]));
       const mins = (+parts.hour % 24) * 60 + +parts.minute;
-      const wk = !["Sat", "Sun"].includes(parts.weekday);
+      const hol = m.s !== "24h" && isHoliday(m.n, `${parts.year}-${parts.month}-${parts.day}`);
+      const wk = !["Sat", "Sun"].includes(parts.weekday) && !hol;
       const open = m.s === "24h" || (wk && m.s.some(([a, b]) => mins >= a && mins < b));
       const local = new Intl.DateTimeFormat("pt-BR", { timeZone: m.tz, hour: "2-digit", minute: "2-digit" }).format(now);
-      let nx = m.s === "24h" ? "sempre aberto" : open ? "fecha às " + fmtHM(m.s.find(([a, b]) => mins >= a && mins < b)[1]) : wk && mins < m.s[0][0] ? "abre às " + fmtHM(m.s[0][0]) : "abre no próximo dia útil";
-      return `<div class="mkt"><span class="n">${esc(m.n)}<span>${m.s === "24h" ? "" : local}</span></span><span class="st ${open ? "open" : "closed"}">${open ? "Aberto" : "Fechado"}</span><span class="nx">${nx}${m.s === "24h" ? "" : " (hora local)"}</span></div>`;
+      let nx = m.s === "24h" ? "sempre aberto" : open ? "fecha às " + fmtHM(m.s.find(([a, b]) => mins >= a && mins < b)[1]) : wk && mins < m.s[0][0] ? "abre às " + fmtHM(m.s[0][0]) : hol ? "feriado · abre no próximo dia útil" : "abre no próximo dia útil";
+      return `<div class="mkt"><span class="n">${esc(m.n)}<span>${m.s === "24h" ? "" : local}</span></span><span class="st ${open ? "open" : "closed"}">${open ? "Aberto" : hol ? "Feriado" : "Fechado"}</span><span class="nx">${nx}${m.s === "24h" ? "" : " (hora local)"}</span></div>`;
     }).join("");
   }
   const fmtHM = (m) => String(Math.floor(m / 60)).padStart(2, "0") + ":" + String(m % 60).padStart(2, "0");
@@ -769,7 +779,8 @@ footer li { break-inside: avoid; margin-bottom: 3px; }
   function b3Open() {
     const now = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Sao_Paulo" }));
     const d = now.getDay(), m = now.getHours() * 60 + now.getMinutes();
-    return d >= 1 && d <= 5 && m >= 9 * 60 + 55 && m <= 18 * 60 + 30;
+    const ymd = now.getFullYear() + "-" + String(now.getMonth() + 1).padStart(2, "0") + "-" + String(now.getDate()).padStart(2, "0");
+    return d >= 1 && d <= 5 && !isHoliday("B3", ymd) && m >= 9 * 60 + 55 && m <= 18 * 60 + 30;
   }
   async function pollBrapi(token) {
     const list = LIVE.filter((c) => c.src === "brapi" && (!c.token || token));
@@ -829,7 +840,7 @@ footer li { break-inside: avoid; margin-bottom: 3px; }
       if (!ok.length) throw (loc.reason || rem.reason);
       return ok.sort((a, b) => String(b.atualizado_em || "").localeCompare(String(a.atualizado_em || "")))[0];
     })
-    .then((d) => { render(d); startLive(d); mountTV(); mountNews(); tick(); setInterval(tick, 30000); })
+    .then((d) => { const fx = (d.config || {}).feriados || {}; for (const k in fx) FERIADOS[k] = (FERIADOS[k] || []).concat(fx[k]); render(d); startLive(d); mountTV(); mountNews(); tick(); setInterval(tick, 30000); })
     .catch((e) => { $("#app").innerHTML = `<p class="err">Não consegui carregar os dados (data.json): ${esc(e.message)}. Recarregue a página; se continuar, peça ao Claude para republicar o terminal.</p>`; $("#stamp").textContent = "sem dados"; });
 })();
 </script>
