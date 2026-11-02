@@ -1,6 +1,6 @@
 {
-  "atualizado_em": "2026-11-02T12:25:07-03:00",
-  "referencia": "Pregão de segunda, 02/11/2026 (parcial às 12h25; B3 fechada no Finados, Brasil segue no fechamento de 30/10)",
+  "atualizado_em": "2026-11-02T12:40:00-03:00",
+  "referencia": "Pregão de segunda, 02/11/2026 (parcial às 12h40; B3 fechada no Finados, Brasil segue no fechamento de 30/10)",
   "postura": {
     "estado": "RISK-OFF",
     "positivos": 2,
@@ -523,7 +523,7 @@
       "url": "https://soubrasilia.com/focus-26-outubro-2026-ipca-5-19-pib-1-80-selic-13-25-dolar-5-05/"
     }
   ],
-  "notas": "Segunda de Finados sem pregão na B3: bolsa, câmbio e juros do Brasil seguem no fechamento de sexta (30/10). Bolsas dos EUA, VIX, petróleo, ouro, Treasury e cripto atualizados no meio do dia de 02/11 (Nasdaq Composite estimado pela variação de ~0,7% reportada). Histórico sem novo ponto (sem pregão). Informação para estudo, não recomendação de investimento.",
+  "notas": "Segunda de Finados sem pregão na B3: bolsa, câmbio e juros do Brasil seguem no fechamento de sexta (30/10). Bolsas dos EUA, VIX, petróleo, ouro, Treasury e cripto conforme a última leitura confiável do meio do dia de 02/11 (por volta das 12h25; sem dado mais novo publicado às 12h40). Histórico sem novo ponto (sem pregão). Informação para estudo, não recomendação de investimento.",
   "config": {
     "brapi_token": "",
     "whatsapp": "",
