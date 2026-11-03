@@ -677,6 +677,27 @@
   },
   "noticias_radar": [
     {
+      "cat": "acoes",
+      "title": "Futuros de NY oscilam no dia das eleições nos EUA: Dow cai 0,6%; AMD divulga balanço após o fechamento",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-090846378.html",
+      "src": "Yahoo Finance",
+      "t": "2026-11-03T09:08:00Z"
+    },
+    {
+      "cat": "acoes",
+      "title": "Copom inicia reunião com aposta de Selic mantida em 13,75%; Brent sobe 2% e volta a US$ 107",
+      "link": "https://www.moneytimes.com.br/tempo-real-3-11-26-lils-davs/",
+      "src": "Money Times",
+      "t": "2026-11-03T09:00:00Z"
+    },
+    {
+      "cat": "cripto",
+      "title": "Binance libera saques de mais 51 tokens nas redes Ethereum e Solana e diz ter reposto 95% dos ativos do hack",
+      "link": "https://crypto.news/binance-restores-withdrawals-for-more-ethereum-solana-tokens-after-6-3b-hack/",
+      "src": "crypto.news",
+      "t": "2026-11-03T07:39:48Z"
+    },
+    {
       "cat": "cripto",
       "title": "ETFs de bitcoin nos EUA perdem US$ 398,6 mi em 2/11; IBIT, da BlackRock, responde por saques de US$ 405 mi",
       "link": "https://crypto.news/why-is-bitcoin-price-down-today-btc-76000-support/",
@@ -689,6 +710,13 @@
       "link": "https://www.marketscreener.com/news/dax-expected-to-open-lower-us-midterm-elections-in-focus-ce785fd9df8bf521",
       "src": "Reuters",
       "t": "2026-11-03T06:27:00Z"
+    },
+    {
+      "cat": "cripto",
+      "title": "Conselho de segurança da Arbitrum move US$ 30 mi em ETH e ARB do hacker da Binance para endereço bloqueado",
+      "link": "https://www.coindesk.com/tech/2026/11/03/arbitrum-s-council-moved-usd30-million-of-binance-hack-funds-without-the-hacker-s-key",
+      "src": "CoinDesk",
+      "t": "2026-11-03T05:25:12Z"
     },
     {
       "cat": "cripto",
