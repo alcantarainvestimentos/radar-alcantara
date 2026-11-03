@@ -678,6 +678,41 @@
   "noticias_radar": [
     {
       "cat": "acoes",
+      "title": "Futuros de NY recuam com eleições: Dow -0,8%; chips na mínima em 6 meses, Palantir cai 8% e Treasury de 10 anos a 4,93%",
+      "link": "https://www.swissinfo.ch/eng/us-stocks-slip-as-midterms-keep-traders-cautious:-markets-wrap/92317079",
+      "src": "Bloomberg",
+      "t": "2026-11-03T13:02:00Z"
+    },
+    {
+      "cat": "cripto",
+      "title": "Binance tem saída líquida de US$ 5,3 bi após hack de US$ 6,4 bi; depósitos voltam a superar saques por hora",
+      "link": "https://www.coindesk.com/business/2026/11/03/binance-net-outflows-reach-usd5-3b-after-record-hack-though-ceo-cites-recovery",
+      "src": "CoinDesk",
+      "t": "2026-11-03T12:57:00Z"
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin, perto de US$ 77 mil, fica 5,2% acima da média de 200 dias no dia das eleições nos EUA, ao contrário de 2014-22",
+      "link": "https://www.coindesk.com/daybook-us/2026/11/03/bitcoin-is-breaking-a-midterm-election-pattern-going-back-to-2014",
+      "src": "CoinDesk",
+      "t": "2026-11-03T12:30:00Z"
+    },
+    {
+      "cat": "acoes",
+      "title": "Ibovespa futuro chega a cair 2%, a 167 mil pontos; dólar sobe 1,1%, a R$ 5,50, e Focus eleva Selic de 2026 a 13,50%",
+      "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-03112026/",
+      "src": "InfoMoney",
+      "t": "2026-11-03T12:11:00Z"
+    },
+    {
+      "cat": "cripto",
+      "title": "Governança da NEAR aprova proposta que reduz teto de emissão do token para 1,6% ao ano",
+      "link": "https://www.theblock.co/news/defi/2026-11-03-near-governance-approves-proposal-to-cut-token-issuance-432378",
+      "src": "The Block",
+      "t": "2026-11-03T09:19:00Z"
+    },
+    {
+      "cat": "acoes",
       "title": "Futuros de NY oscilam no dia das eleições nos EUA: Dow cai 0,6%; AMD divulga balanço após o fechamento",
       "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-090846378.html",
       "src": "Yahoo Finance",
