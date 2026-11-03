@@ -674,5 +674,42 @@
         "link": ""
       }
     ]
-  }
+  },
+  "noticias_radar": [
+    {
+      "cat": "acoes",
+      "title": "Apple fatura US$ 114,5 bi no 4º tri fiscal, alta de 12%, e lucro por ação de US$ 2,10 supera estimativas",
+      "link": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
+      "src": "Apple",
+      "t": "2026-11-02T21:30:00Z"
+    },
+    {
+      "cat": "acoes",
+      "title": "Palantir tem receita de US$ 2,31 bi no 3º tri, alta de 96%, acima dos US$ 2,18 bi esperados",
+      "link": "https://gvwire.com/2026/11/02/palantir-tops-third-quarter-revenue-estimates-on-strong-ai-software-demand/",
+      "src": "Reuters",
+      "t": "2026-11-02T21:20:46Z"
+    },
+    {
+      "cat": "cripto",
+      "title": "Mercado Bitcoin confirma desvio de mais de US$ 46 mi e mantém depósitos e saques suspensos",
+      "link": "https://cointelegraph.com.br/news/mercado-bitcoin-hack",
+      "src": "Cointelegraph Brasil",
+      "t": "2026-11-02T19:05:35Z"
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin cai abaixo de US$ 77 mil com efeitos do hack da Binance; liquidações somam US$ 256 mi",
+      "link": "https://news.bitcoin.com/market-updates/binance-hack-fallout-keeps-bitcoin-price-under-pressure-77k/",
+      "src": "Bitcoin.com",
+      "t": "2026-11-02T17:49:00Z"
+    },
+    {
+      "cat": "cripto",
+      "title": "CZ diz que Binance cobriu mais de US$ 6 bi do hack com caixa próprio, sem empréstimos nem venda de ativos",
+      "link": "https://en.bloomingbit.io/feed/news/123472",
+      "src": "Bloomingbit",
+      "t": "2026-11-02T17:39:21Z"
+    }
+  ]
 }
