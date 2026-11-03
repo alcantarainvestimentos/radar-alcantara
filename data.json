@@ -677,6 +677,27 @@
   },
   "noticias_radar": [
     {
+      "cat": "cripto",
+      "title": "ETFs de bitcoin nos EUA perdem US$ 398,6 mi em 2/11; IBIT, da BlackRock, responde por saques de US$ 405 mi",
+      "link": "https://crypto.news/why-is-bitcoin-price-down-today-btc-76000-support/",
+      "src": "crypto.news",
+      "t": "2026-11-03T06:40:23Z"
+    },
+    {
+      "cat": "acoes",
+      "title": "DAX deve abrir em queda com eleições de meio de mandato nos EUA no foco; Hugo Boss corta projeções do ano",
+      "link": "https://www.marketscreener.com/news/dax-expected-to-open-lower-us-midterm-elections-in-focus-ce785fd9df8bf521",
+      "src": "Reuters",
+      "t": "2026-11-03T06:27:00Z"
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin cai abaixo de US$ 77 mil com tombo de 12% das ações de chips; ZEC recua quase 10% e SOL, 3%",
+      "link": "https://www.coindesk.com/markets/2026/11/03/bitcoin-drops-below-usd77-000-as-chip-rout-deepens-ahead-of-u-s-midterm-vote",
+      "src": "CoinDesk",
+      "t": "2026-11-03T04:48:00Z"
+    },
+    {
       "cat": "acoes",
       "title": "Bolsas da Ásia abrem mistas: Kospi cai 2,5% com perdas em tecnologia; Brent fica perto de US$ 105",
       "link": "https://www.wsls.com/business/2026/11/03/asian-shares-are-mixed-as-tech-losses-offset-broader-gains-on-wall-street/",
@@ -691,11 +712,39 @@
       "t": "2026-11-03T03:30:00Z"
     },
     {
+      "cat": "acoes",
+      "title": "Futuros de NY ficam estáveis antes das eleições; Apple cai até 3% no after com margem prevista abaixo do esperado",
+      "link": "https://uk.investing.com/news/stock-market-news/us-stock-futures-steady-ahead-of-midterms-apple-dips-after-mixed-earnings-4950997",
+      "src": "Investing.com",
+      "t": "2026-11-03T03:20:00Z"
+    },
+    {
+      "cat": "cripto",
+      "title": "Ark Invest compra US$ 3,4 mi em ações da Coinbase e reforça Circle e Robinhood em dia de queda",
+      "link": "https://www.theblock.co/news/business/2026-11-02-ark-invest-buys-coinbase-circle-robinhood-432352",
+      "src": "The Block",
+      "t": "2026-11-03T02:56:30Z"
+    },
+    {
+      "cat": "cripto",
+      "title": "Coreia do Sul pede que corretoras ampliem custódia a frio após hack de US$ 6,3 bi na Binance",
+      "link": "https://cointelegraph.com/news/south-korea-urges-exchanges-to-boost-cold-storage-after-binance-hack",
+      "src": "Cointelegraph",
+      "t": "2026-11-03T01:32:39Z"
+    },
+    {
       "cat": "cripto",
       "title": "THORChain pausa swaps em 10 redes após falha e atrasa lavagem de fundos roubados da Binance",
       "link": "https://unchainedcrypto.com/a-thorchain-bug-has-slowed-north-korean-hackers-laundering-stolen-binance-funds/",
       "src": "Unchained",
       "t": "2026-11-02T23:05:00Z"
+    },
+    {
+      "cat": "cripto",
+      "title": "Irmã de Kim Jong-un rejeita acusação do FBI de que Coreia do Norte esteja por trás do hack da Binance",
+      "link": "https://www.theblock.co/news/regulation/2026-11-02-kim-jong-un-sister-rejects-fbi-claims-linking-north-korea-binance-hack-432344",
+      "src": "The Block",
+      "t": "2026-11-02T22:25:04Z"
     },
     {
       "cat": "acoes",
