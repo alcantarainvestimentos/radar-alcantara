@@ -288,6 +288,7 @@ footer li { break-inside: avoid; margin-bottom: 3px; }
 .share-pop.up { top: auto; bottom: calc(100% + 6px); }
 .share-pop a, .share-pop button { color: var(--text); background: none; border: 0; text-decoration: none; font-family: var(--font-mono); font-size: 12px; padding: 6px 10px; border-radius: 6px; cursor: pointer; }
 .share-pop a:hover, .share-pop button:hover { background: var(--line); color: var(--gold); }
+.newslist .sel { font-style: normal; color: var(--gold); border: 1px solid rgba(201,165,74,.45); border-radius: 4px; padding: 1px 6px; margin-left: 6px; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
 .newslist span, .nl-empty { font-family: var(--font-mono); font-size: 11px; color: var(--muted); letter-spacing: .04em; }
 .lead { background: linear-gradient(120deg, var(--gold-soft), var(--panel) 55%); border: 1px solid rgba(201,165,74,.45); border-radius: 10px; padding: 22px 24px; display: flex; gap: 18px 28px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
 .lead h3 { margin: 0; font-family: var(--font-display); font-weight: 400; font-size: 28px; }
@@ -531,7 +532,25 @@ footer li { break-inside: avoid; margin-bottom: 3px; }
     if (h < 24) return `há ${h} h`;
     return `há ${Math.round(h / 24)} d`;
   }
+  // Notícias escolhidas pelo agente do Radar (CryptoPanic e grandes veículos), traduzidas, em data.json → noticias_radar.
+  async function fetchCurated(cat) {
+    try {
+      const d = await getJSON(DATA_REMOTE + "?t=" + Math.floor(Date.now() / 180000));
+      const lim = Date.now() - 72 * 3600e3;
+      return (d.noticias_radar || [])
+        .filter((i) => i.cat === cat && i.title && /^https?:\/\//.test(i.link || ""))
+        .map((i) => ({ title: i.title, link: i.link, src: i.src || "", t: Date.parse(i.t), sel: true }))
+        .filter((i) => !isNaN(i.t) && i.t > lim);
+    } catch (e) { return []; }
+  }
   async function fetchNews(cat) {
+    const [feed, cur] = await Promise.all([fetchFeed(cat), fetchCurated(cat)]);
+    const seen = new Set();
+    return cur.concat(feed)
+      .filter((i) => { const k = (i.link || i.title).replace(/[?#].*$/, ""); return !seen.has(k) && seen.add(k); })
+      .sort((a, b) => b.t - a.t);
+  }
+  async function fetchFeed(cat) {
     try {
       const r = await fetch("/api/news?cat=" + cat);
       if (r.ok) { const j = await r.json(); if (j.items && j.items.length) return j.items; }
@@ -555,7 +574,7 @@ footer li { break-inside: avoid; margin-bottom: 3px; }
     showShared(items);
     items.splice(14);
     if (!items.length) { ul.innerHTML = `<li class="nl-empty">Não consegui carregar as notícias agora. Tento de novo em alguns minutos.</li>`; return; }
-    ul.innerHTML = items.map((i, k) => `<li><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a><div class="nl-meta"><span>${ago(i.t)} · ${esc(i.src)}</span><button type="button" class="share" data-k="${k}" aria-label="Compartilhar esta notícia">${SHARE_ICO}Compartilhar</button></div></li>`).join("");
+    ul.innerHTML = items.map((i, k) => `<li><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a><div class="nl-meta"><span>${ago(i.t)} · ${esc(i.src)}${i.sel ? ' <em class="sel">seleção Radar</em>' : ""}</span><button type="button" class="share" data-k="${k}" aria-label="Compartilhar esta notícia">${SHARE_ICO}Compartilhar</button></div></li>`).join("");
     ul.onclick = (e) => { const b = e.target.closest(".share"); if (b) shareNews(items[+b.dataset.k], b); };
   }
   const SHARE_ICO = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="2.6" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="6" cy="12" r="2.6" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="19" r="2.6" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8.3 10.8l7.4-4.3M8.3 13.2l7.4 4.3" stroke="currentColor" stroke-width="1.8"/></svg>';

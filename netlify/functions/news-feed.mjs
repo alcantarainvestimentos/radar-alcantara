@@ -6,6 +6,8 @@ const FEEDS = {
     ["Livecoins", "https://livecoins.com.br/feed/"],
     ["Portal do Bitcoin", "https://portaldobitcoin.uol.com.br/feed/"],
     ["Investing Brasil", "https://br.investing.com/rss/news_301.rss"],
+    ["BeInCrypto Brasil", "https://br.beincrypto.com/feed/"],
+    ["Money Times", "https://www.moneytimes.com.br/criptomoedas/feed/"],
   ],
   acoes: [
     ["Money Times", "https://www.moneytimes.com.br/feed/"],
@@ -45,7 +47,10 @@ export default async (req) => {
   const lists = await Promise.all(FEEDS[cat].map(readFeed));
   const seen = new Set();
   const now = Date.now() + 10 * 60e3;
+  // Fora: resumos de fechamento de bolsas estrangeiras do Investing ("Polônia - Ações fecharam o pregão...").
+  const RUIDO = /^[^-–]{2,40}\s[-–]\s(Ações|Acoes)\s(fecharam|encerraram|terminaram)/i;
   const items = lists.flat()
+    .filter((i) => !RUIDO.test(i.title))
     .filter((i) => i.t <= now && !seen.has(i.title.toLowerCase()) && seen.add(i.title.toLowerCase()))
     .sort((a, b) => b.t - a.t).slice(0, 30);
   return Response.json({ cat, n: items.length, items }, {
