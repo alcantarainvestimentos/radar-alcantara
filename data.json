@@ -678,6 +678,27 @@
   "noticias_radar": [
     {
       "cat": "acoes",
+      "title": "Bolsas da Ásia abrem mistas: Kospi cai 2,5% com perdas em tecnologia; Brent fica perto de US$ 105",
+      "link": "https://www.wsls.com/business/2026/11/03/asian-shares-are-mixed-as-tech-losses-offset-broader-gains-on-wall-street/",
+      "src": "AP",
+      "t": "2026-11-03T03:51:00Z"
+    },
+    {
+      "cat": "acoes",
+      "title": "Austrália eleva juro em 0,25 ponto, a 4,85%, maior nível em 18 anos, em decisão dividida por 6 a 3",
+      "link": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html",
+      "src": "RBA",
+      "t": "2026-11-03T03:30:00Z"
+    },
+    {
+      "cat": "cripto",
+      "title": "THORChain pausa swaps em 10 redes após falha e atrasa lavagem de fundos roubados da Binance",
+      "link": "https://unchainedcrypto.com/a-thorchain-bug-has-slowed-north-korean-hackers-laundering-stolen-binance-funds/",
+      "src": "Unchained",
+      "t": "2026-11-02T23:05:00Z"
+    },
+    {
+      "cat": "acoes",
       "title": "Apple fatura US$ 114,5 bi no 4º tri fiscal, alta de 12%, e lucro por ação de US$ 2,10 supera estimativas",
       "link": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
       "src": "Apple",
@@ -699,6 +720,13 @@
     },
     {
       "cat": "cripto",
+      "title": "Posições vendidas em bitcoin na CME somam cerca de US$ 2,2 bi antes das eleições nos EUA",
+      "link": "https://www.coindesk.com/markets/2026/11/02/bitcoin-traders-eye-post-election-rally-as-exchange-outflows-point-to-supply-squeeze",
+      "src": "CoinDesk",
+      "t": "2026-11-02T18:13:00Z"
+    },
+    {
+      "cat": "cripto",
       "title": "Bitcoin cai abaixo de US$ 77 mil com efeitos do hack da Binance; liquidações somam US$ 256 mi",
       "link": "https://news.bitcoin.com/market-updates/binance-hack-fallout-keeps-bitcoin-price-under-pressure-77k/",
       "src": "Bitcoin.com",
@@ -710,6 +738,13 @@
       "link": "https://en.bloomingbit.io/feed/news/123472",
       "src": "Bloomingbit",
       "t": "2026-11-02T17:39:21Z"
+    },
+    {
+      "cat": "cripto",
+      "title": "ZachXBT aponta suposto roubo de US$ 106 mi de entidade da UE em contas de corretoras cripto",
+      "link": "https://www.coindesk.com/tech/2026/11/02/eu-entity-suspected-of-losing-usd106-million-from-crypto-exchange-accounts-zachxbt-says",
+      "src": "CoinDesk",
+      "t": "2026-11-02T17:21:00Z"
     }
   ]
 }
