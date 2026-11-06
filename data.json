@@ -677,6 +677,55 @@
   },
   "noticias_radar": [
     {
+      "cat": "cripto",
+      "title": "Ether cai cerca de 8%, a US$ 2.220; ETFs de ether nos EUA têm saída de quase US$ 100 mi em 5/11",
+      "link": "https://crypto.news/why-is-ethereum-price-down-today-eth-etf-liquidations/",
+      "src": "crypto.news",
+      "t": "2026-11-06T07:09:00Z"
+    },
+    {
+      "cat": "acoes",
+      "title": "Kospi aciona circuit breaker após cair 8,8% e Nikkei recua 5,7% com onda de vendas em ações de IA na Ásia",
+      "link": "https://www.euronews.com/2026/11/06/global-stock-rout-deepens-as-ai-data-centre-fears-fuel-worst-us-chip-sell-off-since-2020",
+      "src": "Euronews",
+      "t": "2026-11-06T07:01:00Z"
+    },
+    {
+      "cat": "cripto",
+      "title": "Elizabeth Warren, crítica das criptos, deve presidir o Comitê Bancário do Senado dos EUA em 2027, diz WSJ",
+      "link": "https://crypto.news/elizabeth-warren-senate-banking-crypto-regulation/",
+      "src": "crypto.news",
+      "t": "2026-11-06T06:05:03Z"
+    },
+    {
+      "cat": "cripto",
+      "title": "Ark compra US$ 2,4 mi em ações da Coinbase após queda de 9,7% e vende Bullish e Bitmine",
+      "link": "https://www.theblock.co/news/markets/2026-11-05-ark-invest-buys-coinbase-trims-bullish-bitmine-435769",
+      "src": "The Block",
+      "t": "2026-11-06T03:55:27Z"
+    },
+    {
+      "cat": "acoes",
+      "title": "Ibovespa cai 0,82%, a 166.191 pontos, e dólar sobe 0,67%, a R$ 5,48, com aversão a risco após Copom",
+      "link": "https://metropoles.com/brasil/dolar-fecha-em-alta-cotado-a-r-548-e-bolsa-registra-queda-de-082",
+      "src": "Metrópoles",
+      "t": "2026-11-05T22:48:00Z"
+    },
+    {
+      "cat": "acoes",
+      "title": "Dow despenca 1.833 pontos (-3,44%) e Nasdaq cai 5,5% e entra em correção com derrocada de ações de IA",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html",
+      "src": "Yahoo Finance",
+      "t": "2026-11-05T21:35:00Z"
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin cai abaixo de US$ 76 mil e ether recua 7,5%, a US$ 2.225, no pior pregão de Wall Street desde abril de 2025",
+      "link": "https://www.coindesk.com/business/2026/11/05/live-updates-bitcoin-steady-around-usd80-000-as-markets-rally-after-democratic-sweep",
+      "src": "CoinDesk",
+      "t": "2026-11-05T21:10:00Z"
+    },
+    {
       "cat": "acoes",
       "title": "Futuros de NY recuam com eleições: Dow -0,8%; chips na mínima em 6 meses, Palantir cai 8% e Treasury de 10 anos a 4,93%",
       "link": "https://www.swissinfo.ch/eng/us-stocks-slip-as-midterms-keep-traders-cautious:-markets-wrap/92317079",
@@ -731,139 +780,6 @@
       "link": "https://crypto.news/binance-restores-withdrawals-for-more-ethereum-solana-tokens-after-6-3b-hack/",
       "src": "crypto.news",
       "t": "2026-11-03T07:39:48Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "ETFs de bitcoin nos EUA perdem US$ 398,6 mi em 2/11; IBIT, da BlackRock, responde por saques de US$ 405 mi",
-      "link": "https://crypto.news/why-is-bitcoin-price-down-today-btc-76000-support/",
-      "src": "crypto.news",
-      "t": "2026-11-03T06:40:23Z"
-    },
-    {
-      "cat": "acoes",
-      "title": "DAX deve abrir em queda com eleições de meio de mandato nos EUA no foco; Hugo Boss corta projeções do ano",
-      "link": "https://www.marketscreener.com/news/dax-expected-to-open-lower-us-midterm-elections-in-focus-ce785fd9df8bf521",
-      "src": "Reuters",
-      "t": "2026-11-03T06:27:00Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "Conselho de segurança da Arbitrum move US$ 30 mi em ETH e ARB do hacker da Binance para endereço bloqueado",
-      "link": "https://www.coindesk.com/tech/2026/11/03/arbitrum-s-council-moved-usd30-million-of-binance-hack-funds-without-the-hacker-s-key",
-      "src": "CoinDesk",
-      "t": "2026-11-03T05:25:12Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin cai abaixo de US$ 77 mil com tombo de 12% das ações de chips; ZEC recua quase 10% e SOL, 3%",
-      "link": "https://www.coindesk.com/markets/2026/11/03/bitcoin-drops-below-usd77-000-as-chip-rout-deepens-ahead-of-u-s-midterm-vote",
-      "src": "CoinDesk",
-      "t": "2026-11-03T04:48:00Z"
-    },
-    {
-      "cat": "acoes",
-      "title": "Bolsas da Ásia abrem mistas: Kospi cai 2,5% com perdas em tecnologia; Brent fica perto de US$ 105",
-      "link": "https://www.wsls.com/business/2026/11/03/asian-shares-are-mixed-as-tech-losses-offset-broader-gains-on-wall-street/",
-      "src": "AP",
-      "t": "2026-11-03T03:51:00Z"
-    },
-    {
-      "cat": "acoes",
-      "title": "Austrália eleva juro em 0,25 ponto, a 4,85%, maior nível em 18 anos, em decisão dividida por 6 a 3",
-      "link": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html",
-      "src": "RBA",
-      "t": "2026-11-03T03:30:00Z"
-    },
-    {
-      "cat": "acoes",
-      "title": "Futuros de NY ficam estáveis antes das eleições; Apple cai até 3% no after com margem prevista abaixo do esperado",
-      "link": "https://uk.investing.com/news/stock-market-news/us-stock-futures-steady-ahead-of-midterms-apple-dips-after-mixed-earnings-4950997",
-      "src": "Investing.com",
-      "t": "2026-11-03T03:20:00Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "Ark Invest compra US$ 3,4 mi em ações da Coinbase e reforça Circle e Robinhood em dia de queda",
-      "link": "https://www.theblock.co/news/business/2026-11-02-ark-invest-buys-coinbase-circle-robinhood-432352",
-      "src": "The Block",
-      "t": "2026-11-03T02:56:30Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "Coreia do Sul pede que corretoras ampliem custódia a frio após hack de US$ 6,3 bi na Binance",
-      "link": "https://cointelegraph.com/news/south-korea-urges-exchanges-to-boost-cold-storage-after-binance-hack",
-      "src": "Cointelegraph",
-      "t": "2026-11-03T01:32:39Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "THORChain pausa swaps em 10 redes após falha e atrasa lavagem de fundos roubados da Binance",
-      "link": "https://unchainedcrypto.com/a-thorchain-bug-has-slowed-north-korean-hackers-laundering-stolen-binance-funds/",
-      "src": "Unchained",
-      "t": "2026-11-02T23:05:00Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "Irmã de Kim Jong-un rejeita acusação do FBI de que Coreia do Norte esteja por trás do hack da Binance",
-      "link": "https://www.theblock.co/news/regulation/2026-11-02-kim-jong-un-sister-rejects-fbi-claims-linking-north-korea-binance-hack-432344",
-      "src": "The Block",
-      "t": "2026-11-02T22:25:04Z"
-    },
-    {
-      "cat": "acoes",
-      "title": "Apple fatura US$ 114,5 bi no 4º tri fiscal, alta de 12%, e lucro por ação de US$ 2,10 supera estimativas",
-      "link": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
-      "src": "Apple",
-      "t": "2026-11-02T21:30:00Z"
-    },
-    {
-      "cat": "acoes",
-      "title": "Palantir tem receita de US$ 2,31 bi no 3º tri, alta de 96%, acima dos US$ 2,18 bi esperados",
-      "link": "https://gvwire.com/2026/11/02/palantir-tops-third-quarter-revenue-estimates-on-strong-ai-software-demand/",
-      "src": "Reuters",
-      "t": "2026-11-02T21:20:46Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "Mercado Bitcoin confirma desvio de mais de US$ 46 mi e mantém depósitos e saques suspensos",
-      "link": "https://cointelegraph.com.br/news/mercado-bitcoin-hack",
-      "src": "Cointelegraph Brasil",
-      "t": "2026-11-02T19:05:35Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "Posições vendidas em bitcoin na CME somam cerca de US$ 2,2 bi antes das eleições nos EUA",
-      "link": "https://www.coindesk.com/markets/2026/11/02/bitcoin-traders-eye-post-election-rally-as-exchange-outflows-point-to-supply-squeeze",
-      "src": "CoinDesk",
-      "t": "2026-11-02T18:13:00Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin cai abaixo de US$ 77 mil com efeitos do hack da Binance; liquidações somam US$ 256 mi",
-      "link": "https://news.bitcoin.com/market-updates/binance-hack-fallout-keeps-bitcoin-price-under-pressure-77k/",
-      "src": "Bitcoin.com",
-      "t": "2026-11-02T17:49:00Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "CZ diz que Binance cobriu mais de US$ 6 bi do hack com caixa próprio, sem empréstimos nem venda de ativos",
-      "link": "https://en.bloomingbit.io/feed/news/123472",
-      "src": "Bloomingbit",
-      "t": "2026-11-02T17:39:21Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "ZachXBT aponta suposto roubo de US$ 106 mi de entidade da UE em contas de corretoras cripto",
-      "link": "https://www.coindesk.com/tech/2026/11/02/eu-entity-suspected-of-losing-usd106-million-from-crypto-exchange-accounts-zachxbt-says",
-      "src": "CoinDesk",
-      "t": "2026-11-02T17:21:00Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "Binance conclui nova prova de reservas, diz ter reposto 95% dos ativos do hack e retomar mais saques a partir de terça",
-      "link": "https://www.theblock.co/news/business/2026-11-02-binance-zero-knowledge-proof-of-reserves-snapshot-hack-recovery-432321",
-      "src": "The Block",
-      "t": "2026-11-02T16:51:53Z"
     }
   ]
 }
