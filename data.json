@@ -699,6 +699,13 @@
   },
   "noticias_radar": [
     {
+      "cat": "cripto",
+      "title": "Bitcoin cai a US$ 74.762, menor nível desde 21 de agosto, e fica fora da recuperação das ações de tecnologia",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-under-75k-crypto-markets-tech-stock",
+      "src": "Cointelegraph",
+      "t": "2026-11-06T17:49:33Z"
+    },
+    {
       "cat": "acoes",
       "title": "Payroll dos EUA cria 165 mil vagas em outubro, ante 65 mil esperadas; desemprego cai a 4,1% e juro de 10 anos sobe",
       "link": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite",
@@ -718,6 +725,13 @@
       "link": "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market",
       "src": "CoinDesk",
       "t": "2026-11-06T12:30:00Z"
+    },
+    {
+      "cat": "acoes",
+      "title": "Lula fará pronunciamento no domingo (8) e deve tratar do arcabouço fiscal; Ibovespa fechou em queda de 0,82% na quinta",
+      "link": "https://www.moneytimes.com.br/payroll-fecha-semana-antes-de-pronunciamento-de-lula-ao-mercado-ibovespa-em-dolar-cai-nesta-sexta-feira-6-rens/",
+      "src": "Money Times",
+      "t": "2026-11-06T10:15:56Z"
     },
     {
       "cat": "cripto",
