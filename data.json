@@ -161,6 +161,11 @@
   ],
   "alertas": [
     {
+      "nivel": "critico",
+      "titulo": "Mercado Bitcoin: saques seguem suspensos",
+      "texto": "Após o ataque hacker de 2/11, o Mercado Bitcoin informou que reabre na segunda (9/11) só pelo site, apenas para consulta de saldo, extrato e posições; saques, depósitos, transferências e negociação continuam suspensos, sem data para as próximas fases. A corretora diz que nenhum cliente perderá ativos e que cobrirá as perdas com recursos próprios; o valor desviado não foi confirmado oficialmente (estimativas externas passam de US$ 40 mi). Acompanhe apenas os canais oficiais e desconfie de contatos oferecendo 'liberação' de saldo."
+    },
+    {
       "nivel": "atencao",
       "titulo": "Binance: fase 9 dos saques começa hoje",
       "texto": "A Binance iniciou nesta sexta (6/11) a nona fase da retomada de saques após o ataque de US$ 6,3 bi, reabrindo mais ativos aos poucos, após checagens de segurança; depósitos seguem disponíveis. A Chainalysis confirmou exposição de dados (hashes de senha e tokens) e pediu troca de senhas e chaves de API. Confira o status do ativo antes de operar."
@@ -169,11 +174,6 @@
       "nivel": "atencao",
       "titulo": "Sell-off de IA e payroll às 10h30",
       "texto": "Nasdaq −5,5% e S&P −4,4% ontem (pior dia desde abril/2025), com medo de freio em data centers; Nikkei e Kospi caíram ~6% hoje. Pela manhã os futuros de NY se dividem (Nasdaq +1,4%, Dow −0,7%). Payroll de outubro às 10h30: consenso 55–65 mil vagas e desemprego de 4,2%."
-    },
-    {
-      "nivel": "info",
-      "titulo": "Fiscal no radar após o Copom",
-      "texto": "Selic mantida em 13,75% por unanimidade, sem sinal de próximos passos. Fazenda indica medidas fiscais após a viagem de Lula na próxima semana; balança comercial às 15h (previsão US$ 9,4 bi) e reunião extraordinária do CNPE às 10h."
     }
   ],
   "indicadores": [
@@ -710,6 +710,13 @@
   "noticias_radar": [
     {
       "cat": "cripto",
+      "title": "Mercado Bitcoin reabre na segunda (9) só para consulta de saldo; saques seguem suspensos",
+      "link": "https://www.otempo.com.br/economia/2026/11/6/mercado-bitcoin-reabre-na-segunda-9-so-para-consulta-de-saldo-saques-seguem-suspensos",
+      "src": "O Tempo",
+      "t": "2026-11-06T12:52:00Z"
+    },
+    {
+      "cat": "cripto",
       "title": "ETFs de bitcoin nos EUA têm saída de US$ 430 mi; BTC cai 5% e chega perto de US$ 75 mil",
       "link": "https://coinpaper.com/38419/bitcoin-et-fs-lose-430-million-as-btc-price-crashes-5",
       "src": "Coinpaper",
@@ -819,6 +826,31 @@
       "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-03112026/",
       "src": "InfoMoney",
       "t": "2026-11-03T12:11:00Z"
+    }
+  ],
+  "incidentes": [
+    {
+      "id": "mercadobitcoin-2026-11-02",
+      "plataforma": "Mercado Bitcoin",
+      "titulo": "Ataque hacker; saques, depósitos e negociação suspensos; reabertura parcial (só consulta) em 9/11",
+      "status": "saques suspensos",
+      "t_detectado": "2026-11-06T14:30:00Z",
+      "t_atualizado": "2026-11-06T14:30:00Z",
+      "fontes": [
+        "https://www.otempo.com.br/economia/2026/11/6/mercado-bitcoin-reabre-na-segunda-9-so-para-consulta-de-saldo-saques-seguem-suspensos",
+        "https://www.bloomberglinea.com.br/crypto/mercado-bitcoin-sofre-ataque-hacker-de-us-40-mi-mas-descarta-perdas-para-clientes/"
+      ]
+    },
+    {
+      "id": "binance-2026-10",
+      "plataforma": "Binance",
+      "titulo": "Ataque de US$ 6,3 bi; retomada de saques em fases (fase 9 em 6/11)",
+      "status": "retomada em fases",
+      "t_detectado": "2026-11-06T14:30:00Z",
+      "t_atualizado": "2026-11-06T14:30:00Z",
+      "fontes": [
+        "https://acritica.net/economia/binance-retoma-saques-em-fases-e-diz-ter-reposto-95-por-cento-das-perdas-com-ataque-hacker/"
+      ]
     }
   ]
 }
