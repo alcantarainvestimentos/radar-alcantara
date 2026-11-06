@@ -678,6 +678,27 @@
   "noticias_radar": [
     {
       "cat": "cripto",
+      "title": "ETFs de bitcoin nos EUA têm saída de US$ 430 mi; BTC cai 5% e chega perto de US$ 75 mil",
+      "link": "https://coinpaper.com/38419/bitcoin-et-fs-lose-430-million-as-btc-price-crashes-5",
+      "src": "Coinpaper",
+      "t": "2026-11-06T10:02:45Z"
+    },
+    {
+      "cat": "acoes",
+      "title": "Futuros de NY oscilam antes do payroll: Dow cai 0,7% e Nasdaq sobe 1%; consenso é de 55 mil vagas em outubro",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-091927729.html",
+      "src": "Yahoo Finance",
+      "t": "2026-11-06T10:00:00Z"
+    },
+    {
+      "cat": "cripto",
+      "title": "World Liberty, ligada a Trump, planeja recompra do token WLFI após queda de 66% no ano",
+      "link": "https://www.coindesk.com/business/2026/11/06/trump-backed-world-liberty-financial-plans-token-buyback-after-66-year-to-date-slide",
+      "src": "CoinDesk",
+      "t": "2026-11-06T08:04:00Z"
+    },
+    {
+      "cat": "cripto",
       "title": "Ether cai cerca de 8%, a US$ 2.220; ETFs de ether nos EUA têm saída de quase US$ 100 mi em 5/11",
       "link": "https://crypto.news/why-is-ethereum-price-down-today-eth-etf-liquidations/",
       "src": "crypto.news",
@@ -699,10 +720,24 @@
     },
     {
       "cat": "cripto",
+      "title": "Zcash ativa upgrade NU7 na rede principal e reduz tempo de bloco de 75 para 25 segundos",
+      "link": "https://www.coindesk.com/tech/2026/11/06/zcash-s-landmark-nu7-upgrade-goes-live-speeding-up-private-payments",
+      "src": "CoinDesk",
+      "t": "2026-11-06T05:14:48Z"
+    },
+    {
+      "cat": "cripto",
       "title": "Ark compra US$ 2,4 mi em ações da Coinbase após queda de 9,7% e vende Bullish e Bitmine",
       "link": "https://www.theblock.co/news/markets/2026-11-05-ark-invest-buys-coinbase-trims-bullish-bitmine-435769",
       "src": "The Block",
       "t": "2026-11-06T03:55:27Z"
+    },
+    {
+      "cat": "acoes",
+      "title": "Suzano lucra R$ 2,1 bi no 3º tri, alta de 7,7%; receita líquida avança 35,9%, a R$ 16,5 bi",
+      "link": "https://trademap.com.br/noticias/news-8565557",
+      "src": "TradeMap",
+      "t": "2026-11-06T00:56:00Z"
     },
     {
       "cat": "acoes",
@@ -752,34 +787,6 @@
       "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-03112026/",
       "src": "InfoMoney",
       "t": "2026-11-03T12:11:00Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "Governança da NEAR aprova proposta que reduz teto de emissão do token para 1,6% ao ano",
-      "link": "https://www.theblock.co/news/defi/2026-11-03-near-governance-approves-proposal-to-cut-token-issuance-432378",
-      "src": "The Block",
-      "t": "2026-11-03T09:19:00Z"
-    },
-    {
-      "cat": "acoes",
-      "title": "Futuros de NY oscilam no dia das eleições nos EUA: Dow cai 0,6%; AMD divulga balanço após o fechamento",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-090846378.html",
-      "src": "Yahoo Finance",
-      "t": "2026-11-03T09:08:00Z"
-    },
-    {
-      "cat": "acoes",
-      "title": "Copom inicia reunião com aposta de Selic mantida em 13,75%; Brent sobe 2% e volta a US$ 107",
-      "link": "https://www.moneytimes.com.br/tempo-real-3-11-26-lils-davs/",
-      "src": "Money Times",
-      "t": "2026-11-03T09:00:00Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "Binance libera saques de mais 51 tokens nas redes Ethereum e Solana e diz ter reposto 95% dos ativos do hack",
-      "link": "https://crypto.news/binance-restores-withdrawals-for-more-ethereum-solana-tokens-after-6-3b-hack/",
-      "src": "crypto.news",
-      "t": "2026-11-03T07:39:48Z"
     }
   ]
 }
