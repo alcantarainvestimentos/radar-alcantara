@@ -161,6 +161,11 @@
   ],
   "alertas": [
     {
+      "nivel": "critico",
+      "titulo": "Nubank e Mercado Pago travam saques de cripto",
+      "texto": "Nubank e Mercado Pago suspenderam nesta sexta (6/11) depósitos e saques de cripto para carteiras externas; compra e venda dentro dos apps seguem funcionando. As empresas citam falhas em fornecedores externos (dados no Nubank; monitoramento de risco no Mercado Pago), negam ataque e dizem que os saldos estão protegidos; ainda não há previsão de normalização nem confirmação de causa comum. Evite transferências até a normalização e confira o app."
+    },
+    {
       "nivel": "atencao",
       "titulo": "Binance: fase 9 dos saques em andamento",
       "texto": "A Binance segue nesta sexta (6/11) na nona fase da retomada de saques após o ataque de US$ 6,3 bi, reabrindo ativos aos poucos; depósitos seguem disponíveis. A Chainalysis confirmou exposição de dados (hashes de senha e tokens): troque senhas e chaves de API e confira o status do ativo antes de operar."
@@ -169,11 +174,6 @@
       "nivel": "atencao",
       "titulo": "Payroll forte: 165 mil vagas",
       "texto": "Os EUA criaram 165 mil vagas em outubro (consenso ~65 mil), desemprego caiu para 4,1% e salários subiram 0,4%. Nasdaq repica 1,9% e o VIX cai para 24, mas a leitura reforça a chance de alta do Fed em dezembro; Treasury de 10 anos sobe para 4,88%."
-    },
-    {
-      "nivel": "info",
-      "titulo": "Fiscal: Lula fala à nação no domingo",
-      "texto": "Lula fará pronunciamento no domingo (8) e deve tratar do arcabouço fiscal; medidas só depois da viagem ao exterior. O TSE abriu ação contra a chapa Lula-Alckmin por suposto abuso de poder econômico. Balança comercial às 15h."
     }
   ],
   "indicadores": [
@@ -700,6 +700,13 @@
   "noticias_radar": [
     {
       "cat": "cripto",
+      "title": "Entenda por que Nubank e Mercado Pago suspenderam saques de cripto",
+      "link": "https://www.metropoles.com/brasil/entenda-por-que-nubank-e-mercado-pago-suspenderam-saques-de-cripto",
+      "src": "Metrópoles",
+      "t": "2026-11-06T19:54:00Z"
+    },
+    {
+      "cat": "cripto",
       "title": "Bitcoin cai a US$ 74.762, menor nível desde 21 de agosto, e fica fora da recuperação das ações de tecnologia",
       "link": "https://cointelegraph.com/markets/bitcoin-price-under-75k-crypto-markets-tech-stock",
       "src": "Cointelegraph",
@@ -819,6 +826,18 @@
     }
   ],
   "incidentes": [
+    {
+      "id": "nubank-mercadopago-2026-11-06",
+      "plataforma": "Nubank e Mercado Pago",
+      "titulo": "Depósitos e saques de cripto (carteiras externas) suspensos por falha em fornecedores; compra e venda seguem",
+      "status": "saques suspensos",
+      "t_detectado": "2026-11-06T20:35:00Z",
+      "t_atualizado": "2026-11-06T20:35:00Z",
+      "fontes": [
+        "https://www.metropoles.com/brasil/entenda-por-que-nubank-e-mercado-pago-suspenderam-saques-de-cripto",
+        "https://www.cnnbrasil.com.br/economia/money/tecnologia/mercado-pago-suspende-transferencias-de-criptomoedas/"
+      ]
+    },
     {
       "id": "mercadobitcoin-2026-11-02",
       "plataforma": "Mercado Bitcoin",
