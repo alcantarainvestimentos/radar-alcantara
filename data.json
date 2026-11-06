@@ -709,11 +709,25 @@
   },
   "noticias_radar": [
     {
+      "cat": "acoes",
+      "title": "Payroll dos EUA cria 165 mil vagas em outubro, ante 65 mil esperadas; desemprego cai a 4,1% e juro de 10 anos sobe",
+      "link": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite",
+      "src": "CoinDesk",
+      "t": "2026-11-06T13:30:00Z"
+    },
+    {
       "cat": "cripto",
       "title": "Mercado Bitcoin reabre na segunda (9) só para consulta de saldo; saques seguem suspensos",
       "link": "https://www.otempo.com.br/economia/2026/11/6/mercado-bitcoin-reabre-na-segunda-9-so-para-consulta-de-saldo-saques-seguem-suspensos",
       "src": "O Tempo",
       "t": "2026-11-06T12:52:00Z"
+    },
+    {
+      "cat": "cripto",
+      "title": "Mercado cripto liquida US$ 1,27 bi em 24h, US$ 1,1 bi em posições compradas; bitcoin testa suporte de US$ 75 mil",
+      "link": "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market",
+      "src": "CoinDesk",
+      "t": "2026-11-06T12:30:00Z"
     },
     {
       "cat": "cripto",
@@ -798,34 +812,6 @@
       "link": "https://www.coindesk.com/business/2026/11/05/live-updates-bitcoin-steady-around-usd80-000-as-markets-rally-after-democratic-sweep",
       "src": "CoinDesk",
       "t": "2026-11-05T21:10:00Z"
-    },
-    {
-      "cat": "acoes",
-      "title": "Futuros de NY recuam com eleições: Dow -0,8%; chips na mínima em 6 meses, Palantir cai 8% e Treasury de 10 anos a 4,93%",
-      "link": "https://www.swissinfo.ch/eng/us-stocks-slip-as-midterms-keep-traders-cautious:-markets-wrap/92317079",
-      "src": "Bloomberg",
-      "t": "2026-11-03T13:02:00Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "Binance tem saída líquida de US$ 5,3 bi após hack de US$ 6,4 bi; depósitos voltam a superar saques por hora",
-      "link": "https://www.coindesk.com/business/2026/11/03/binance-net-outflows-reach-usd5-3b-after-record-hack-though-ceo-cites-recovery",
-      "src": "CoinDesk",
-      "t": "2026-11-03T12:57:00Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin, perto de US$ 77 mil, fica 5,2% acima da média de 200 dias no dia das eleições nos EUA, ao contrário de 2014-22",
-      "link": "https://www.coindesk.com/daybook-us/2026/11/03/bitcoin-is-breaking-a-midterm-election-pattern-going-back-to-2014",
-      "src": "CoinDesk",
-      "t": "2026-11-03T12:30:00Z"
-    },
-    {
-      "cat": "acoes",
-      "title": "Ibovespa futuro chega a cair 2%, a 167 mil pontos; dólar sobe 1,1%, a R$ 5,50, e Focus eleva Selic de 2026 a 13,50%",
-      "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-03112026/",
-      "src": "InfoMoney",
-      "t": "2026-11-03T12:11:00Z"
     }
   ],
   "incidentes": [
