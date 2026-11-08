@@ -693,6 +693,13 @@
   },
   "noticias_radar": [
     {
+      "cat": "acoes",
+      "title": "Lula fará pronunciamento em rede nacional às 20h30 deste domingo; ajuste fiscal deve aparecer sem pacote detalhado",
+      "link": "https://ncnews.com.br/2026/11/08/lula-pronunciamento-rede-nacional/",
+      "src": "NC News",
+      "t": "2026-11-08T16:11:34-03:00"
+    },
+    {
       "cat": "cripto",
       "title": "Bitcoin segue abaixo de US$ 76 mil e altcoins têm perdas semanais de dois dígitos: NEAR cai 15% e HYPE, 12%",
       "link": "https://crypto.news/bitcoin-price-76000-altcoin-losses-weekend-watch/",
