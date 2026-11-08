@@ -694,6 +694,20 @@
   "noticias_radar": [
     {
       "cat": "cripto",
+      "title": "Bitcoin segue abaixo de US$ 76 mil e altcoins têm perdas semanais de dois dígitos: NEAR cai 15% e HYPE, 12%",
+      "link": "https://crypto.news/bitcoin-price-76000-altcoin-losses-weekend-watch/",
+      "src": "crypto.news",
+      "t": "2026-11-08T12:32:00+00:00"
+    },
+    {
+      "cat": "cripto",
+      "title": "Binance fechará contas afetadas na UE até 31/12 após fim da transição do MiCA; depósitos bloqueados, saques liberados",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-holds-below-76k-binance-063007720.html",
+      "src": "Investing.com",
+      "t": "2026-11-08T06:30:00+00:00"
+    },
+    {
+      "cat": "cripto",
       "title": "Bitcoin a US$ 75,8 mil caminha para 5ª semana seguida de queda; precisa fechar acima de US$ 78,2 mil para evitar",
       "link": "https://cryptoticker.io/en/bitcoin-price-fifth-losing-week-weekly-close/",
       "src": "CryptoTicker",
