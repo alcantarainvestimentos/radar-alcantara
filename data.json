@@ -162,13 +162,13 @@
   "alertas": [
     {
       "nivel": "atencao",
-      "titulo": "Nubank normaliza cripto; Mercado Pago ainda não",
-      "texto": "O Nubank informou que depósitos e saques de cripto voltaram a funcionar desde as 22h de sexta (6/11) e que a falha em um fornecedor externo de dados não afetou sua infraestrutura. No Mercado Pago, as transferências de cripto seguem restritas e não há anúncio de retomada; a ligação com o vazamento confirmado pela Chainalysis ainda não foi confirmada pelas empresas. No Mercado Pago, evite transferências até a normalização; no Nubank, confira o app antes de movimentar."
+      "titulo": "Nvidia investiga o próprio CEO; ação reage na segunda",
+      "texto": "O conselho da Nvidia abriu neste domingo (8) uma investigação independente, com conselheiros independentes e advogados externos, após reportagem de que Jensen Huang foi alvo de um esforço de inteligência estrangeira; a empresa diz não ter indícios de vazamento de segredos e que Huang segue no cargo. A acusação de espionagem vem de reportagem e não foi confirmada pela empresa. Mercado fechado — impacto esperado na abertura de segunda (futuros dos EUA abriram com leve alta): volatilidade alta em NVDA e no setor de chips; cuidado com alavancagem."
     },
     {
       "nivel": "atencao",
-      "titulo": "Binance: fase 9 dos saques em andamento",
-      "texto": "A Binance segue nesta sexta (6/11) na nona fase da retomada de saques após o ataque de US$ 6,3 bi, reabrindo ativos aos poucos; depósitos seguem disponíveis. A Chainalysis confirmou exposição de dados (hashes de senha e tokens): troque senhas e chaves de API e confira o status do ativo antes de operar."
+      "titulo": "Nubank normaliza cripto; Mercado Pago ainda não",
+      "texto": "O Nubank informou que depósitos e saques de cripto voltaram a funcionar desde as 22h de sexta (6/11) e que a falha em um fornecedor externo de dados não afetou sua infraestrutura. No Mercado Pago, as transferências de cripto seguem restritas e não há anúncio de retomada; a ligação com o vazamento confirmado pela Chainalysis ainda não foi confirmada pelas empresas. No Mercado Pago, evite transferências até a normalização; no Nubank, confira o app antes de movimentar."
     },
     {
       "nivel": "atencao",
@@ -694,6 +694,13 @@
   "noticias_radar": [
     {
       "cat": "acoes",
+      "title": "Nvidia abre investigação independente após reportagem de que CEO Jensen Huang foi alvo de inteligência estrangeira",
+      "link": "https://www.investing.com/news/stock-market-news/nvidia-launches-probe-after-report-ceo-huang-was-target-of-foreign-intelligence-5010307",
+      "src": "Reuters",
+      "t": "2026-11-08T20:16:00+00:00"
+    },
+    {
+      "cat": "acoes",
       "title": "Lula fará pronunciamento em rede nacional às 20h30 deste domingo; ajuste fiscal deve aparecer sem pacote detalhado",
       "link": "https://ncnews.com.br/2026/11/08/lula-pronunciamento-rede-nacional/",
       "src": "NC News",
@@ -924,6 +931,20 @@
       "t_atualizado": "2026-11-06T14:30:00Z",
       "fontes": [
         "https://acritica.net/economia/binance-retoma-saques-em-fases-e-diz-ter-reposto-95-por-cento-das-perdas-com-ataque-hacker/"
+      ]
+    },
+    {
+      "id": "nvidia-ceo-2026-11-08",
+      "tipo": "empresa",
+      "plataforma": "Nvidia",
+      "titulo": "Conselho da Nvidia abre investigação independente após reportagem de que o CEO Jensen Huang foi alvo de esforço de inteligência estrangeira; Huang segue no cargo",
+      "status": "investigação aberta; mercado fechado",
+      "t_detectado": "2026-11-08T23:50:00Z",
+      "t_atualizado": "2026-11-08T23:50:00Z",
+      "fontes": [
+        "https://www.investing.com/news/stock-market-news/nvidia-launches-probe-after-report-ceo-huang-was-target-of-foreign-intelligence-5010307",
+        "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+        "https://www.cnn.com/2026/11/08/business/nvidia-investigation-ceo-jensen-huang"
       ]
     }
   ]
