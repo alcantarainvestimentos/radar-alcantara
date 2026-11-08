@@ -163,7 +163,7 @@
     {
       "nivel": "atencao",
       "titulo": "Nvidia investiga o próprio CEO; ação reage na segunda",
-      "texto": "O conselho da Nvidia abriu neste domingo (8) uma investigação independente, com conselheiros independentes e advogados externos, após reportagem de que Jensen Huang foi alvo de um esforço de inteligência estrangeira; a empresa diz não ter indícios de vazamento de segredos e que Huang segue no cargo. A acusação de espionagem vem de reportagem e não foi confirmada pela empresa. Mercado fechado — impacto esperado na abertura de segunda (futuros dos EUA abriram com leve alta): volatilidade alta em NVDA e no setor de chips; cuidado com alavancagem."
+      "texto": "O conselho da Nvidia abriu neste domingo (8) uma investigação independente para saber se o CEO Jensen Huang foi alvo de espionagem estrangeira. A empresa diz que não há sinal de vazamento de segredos e que Huang segue no comando; a ligação com a China vem de reportagens e ainda não foi confirmada pela Nvidia. Mercado fechado — impacto esperado na abertura de segunda: espere volatilidade em chips e tecnologia e cuidado com alavancagem."
     },
     {
       "nivel": "atencao",
@@ -940,11 +940,13 @@
       "titulo": "Conselho da Nvidia abre investigação independente após reportagem de que o CEO Jensen Huang foi alvo de esforço de inteligência estrangeira; Huang segue no cargo",
       "status": "investigação aberta; mercado fechado",
       "t_detectado": "2026-11-08T23:50:00Z",
-      "t_atualizado": "2026-11-08T23:50:00Z",
+      "t_atualizado": "2026-11-09T00:10:00Z",
       "fontes": [
         "https://www.investing.com/news/stock-market-news/nvidia-launches-probe-after-report-ceo-huang-was-target-of-foreign-intelligence-5010307",
         "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
-        "https://www.cnn.com/2026/11/08/business/nvidia-investigation-ceo-jensen-huang"
+        "https://www.cnn.com/2026/11/08/business/nvidia-investigation-ceo-jensen-huang",
+        "https://www.cnnbrasil.com.br/economia/money/tecnologia/nvidia-vai-apurar-se-ceo-foi-alvo-de-acao-de-inteligencia-estrangeira/",
+        "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity"
       ]
     }
   ]
