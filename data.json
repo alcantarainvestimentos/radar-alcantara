@@ -716,6 +716,13 @@
   "noticias_radar": [
     {
       "cat": "cripto",
+      "title": "Bitcoin a US$ 75,8 mil caminha para 5ª semana seguida de queda; precisa fechar acima de US$ 78,2 mil para evitar",
+      "link": "https://cryptoticker.io/en/bitcoin-price-fifth-losing-week-weekly-close/",
+      "src": "CryptoTicker",
+      "t": "2026-11-08T05:12:40+00:00"
+    },
+    {
+      "cat": "cripto",
       "title": "ETFs de bitcoin nos EUA ficam negativos em 2026: saldo de -US$ 914 mi no ano após saída de US$ 1,28 bi na semana",
       "link": "https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984",
       "src": "The Block",
