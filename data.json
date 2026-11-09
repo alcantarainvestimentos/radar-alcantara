@@ -1,24 +1,24 @@
 {
-  "atualizado_em": "2026-11-08T06:50:00-03:00",
-  "referencia": "Fechamento de sexta, 06/11/2026",
+  "atualizado_em": "2026-11-09T12:45:00-03:00",
+  "referencia": "Pregão de segunda, 09/11/2026 (parcial às 12h00)",
   "postura": {
     "estado": "NEUTRO",
     "positivos": 3,
     "total": 6,
     "desde": "2026-11-06",
     "conviccao": "MÉDIA",
-    "resumo": "Ibovespa fechou a sexta em alta de 1,39%, a 168.498 pontos, com a primeira semana positiva após três (+0,3%); postura segue NEUTRO com 3 de 6 sinais positivos (Ibovespa na semana, DI longo e S&P 500). Para segunda, pesam o pronunciamento de Lula sobre o ajuste fiscal neste domingo (8), os novos ataques limitados dos EUA ao Irã e a véspera do CPI americano (terça)."
+    "resumo": "Postura segue NEUTRO com 3 de 6 sinais positivos (Ibovespa em 5 pregões, DI longo e S&P 500). No meio do pregão de segunda o Ibovespa sobe ~1% e encosta nos 170 mil, puxado por Vale e bancos e por Wall Street em alta (Dow +1,2%), enquanto o dólar fica estável em R$ 5,51 e o DI longo sobe levemente com o Focus passando a ver Selic de 13,75% no fim do ano. Brent cai ~5% com a aposta em negociação com o Irã; Nvidia recua ~8%."
   },
   "sinais": [
     {
       "nome": "Ibovespa 5 pregões",
-      "valor": "+0,3%",
+      "valor": "+1,4%",
       "estado": "pos",
       "regra": "Positivo se o índice subiu nos últimos 5 pregões"
     },
     {
       "nome": "Ibovespa 1 mês",
-      "valor": "−18,1%",
+      "valor": "−17,3%",
       "estado": "neg",
       "regra": "Positivo se o índice está acima de 1 mês atrás"
     },
@@ -30,19 +30,19 @@
     },
     {
       "nome": "DI longo na semana",
-      "valor": "−15 bp",
+      "valor": "−12,5 bp",
       "estado": "pos",
       "regra": "Positivo se a taxa do DI longo caiu na semana"
     },
     {
       "nome": "VIX",
-      "valor": "25,64",
+      "valor": "23,14",
       "estado": "neg",
       "regra": "Positivo se o VIX está abaixo de 20"
     },
     {
       "nome": "S&P 500 no dia",
-      "valor": "+0,31%",
+      "valor": "+0,91%",
       "estado": "pos",
       "regra": "Positivo se o S&P 500 subiu no último pregão"
     }
@@ -52,93 +52,93 @@
       "codigo": "WIN",
       "nome": "Ibovespa",
       "vies": "baixa",
-      "nivel": "168.498 pts",
-      "dia": 1.39,
-      "semana": 0.34,
-      "mes": -18.14,
-      "nota": "Fechamento oficial: +1,39% a 168.498 pts, primeira semana positiva após três; Vale, bancos, construtoras e varejo puxaram, petroleiras caíram (PETR4 −14% na semana). Ibovespa futuro fechou a 170.650 pts. Segunda abre sob efeito da fala de Lula (domingo) e do Irã. Mês = vs 06/10."
+      "nivel": "170.189 pts",
+      "dia": 1.0,
+      "semana": 1.35,
+      "mes": -17.31,
+      "nota": "Por volta das 12h subia ~1%, a 170.189 pts (máxima perto de 170 mil), com Vale (+2,3%), Bradesco e Itaú em alta, CSN (+4%) com a venda da unidade de cimentos e Alpargatas (+6%) pós-balanço; Petrobras e Brava caem com o petróleo. Resistência 169.725 sendo testada; suporte 164.447–165 mil. Semana = vs 30/10; mês = vs 06/10."
     },
     {
       "codigo": "WDO",
       "nome": "Dólar comercial",
       "vies": "alta",
-      "nivel": "R$ 5,508",
-      "dia": 0.36,
-      "semana": 1.18,
-      "mes": 10.69,
-      "nota": "Fechou a R$ 5,508 (+0,36%), maior nível desde dez/2025, com DXY +0,8% após o payroll forte. Fiscal (fala de Lula no domingo) e CPI dos EUA (terça) são os próximos gatilhos. Mês = vs 06/10."
+      "nivel": "R$ 5,511",
+      "dia": 0.05,
+      "semana": 1.23,
+      "mes": 10.75,
+      "nota": "Estável perto de R$ 5,51 no fim da manhã: dólar fraco no exterior compensa a frustração com o pronunciamento de Lula sem medidas fiscais. Resistências 5.549 e 5.614, suportes 5.473 e 5.310 (InfoMoney). CPI dos EUA e ata do Copom amanhã. Semana = vs 30/10; mês = vs 06/10."
     },
     {
       "codigo": "DI F31",
       "nome": "Juros longos",
       "vies": "baixa",
-      "nivel": "14,900%",
-      "dia": -0.035,
-      "semana": -0.15,
+      "nivel": "14,925%",
+      "dia": 0.025,
+      "semana": -0.125,
       "mes": null,
-      "nota": "Fechamento de sexta: jan/31 a 14,900% (−3,5 bp), com queda em quase toda a curva (jan/29 14,665%; jan/33 14,995%). Semana −15 bp contra 15,05% de 29/10 (p.p.). Fala de Lula no domingo é o próximo teste."
+      "nota": "Fim da manhã: jan/31 a 14,925% (+2,5 bp), com vértices longos em leve alta (jan/35 15,02%) e curtos estáveis. Focus agora vê Selic de 13,75% no fim de 2026 (sem corte em dezembro). Semana = vs 15,05% de 29/10."
     },
     {
       "codigo": "BTC",
       "nome": "Bitcoin",
       "vies": "baixa",
-      "nivel": "US$ 75.833",
-      "dia": -0.27,
-      "semana": -2.4,
+      "nivel": "US$ 74.493",
+      "dia": -1.9,
+      "semana": -4.9,
       "mes": null,
-      "nota": "Estável perto de US$ 75,8 mil no domingo; precisa fechar a semana acima de US$ 78.232 para evitar a 5ª semana de queda. ETFs de BTC com saídas de ~US$ 1,28 bi na semana; Fear & Greed em 28. Semana = 7 dias (CoinGecko)."
+      "nota": "Segue perto de US$ 74,5 mil (−1,9% em 24h), após mínima de US$ 73.510 na madrugada; liquidações e saídas dos ETFs pesam. Suporte ~US$ 73.500; resistência ~US$ 75.600. Semana = 7 dias."
     }
   ],
   "fita": [
     {
       "nome": "IBOV",
-      "valor": "168.498",
-      "var": 1.39
+      "valor": "170.189",
+      "var": 1.0
     },
     {
       "nome": "USD/BRL",
-      "valor": "5,508",
-      "var": 0.36
+      "valor": "5,511",
+      "var": 0.05
     },
     {
       "nome": "S&P 500",
-      "valor": "7.377",
-      "var": 0.31
+      "valor": "7.444",
+      "var": 0.91
     },
     {
       "nome": "NASDAQ",
-      "valor": "24.579",
-      "var": 1.09
+      "valor": "24.800",
+      "var": 0.9
     },
     {
       "nome": "DOW",
-      "valor": "51.286",
-      "var": -0.46
+      "valor": "51.902",
+      "var": 1.2
     },
     {
       "nome": "VIX",
-      "valor": "25,64",
-      "var": -9.01
+      "valor": "23,14",
+      "var": -9.74
     },
     {
       "nome": "BRENT",
-      "valor": "97,79",
-      "var": -0.51
+      "valor": "93,44",
+      "var": -4.96
     },
     {
       "nome": "OURO",
-      "valor": "4.081",
-      "var": -0.79
+      "valor": "4.123",
+      "var": 1.4
     },
     {
       "nome": "BTC",
-      "valor": "75.833",
-      "var": -0.27
+      "valor": "74.493",
+      "var": -1.9
     },
     {
       "nome": "ETH",
-      "valor": "2.237",
-      "var": -0.18
+      "valor": "2.127",
+      "var": -4.7
     }
   ],
   "valor_justo": [
@@ -162,18 +162,18 @@
   "alertas": [
     {
       "nivel": "atencao",
-      "titulo": "Nvidia investiga o próprio CEO; ação reage na segunda",
-      "texto": "O conselho da Nvidia abriu neste domingo (8) uma investigação independente para saber se o CEO Jensen Huang foi alvo de espionagem estrangeira. A empresa diz que não há sinal de vazamento de segredos e que Huang segue no comando; a ligação com a China vem de reportagens e ainda não foi confirmada pela Nvidia. Mercado fechado — impacto esperado na abertura de segunda: espere volatilidade em chips e tecnologia e cuidado com alavancagem."
+      "titulo": "Binance: retomada e novo pedido do Senado dos EUA",
+      "texto": "Binance segue normalizando saques após o ataque de US$ 6,3 bi (29/10) e diz ter reposto as perdas; clientes já sacaram em termos líquidos cerca de US$ 4,7 bi desde a reabertura. O senador Richard Blumenthal pediu registros à Binance, Tether e outras sobre uso ilícito de cripto (prazo 4/1/2027), sem acusação formal. Mercado Bitcoin segue com saques suspensos. Confira o status no app antes de movimentar e evite deixar saldo parado em corretora."
     },
     {
       "nivel": "atencao",
-      "titulo": "Nubank normaliza cripto; Mercado Pago ainda não",
-      "texto": "O Nubank informou que depósitos e saques de cripto voltaram a funcionar desde as 22h de sexta (6/11) e que a falha em um fornecedor externo de dados não afetou sua infraestrutura. No Mercado Pago, as transferências de cripto seguem restritas e não há anúncio de retomada; a ligação com o vazamento confirmado pela Chainalysis ainda não foi confirmada pelas empresas. No Mercado Pago, evite transferências até a normalização; no Nubank, confira o app antes de movimentar."
+      "titulo": "Nvidia cai ~8% com investigação sobre o CEO",
+      "texto": "A ação recuava cerca de 8% no início do pregão (US$ 171,6) com a investigação independente do conselho sobre Jensen Huang; Alphabet sobe com novos chips de IA e os índices americanos sobem mesmo assim (Nasdaq +0,9%). Volatilidade em chips, BDRs de tecnologia e cripto; cuidado com alavancagem."
     },
     {
       "nivel": "atencao",
-      "titulo": "Lula fala à nação neste domingo (8)",
-      "texto": "Pronunciamento em cadeia nacional com promessa de seguir as metas fiscais e anúncio de medidas de ajuste (gastos e arrecadação) discutidas com Durigan e Moretti; o ajuste necessário em 2027 é estimado em ao menos R$ 39,8 bi. Medidas críveis podem aliviar dólar (R$ 5,508) e DI; frustração tende a pressionar a abertura de segunda."
+      "titulo": "Focus tira o corte da Selic de 2026; petróleo despenca",
+      "texto": "O Focus de hoje passou a ver Selic de 13,75% no fim de 2026 (antes 13,50%) e elevou o IPCA de 2027 para 4,90%. O Brent cai ~5%, a US$ 93,4, com Trump sinalizando negociação com o Irã, o que pesa sobre Petrobras, Brava e PRIO. Ata do Copom e CPI dos EUA amanhã; balanços de Magalu, JBS e TIM após o fechamento."
     }
   ],
   "indicadores": [
@@ -184,7 +184,7 @@
       "valor": "13,75%",
       "estado": "neutro",
       "selo": "próx. Copom 9/12",
-      "agora": "Mantida em 4/11 por unanimidade, interrompendo cinco cortes seguidos; o BC chamou a taxa de 'substancialmente contracionista' e não sinalizou os próximos passos. Focus de 3/11 vê 13,50% no fim de 2026 e 12,50% em 2027.",
+      "agora": "Mantida em 4/11 por unanimidade, interrompendo cinco cortes seguidos; o BC chamou a taxa de 'substancialmente contracionista'. O Focus de 9/11 passou a ver 13,75% no fim de 2026 (antes 13,50%), ou seja, sem corte em dezembro. Ata do Copom sai amanhã (10/11).",
       "o_que_e": "A taxa básica de juros definida pelo Copom a cada 45 dias. Serve de base para o CDI e para o custo do crédito no país.",
       "como_ler": "Selic em queda tende a favorecer bolsa, varejo e construção. Uma pausa ou alta pressiona esses setores e fortalece a renda fixa."
     },
@@ -195,7 +195,7 @@
       "valor": "5,22%",
       "estado": "neg",
       "selo": "acima do teto",
-      "agora": "Focus de 3/11 subiu de 5,19% para 5,22% em 2026 e de 4,34% para 4,76% em 2027. O IPCA em 12 meses está em 4,62%, acima do teto de 4,5%; IPCA de outubro sai em 12/11.",
+      "agora": "Focus de 9/11 manteve 5,22% para 2026 e subiu 2027 de 4,76% para 4,90%. O IPCA em 12 meses está em 4,62%, acima do teto de 4,5%; IPCA de outubro sai em 12/11. IGP-DI de outubro subiu 1,15%.",
       "o_que_e": "A inflação oficial do Brasil, aqui pela mediana das projeções do Boletim Focus para o ano.",
       "como_ler": "Projeções subindo reduzem o espaço para cortes da Selic. Acima de 4,5% o Banco Central está fora da meta."
     },
@@ -203,10 +203,10 @@
       "id": "curva",
       "grupo": "Brasil",
       "nome": "DI janeiro/2031",
-      "valor": "14,900%",
+      "valor": "14,925%",
       "estado": "neutro",
-      "selo": "−15 bp na semana",
-      "agora": "Na sexta o jan/31 fechou a 14,900% (−3,5 bp) e a curva caiu na maior parte dos vencimentos (jan/27 13,662%, jan/29 14,665%, jan/35 14,985%). Na semana, −15 bp contra 15,05% de 29/10. O CDI está em 13,65%.",
+      "selo": "+2,5 bp hoje (parcial)",
+      "agora": "No fim da manhã de segunda o jan/31 marcava 14,925% (+2,5 bp) e o jan/35 15,02%, com os curtos estáveis (jan/27 13,662%, jan/29 14,655%). Contra 15,05% de 29/10, ainda −12,5 bp. O CDI está em 13,65%.",
       "o_que_e": "A taxa de juros que o mercado cobra para emprestar ao governo até 2031. Mede o prêmio de risco de longo prazo.",
       "como_ler": "DI longo subindo encarece o valuation das ações, principalmente de empresas de crescimento e ligadas ao consumo. Queda costuma anteceder alta da bolsa."
     },
@@ -214,10 +214,10 @@
       "id": "cambio",
       "grupo": "Brasil",
       "nome": "Dólar comercial",
-      "valor": "R$ 5,508",
+      "valor": "R$ 5,511",
       "estado": "neg",
       "selo": "+1,2% em 5 pregões",
-      "agora": "Fechou a sexta em alta de 0,36%, maior nível desde dezembro de 2025; Ptax em R$ 5,5013. Focus projeta R$ 5,34 no fim de 2026. Fala de Lula no domingo é o próximo teste.",
+      "agora": "Estável perto de R$ 5,51 (+0,06%) no fim da manhã de segunda, após fechar sexta em R$ 5,508, maior nível desde dez/2025. Dólar fraco no exterior compensa o pronunciamento de Lula sem medidas. Focus de 3/11 projeta R$ 5,34 no fim de 2026.",
       "o_que_e": "A cotação do dólar no mercado à vista.",
       "como_ler": "Dólar subindo favorece exportadoras (Suzano, Embraer, petroleiras) e pressiona a inflação e as empresas endividadas em moeda estrangeira."
     },
@@ -239,7 +239,7 @@
       "valor": "3,75–4,00%",
       "estado": "neg",
       "selo": "alta em dez. mais provável",
-      "agora": "Payroll de outubro veio em 165 mil vagas (consenso ~65 mil), desemprego em 4,1% e salários +0,4% no mês; o dado reforça a expectativa de alta dos juros em dezembro. Futuros precificam ~77% de chance de alta em 9/12; CPI de terça (10/11) é o próximo teste.",
+      "agora": "Payroll de outubro veio em 165 mil vagas (consenso ~65 mil), desemprego em 4,1%; futuros precificam ~77% de chance de alta em 9/12. Hoje falam Bowman, Goolsbee e Barkin; CPI de terça (10/11, consenso +0,3% m/m) é o próximo teste.",
       "o_que_e": "A taxa básica de juros dos EUA, definida pelo Fomc.",
       "como_ler": "Juros altos nos EUA atraem capital para lá e tendem a fortalecer o dólar contra moedas emergentes como o real."
     },
@@ -258,10 +258,10 @@
       "id": "treasury",
       "grupo": "EUA",
       "nome": "Treasury 10 anos",
-      "valor": "4,86%",
+      "valor": "4,84%",
       "estado": "neutro",
-      "selo": "+2 bp (6/11)",
-      "agora": "Sobe após o payroll forte, depois de ter caído ontem ao menor nível em dois meses com a fuga para segurança.",
+      "selo": "−2 bp hoje (parcial)",
+      "agora": "Recua para ~4,84% na segunda com o dólar mais fraco e o petróleo em queda, antes do CPI de terça (10/11).",
       "o_que_e": "O rendimento do título de 10 anos do governo americano, referência global de juros.",
       "como_ler": "Acima de 4,5% os juros pesam sobre as ações no mundo todo. Quedas costumam aliviar a bolsa brasileira e o real."
     },
@@ -269,10 +269,10 @@
       "id": "vix",
       "grupo": "Global",
       "nome": "VIX",
-      "valor": "25,64",
+      "valor": "23,14",
       "estado": "neg",
-      "selo": "−9,0% (6/11)",
-      "agora": "Recua com o repique de tecnologia (chips +4%) após o pior dia do S&P 500 desde abril de 2025, mas segue acima de 25 e S&P e Nasdaq têm a pior semana desde junho.",
+      "selo": "−9,7% hoje (parcial)",
+      "agora": "Volta a cair com Wall Street em alta (Dow +1,2%), mesmo com a queda da Nvidia, mas segue acima de 20.",
       "o_que_e": "O índice de volatilidade implícita do S&P 500, conhecido como o índice do medo.",
       "como_ler": "Abaixo de 15 indica calma, entre 15 e 20 é normal, e acima de 20 o mercado está estressado. Picos costumam vir com fuga de emergentes."
     },
@@ -280,10 +280,10 @@
       "id": "brent",
       "grupo": "Global",
       "nome": "Petróleo Brent",
-      "valor": "US$ 97,79",
+      "valor": "US$ 93,44",
       "estado": "neutro",
-      "selo": "−0,5% (6/11)",
-      "agora": "Fechou a semana perto de US$ 98, queda de ~12%, a maior desde 2020. No sábado (7/11) os EUA atacaram a defesa aérea do Irã em Qeshm, o que pode reabrir o prêmio de risco na segunda. Camex prorrogou o imposto de 12% sobre exportação de petróleo até 31/12.",
+      "selo": "−5,0% hoje (parcial)",
+      "agora": "Despenca ~5%, a US$ 93,44, depois que Trump disse não ver motivo para escalar com o Irã e o Catar foi à Casa Branca mediar; incidentes perto de Ormuz mantêm algum prêmio de risco. Pesa sobre Petrobras, Brava e PRIO.",
       "o_que_e": "A referência internacional de preço do petróleo.",
       "como_ler": "Brent alto favorece PETR4, PRIO3 e BRAV3, mas pressiona a inflação e os custos de aéreas e logística."
     },
@@ -291,10 +291,10 @@
       "id": "ouro",
       "grupo": "Global",
       "nome": "Ouro",
-      "valor": "US$ 4.081",
+      "valor": "US$ 4.123",
       "estado": "neutro",
-      "selo": "−0,8% (6/11)",
-      "agora": "Cai com o payroll forte, que eleva juros e dólar, mas fecha a melhor semana em mais de dois meses.",
+      "selo": "+1,4% hoje (parcial)",
+      "agora": "Sobe 1,4%, a US$ 4.123, com o índice do dólar recuando ~0,5% (101,8).",
       "o_que_e": "O preço da onça-troy de ouro.",
       "como_ler": "Ouro subindo sinaliza busca por proteção. Quedas fortes junto com bolsas podem indicar venda forçada para cobrir perdas."
     }
@@ -303,15 +303,15 @@
     "itens": [
       {
         "nome": "BTC",
-        "valor": "US$ 75.833",
-        "var": -0.27,
-        "nota": "Estável no domingo cedo, perto de US$ 75,8 mil; suportes em US$ 74.722 (mínima de sexta) e ~US$ 73.200 (média de 200 dias). Saídas de US$ 1,28 bi em ETFs na semana."
+        "valor": "US$ 74.493",
+        "var": -1.9,
+        "nota": "Perto de US$ 74,5 mil no fim da manhã (−1,9% em 24h; −4,9% em 7 dias); mínima de US$ 73.510 na madrugada, com ~US$ 800 mi em liquidações em 4 horas, quase todas compradas. Saídas dos ETFs seguem pesando."
       },
       {
         "nome": "ETH",
-        "valor": "US$ 2.237",
-        "var": -0.18,
-        "nota": "Perto de US$ 2.240 após cair mais de 6% na quinta (5/11); −9,6% em 30 dias."
+        "valor": "US$ 2.127",
+        "var": -4.7,
+        "nota": "Cai ~4,7% em 24h, abaixo de US$ 2.200 (mínima de US$ 2.060); baleias voltaram a comprar na queda."
       },
       {
         "nome": "ZEC",
@@ -371,15 +371,9 @@
   },
   "agenda": [
     {
-      "data": "2026-11-08",
-      "hora": "—",
-      "evento": "Pronunciamento de Lula à nação (ajuste fiscal)",
-      "peso": "alto"
-    },
-    {
       "data": "2026-11-09",
-      "hora": "8h25",
-      "evento": "Boletim Focus (BC) e IGP-DI de outubro; inflação da China",
+      "hora": "18h",
+      "evento": "Balanços de Magalu, JBS, TIM e Caixa Seguridade após o fechamento",
       "peso": "medio"
     },
     {
@@ -477,55 +471,47 @@
   ],
   "fontes": [
     {
-      "nome": "InfoMoney — fechamento e DI 6/11",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-06112026/"
+      "nome": "Brasil 247 — Ibovespa ao meio-dia 9/11",
+      "url": "https://www.brasil247.com/economia/ibovespa-sobe-1-nesta-segunda-feira-impulsionado-por-bolsas-internacionais"
     },
     {
-      "nome": "DGABC — fechamento do mercado 6/11",
-      "url": "https://www.dgabc.com.br/Noticia/4367385/fechamento-do-mercado-financeiro"
+      "nome": "Exame — Vale e bancos puxam Ibovespa; dólar e DI 9/11",
+      "url": "https://exame.com/invest/mercados/vale-e-bancos-puxam-ibovespa-dolar-fica-estavel-enquanto-mercado-cobra-lula-no-fiscal/"
     },
     {
-      "nome": "Yahoo Finance — fechamento de Wall Street 6/11",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
+      "nome": "Investidor10 — destaques do Ibovespa 9/11",
+      "url": "https://investidor10.com.br/noticias/ibovespa-tenta-170-mil-mesmo-com-queda-de-quase-5-do-petroleo-123773/"
     },
     {
-      "nome": "Seu Dinheiro — pronunciamento de Lula",
-      "url": "https://www.seudinheiro.com/2026/economia/lula-fara-pronunciamento-neste-domingo-para-anunciar-medidas-de-ajuste-e-tentar-acalmar-mercado-jcav/"
+      "nome": "InfoMoney — ao vivo 9/11 (Focus, DI)",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-09112026/"
     },
     {
-      "nome": "Euronews — ataques dos EUA ao Irã 7/11",
-      "url": "https://www.euronews.com/2026/11/07/us-launches-new-targeted-strikes-on-iran-as-trump-claims-progress-in-talks-with-tehran"
+      "nome": "Money Times — tempo real 9/11",
+      "url": "https://www.moneytimes.com.br/tempo-real-9-11-26-davs/"
     },
     {
-      "nome": "TradeMap — agenda de 9 a 13/11",
-      "url": "https://trademap.com.br/noticias/news-8568725"
+      "nome": "Yahoo Finance — Wall Street 9/11",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html"
     },
     {
-      "nome": "CryptoTicker — BTC no domingo 8/11",
-      "url": "https://cryptoticker.io/en/bitcoin-price-fifth-losing-week-weekly-close/"
+      "nome": "JournalArta — Brent e ouro 9/11",
+      "url": "https://journalarta.com/en/2026/11/09/oil-price-today-brent-falls-4-96-to-93-44-on-iran-peace-hopes-as-gold-climbs/"
     },
     {
-      "nome": "CryptoTicker — resumo cripto da semana",
-      "url": "https://cryptoticker.io/en/crypto-news-this-week-recap-key-dates-november-2026"
+      "nome": "crypto.news — BTC, ETH e Binance 9/11",
+      "url": "https://crypto.news/why-is-the-crypto-market-down-today-bitcoin-ethereum-in-red/"
     },
     {
-      "nome": "TokenPost — Binance, 6 tokens pendentes",
-      "url": "https://www.tokenpost.com/news/business/51345"
-    },
-    {
-      "nome": "Daily AI Brief — 7/11",
-      "url": "https://dailyaibrief.com/newsletters/daily-ai-brief/2026-11-07-openai-raises-11-billion-at-a-1-25-trillion-valuation-anthropic-ipo-faces-delay-risk-and-more-daily-ai-brief-577"
+      "nome": "KuCoin — relatório cripto 9/11",
+      "url": "https://kucoin.com/news/articles/crypto-daily-market-report-november-9-2026"
     },
     {
       "nome": "Money Times — carteira Itaú BBA e P/L do Ibovespa",
       "url": "https://www.moneytimes.com.br/apos-derrocada-ibovespa-itau-bba-atualiza-carteira-para-bolsa-escolhe-dez-acoes-para-investir-lils/"
-    },
-    {
-      "nome": "InfoMoney — Focus 3/11",
-      "url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-03112026/"
     }
   ],
-  "notas": "Atualização de domingo (08/11, 6h50): fechamento oficial de sexta para Ibovespa (168.498), dólar, DI (jan/31 14,900%) e mercados globais; BTC e ETH do fim de semana (variação contra a leitura de sábado). Variação mensal de Ibovespa e dólar contra 06/10; DI longo na semana contra 29/10. O ponto de 06/11 do histórico foi mantido como registrado. Informação para estudo, não recomendação de investimento.",
+  "notas": "Atualização intradiária de segunda (09/11, ~12h): Ibovespa, dólar, DI, índices americanos, VIX, Brent, ouro e cripto com dados parciais do pregão; Focus de 9/11 incorporado (Selic 13,75% no fim de 2026). Valor justo e setores mantidos da sexta. Histórico sem novo ponto (só no fechamento). Informação para estudo, não recomendação de investimento.",
   "config": {
     "brapi_token": "",
     "whatsapp": "",
@@ -547,14 +533,14 @@
         },
         {
           "rotulo": "Fim 2026",
-          "selic": 13.5
+          "selic": 13.75
         },
         {
           "rotulo": "Fim 2027",
           "selic": 12.5
         }
       ],
-      "focus_fonte": "Focus de 3/11 (pós-eleição)",
+      "focus_fonte": "Focus de 9/11 (fim de 2026); fim de 2027 do Focus de 3/11",
       "curva": {
         "data": "06/11",
         "pontos": [
@@ -620,7 +606,7 @@
           }
         ]
       },
-      "leitura": "Payroll de outubro forte (165 mil vagas, desemprego 4,1%) elevou o 2 anos a 4,51% e o 10 anos a 4,86% em 6/11; mercados de previsão veem ~78% de chance de alta do Fed em dezembro. CPI de terça (10/11) é o próximo teste."
+      "leitura": "Payroll de outubro forte (165 mil vagas, desemprego 4,1%) mantém ~77% de chance de alta do Fed em dezembro; o 10 anos recua para ~4,84% em 9/11 com petróleo e dólar mais fracos. CPI de terça (10/11) é o próximo teste."
     },
     "credito_eua": {
       "hy_oas": 3.14,
