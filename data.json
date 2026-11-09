@@ -1,30 +1,30 @@
 {
-  "atualizado_em": "2026-11-09T12:45:00-03:00",
-  "referencia": "Pregão de segunda, 09/11/2026 (parcial às 12h00)",
+  "atualizado_em": "2026-11-09T18:40:00-03:00",
+  "referencia": "Fechamento de segunda, 09/11/2026",
   "postura": {
     "estado": "NEUTRO",
     "positivos": 3,
     "total": 6,
     "desde": "2026-11-06",
     "conviccao": "MÉDIA",
-    "resumo": "Postura segue NEUTRO com 3 de 6 sinais positivos (Ibovespa em 5 pregões, DI longo e S&P 500). No meio do pregão de segunda o Ibovespa sobe ~1% e encosta nos 170 mil, puxado por Vale e bancos e por Wall Street em alta (Dow +1,2%), enquanto o dólar fica estável em R$ 5,51 e o DI longo sobe levemente com o Focus passando a ver Selic de 13,75% no fim do ano. Brent cai ~5% com a aposta em negociação com o Irã; Nvidia recua ~8%."
+    "resumo": "Postura segue NEUTRO com 3 de 6 sinais positivos (Ibovespa em 5 pregões, DI longo e S&P 500). O Ibovespa fechou a segunda em alta de 2% (171,9 mil pts), puxado por bancos e Vale, com Wall Street em forte recuperação (S&P +2,4%, Nasdaq +2,7%) graças ao petróleo em queda (Brent −5,9%). O dólar ficou estável em R$ 5,51 e os juros futuros recuaram. O VIX caiu ~21%, mas segue logo acima de 20; cripto não acompanhou (BTC ~US$ 74,8 mil)."
   },
   "sinais": [
     {
       "nome": "Ibovespa 5 pregões",
-      "valor": "+1,4%",
+      "valor": "+2,4%",
       "estado": "pos",
       "regra": "Positivo se o índice subiu nos últimos 5 pregões"
     },
     {
       "nome": "Ibovespa 1 mês",
-      "valor": "−17,3%",
+      "valor": "−16,5%",
       "estado": "neg",
       "regra": "Positivo se o índice está acima de 1 mês atrás"
     },
     {
       "nome": "Dólar 5 pregões",
-      "valor": "+1,2%",
+      "valor": "+1,1%",
       "estado": "neg",
       "regra": "Positivo se o dólar caiu na semana (real mais forte)"
     },
@@ -36,13 +36,13 @@
     },
     {
       "nome": "VIX",
-      "valor": "23,14",
+      "valor": "20,23",
       "estado": "neg",
       "regra": "Positivo se o VIX está abaixo de 20"
     },
     {
       "nome": "S&P 500 no dia",
-      "valor": "+0,91%",
+      "valor": "+2,41%",
       "estado": "pos",
       "regra": "Positivo se o S&P 500 subiu no último pregão"
     }
@@ -52,21 +52,21 @@
       "codigo": "WIN",
       "nome": "Ibovespa",
       "vies": "baixa",
-      "nivel": "170.189 pts",
-      "dia": 1.0,
-      "semana": 1.35,
-      "mes": -17.31,
-      "nota": "Por volta das 12h subia ~1%, a 170.189 pts (máxima perto de 170 mil), com Vale (+2,3%), Bradesco e Itaú em alta, CSN (+4%) com a venda da unidade de cimentos e Alpargatas (+6%) pós-balanço; Petrobras e Brava caem com o petróleo. Resistência 169.725 sendo testada; suporte 164.447–165 mil. Semana = vs 30/10; mês = vs 06/10."
+      "nivel": "171.907 pts",
+      "dia": 2.02,
+      "semana": 2.37,
+      "mes": -16.48,
+      "nota": "Fechou em alta de 2,02%, a 171.906 pts (dado preliminar), ganho de ~3,4 mil pontos, com bancos (Santander +5,2%, Bradesco +3,1%, Itaú +3,1%) e Vale fortes e Wall Street em forte alta; Petrobras e PRIO caem com o Brent −5,9%. Rompeu a resistência de 169.725; suporte 164.447–165 mil. Semana = vs 30/10; mês = vs 06/10."
     },
     {
       "codigo": "WDO",
       "nome": "Dólar comercial",
       "vies": "alta",
-      "nivel": "R$ 5,511",
-      "dia": 0.05,
-      "semana": 1.23,
+      "nivel": "R$ 5,506",
+      "dia": -0.04,
+      "semana": 1.14,
       "mes": 10.75,
-      "nota": "Estável perto de R$ 5,51 no fim da manhã: dólar fraco no exterior compensa a frustração com o pronunciamento de Lula sem medidas fiscais. Resistências 5.549 e 5.614, suportes 5.473 e 5.310 (InfoMoney). CPI dos EUA e ata do Copom amanhã. Semana = vs 30/10; mês = vs 06/10."
+      "nota": "Fechou praticamente estável, a R$ 5,5058 (−0,04% vs sexta): DXY −0,5% e alívio entre EUA e Irã ajudam, mas o pronunciamento de Lula sem medidas fiscais limita o real. Resistências 5.549 e 5.614, suportes 5.473 e 5.310. Ata do Copom e CPI dos EUA amanhã. Semana = vs 30/10; mês = vs 06/10."
     },
     {
       "codigo": "DI F31",
@@ -76,69 +76,69 @@
       "dia": 0.025,
       "semana": -0.125,
       "mes": null,
-      "nota": "Fim da manhã: jan/31 a 14,925% (+2,5 bp), com vértices longos em leve alta (jan/35 15,02%) e curtos estáveis. Focus agora vê Selic de 13,75% no fim de 2026 (sem corte em dezembro). Semana = vs 15,05% de 29/10."
+      "nota": "Taxas recuaram em praticamente toda a curva à tarde, acompanhando dólar, petróleo e Treasuries longos, com a curva perdendo inclinação; nível de fechamento do jan/31 ainda não publicado (mantido o último dado, 14,925%). Focus vê Selic de 13,75% no fim de 2026. Semana = vs 15,05% de 29/10."
     },
     {
       "codigo": "BTC",
       "nome": "Bitcoin",
       "vies": "baixa",
-      "nivel": "US$ 74.493",
-      "dia": -1.9,
+      "nivel": "US$ 74.800",
+      "dia": -1.1,
       "semana": -4.9,
       "mes": null,
-      "nota": "Segue perto de US$ 74,5 mil (−1,9% em 24h), após mínima de US$ 73.510 na madrugada; liquidações e saídas dos ETFs pesam. Suporte ~US$ 73.500; resistência ~US$ 75.600. Semana = 7 dias."
+      "nota": "Perto de US$ 74,8 mil no fim da tarde (−1,1% no dia), após mínima de US$ 73.761, a menor desde agosto, e repique breve acima de US$ 75 mil. Mais de US$ 1 bi em liquidações em 24h (US$ 913 mi compradas). Não acompanhou a alta das bolsas. Suporte ~US$ 73.500; resistência ~US$ 75.600. Semana = 7 dias."
     }
   ],
   "fita": [
     {
       "nome": "IBOV",
-      "valor": "170.189",
-      "var": 1.0
+      "valor": "171.907",
+      "var": 2.02
     },
     {
       "nome": "USD/BRL",
-      "valor": "5,511",
-      "var": 0.05
+      "valor": "5,506",
+      "var": -0.04
     },
     {
       "nome": "S&P 500",
-      "valor": "7.444",
-      "var": 0.91
+      "valor": "7.555",
+      "var": 2.41
     },
     {
       "nome": "NASDAQ",
-      "valor": "24.800",
-      "var": 0.9
+      "valor": "25.235",
+      "var": 2.67
     },
     {
       "nome": "DOW",
-      "valor": "51.902",
-      "var": 1.2
+      "valor": "52.418",
+      "var": 2.21
     },
     {
       "nome": "VIX",
-      "valor": "23,14",
-      "var": -9.74
+      "valor": "20,23",
+      "var": -21.1
     },
     {
       "nome": "BRENT",
-      "valor": "93,44",
-      "var": -4.96
+      "valor": "92,57",
+      "var": -5.85
     },
     {
       "nome": "OURO",
-      "valor": "4.123",
-      "var": 1.4
+      "valor": "4.148",
+      "var": 1.8
     },
     {
       "nome": "BTC",
-      "valor": "74.493",
-      "var": -1.9
+      "valor": "74.800",
+      "var": -1.1
     },
     {
       "nome": "ETH",
       "valor": "2.127",
-      "var": -4.7
+      "var": -4.0
     }
   ],
   "valor_justo": [
@@ -167,13 +167,13 @@
     },
     {
       "nivel": "atencao",
-      "titulo": "Nvidia cai ~8% com investigação sobre o CEO",
-      "texto": "A ação recuava cerca de 8% no início do pregão (US$ 171,6) com a investigação independente do conselho sobre Jensen Huang; Alphabet sobe com novos chips de IA e os índices americanos sobem mesmo assim (Nasdaq +0,9%). Volatilidade em chips, BDRs de tecnologia e cripto; cuidado com alavancagem."
+      "titulo": "Nvidia cai ~6% com investigação sobre o CEO",
+      "texto": "A Nvidia recuou cerca de 6% com a investigação do conselho sobre Jensen Huang, mas o resto dos chips disparou (índice de semicondutores +6%, AMD +12,9%) e os índices americanos fecharam em forte alta. Volatilidade elevada em BDRs de tecnologia e cripto; cuidado com alavancagem."
     },
     {
       "nivel": "atencao",
-      "titulo": "Focus tira o corte da Selic de 2026; petróleo despenca",
-      "texto": "O Focus de hoje passou a ver Selic de 13,75% no fim de 2026 (antes 13,50%) e elevou o IPCA de 2027 para 4,90%. O Brent cai ~5%, a US$ 93,4, com Trump sinalizando negociação com o Irã, o que pesa sobre Petrobras, Brava e PRIO. Ata do Copom e CPI dos EUA amanhã; balanços de Magalu, JBS e TIM após o fechamento."
+      "titulo": "Focus sem corte da Selic; petróleo despenca; CPI e ata amanhã",
+      "texto": "O Focus passou a ver Selic de 13,75% no fim de 2026 e elevou o IPCA de 2027 para 4,90%. O Brent fechou em queda de 5,9%, a US$ 92,57, com a aposta em negociação entre EUA e Irã, pesando sobre Petrobras e PRIO. Amanhã: ata do Copom (8h), CPI dos EUA (10h30) e balanço da Petrobras à noite; Magalu, JBS e TIM divulgam hoje após o fechamento."
     }
   ],
   "indicadores": [
@@ -205,8 +205,8 @@
       "nome": "DI janeiro/2031",
       "valor": "14,925%",
       "estado": "neutro",
-      "selo": "+2,5 bp hoje (parcial)",
-      "agora": "No fim da manhã de segunda o jan/31 marcava 14,925% (+2,5 bp) e o jan/35 15,02%, com os curtos estáveis (jan/27 13,662%, jan/29 14,655%). Contra 15,05% de 29/10, ainda −12,5 bp. O CDI está em 13,65%.",
+      "selo": "em queda no dia",
+      "agora": "Os DIs médios e longos recuaram na segunda, acompanhando dólar, petróleo e Treasuries, e a curva perdeu inclinação; o jan/31 abriu a 14,90% (ajuste de sexta 14,916%). Taxa de fechamento ainda não publicada; mantido o último dado (14,925%). Contra 15,05% de 29/10, ~−12 bp na semana.",
       "o_que_e": "A taxa de juros que o mercado cobra para emprestar ao governo até 2031. Mede o prêmio de risco de longo prazo.",
       "como_ler": "DI longo subindo encarece o valuation das ações, principalmente de empresas de crescimento e ligadas ao consumo. Queda costuma anteceder alta da bolsa."
     },
@@ -214,10 +214,10 @@
       "id": "cambio",
       "grupo": "Brasil",
       "nome": "Dólar comercial",
-      "valor": "R$ 5,511",
+      "valor": "R$ 5,506",
       "estado": "neg",
-      "selo": "+1,2% em 5 pregões",
-      "agora": "Estável perto de R$ 5,51 (+0,06%) no fim da manhã de segunda, após fechar sexta em R$ 5,508, maior nível desde dez/2025. Dólar fraco no exterior compensa o pronunciamento de Lula sem medidas. Focus de 3/11 projeta R$ 5,34 no fim de 2026.",
+      "selo": "+1,1% em 5 pregões",
+      "agora": "Fechou a segunda a R$ 5,5058 (−0,04%), praticamente estável, perto do maior nível desde dez/2025. DXY −0,5% ajudou; frustração com o pronunciamento de Lula sem medidas limitou o real. Focus de 3/11 projeta R$ 5,34 no fim de 2026.",
       "o_que_e": "A cotação do dólar no mercado à vista.",
       "como_ler": "Dólar subindo favorece exportadoras (Suzano, Embraer, petroleiras) e pressiona a inflação e as empresas endividadas em moeda estrangeira."
     },
@@ -258,10 +258,10 @@
       "id": "treasury",
       "grupo": "EUA",
       "nome": "Treasury 10 anos",
-      "valor": "4,84%",
+      "valor": "4,88%",
       "estado": "neutro",
-      "selo": "−2 bp hoje (parcial)",
-      "agora": "Recua para ~4,84% na segunda com o dólar mais fraco e o petróleo em queda, antes do CPI de terça (10/11).",
+      "selo": "+2 bp hoje",
+      "agora": "Fechou perto de 4,88% (4,86% na sexta), mesmo com o petróleo em queda; CPI de terça (10/11) é o próximo teste.",
       "o_que_e": "O rendimento do título de 10 anos do governo americano, referência global de juros.",
       "como_ler": "Acima de 4,5% os juros pesam sobre as ações no mundo todo. Quedas costumam aliviar a bolsa brasileira e o real."
     },
@@ -269,10 +269,10 @@
       "id": "vix",
       "grupo": "Global",
       "nome": "VIX",
-      "valor": "23,14",
+      "valor": "20,23",
       "estado": "neg",
-      "selo": "−9,7% hoje (parcial)",
-      "agora": "Volta a cair com Wall Street em alta (Dow +1,2%), mesmo com a queda da Nvidia, mas segue acima de 20.",
+      "selo": "−21% hoje",
+      "agora": "Desabou ~21% (de 25,64 para ~20,2 na tarde) com a forte alta de Wall Street, mas segue logo acima de 20.",
       "o_que_e": "O índice de volatilidade implícita do S&P 500, conhecido como o índice do medo.",
       "como_ler": "Abaixo de 15 indica calma, entre 15 e 20 é normal, e acima de 20 o mercado está estressado. Picos costumam vir com fuga de emergentes."
     },
@@ -280,10 +280,10 @@
       "id": "brent",
       "grupo": "Global",
       "nome": "Petróleo Brent",
-      "valor": "US$ 93,44",
+      "valor": "US$ 92,57",
       "estado": "neutro",
-      "selo": "−5,0% hoje (parcial)",
-      "agora": "Despenca ~5%, a US$ 93,44, depois que Trump disse não ver motivo para escalar com o Irã e o Catar foi à Casa Branca mediar; incidentes perto de Ormuz mantêm algum prêmio de risco. Pesa sobre Petrobras, Brava e PRIO.",
+      "selo": "−5,9% hoje",
+      "agora": "Fechou em queda de 5,85%, a US$ 92,57 (WTI US$ 86,85), com a aposta em negociação entre EUA e Irã. Pesa sobre Petrobras, Brava e PRIO, mas alivia inflação e juros.",
       "o_que_e": "A referência internacional de preço do petróleo.",
       "como_ler": "Brent alto favorece PETR4, PRIO3 e BRAV3, mas pressiona a inflação e os custos de aéreas e logística."
     },
@@ -291,10 +291,10 @@
       "id": "ouro",
       "grupo": "Global",
       "nome": "Ouro",
-      "valor": "US$ 4.123",
+      "valor": "US$ 4.148",
       "estado": "neutro",
-      "selo": "+1,4% hoje (parcial)",
-      "agora": "Sobe 1,4%, a US$ 4.123, com o índice do dólar recuando ~0,5% (101,8).",
+      "selo": "+1,8% hoje",
+      "agora": "Sobe 1,8%, a US$ 4.148 no fim da tarde, com o dólar global mais fraco (DXY −0,5%).",
       "o_que_e": "O preço da onça-troy de ouro.",
       "como_ler": "Ouro subindo sinaliza busca por proteção. Quedas fortes junto com bolsas podem indicar venda forçada para cobrir perdas."
     }
@@ -303,15 +303,15 @@
     "itens": [
       {
         "nome": "BTC",
-        "valor": "US$ 74.493",
-        "var": -1.9,
-        "nota": "Perto de US$ 74,5 mil no fim da manhã (−1,9% em 24h; −4,9% em 7 dias); mínima de US$ 73.510 na madrugada, com ~US$ 800 mi em liquidações em 4 horas, quase todas compradas. Saídas dos ETFs seguem pesando."
+        "valor": "US$ 74.800",
+        "var": -1.1,
+        "nota": "Perto de US$ 74,8 mil no fim da tarde (−1,1% no dia; −4,9% em 7 dias); tocou US$ 73.761, menor nível desde agosto. Mais de US$ 1 bi em liquidações em 24h, quase todas compradas; saídas dos ETFs e o hack da Binance seguem pesando."
       },
       {
         "nome": "ETH",
         "valor": "US$ 2.127",
-        "var": -4.7,
-        "nota": "Cai ~4,7% em 24h, abaixo de US$ 2.200 (mínima de US$ 2.060); baleias voltaram a comprar na queda."
+        "var": -4.0,
+        "nota": "Cerca de US$ 2.127 (−4% em 24h, leitura das 13h de Brasília); chegou a furar US$ 2.100 e está abaixo da média de 200 dias. ETH liderou as liquidações (US$ 448 mi)."
       },
       {
         "nome": "ZEC",
@@ -371,15 +371,9 @@
   },
   "agenda": [
     {
-      "data": "2026-11-09",
-      "hora": "18h",
-      "evento": "Balanços de Magalu, JBS, TIM e Caixa Seguridade após o fechamento",
-      "peso": "medio"
-    },
-    {
       "data": "2026-11-10",
-      "hora": "10h30",
-      "evento": "CPI de outubro (EUA); ata do Copom às 8h; Petrobras 3T26 após o fechamento",
+      "hora": "8h",
+      "evento": "Ata do Copom; CPI de outubro (EUA) às 10h30; Petrobras 3T26 após o fechamento",
       "peso": "alto"
     },
     {
@@ -467,6 +461,12 @@
       "ibov": 168404.68,
       "dolar": 5.508,
       "btc": 75637
+    },
+    {
+      "data": "2026-11-09",
+      "ibov": 171906.5,
+      "dolar": 5.5058,
+      "btc": 74800
     }
   ],
   "fontes": [
@@ -606,7 +606,7 @@
           }
         ]
       },
-      "leitura": "Payroll de outubro forte (165 mil vagas, desemprego 4,1%) mantém ~77% de chance de alta do Fed em dezembro; o 10 anos recua para ~4,84% em 9/11 com petróleo e dólar mais fracos. CPI de terça (10/11) é o próximo teste."
+      "leitura": "Payroll de outubro forte (165 mil vagas, desemprego 4,1%) mantém ~77% de chance de alta do Fed em dezembro; o 10 anos fechou a segunda perto de 4,88% mesmo com o petróleo em queda. CPI de terça (10/11) é o próximo teste."
     },
     "credito_eua": {
       "hy_oas": 3.14,
