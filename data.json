@@ -680,6 +680,13 @@
   "noticias_radar": [
     {
       "cat": "acoes",
+      "title": "Petróleo cai cerca de 3% após Trump ver novos ataques ao Irã improváveis; WTI a US$ 88,11 e Brent a US$ 94,75",
+      "link": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-09-202",
+      "src": "TheStreet",
+      "t": "2026-11-09T09:15:00-05:00"
+    },
+    {
+      "cat": "acoes",
       "title": "Ibovespa sobe 0,65%, a 169.599 pontos, puxado por bancos e Vale; dólar oscila perto de R$ 5,51",
       "link": "https://ncnews.com.br/2026/11/09/ibovespa-abre-em-alta-e-chega-aos-1695-mil-pontos-dolar-oscila-perto-de-r-550/",
       "src": "NC News",
@@ -691,6 +698,13 @@
       "link": "https://trademap.com.br/noticias/news-8574257",
       "src": "TradeMap",
       "t": "2026-11-09T10:40:00-03:00"
+    },
+    {
+      "cat": "acoes",
+      "title": "Citi rebaixa ações dos EUA e tecnologia global para neutro e eleva Europa a overweight; Nvidia cai ~5% no pré",
+      "link": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-09-202#citi",
+      "src": "TheStreet",
+      "t": "2026-11-09T06:57:00-05:00"
     },
     {
       "cat": "acoes",
@@ -796,20 +810,6 @@
       "link": "https://au.finance.yahoo.com/news/major-us-stock-indexes-fared-212037857.html",
       "src": "AP/Yahoo Finance",
       "t": "2026-11-06T13:20:00-08:00"
-    },
-    {
-      "cat": "cripto",
-      "title": "Entenda por que Nubank e Mercado Pago suspenderam saques de cripto",
-      "link": "https://www.metropoles.com/brasil/entenda-por-que-nubank-e-mercado-pago-suspenderam-saques-de-cripto",
-      "src": "Metrópoles",
-      "t": "2026-11-06T19:54:00Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin cai a US$ 74.762, menor nível desde 21 de agosto, e fica fora da recuperação das ações de tecnologia",
-      "link": "https://cointelegraph.com/markets/bitcoin-price-under-75k-crypto-markets-tech-stock",
-      "src": "Cointelegraph",
-      "t": "2026-11-06T17:49:33Z"
     }
   ],
   "incidentes": [
