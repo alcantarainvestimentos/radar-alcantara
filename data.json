@@ -694,6 +694,34 @@
   "noticias_radar": [
     {
       "cat": "acoes",
+      "title": "Mercado digere fala de Lula sem medidas de ajuste fiscal; EWZ sobe 0,85% no pré-mercado e futuros de NY avançam",
+      "link": "https://www.moneytimes.com.br/mercado-digere-discurso-de-lula-enquanto-espera-inflacao-ibovespa-em-dolar-sobe-nesta-segunda-feira-9-rens/",
+      "src": "Money Times",
+      "t": "2026-11-09T07:13:00-03:00"
+    },
+    {
+      "cat": "acoes",
+      "title": "Lula promete investimento público de 20% do PIB sem romper regras fiscais e cria Ministério da Segurança por MP",
+      "link": "https://www.bs9.com.br/brasil/2026/11/09/lula-se-compromete-com-responsabilidade-fiscal-e-busca-conciliacao.html",
+      "src": "BS9",
+      "t": "2026-11-09T06:43:00-03:00"
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin cai a cerca de US$ 74,5 mil e liquidações em cripto passam de US$ 1 bi em 24h, US$ 931 mi em compradas",
+      "link": "https://crypto.news/bitcoin-price-below-75000-etf-outflows-liquidations/",
+      "src": "crypto.news",
+      "t": "2026-11-09T06:02:00+00:00"
+    },
+    {
+      "cat": "cripto",
+      "title": "Pool de mineração da Binance acha só 1 bloco de bitcoin em uma semana; encerramento está previsto para 10/11",
+      "link": "https://www.coindesk.com/tech/2026/11/09/binance-s-bitcoin-mining-pool-finds-just-one-block-in-a-week-as-shutdown-nears",
+      "src": "CoinDesk",
+      "t": "2026-11-09T04:54:00+00:00"
+    },
+    {
+      "cat": "acoes",
       "title": "Nvidia abre investigação independente após reportagem de que CEO Jensen Huang foi alvo de inteligência estrangeira",
       "link": "https://www.investing.com/news/stock-market-news/nvidia-launches-probe-after-report-ceo-huang-was-target-of-foreign-intelligence-5010307",
       "src": "Reuters",
@@ -803,69 +831,6 @@
       "link": "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market",
       "src": "CoinDesk",
       "t": "2026-11-06T12:30:00Z"
-    },
-    {
-      "cat": "acoes",
-      "title": "Lula fará pronunciamento no domingo (8) e deve tratar do arcabouço fiscal; Ibovespa fechou em queda de 0,82% na quinta",
-      "link": "https://www.moneytimes.com.br/payroll-fecha-semana-antes-de-pronunciamento-de-lula-ao-mercado-ibovespa-em-dolar-cai-nesta-sexta-feira-6-rens/",
-      "src": "Money Times",
-      "t": "2026-11-06T10:15:56Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "ETFs de bitcoin nos EUA têm saída de US$ 430 mi; BTC cai 5% e chega perto de US$ 75 mil",
-      "link": "https://coinpaper.com/38419/bitcoin-et-fs-lose-430-million-as-btc-price-crashes-5",
-      "src": "Coinpaper",
-      "t": "2026-11-06T10:02:45Z"
-    },
-    {
-      "cat": "acoes",
-      "title": "Futuros de NY oscilam antes do payroll: Dow cai 0,7% e Nasdaq sobe 1%; consenso é de 55 mil vagas em outubro",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-091927729.html",
-      "src": "Yahoo Finance",
-      "t": "2026-11-06T10:00:00Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "World Liberty, ligada a Trump, planeja recompra do token WLFI após queda de 66% no ano",
-      "link": "https://www.coindesk.com/business/2026/11/06/trump-backed-world-liberty-financial-plans-token-buyback-after-66-year-to-date-slide",
-      "src": "CoinDesk",
-      "t": "2026-11-06T08:04:00Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "Ether cai cerca de 8%, a US$ 2.220; ETFs de ether nos EUA têm saída de quase US$ 100 mi em 5/11",
-      "link": "https://crypto.news/why-is-ethereum-price-down-today-eth-etf-liquidations/",
-      "src": "crypto.news",
-      "t": "2026-11-06T07:09:00Z"
-    },
-    {
-      "cat": "acoes",
-      "title": "Kospi aciona circuit breaker após cair 8,8% e Nikkei recua 5,7% com onda de vendas em ações de IA na Ásia",
-      "link": "https://www.euronews.com/2026/11/06/global-stock-rout-deepens-as-ai-data-centre-fears-fuel-worst-us-chip-sell-off-since-2020",
-      "src": "Euronews",
-      "t": "2026-11-06T07:01:00Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "Elizabeth Warren, crítica das criptos, deve presidir o Comitê Bancário do Senado dos EUA em 2027, diz WSJ",
-      "link": "https://crypto.news/elizabeth-warren-senate-banking-crypto-regulation/",
-      "src": "crypto.news",
-      "t": "2026-11-06T06:05:03Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "Zcash ativa upgrade NU7 na rede principal e reduz tempo de bloco de 75 para 25 segundos",
-      "link": "https://www.coindesk.com/tech/2026/11/06/zcash-s-landmark-nu7-upgrade-goes-live-speeding-up-private-payments",
-      "src": "CoinDesk",
-      "t": "2026-11-06T05:14:48Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "Ark compra US$ 2,4 mi em ações da Coinbase após queda de 9,7% e vende Bullish e Bitmine",
-      "link": "https://www.theblock.co/news/markets/2026-11-05-ark-invest-buys-coinbase-trims-bullish-bitmine-435769",
-      "src": "The Block",
-      "t": "2026-11-06T03:55:27Z"
     }
   ],
   "incidentes": [
