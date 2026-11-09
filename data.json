@@ -694,6 +694,20 @@
   "noticias_radar": [
     {
       "cat": "acoes",
+      "title": "Ibovespa sobe 0,65%, a 169.599 pontos, puxado por bancos e Vale; dólar oscila perto de R$ 5,51",
+      "link": "https://ncnews.com.br/2026/11/09/ibovespa-abre-em-alta-e-chega-aos-1695-mil-pontos-dolar-oscila-perto-de-r-550/",
+      "src": "NC News",
+      "t": "2026-11-09T10:49:00-03:00"
+    },
+    {
+      "cat": "acoes",
+      "title": "Ibovespa abre em alta de 0,8%, aos 169,8 mil pontos; Focus eleva Selic projetada para 2026 a 13,75%",
+      "link": "https://trademap.com.br/noticias/news-8574257",
+      "src": "TradeMap",
+      "t": "2026-11-09T10:40:00-03:00"
+    },
+    {
+      "cat": "acoes",
       "title": "Mercado digere fala de Lula sem medidas de ajuste fiscal; EWZ sobe 0,85% no pré-mercado e futuros de NY avançam",
       "link": "https://www.moneytimes.com.br/mercado-digere-discurso-de-lula-enquanto-espera-inflacao-ibovespa-em-dolar-sobe-nesta-segunda-feira-9-rens/",
       "src": "Money Times",
@@ -810,27 +824,6 @@
       "link": "https://cointelegraph.com/markets/bitcoin-price-under-75k-crypto-markets-tech-stock",
       "src": "Cointelegraph",
       "t": "2026-11-06T17:49:33Z"
-    },
-    {
-      "cat": "acoes",
-      "title": "Payroll dos EUA cria 165 mil vagas em outubro, ante 65 mil esperadas; desemprego cai a 4,1% e juro de 10 anos sobe",
-      "link": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite",
-      "src": "CoinDesk",
-      "t": "2026-11-06T13:30:00Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "Mercado Bitcoin reabre na segunda (9) só para consulta de saldo; saques seguem suspensos",
-      "link": "https://www.otempo.com.br/economia/2026/11/6/mercado-bitcoin-reabre-na-segunda-9-so-para-consulta-de-saldo-saques-seguem-suspensos",
-      "src": "O Tempo",
-      "t": "2026-11-06T12:52:00Z"
-    },
-    {
-      "cat": "cripto",
-      "title": "Mercado cripto liquida US$ 1,27 bi em 24h, US$ 1,1 bi em posições compradas; bitcoin testa suporte de US$ 75 mil",
-      "link": "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market",
-      "src": "CoinDesk",
-      "t": "2026-11-06T12:30:00Z"
     }
   ],
   "incidentes": [
