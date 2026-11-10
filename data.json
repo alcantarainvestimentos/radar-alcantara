@@ -1,30 +1,30 @@
 {
-  "atualizado_em": "2026-11-10T12:45:00-03:00",
-  "referencia": "Pregão de terça, 10/11/2026 (parcial às 12h45)",
+  "atualizado_em": "2026-11-10T18:40:00-03:00",
+  "referencia": "Fechamento de terça, 10/11/2026",
   "postura": {
     "estado": "RISK-OFF",
     "positivos": 2,
     "total": 6,
     "desde": "2026-11-10",
     "conviccao": "MÉDIA",
-    "resumo": "A postura passou de RISK-ON para RISK-OFF no meio do pregão, com só 2 de 6 sinais positivos: o CPI de outubro dos EUA veio acima do esperado (+0,4% no mês; núcleo +0,3%), o VIX voltou para perto de 21 e o S&P 500 abriu em queda de 0,74%. O dólar sobe 1,2%, a R$ 5,57, e a ata do Copom indicou pausa sem prazo na Selic. O Ibovespa ainda resistia em leve alta (+0,34% às 10h08) com Embraer e bancos. Convicção média: leituras intradiárias, o fechamento pode mudar o quadro."
+    "resumo": "Postura RISK-OFF no fechamento, com 2 de 6 sinais positivos (Ibovespa na semana e DI longo). O CPI de outubro dos EUA acima do esperado (+0,4%; núcleo +0,3%) elevou a aposta de alta do Fed em dezembro; S&P 500 −0,38%, Nasdaq −0,74% com a queda da Nvidia, VIX acima de 20. O dólar subiu 1,48%, a R$ 5,586, e o Ibovespa virou para queda de 0,83%, aos 170.809 pts, após a ata do Copom indicar pausa sem prazo. Convicção média: o Ibovespa ainda acumula alta na semana."
   },
   "sinais": [
     {
       "nome": "Ibovespa 5 pregões",
-      "valor": "+4,4%",
+      "valor": "+3,2%",
       "estado": "pos",
       "regra": "Positivo se o índice subiu nos últimos 5 pregões"
     },
     {
       "nome": "Ibovespa 1 mês",
-      "valor": "−16,0%",
+      "valor": "−17,0%",
       "estado": "neg",
       "regra": "Positivo se o índice está acima de 1 mês atrás"
     },
     {
       "nome": "Dólar 5 pregões",
-      "valor": "+1,5%",
+      "valor": "+1,8%",
       "estado": "neg",
       "regra": "Positivo se o dólar caiu na semana (real mais forte)"
     },
@@ -42,7 +42,7 @@
     },
     {
       "nome": "S&P 500 no dia",
-      "valor": "−0,74%",
+      "valor": "−0,38%",
       "estado": "neg",
       "regra": "Positivo se o S&P 500 subiu no último pregão"
     }
@@ -51,22 +51,22 @@
     {
       "codigo": "WIN",
       "nome": "Ibovespa",
-      "vies": "alta",
-      "nivel": "172.817 pts",
-      "dia": 0.34,
-      "semana": 4.4,
-      "mes": -16.0,
-      "nota": "Parcial das 10h08: 172.817 pts (+0,34%), antes do CPI dos EUA. Embraer (+5,4%, após o 3T26) e bancos (Santander +2,3%, Itaú +1,4%) sustentam; Brava (−2,7%), PRIO (−1,5%) e Petrobras (−0,5%) caem com o Brent abaixo de US$ 91. Itaú BBA rebaixou Vale para neutro. Semana = vs 03/11; mês ≈ vs 06/10."
+      "vies": "baixa",
+      "nivel": "170.809 pts",
+      "dia": -0.83,
+      "semana": 3.19,
+      "mes": -17.0,
+      "nota": "Fechou em queda de 0,83%, aos 170.809 pts, virando após a ata do Copom e o CPI dos EUA acima do esperado. Magazine Luiza e Embraer (após o 3T26) entre as maiores altas; Vale (rebaixada pelo Itaú BBA) e Itaú entre as maiores quedas. Petrobras divulga o 3T26 após o fechamento. Semana = vs 03/11; mês ≈ vs 06/10."
     },
     {
       "codigo": "WDO",
       "nome": "Dólar comercial",
       "vies": "alta",
-      "nivel": "R$ 5,571",
-      "dia": 1.18,
-      "semana": 1.53,
-      "mes": 11.8,
-      "nota": "Sobe 1,18%, a R$ 5,571 (10h33), após o CPI dos EUA acima do esperado elevar a aposta de alta do Fed em dezembro (~84%, com 15% de chance de 0,50 pp). PTAX parcial a R$ 5,5555. Galípolo fala às 14h30. Semana = vs 03/11."
+      "nivel": "R$ 5,586",
+      "dia": 1.48,
+      "semana": 1.8,
+      "mes": 12.1,
+      "nota": "Fechou em alta de 1,48%, a R$ 5,586, depois de tocar R$ 5,61 na máxima: o CPI dos EUA acima do esperado elevou a aposta de alta do Fed em dezembro. Galípolo disse que os juros longos refletem credibilidade e que \"não vai ter um atalho\". Semana = vs 03/11."
     },
     {
       "codigo": "DI F31",
@@ -76,44 +76,44 @@
       "dia": 0.07,
       "semana": -0.165,
       "mes": null,
-      "nota": "Juros abriram em alta após a ata do Copom (9h10): jan/28 14,16%, jan/29 14,555%, jan/31 14,885% (+7 bp), jan/33 15,02%. A ata viu pressões de oferta e demanda e indicou pausa sem prazo. Treasury de 10 anos sobe a 4,93% após o CPI. Semana = vs 15,05% de 29/10."
+      "nota": "Taxas longas subiram após a ata do Copom e o CPI dos EUA; curva mais inclinada, com jan/35 em 15,06% e jan/28 recuando a 14,175% (10h40). Nível de jan/31 é o da abertura (9h10); fechamento ainda não publicado. Treasury de 10 anos a ~4,94%. Semana = vs 15,05% de 29/10."
     },
     {
       "codigo": "BTC",
       "nome": "Bitcoin",
       "vies": "baixa",
-      "nivel": "US$ 73.773",
-      "dia": -1.36,
+      "nivel": "US$ 73.363",
+      "dia": -1.6,
       "semana": null,
       "mes": null,
-      "nota": "Perto de US$ 73,8 mil (−1,36% em 24h, ~11h de Brasília), renovando a mínima em dois meses com o CPI quente e a aposta de alta do Fed. Pesam ainda os saques parcialmente suspensos na Binance após o ataque de 29/10."
+      "nota": "Perto de US$ 73,4 mil (−1,6%, ~16h40 de Brasília), depois de testar US$ 72,8 mil com o CPI quente e a aposta de alta do Fed. Analistas citam risco de ida a US$ 70 mil. Saques parcialmente suspensos na Binance seguem pesando."
     }
   ],
   "fita": [
     {
       "nome": "IBOV",
-      "valor": "172.817",
-      "var": 0.34
+      "valor": "170.809",
+      "var": -0.83
     },
     {
       "nome": "USD/BRL",
-      "valor": "5,571",
-      "var": 1.18
+      "valor": "5,586",
+      "var": 1.48
     },
     {
       "nome": "S&P 500",
-      "valor": "7.494",
-      "var": -0.74
+      "valor": "7.521",
+      "var": -0.38
     },
     {
       "nome": "NASDAQ",
-      "valor": "24.988",
-      "var": -1.05
+      "valor": "25.066",
+      "var": -0.74
     },
     {
       "nome": "DOW",
-      "valor": "52.196",
-      "var": -0.37
+      "valor": "52.232",
+      "var": -0.3
     },
     {
       "nome": "VIX",
@@ -122,23 +122,23 @@
     },
     {
       "nome": "BRENT",
-      "valor": "90,82",
-      "var": -1.89
+      "valor": "91,49",
+      "var": -1.17
     },
     {
       "nome": "OURO",
-      "valor": "4.053",
-      "var": -2.1
+      "valor": "4.030",
+      "var": -2.04
     },
     {
       "nome": "BTC",
-      "valor": "73.773",
-      "var": -1.36
+      "valor": "73.363",
+      "var": -1.6
     },
     {
       "nome": "ETH",
-      "valor": "2.112",
-      "var": -1.3
+      "valor": "2.042",
+      "var": -3.7
     }
   ],
   "valor_justo": [
@@ -168,12 +168,12 @@
     {
       "nivel": "alerta",
       "titulo": "CPI dos EUA acima do esperado: aposta de alta do Fed sobe",
-      "texto": "O CPI de outubro subiu 0,4% (esperado 0,3%) e o núcleo 0,3% (esperado 0,2%). O FedWatch aponta ~84% de chance de alta de 0,25 pp em 9/12 e ~15% de 0,50 pp; o diretor Waller defendeu alta. Treasury de 10 anos a 4,93%, Nasdaq −1%, dólar a R$ 5,57. Ata do Copom: pausa sem prazo e tom mais duro na inflação."
+      "texto": "O CPI de outubro subiu 0,4% (esperado 0,3%) e o núcleo 0,3% (esperado 0,2%). O FedWatch aponta ~84% de chance de alta de 0,25 pp em 9/12 e ~15% de 0,50 pp; Waller defendeu alta. Treasury de 10 anos perto de 4,94%, Nasdaq −0,74%, dólar fechou a R$ 5,586 (+1,48%). Ata do Copom: pausa sem prazo e tom mais duro na inflação."
     },
     {
       "nivel": "atencao",
-      "titulo": "Petrobras divulga o 3T26 hoje à noite; Brent perto de US$ 90",
-      "texto": "Casas projetam dividendos de US$ 3,6 bi a US$ 4,2 bi no trimestre. O Brent cai ~1,9%, perto de US$ 90, com Trump dizendo que novos ataques ao Irã não seriam necessários; petroleiras caem no pregão. Governo prorrogou até 9/12 a desoneração de gasolina e etanol."
+      "titulo": "Petrobras divulga o 3T26 hoje à noite; Brent perto de US$ 91",
+      "texto": "Casas projetam dividendos de US$ 3,6 bi a US$ 4,2 bi no trimestre. O Brent fechou em queda de 1,17%, a US$ 91,49, com Trump dizendo que vai segurar novos ataques ao Irã. Governo prorrogou até 9/12 a desoneração de gasolina e etanol."
     }
   ],
   "indicadores": [
@@ -206,7 +206,7 @@
       "valor": "14,885%",
       "estado": "neg",
       "selo": "+7 bp hoje",
-      "agora": "Abriu em alta após a ata do Copom: 14,885% às 9h10 (+7 bp), com jan/28 14,16% e jan/29 14,555%. Contra 15,05% de 29/10, ainda −16,5 bp na semana.",
+      "agora": "Subiu após a ata do Copom e o CPI dos EUA: 14,885% na abertura (+7 bp), com jan/35 a 15,06% às 10h40 e jan/28 recuando. Contra 15,05% de 29/10, ainda −16,5 bp na semana. Fechamento ainda não publicado.",
       "o_que_e": "A taxa de juros que o mercado cobra para emprestar ao governo até 2031. Mede o prêmio de risco de longo prazo.",
       "como_ler": "DI longo subindo encarece o valuation das ações, principalmente de empresas de crescimento e ligadas ao consumo. Queda costuma anteceder alta da bolsa."
     },
@@ -214,10 +214,10 @@
       "id": "cambio",
       "grupo": "Brasil",
       "nome": "Dólar comercial",
-      "valor": "R$ 5,571",
+      "valor": "R$ 5,586",
       "estado": "neg",
-      "selo": "+1,2% hoje",
-      "agora": "Sobe 1,18%, a R$ 5,571 (10h33), no maior nível em seis meses, após o CPI dos EUA acima do esperado. Focus de 9/11 projeta R$ 5,35 no fim de 2026.",
+      "selo": "+1,5% hoje",
+      "agora": "Fechou em alta de 1,48%, a R$ 5,586 (máxima de R$ 5,61), no maior nível em seis meses, após o CPI dos EUA acima do esperado. Focus de 9/11 projeta R$ 5,35 no fim de 2026.",
       "o_que_e": "A cotação do dólar no mercado à vista.",
       "como_ler": "Dólar subindo favorece exportadoras (Suzano, Embraer, petroleiras) e pressiona a inflação e as empresas endividadas em moeda estrangeira."
     },
@@ -258,10 +258,10 @@
       "id": "treasury",
       "grupo": "EUA",
       "nome": "Treasury 10 anos",
-      "valor": "4,93%",
+      "valor": "4,94%",
       "estado": "neg",
-      "selo": "+7 bp hoje",
-      "agora": "Sobe a 4,93% (+7 bp) após o CPI quente e falas de Waller; acima de 4,5%, nível que pesa sobre ações no mundo.",
+      "selo": "+8 bp hoje",
+      "agora": "Subiu ~8 bp, para cerca de 4,94%, após o CPI de outubro acima do esperado e a fala de Waller a favor de alta em dezembro.",
       "o_que_e": "O rendimento do título de 10 anos do governo americano, referência global de juros.",
       "como_ler": "Acima de 4,5% os juros pesam sobre as ações no mundo todo. Quedas costumam aliviar a bolsa brasileira e o real."
     },
@@ -280,10 +280,10 @@
       "id": "brent",
       "grupo": "Global",
       "nome": "Petróleo Brent",
-      "valor": "US$ 90,82",
+      "valor": "US$ 91,49",
       "estado": "neutro",
-      "selo": "−1,9% hoje",
-      "agora": "Cai 1,9%, a US$ 90,82 (manhã), e chegou a ficar abaixo de US$ 90, com Trump dizendo que novos ataques ao Irã não seriam necessários. Pesa sobre Petrobras, Brava e PRIO, mas alivia inflação.",
+      "selo": "−1,2% hoje",
+      "agora": "Fechou em queda de 1,17%, a US$ 91,49 (contrato de janeiro), com Trump sinalizando pausa em novos ataques ao Irã. WTI a US$ 86,04.",
       "o_que_e": "A referência internacional de preço do petróleo.",
       "como_ler": "Brent alto favorece PETR4, PRIO3 e BRAV3, mas pressiona a inflação e os custos de aéreas e logística."
     },
@@ -291,10 +291,10 @@
       "id": "ouro",
       "grupo": "Global",
       "nome": "Ouro",
-      "valor": "US$ 4.053",
+      "valor": "US$ 4.030",
       "estado": "neutro",
-      "selo": "−2,1% hoje",
-      "agora": "Cai 2,1%, a US$ 4.053, com o CPI quente reforçando a aposta de alta do Fed.",
+      "selo": "−2,0% hoje",
+      "agora": "Caiu 2,04%, a US$ 4.030,2 a onça (dezembro), pressionado pelo dólar forte e pela aposta de alta do Fed após o CPI.",
       "o_que_e": "O preço da onça-troy de ouro.",
       "como_ler": "Ouro subindo sinaliza busca por proteção. Quedas fortes junto com bolsas podem indicar venda forçada para cobrir perdas."
     }
@@ -303,15 +303,15 @@
     "itens": [
       {
         "nome": "BTC",
-        "valor": "US$ 73.773",
-        "var": -1.36,
-        "nota": "Perto de US$ 73,8 mil (−1,36% em 24h, ~11h de Brasília), mínima em dois meses após o CPI quente. Medo e Ganância na zona de medo."
+        "valor": "US$ 73.363",
+        "var": -1.6,
+        "nota": "Perto de US$ 73,4 mil (−1,6%, ~16h40 de Brasília), após testar US$ 72,8 mil com o CPI quente; mínima em dois meses. Medo e Ganância na zona de medo."
       },
       {
         "nome": "ETH",
-        "valor": "US$ 2.112",
-        "var": -1.3,
-        "nota": "Cerca de US$ 2.112 (−1,3% em 24h), abaixo da média de 200 dias; as reservas de ETH na Binance caíram ~11,5% desde o ataque."
+        "valor": "US$ 2.042",
+        "var": -3.7,
+        "nota": "Cerca de US$ 2.042 (−3,7%, ~16h40 de Brasília), abaixo da média de 200 dias; as reservas de ETH na Binance caíram ~11,5% desde o ataque."
       }
     ]
   },
@@ -362,8 +362,8 @@
   "agenda": [
     {
       "data": "2026-11-10",
-      "hora": "14h30",
-      "evento": "Galípolo (BC) fala em evento da Abracam; Petrobras 3T26 após o fechamento",
+      "hora": "após 18h",
+      "evento": "Petrobras divulga o 3T26 (dividendos no foco)",
       "peso": "alto"
     },
     {
@@ -457,6 +457,12 @@
       "ibov": 171906.5,
       "dolar": 5.5058,
       "btc": 74800
+    },
+    {
+      "data": "2026-11-10",
+      "ibov": 170809,
+      "dolar": 5.586,
+      "btc": 73363
     }
   ],
   "fontes": [
