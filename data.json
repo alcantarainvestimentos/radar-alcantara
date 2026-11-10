@@ -680,6 +680,20 @@
   "noticias_radar": [
     {
       "cat": "acoes",
+      "title": "Futuros em NY mistos antes do CPI de outubro: Dow +0,5%, Nasdaq-100 recua; petróleo cai mais de 2%",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html",
+      "src": "Yahoo Finance",
+      "t": "2026-11-10T01:06:00-08:00"
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin a US$ 74,6 mil segura média de 200 dias antes do CPI dos EUA; mercado vê 65%–81% de chance de alta do Fed",
+      "link": "https://cryptoticker.io/en/bitcoin-price-us-cpi-no-annual-rate/",
+      "src": "CryptoTicker",
+      "t": "2026-11-10T05:21:40+00:00"
+    },
+    {
+      "cat": "acoes",
       "title": "Ibovespa sobe 2,22% e fecha a 172.236 pontos; dólar recua 0,06%, a R$ 5,505",
       "link": "https://br.bossanews.com/ibovespa-sobe-222-dolar-recua-e-fecha-cotado-a-r-550/",
       "src": "BossaNews",
@@ -796,13 +810,6 @@
       "link": "https://www.seudinheiro.com/2026/economia/nubank-volta-a-liberar-operacoes-com-criptomoedas-veja-o-que-diz-a-fintech-miql/",
       "src": "Seu Dinheiro",
       "t": "2026-11-07T14:38:00+00:00"
-    },
-    {
-      "cat": "cripto",
-      "title": "ETFs de bitcoin nos EUA têm saída de US$ 1,28 bi na semana; BTC segura US$ 76 mil, perto do suporte de US$ 75 mil",
-      "link": "https://crypto.news/bitcoin-price-76000-etf-outflows-75000-support/",
-      "src": "crypto.news",
-      "t": "2026-11-07T10:07:36+00:00"
     }
   ],
   "incidentes": [
