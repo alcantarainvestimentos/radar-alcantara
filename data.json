@@ -680,6 +680,20 @@
   "noticias_radar": [
     {
       "cat": "acoes",
+      "title": "Ibovespa sobe 2,22% e fecha a 172.236 pontos; dólar recua 0,06%, a R$ 5,505",
+      "link": "https://br.bossanews.com/ibovespa-sobe-222-dolar-recua-e-fecha-cotado-a-r-550/",
+      "src": "BossaNews",
+      "t": "2026-11-09T20:40:00-03:00"
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin fica de lado a US$ 74,8 mil enquanto Nasdaq sobe quase 3%; ETF de ether da BlackRock cai 4,5%",
+      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/09/crypto-market-today-nov-9-bitcoin-and-ethereum-lag-as-nasdaq-surges-nearly-3/",
+      "src": "Motley Fool",
+      "t": "2026-11-09T17:20:00-05:00"
+    },
+    {
+      "cat": "acoes",
       "title": "Petróleo cai cerca de 3% após Trump ver novos ataques ao Irã improváveis; WTI a US$ 88,11 e Brent a US$ 94,75",
       "link": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-09-202",
       "src": "TheStreet",
@@ -789,27 +803,6 @@
       "link": "https://crypto.news/bitcoin-price-76000-etf-outflows-75000-support/",
       "src": "crypto.news",
       "t": "2026-11-07T10:07:36+00:00"
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin fecha sexta estável a US$ 75.944; ether termina a US$ 2.233, menor fechamento em pelo menos três meses",
-      "link": "https://www.riotimesonline.com/crypto-markets-bitcoin-majors-friday-november-6-2026",
-      "src": "Rio Times",
-      "t": "2026-11-07T01:04:04+00:00"
-    },
-    {
-      "cat": "acoes",
-      "title": "Ibovespa sobe 1,39% e fecha a 168.498 pontos; dólar avança 0,36%, a R$ 5,5082, após payroll forte nos EUA",
-      "link": "https://www.campograndenews.com.br/economia/dolar-encerra-semana-a-r-5-50-com-mercado-atento-a-economia-dos-eua",
-      "src": "Campo Grande News",
-      "t": "2026-11-06T20:00:00-04:00"
-    },
-    {
-      "cat": "acoes",
-      "title": "Wall Street fecha mista: Nasdaq sobe 1,1% e S&P 500 0,3%, enquanto Dow Jones cai 0,5%, a 51.285 pontos",
-      "link": "https://au.finance.yahoo.com/news/major-us-stock-indexes-fared-212037857.html",
-      "src": "AP/Yahoo Finance",
-      "t": "2026-11-06T13:20:00-08:00"
     }
   ],
   "incidentes": [
