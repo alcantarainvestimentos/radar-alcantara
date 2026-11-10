@@ -680,6 +680,27 @@
   "noticias_radar": [
     {
       "cat": "acoes",
+      "title": "Dólar sobe 1,18% e vai a R$ 5,571 após inflação americana acima do esperado",
+      "link": "https://bpmoney.com.br/mercado/cambio/dolar-sobe-perto-de-5-60-apos-inflacao-eua-acima-do-esperado/",
+      "src": "BPMoney",
+      "t": "2026-11-10T10:42:00-03:00"
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin cai cerca de 1%, a US$ 73,6 mil, após CPI acima do esperado; mercado já precifica alta do Fed em dezembro",
+      "link": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat",
+      "src": "CoinDesk",
+      "t": "2026-11-10T08:40:00-05:00"
+    },
+    {
+      "cat": "acoes",
+      "title": "CPI dos EUA sobe 0,4% em outubro, acima dos 0,3% esperados; núcleo +0,3%; Treasury de 10 anos vai a 4,93%",
+      "link": "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3",
+      "src": "CoinDesk",
+      "t": "2026-11-10T08:32:00-05:00"
+    },
+    {
+      "cat": "acoes",
       "title": "Futuros em NY mistos antes do CPI de outubro: Dow +0,5%, Nasdaq-100 recua; petróleo cai mais de 2%",
       "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html",
       "src": "Yahoo Finance",
@@ -803,13 +824,6 @@
       "link": "https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984",
       "src": "The Block",
       "t": "2026-11-07T11:45:00-05:00"
-    },
-    {
-      "cat": "cripto",
-      "title": "Nubank volta a liberar depósitos e saques de criptomoedas após falha em fornecedor externo",
-      "link": "https://www.seudinheiro.com/2026/economia/nubank-volta-a-liberar-operacoes-com-criptomoedas-veja-o-que-diz-a-fintech-miql/",
-      "src": "Seu Dinheiro",
-      "t": "2026-11-07T14:38:00+00:00"
     }
   ],
   "incidentes": [
