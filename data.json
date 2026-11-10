@@ -673,6 +673,20 @@
   },
   "noticias_radar": [
     {
+      "cat": "cripto",
+      "title": "Bitcoin cai abaixo de US$ 74 mil, a US$ 73,4 mil (-1,6%), após CPI acima do esperado; ether recua 3,7%, a US$ 2.042",
+      "link": "https://theblock.co/news/markets/2026-11-10-bitcoin-price-cpi-inflation-73000-support-437301",
+      "src": "The Block",
+      "t": "2026-11-10T14:38:00-05:00"
+    },
+    {
+      "cat": "acoes",
+      "title": "Ata do Copom vê impacto relevante de choques de oferta na inflação; Ibovespa vira e cai e dólar vai a R$ 5,60",
+      "link": "https://agoralitoral.com.br/2026/11/10/ibovespa-vira-e-cai-com-ata-do-copom-e-avanco-do-dolar/",
+      "src": "Agora Litoral",
+      "t": "2026-11-10T13:10:00-03:00"
+    },
+    {
       "cat": "acoes",
       "title": "Dólar sobe 1,18% e vai a R$ 5,571 após inflação americana acima do esperado",
       "link": "https://bpmoney.com.br/mercado/cambio/dolar-sobe-perto-de-5-60-apos-inflacao-eua-acima-do-esperado/",
@@ -811,13 +825,6 @@
       "link": "https://cryptoticker.io/en/bitcoin-price-fifth-losing-week-weekly-close/",
       "src": "CryptoTicker",
       "t": "2026-11-08T05:12:40+00:00"
-    },
-    {
-      "cat": "cripto",
-      "title": "ETFs de bitcoin nos EUA ficam negativos em 2026: saldo de -US$ 914 mi no ano após saída de US$ 1,28 bi na semana",
-      "link": "https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984",
-      "src": "The Block",
-      "t": "2026-11-07T11:45:00-05:00"
     }
   ],
   "incidentes": [
