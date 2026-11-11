@@ -679,6 +679,13 @@
   },
   "noticias_radar": [
     {
+      "cat": "acoes",
+      "title": "Ibovespa cai 0,52%, a 171.337 pontos, e dólar sobe 1,47%, a R$ 5,586, maior nível desde julho de 2025",
+      "link": "https://investnews.com.br/investimentos/ibovespa-fecha-queda-10-11-2026/",
+      "src": "InvestNews",
+      "t": "2026-11-10T19:18:00-03:00"
+    },
+    {
       "cat": "cripto",
       "title": "Bitcoin cai abaixo de US$ 74 mil, a US$ 73,4 mil (-1,6%), após CPI acima do esperado; ether recua 3,7%, a US$ 2.042",
       "link": "https://theblock.co/news/markets/2026-11-10-bitcoin-price-cpi-inflation-73000-support-437301",
