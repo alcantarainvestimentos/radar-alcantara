@@ -1,24 +1,24 @@
 {
-  "atualizado_em": "2026-11-11T12:37:00-03:00",
-  "referencia": "Pregão de quarta, 11/11/2026 (parcial às 12h00)",
+  "atualizado_em": "2026-11-11T18:37:00-03:00",
+  "referencia": "Fechamento de quarta, 11/11/2026",
   "postura": {
     "estado": "RISK-ON",
     "positivos": 4,
     "total": 6,
     "desde": "2026-11-11",
     "conviccao": "MÉDIA",
-    "resumo": "Postura RISK-ON, com 4 de 6 sinais positivos (Ibovespa em 5 pregões, DI longo na semana, VIX abaixo de 20 e S&P 500 no dia): por volta do meio-dia o Ibovespa sobe 0,75%, aos 172.623 pts, puxado por bancos (Itaú +1,8%), e o dólar cai 0,46%, a R$ 5,560, com o ajuste fiscal de ~R$ 80 bi para 2027 no radar. Em Nova York, Nasdaq +1,4% com chips e CoreWeave. Petrobras cai ~3% após o 3T26; Galípolo fala às 14h15 e o IPCA de outubro sai amanhã."
+    "resumo": "Postura RISK-ON, com 4 de 6 sinais positivos (Ibovespa em 5 pregões, DI longo na semana, VIX abaixo de 20 e S&P 500 no dia): o Ibovespa fechou em alta de 0,42%, aos 172.060 pts, e o dólar caiu 0,43%, a R$ 5,562, com o ajuste fiscal para 2027 no radar. Em Nova York, S&P 500 +1,3% e Nasdaq +1,6% com CoreWeave e chips. Petrobras caiu 3% após o 3T26; Galípolo manteve o tom restritivo sem guidance, e o IPCA de outubro sai amanhã às 9h."
   },
   "sinais": [
     {
       "nome": "Ibovespa 5 pregões",
-      "valor": "+4,3%",
+      "valor": "+4,0%",
       "estado": "pos",
       "regra": "Positivo se o índice subiu nos últimos 5 pregões"
     },
     {
       "nome": "Ibovespa 1 mês",
-      "valor": "≈ −16,1%",
+      "valor": "≈ −16,4%",
       "estado": "neg",
       "regra": "Positivo se o índice está acima de 1 mês atrás"
     },
@@ -42,7 +42,7 @@
     },
     {
       "nome": "S&P 500 no dia",
-      "valor": "+0,82%",
+      "valor": "+1,31%",
       "estado": "pos",
       "regra": "Positivo se o S&P 500 subiu no último pregão"
     }
@@ -52,21 +52,21 @@
       "codigo": "WIN",
       "nome": "Ibovespa",
       "vies": "alta",
-      "nivel": "172.623 pts",
-      "dia": 0.75,
-      "semana": 4.29,
-      "mes": -16.1,
-      "nota": "Por volta das 12h, sobe 0,75%, aos 172.623 pts (abriu a 172.542), com apoio de bancos (Itaú +1,77%, Bradesco +0,34%) e notícias de ajuste fiscal de R$ 70–80 bi para 2027. Petrobras cai (PETR3 −3,2%, PETR4 −3,1%) após dividendos abaixo do esperado e capex maior; Vale −0,2%. Semana = vs 03/11; mês ≈ vs 06/10."
+      "nivel": "172.060 pts",
+      "dia": 0.42,
+      "semana": 3.95,
+      "mes": -16.4,
+      "nota": "Fechou em alta de 0,42%, aos 172.060 pts, com volume de R$ 28,5 bi, apoiado no ajuste fiscal para 2027 (o ministro Bruno Moretti fala em efeito de R$ 50–60 bi no Orçamento) e em Wall Street. Magazine Luiza disparou 17,9% (R$ 7,69), seguida de Cosan e Hapvida; Petrobras limitou a alta (PETR4 −3%, a R$ 43,60) após o 3T26. Semana = vs 03/11; mês ≈ vs 06/10."
     },
     {
       "codigo": "WDO",
       "nome": "Dólar comercial",
       "vies": "alta",
-      "nivel": "R$ 5,560",
-      "dia": -0.46,
-      "semana": 1.3,
+      "nivel": "R$ 5,562",
+      "dia": -0.43,
+      "semana": 1.34,
       "mes": 11.6,
-      "nota": "Por volta das 12h, cai 0,46%, a R$ 5,560 (mínima perto de R$ 5,55 às 10h30), devolvendo parte da alta de 1,47% de ontem com o ajuste fiscal de ~0,5% do PIB para 2027 no radar, mesmo com o DXY em alta (102,93). Galípolo fala às 14h15. Semana = vs 03/11."
+      "nota": "Fechou em queda de 0,43%, a R$ 5,562, devolvendo parte da alta de 1,46% de ontem (R$ 5,586, maior fechamento em 15 meses), com o ajuste fiscal para 2027 no radar, mesmo com o DXY subindo 0,66%. Galípolo não sinalizou os próximos passos da Selic. Semana = vs 03/11."
     },
     {
       "codigo": "DI F31",
@@ -92,28 +92,28 @@
   "fita": [
     {
       "nome": "IBOV",
-      "valor": "172.623",
-      "var": 0.75
+      "valor": "172.060",
+      "var": 0.42
     },
     {
       "nome": "USD/BRL",
-      "valor": "5,560",
-      "var": -0.46
+      "valor": "5,562",
+      "var": -0.43
     },
     {
       "nome": "S&P 500",
-      "valor": "7.583",
-      "var": 0.82
+      "valor": "7.619",
+      "var": 1.31
     },
     {
       "nome": "NASDAQ",
-      "valor": "25.407",
-      "var": 1.36
+      "valor": "25.466",
+      "var": 1.6
     },
     {
       "nome": "DOW",
-      "valor": "52.216",
-      "var": -0.03
+      "valor": "52.486",
+      "var": 0.47
     },
     {
       "nome": "VIX",
@@ -122,8 +122,8 @@
     },
     {
       "nome": "BRENT",
-      "valor": "92,70",
-      "var": 1.32
+      "valor": "92,76",
+      "var": 1.39
     },
     {
       "nome": "OURO",
@@ -167,13 +167,13 @@
     },
     {
       "nivel": "alerta",
-      "titulo": "Petrobras cai ~3% após lucro do 3T26 abaixo do consenso e dividendos menores",
-      "texto": "Por volta das 12h, PETR3 cai 3,2% e PETR4 3,1%. Lucro de R$ 39,75 bi (+21,5% no ano) contra R$ 46,8 bi esperados; dividendos de R$ 15,3 bi abaixo das projeções e revisão para cima do capex (Bradesco BBI vê reação negativa). Plano Estratégico será atualizado em 23/11."
+      "titulo": "Petrobras fecha em queda de 3% após lucro do 3T26 abaixo do consenso",
+      "texto": "PETR4 caiu 3%, a R$ 43,60, e foi uma das maiores quedas do Ibovespa. Lucro de R$ 39,75 bi contra R$ 46,8 bi esperados, dividendos de R$ 15,3 bi abaixo das projeções e capex revisado para cima. O Plano Estratégico será atualizado em 23/11."
     },
     {
       "nivel": "atencao",
       "titulo": "Fed: aposta de alta em dezembro firme; IPCA de outubro sai amanhã",
-      "texto": "O CME FedWatch mostra ~90% de chance de alta de 0,25 pp do Fed em 9/12, após o CPI acima do esperado; mercado de títulos dos EUA fechado hoje (Veterans Day). No Brasil, ajuste fiscal de ~R$ 80 bi para 2027 acertado com o Congresso, segundo fonte do governo (ainda sem anúncio oficial); Galípolo às 14h15, Banco do Brasil após o fechamento e IPCA de outubro amanhã, às 9h."
+      "texto": "O CME FedWatch mostra ~90% de chance de alta de 0,25 pp do Fed em 9/12, após o CPI acima do esperado. No Brasil, Galípolo disse que o BC não antecipa decisões e que a Selic seguirá em nível contracionista, avaliada reunião a reunião. O governo fala em efeito de R$ 50–60 bi do ajuste fiscal no Orçamento de 2027. IPCA de outubro amanhã, às 9h."
     }
   ],
   "indicadores": [
@@ -184,7 +184,7 @@
       "valor": "13,75%",
       "estado": "neutro",
       "selo": "próx. Copom 9/12",
-      "agora": "Mantida em 13,75% em 4/11. A ata (10/11) indicou Selic em patamar restritivo por mais tempo e elevou a projeção de inflação de 2026 para 5,6%. Galípolo fala hoje às 14h15; na terça, disse que os juros longos também refletem questões de credibilidade. Focus de 9/11: 13,75% no fim de 2026 e 12,50% no fim de 2027.",
+      "agora": "Mantida em 13,75% em 4/11. Em 11/11, Galípolo disse que o BC não antecipa as próximas decisões e que a Selic seguirá em nível substancialmente contracionista, decidida reunião a reunião. A ata (10/11) elevou a projeção de inflação de 2026 para 5,6%. Focus de 9/11: 13,75% no fim de 2026 e 12,50% no fim de 2027.",
       "o_que_e": "A taxa básica de juros definida pelo Copom a cada 45 dias. Serve de base para o CDI e para o custo do crédito no país.",
       "como_ler": "Selic em queda tende a favorecer bolsa, varejo e construção. Uma pausa ou alta pressiona esses setores e fortalece a renda fixa."
     },
@@ -214,10 +214,10 @@
       "id": "cambio",
       "grupo": "Brasil",
       "nome": "Dólar comercial",
-      "valor": "R$ 5,560",
+      "valor": "R$ 5,562",
       "estado": "neutro",
-      "selo": "−0,46% hoje",
-      "agora": "Por volta das 12h, cai 0,46%, a R$ 5,560, após fechar ontem a R$ 5,586, maior nível desde julho de 2025. Ajuste fiscal de ~0,5% do PIB para 2027 ajuda o real. Focus de 9/11 projeta R$ 5,35 no fim de 2026.",
+      "selo": "−0,43% hoje",
+      "agora": "Fechou 11/11 em queda de 0,43%, a R$ 5,562, após fechar ontem a R$ 5,586, maior nível em 15 meses. O ajuste fiscal para 2027 ajudou o real, mesmo com o DXY em alta. Focus de 9/11 projeta R$ 5,35 no fim de 2026.",
       "o_que_e": "A cotação do dólar no mercado à vista.",
       "como_ler": "Dólar subindo favorece exportadoras (Suzano, Embraer, petroleiras) e pressiona a inflação e as empresas endividadas em moeda estrangeira."
     },
@@ -280,10 +280,10 @@
       "id": "brent",
       "grupo": "Global",
       "nome": "Petróleo Brent",
-      "valor": "US$ 92,70",
+      "valor": "US$ 92,76",
       "estado": "neutro",
-      "selo": "+1,3% hoje",
-      "agora": "Sobe 1,32%, a US$ 92,70, na manhã de 11/11 (~11h50 de Brasília), com relato de navio-tanque atingido por mina no Estreito de Ormuz e o Irã endurecendo o discurso nuclear. Ontem fechou a US$ 91,49.",
+      "selo": "+1,4% hoje",
+      "agora": "Fechou 11/11 em alta de 1,39%, a US$ 92,76 (WTI +0,57%, a US$ 86,53), sustentado pela tensão entre EUA e Irã, que endureceu o discurso nuclear. Ontem fechou a US$ 91,49.",
       "o_que_e": "A referência internacional de preço do petróleo.",
       "como_ler": "Brent alto favorece PETR4, PRIO3 e BRAV3, mas pressiona a inflação e os custos de aéreas e logística."
     },
@@ -364,12 +364,6 @@
     "leitura": "Varejo dividido: Magalu disparou com a recuperação das vendas em outubro, enquanto C&A e Renner caíram com juros longos e dólar em alta. Seguradoras (Caixa e BB Seguridade) e Embraer (após o 3T26) subiram; Brava caiu com o Brent abaixo de US$ 90 no intradia. Small caps −1,17%."
   },
   "agenda": [
-    {
-      "data": "2026-11-11",
-      "hora": "14h15",
-      "evento": "Galípolo (BC) no Fórum Bradesco Asset; Banco do Brasil, Rede D'Or, Hapvida, Ultrapar e outros 3T26 após o fechamento",
-      "peso": "alto"
-    },
     {
       "data": "2026-11-12",
       "hora": "9h",
@@ -467,6 +461,12 @@
       "ibov": 170809,
       "dolar": 5.586,
       "btc": 73363
+    },
+    {
+      "data": "2026-11-11",
+      "ibov": 172060.43,
+      "dolar": 5.562,
+      "btc": 73745
     }
   ],
   "fontes": [
