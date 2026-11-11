@@ -679,6 +679,22 @@
   },
   "noticias_radar": [
     {
+      "cat": "acoes",
+      "title": "Petrobras derrete até 2,7% após lucro de R$ 39,75 bi decepcionar em dividendos; Ibovespa sobe com ajuste fiscal",
+      "link": "https://investnews.com.br/investimentos/petrobras-cai-ibovespa-hoje-sobe/",
+      "src": "InvestNews",
+      "t": "2026-11-11T11:45:00-03:00",
+      "viral": true
+    },
+    {
+      "cat": "cripto",
+      "title": "Liquidações em cripto saltam 288%, a US$ 725 mi; USDT encolhe US$ 6,6 bi em 60 dias, maior queda desde 2022",
+      "link": "https://www.coindesk.com/daybook-us/2026/11/11/bitcoin-barely-flinches-at-hot-cpi-as-etf-selling-slows",
+      "src": "CoinDesk",
+      "t": "2026-11-11T07:19:30-05:00",
+      "viral": true
+    },
+    {
       "cat": "cripto",
       "title": "Bitcoin a US$ 73,7 mil fica 0,8% acima da média de 200 dias; IBIT soma 7 pregões de saídas, US$ 1,66 bi",
       "link": "https://cryptoticker.io/en/bitcoin-price-ibit-outflows-200-day-moving-average/",
@@ -831,13 +847,6 @@
       "link": "https://ncnews.com.br/2026/11/08/lula-pronunciamento-rede-nacional/",
       "src": "NC News",
       "t": "2026-11-08T16:11:34-03:00"
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin segue abaixo de US$ 76 mil e altcoins têm perdas semanais de dois dígitos: NEAR cai 15% e HYPE, 12%",
-      "link": "https://crypto.news/bitcoin-price-76000-altcoin-losses-weekend-watch/",
-      "src": "crypto.news",
-      "t": "2026-11-08T12:32:00+00:00"
     }
   ],
   "incidentes": [
