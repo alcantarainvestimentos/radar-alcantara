@@ -679,6 +679,20 @@
   },
   "noticias_radar": [
     {
+      "cat": "cripto",
+      "title": "Bitcoin a US$ 73,7 mil fica 0,8% acima da média de 200 dias; IBIT soma 7 pregões de saídas, US$ 1,66 bi",
+      "link": "https://cryptoticker.io/en/bitcoin-price-ibit-outflows-200-day-moving-average/",
+      "src": "CryptoTicker",
+      "t": "2026-11-11T05:13:27+00:00"
+    },
+    {
+      "cat": "acoes",
+      "title": "Futuros em NY sobem, Nasdaq-100 +1,2%, com CoreWeave saltando 17% após balanço; Nvidia caiu 5,5% na terça",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-futures-035115158.html",
+      "src": "Yahoo Finance",
+      "t": "2026-11-10T19:51:00-08:00"
+    },
+    {
       "cat": "acoes",
       "title": "Ibovespa cai 0,52%, a 171.337 pontos, e dólar sobe 1,47%, a R$ 5,586, maior nível desde julho de 2025",
       "link": "https://investnews.com.br/investimentos/ibovespa-fecha-queda-10-11-2026/",
@@ -824,20 +838,6 @@
       "link": "https://crypto.news/bitcoin-price-76000-altcoin-losses-weekend-watch/",
       "src": "crypto.news",
       "t": "2026-11-08T12:32:00+00:00"
-    },
-    {
-      "cat": "cripto",
-      "title": "Binance fechará contas afetadas na UE até 31/12 após fim da transição do MiCA; depósitos bloqueados, saques liberados",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-holds-below-76k-binance-063007720.html",
-      "src": "Investing.com",
-      "t": "2026-11-08T06:30:00+00:00"
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin a US$ 75,8 mil caminha para 5ª semana seguida de queda; precisa fechar acima de US$ 78,2 mil para evitar",
-      "link": "https://cryptoticker.io/en/bitcoin-price-fifth-losing-week-weekly-close/",
-      "src": "CryptoTicker",
-      "t": "2026-11-08T05:12:40+00:00"
     }
   ],
   "incidentes": [
