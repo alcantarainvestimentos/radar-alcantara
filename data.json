@@ -1,30 +1,30 @@
 {
-  "atualizado_em": "2026-11-12T12:40:00-03:00",
-  "referencia": "Pregão de quinta, 12/11/2026 (parcial às 12h40)",
+  "atualizado_em": "2026-11-12T18:40:00-03:00",
+  "referencia": "Fechamento de quinta, 12/11/2026",
   "postura": {
     "estado": "NEUTRO",
     "positivos": 3,
     "total": 6,
     "desde": "2026-11-12",
     "conviccao": "MÉDIA",
-    "resumo": "Postura NEUTRO, com 3 de 6 sinais positivos (Ibovespa em 5 pregões, DI longo na semana e VIX abaixo de 20): o S&P 500 vira para queda (−0,4%, Nasdaq −0,6%) com a renúncia de Jensen Huang na Nvidia, e o VIX sobe a 18,5. No Brasil, o Ibovespa cai 0,66% (170.920 pts às 10h55) com o tombo de 11% do Banco do Brasil, e o dólar sobe 0,74%, a R$ 5,604. O IPCA de outubro veio em 0,14% (consenso 0,25%; 4,63% em 12 meses). BTC perde US$ 72 mil e ouro cai 3,4%; Senado pode votar o pacote fiscal a partir das 16h."
+    "resumo": "Postura NEUTRO, com 3 de 6 sinais positivos (Ibovespa em 5 pregões, DI longo na semana e VIX abaixo de 20). O S&P 500 fechou em −0,35% (Nasdaq −0,39%) com a renúncia de Jensen Huang na Nvidia (NVDA −4,3%) e o Treasury de 10 anos acima de 5,1%; VIX a 18,7. No Brasil, o Ibovespa caiu ~0,8% (perto de 170,7 mil pts) com o tombo do Banco do Brasil, e o dólar subiu 1,58%, a R$ 5,6507, maior fechamento desde junho de 2025, com o pacote fiscal visto como insuficiente; DIs longos subiram até 25 bp. Brent sobe ~3,5% (US$ ~95,9), ouro cai 3,1% e BTC fica perto de US$ 71,5 mil."
   },
   "sinais": [
     {
       "nome": "Ibovespa 5 pregões",
-      "valor": "+2,0%",
+      "valor": "≈ +1,9%",
       "estado": "pos",
       "regra": "Positivo se o índice subiu nos últimos 5 pregões"
     },
     {
       "nome": "Ibovespa 1 mês",
-      "valor": "≈ −17,0%",
+      "valor": "≈ −17,1%",
       "estado": "neg",
       "regra": "Positivo se o índice está acima de 1 mês atrás"
     },
     {
       "nome": "Dólar 5 pregões",
-      "valor": "+2,8%",
+      "valor": "+3,7%",
       "estado": "neg",
       "regra": "Positivo se o dólar caiu na semana (real mais forte)"
     },
@@ -36,13 +36,13 @@
     },
     {
       "nome": "VIX",
-      "valor": "18,53",
+      "valor": "18,71",
       "estado": "pos",
       "regra": "Positivo se o VIX está abaixo de 20"
     },
     {
       "nome": "S&P 500 no dia",
-      "valor": "−0,41%",
+      "valor": "−0,35%",
       "estado": "neg",
       "regra": "Positivo se o S&P 500 subiu no último pregão"
     }
@@ -52,21 +52,21 @@
       "codigo": "WIN",
       "nome": "Ibovespa",
       "vies": "alta",
-      "nivel": "170.920 pts",
-      "dia": -0.66,
-      "semana": 2.0,
-      "mes": -17.0,
-      "nota": "Às 10h55, 170.920 pts (−0,66%), pressionado pelo Banco do Brasil (BBAS3 −11% após lucro do 3T26 66,5% menor e guidance cortado pela metade) e pela aversão a risco com a saída de Jensen Huang da Nvidia. Santander Brasil (SANB11) sobe ~5% com a nova proposta do controlador; PETR4 +1% e VALE3 −1%. IPCA de outubro veio abaixo do esperado (0,14%). Semana = vs 04/11; mês ≈ vs 06/10."
+      "nivel": "~170,7 mil pts",
+      "dia": -0.8,
+      "semana": 1.9,
+      "mes": -17.1,
+      "nota": "Fechou em queda de ~0,8%, perto de 170,7 mil pts (mínima ~169,9 mil), pressionado pelo Banco do Brasil (BBAS3 ~−10% após lucro do 3T26 66,5% menor e guidance cortado pela metade), pelo pacote fiscal visto como insuficiente e pela aversão a risco com a saída de Jensen Huang da Nvidia. Destaques: HAPV3 +13,4%, AZZA3 +8,8%, SANB11 +4,1% e PETR4 +1,6%; COSAN −6,6% e BPAC11 −3,7%. Semana ≈ vs 04/11; mês ≈ vs 06/10."
     },
     {
       "codigo": "WDO",
       "nome": "Dólar comercial",
       "vies": "alta",
-      "nivel": "R$ 5,604",
-      "dia": 0.74,
-      "semana": 2.79,
-      "mes": 11.6,
-      "nota": "Às 10h55, R$ 5,604 (+0,74%), com máxima de R$ 5,623 — perto do maior nível em 15 meses —, com o tombo do BB, a aversão a risco global (Nvidia) e o pacote fiscal, que o Senado pode votar a partir das 16h, visto pelo mercado como insuficiente. O IPCA abaixo do esperado não aliviou o câmbio. Semana = vs 04/11."
+      "nivel": "R$ 5,651",
+      "dia": 1.58,
+      "semana": 3.65,
+      "mes": 12.5,
+      "nota": "Dólar à vista fechou a R$ 5,6507 (+1,58%), maior fechamento desde 2/6/2025. Pesaram o pacote fiscal (R$ 50–60 bi em 2027), considerado insuficiente e com votação no Senado adiada, o dólar forte no exterior (DXY 103,16) e os Treasuries de 10 anos acima de 5,1%. O IPCA abaixo do esperado ficou em segundo plano. Semana ≈ vs 04/11."
     },
     {
       "codigo": "DI F31",
@@ -76,64 +76,64 @@
       "dia": 0.005,
       "semana": -0.17,
       "mes": null,
-      "nota": "Às 9h11, jan/31 a 14,880% (~estável vs 14,875% de ontem), jan/27 a 13,654%, jan/28 a 14,170%, jan/29 a 14,550%, jan/33 a 15,020% e jan/35 a 15,025%; taxas abriram mistas após o IPCA de 0,14%, abaixo do consenso de 0,25%. Semana = vs 15,05% de 29/10."
+      "nota": "Curva fechou em alta firme com a frustração com o pacote fiscal e os Treasuries: jan/28 a 14,280% (vs 14,177%) e jan/35 a 15,255% (vs 15,005%, +25 bp). O fechamento do jan/31 não foi localizado; nível mantido da abertura (14,880% às 9h11). Semana = vs 15,05% de 29/10."
     },
     {
       "codigo": "BTC",
       "nome": "Bitcoin",
       "vies": "baixa",
-      "nivel": "US$ 71.368",
-      "dia": -3.72,
-      "semana": -2.84,
+      "nivel": "US$ 71.545",
+      "dia": -3.71,
+      "semana": -2.6,
       "mes": null,
-      "nota": "Perdeu US$ 72 mil e opera perto de US$ 71,4 mil (−3,7% em 24h, ~11h36), após passar de US$ 76 mil no início da semana. Mais de US$ 656 mi em liquidações em 24h (US$ 555 mi em compras alavancadas), cerca de 37% na Binance (Coinglass). Aversão a risco com a Nvidia pesa."
+      "nota": "Fechou o pregão americano perto de US$ 71,5 mil (−3,7% em 24h), abaixo de US$ 72 mil, após passar de US$ 76 mil no início da semana. Liquidações de mais de US$ 656 mi em 24h, a maioria compradas, ~37% na Binance. Aversão a risco com a Nvidia e Treasuries acima de 5% pesam."
     }
   ],
   "fita": [
     {
       "nome": "IBOV",
-      "valor": "170.920",
-      "var": -0.66
+      "valor": "~170.700",
+      "var": -0.8
     },
     {
       "nome": "USD/BRL",
-      "valor": "5,604",
-      "var": 0.74
+      "valor": "5,651",
+      "var": 1.58
     },
     {
       "nome": "S&P 500",
-      "valor": "7.588",
-      "var": -0.41
+      "valor": "7.592",
+      "var": -0.35
     },
     {
       "nome": "NASDAQ",
-      "valor": "25.306",
-      "var": -0.63
+      "valor": "25.366",
+      "var": -0.39
     },
     {
       "nome": "DOW",
-      "valor": "52.434",
-      "var": -0.1
+      "valor": "52.297",
+      "var": -0.36
     },
     {
       "nome": "VIX",
-      "valor": "18,53",
-      "var": 5.96
+      "valor": "18,71",
+      "var": 6.98
     },
     {
       "nome": "BRENT",
-      "valor": "~94",
-      "var": 1.4
+      "valor": "~95,9",
+      "var": 3.5
     },
     {
       "nome": "OURO",
-      "valor": "3.865",
-      "var": -3.39
+      "valor": "3.878",
+      "var": -3.07
     },
     {
       "nome": "BTC",
-      "valor": "71.368",
-      "var": -3.72
+      "valor": "71.545",
+      "var": -3.71
     },
     {
       "nome": "ETH",
@@ -162,13 +162,13 @@
   "alertas": [
     {
       "nivel": "alerta",
-      "titulo": "Jensen Huang renuncia ao comando da Nvidia; NVDA chegou a cair ~14%",
-      "texto": "A Nvidia confirmou nesta quinta (12/11) a saída de Jensen Huang como CEO, presidente e conselheiro, com efeito imediato, após reportagens sobre relacionamentos extraconjugais. A CFO Colette Kress é CEO interina e Harvey C. Jones assumiu a presidência do conselho. A ação abriu em queda de ~14% e reduziu para cerca de −6% (US$ 163) às 12h18; o balanço do 3T sai em 17/11. Nasdaq e cripto sentem a aversão a risco."
+      "titulo": "Jensen Huang renuncia ao comando da Nvidia; NVDA fecha em −4,3%",
+      "texto": "A Nvidia confirmou nesta quinta (12/11) a saída de Jensen Huang como CEO, presidente e conselheiro, com efeito imediato. A CFO Colette Kress é CEO interina e Harvey C. Jones assumiu a presidência do conselho. A ação abriu em queda de ~14% e fechou a US$ 166,19 (−4,34%); o balanço do 3T sai em 17/11. Nasdaq e cripto sentiram a aversão a risco."
     },
     {
       "nivel": "alerta",
-      "titulo": "Banco do Brasil despenca ~11% após lucro 66,5% menor e guidance cortado",
-      "texto": "Lucro ajustado do 3T26 de R$ 1,27 bi (consenso ~R$ 3,3 bi), ROE de 2,8% e inadimplência acima de 90 dias em 6,08%, puxada pelo agro. A projeção de lucro de 2026 caiu de R$ 18–22 bi para R$ 9–11 bi e o payout será de 25% em 2026 e 2027. BBAS3 é a maior pressão sobre o Ibovespa hoje."
+      "titulo": "Dólar fecha a R$ 5,65, maior nível desde junho de 2025; BB despenca ~10%",
+      "texto": "O dólar à vista subiu 1,58%, a R$ 5,6507, e os DIs longos até 25 bp com o pacote fiscal (R$ 50–60 bi em 2027) visto como insuficiente e votação no Senado adiada. BBAS3 caiu ~10% após lucro do 3T26 de R$ 1,27 bi (−66,5%) e guidance de 2026 cortado para R$ 9–11 bi. Treasuries de 10 anos acima de 5,1% reforçam a pressão."
     },
     {
       "nivel": "atencao",
@@ -205,8 +205,8 @@
       "nome": "DI janeiro/2031",
       "valor": "14,880%",
       "estado": "neutro",
-      "selo": "estável às 9h11",
-      "agora": "Às 9h11 de 12/11, jan/31 a 14,880% (vs 14,875% de ontem), jan/29 a 14,550%, jan/33 a 15,020% e jan/35 a 15,025%; taxas abriram mistas após o IPCA abaixo do esperado, com o pacote fiscal no Senado. Contra 15,05% de 29/10, −17 bp.",
+      "selo": "curva sobe até 25 bp",
+      "agora": "Em 12/11 a curva fechou em alta firme: jan/28 a 14,280% (vs 14,177%) e jan/35 a 15,255% (vs 15,005%), com a frustração com o pacote fiscal e os Treasuries. O fechamento do jan/31 não foi localizado; valor exibido é da abertura (14,880% às 9h11). Contra 15,05% de 29/10.",
       "o_que_e": "A taxa de juros que o mercado cobra para emprestar ao governo até 2031. Mede o prêmio de risco de longo prazo.",
       "como_ler": "DI longo subindo encarece o valuation das ações, principalmente de empresas de crescimento e ligadas ao consumo. Queda costuma anteceder alta da bolsa."
     },
@@ -214,10 +214,10 @@
       "id": "cambio",
       "grupo": "Brasil",
       "nome": "Dólar comercial",
-      "valor": "R$ 5,604",
+      "valor": "R$ 5,651",
       "estado": "neg",
-      "selo": "+0,74% às 10h55",
-      "agora": "Às 10h55, R$ 5,604 (+0,74%), com máxima de R$ 5,623, perto do maior nível em 15 meses (R$ 5,586 de fechamento em 10/11). Pesam o tombo do BB, a aversão a risco global e o pacote fiscal visto como insuficiente. Focus de 9/11 projeta R$ 5,35 no fim de 2026.",
+      "selo": "+1,58% no dia",
+      "agora": "Fechou a R$ 5,6507 (+1,58%) em 12/11, maior fechamento desde 2/6/2025, com o pacote fiscal visto como insuficiente, o dólar forte no exterior e Treasuries acima de 5,1%. Focus de 9/11 projeta R$ 5,35 no fim de 2026.",
       "o_que_e": "A cotação do dólar no mercado à vista.",
       "como_ler": "Dólar subindo favorece exportadoras (Suzano, Embraer, petroleiras) e pressiona a inflação e as empresas endividadas em moeda estrangeira."
     },
@@ -239,7 +239,7 @@
       "valor": "3,75–4,00%",
       "estado": "neg",
       "selo": "alta em dez. ~90%",
-      "agora": "Após o CPI de outubro acima do esperado (+0,4%; núcleo +0,3%), o mercado precifica quase totalmente alta de 0,25 pp em 9/12, com ~15% de chance de 0,50 pp. Hoje ainda falam Goolsbee (13h15), Daly (15h10) e Williams (20h30). Ata de outubro em 18/11.",
+      "agora": "Após o CPI de outubro acima do esperado (+0,4%; núcleo +0,3%), o mercado precifica quase totalmente alta de 0,25 pp em 9/12, com ~15% de chance de 0,50 pp. Mary Daly (Fed de SF) disse que o Fed provavelmente terá de subir os juros de novo, sem urgência. Ata de outubro em 18/11.",
       "o_que_e": "A taxa básica de juros dos EUA, definida pelo Fomc.",
       "como_ler": "Juros altos nos EUA atraem capital para lá e tendem a fortalecer o dólar contra moedas emergentes como o real."
     },
@@ -258,10 +258,10 @@
       "id": "treasury",
       "grupo": "EUA",
       "nome": "Treasury 10 anos",
-      "valor": "~5,0%",
+      "valor": "5,105%",
       "estado": "neg",
-      "selo": "volta a 5%",
-      "agora": "Com a reabertura do mercado de títulos após o Veterans Day, o 10 anos voltou à região de 5% (4,991% às 7h11; perto de 5,0% no fim da manhã), e o de 2 anos a ~4,75%, com a aposta de mais altas do Fed.",
+      "selo": "+12 bp hoje",
+      "agora": "O 10 anos subiu 12 bp, a 5,105%, em 12/11, no maior nível em meses, com falas de dirigentes do Fed abertas a novas altas de juros após o CPI forte.",
       "o_que_e": "O rendimento do título de 10 anos do governo americano, referência global de juros.",
       "como_ler": "Acima de 4,5% os juros pesam sobre as ações no mundo todo. Quedas costumam aliviar a bolsa brasileira e o real."
     },
@@ -269,10 +269,10 @@
       "id": "vix",
       "grupo": "Global",
       "nome": "VIX",
-      "valor": "18,53",
+      "valor": "18,71",
       "estado": "pos",
-      "selo": "+6% hoje",
-      "agora": "Por volta das 12h18, 18,53 (+6,0%), devolvendo parte da queda de ontem com a renúncia de Jensen Huang na Nvidia; segue abaixo de 20.",
+      "selo": "+7% hoje",
+      "agora": "Fechou a 18,71 (+7,0%) em 12/11, com a renúncia de Jensen Huang na Nvidia e os Treasuries acima de 5%; segue abaixo de 20.",
       "o_que_e": "O índice de volatilidade implícita do S&P 500, conhecido como o índice do medo.",
       "como_ler": "Abaixo de 15 indica calma, entre 15 e 20 é normal, e acima de 20 o mercado está estressado. Picos costumam vir com fuga de emergentes."
     },
@@ -280,10 +280,10 @@
       "id": "brent",
       "grupo": "Global",
       "nome": "Petróleo Brent",
-      "valor": "US$ ~94",
+      "valor": "US$ ~95,9",
       "estado": "neutro",
-      "selo": "+1,4% hoje",
-      "agora": "Sobe ~1,4%, para acima de US$ 94 (~10h37), depois que Trump disse que os EUA não precisam de acordo com o Irã, o que coloca em dúvida o plano do Catar para reabrir Ormuz. Mais cedo operava em queda, perto de US$ 92.",
+      "selo": "+3,5% hoje",
+      "agora": "Perto de US$ 95,9 (+~3,5%) em 12/11, depois que Trump disse que os EUA não precisam de acordo com o Irã, o que coloca em dúvida o plano do Catar para reabrir Ormuz.",
       "o_que_e": "A referência internacional de preço do petróleo.",
       "como_ler": "Brent alto favorece PETR4, PRIO3 e BRAV3, mas pressiona a inflação e os custos de aéreas e logística."
     },
@@ -291,10 +291,10 @@
       "id": "ouro",
       "grupo": "Global",
       "nome": "Ouro",
-      "valor": "US$ 3.865",
+      "valor": "US$ 3.878",
       "estado": "neutro",
-      "selo": "−3,4% hoje",
-      "agora": "Futuro a US$ 3.864,80 (−3,4%) no fim da manhã de 12/11, perdendo US$ 4.000, com Treasuries de volta a 5% e a aposta de alta do Fed.",
+      "selo": "−3,1% hoje",
+      "agora": "Futuro a US$ 3.877,80 (−3,07%) no fechamento de 12/11, abaixo de US$ 4.000, com Treasuries acima de 5% e a aposta de alta do Fed.",
       "o_que_e": "O preço da onça-troy de ouro.",
       "como_ler": "Ouro subindo sinaliza busca por proteção. Quedas fortes junto com bolsas podem indicar venda forçada para cobrir perdas."
     }
@@ -303,9 +303,9 @@
     "itens": [
       {
         "nome": "BTC",
-        "valor": "US$ 71.368",
-        "var": -3.72,
-        "nota": "Abaixo de US$ 72 mil (~US$ 71,4 mil às 11h36, −3,7% em 24h), depois de passar de US$ 76 mil no início da semana. Liquidações de mais de US$ 656 mi em 24h, quase todas de posições compradas (US$ 237 mi em BTC). Fear & Greed em medo; ETFs com saídas seguidas."
+        "valor": "US$ 71.545",
+        "var": -3.71,
+        "nota": "Perto de US$ 71,5 mil no fim da tarde (−3,7% em 24h), depois de passar de US$ 76 mil no início da semana. Liquidações de mais de US$ 656 mi em 24h, quase todas de posições compradas. Fear & Greed em medo; ETFs com saídas seguidas."
       },
       {
         "nome": "ETH",
@@ -348,18 +348,6 @@
     "leitura": "Varejo e empresas alavancadas lideraram com a queda dos juros longos após o pacote fiscal: Magalu (+17,9%), Cosan (+11,9%) e Hapvida (+9,2%). Na ponta negativa, Petrobras (−3%) após o 3T26 abaixo do consenso, CSN Mineração (−3%) e Engie (−3,1%)."
   },
   "agenda": [
-    {
-      "data": "2026-11-12",
-      "hora": "13h15",
-      "evento": "Falas de Goolsbee (13h15), Daly (15h10) e Williams (20h30) do Fed",
-      "peso": "medio"
-    },
-    {
-      "data": "2026-11-12",
-      "hora": "16h",
-      "evento": "Senado pode votar o pacote fiscal (PLP 299/2026); resultados do 3T26 de B3, Marfrig, Petz/Cobasi e Yduqs",
-      "peso": "alto"
-    },
     {
       "data": "2026-11-13",
       "hora": "9h",
@@ -469,6 +457,12 @@
       "ibov": 172060.43,
       "dolar": 5.562,
       "btc": 73745
+    },
+    {
+      "data": "2026-11-12",
+      "ibov": 170700,
+      "dolar": 5.6507,
+      "btc": 71545
     }
   ],
   "fontes": [
@@ -576,7 +570,7 @@
           }
         ]
       },
-      "leitura": "Os juros futuros abriram mistos em 12/11 após o IPCA de outubro de 0,14%, abaixo do consenso de 0,25%: jan/31 a 14,88% e vértices de 2033 em diante perto de 15,0%. A curva segue mais de 1 ponto acima da Selic, com o BC indicando juros restritivos por mais tempo e o pacote fiscal em votação no Senado."
+      "leitura": "Os DIs fecharam em alta firme em 12/11 com a frustração com o pacote fiscal (R$ 50–60 bi em 2027) e os Treasuries: jan/28 a 14,28% e jan/35 a 15,255% (+25 bp). O IPCA de outubro de 0,14%, abaixo do consenso, ficou em segundo plano. A curva segue bem acima da Selic de 13,75%."
     },
     "eua": {
       "fed": "3,75–4,00%",
@@ -612,7 +606,7 @@
           }
         ]
       },
-      "leitura": "CPI de outubro acima do esperado (+0,4%; núcleo +0,3%) consolidou a aposta de alta de 0,25 pp em dezembro, com ~15% de chance de 0,50 pp; Goolsbee chamou o dado de 'inquietante'. O 10 anos está perto de 4,98%."
+      "leitura": "CPI de outubro acima do esperado (+0,4%; núcleo +0,3%) consolidou a aposta de alta de 0,25 pp em dezembro, com ~15% de chance de 0,50 pp; Daly disse que o Fed provavelmente terá de subir os juros de novo. O 10 anos fechou 12/11 a 5,105% (+12 bp)."
     },
     "credito_eua": {
       "hy_oas": 3.14,
