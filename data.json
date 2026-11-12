@@ -683,6 +683,14 @@
   },
   "noticias_radar": [
     {
+      "cat": "cripto",
+      "title": "Binance foi alertada meses antes do hack de US$ 6,3 bi; invasão começou em falsa entrevista de emprego",
+      "link": "https://cointelegraph.com/news/binance-cso-foreshadowed-6b-hack-tactic-months-before-attack",
+      "src": "Cointelegraph",
+      "t": "2026-11-12T05:07:11+00:00",
+      "viral": true
+    },
+    {
       "cat": "acoes",
       "title": "Ibovespa fecha em alta e dólar cai 0,43%, a R$ 5,562, com pacote que pode cortar até R$ 80 bi em gastos em 2027",
       "link": "https://ncnews.com.br/2026/11/11/bolsa-fecha/",
@@ -816,34 +824,6 @@
       "link": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-09-202#citi",
       "src": "TheStreet",
       "t": "2026-11-09T06:57:00-05:00"
-    },
-    {
-      "cat": "acoes",
-      "title": "Mercado digere fala de Lula sem medidas de ajuste fiscal; EWZ sobe 0,85% no pré-mercado e futuros de NY avançam",
-      "link": "https://www.moneytimes.com.br/mercado-digere-discurso-de-lula-enquanto-espera-inflacao-ibovespa-em-dolar-sobe-nesta-segunda-feira-9-rens/",
-      "src": "Money Times",
-      "t": "2026-11-09T07:13:00-03:00"
-    },
-    {
-      "cat": "acoes",
-      "title": "Lula promete investimento público de 20% do PIB sem romper regras fiscais e cria Ministério da Segurança por MP",
-      "link": "https://www.bs9.com.br/brasil/2026/11/09/lula-se-compromete-com-responsabilidade-fiscal-e-busca-conciliacao.html",
-      "src": "BS9",
-      "t": "2026-11-09T06:43:00-03:00"
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin cai a cerca de US$ 74,5 mil e liquidações em cripto passam de US$ 1 bi em 24h, US$ 931 mi em compradas",
-      "link": "https://crypto.news/bitcoin-price-below-75000-etf-outflows-liquidations/",
-      "src": "crypto.news",
-      "t": "2026-11-09T06:02:00+00:00"
-    },
-    {
-      "cat": "cripto",
-      "title": "Pool de mineração da Binance acha só 1 bloco de bitcoin em uma semana; encerramento está previsto para 10/11",
-      "link": "https://www.coindesk.com/tech/2026/11/09/binance-s-bitcoin-mining-pool-finds-just-one-block-in-a-week-as-shutdown-nears",
-      "src": "CoinDesk",
-      "t": "2026-11-09T04:54:00+00:00"
     }
   ],
   "incidentes": [
