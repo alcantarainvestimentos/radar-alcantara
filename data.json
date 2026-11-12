@@ -685,6 +685,14 @@
   },
   "noticias_radar": [
     {
+      "cat": "acoes",
+      "title": "Dólar dispara 1,17%, a R$ 5,626, com mercado insatisfeito com pacote fiscal; Ibovespa recua e BB afunda",
+      "link": "https://jornaldebrasilia.com.br/noticias/economia/dolar-sobe-e-ibovespa-cai-em-meio-a-insatisfacao-do-mercado-com-pacote-fiscal/",
+      "src": "Jornal de Brasília",
+      "t": "2026-11-12T15:12:00-03:00",
+      "viral": true
+    },
+    {
       "cat": "cripto",
       "title": "Bitcoin perde US$ 72 mil e liquidações passam de US$ 656 mi em 24h; mais de 122 mil traders zerados",
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-breaks-below-72k-656m-liquidation-bloodbath/",
@@ -706,6 +714,14 @@
       "link": "https://br.investing.com/news/stock-market-news/ibovespa-recua-mais-de-1-na-abertura-com-tombo-de-bb-2125134",
       "src": "Reuters/Investing",
       "t": "2026-11-12T10:18:00-03:00",
+      "viral": true
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin perde média de 50 semanas e apaga sinal de alta de setembro; Wintermute vê US$ 68 mil como próximo nível",
+      "link": "https://www.coindesk.com/daybook-us/2026/11/12/bitcoin-weakness-erases-september-s-bullish-signal",
+      "src": "CoinDesk",
+      "t": "2026-11-12T12:15:00+00:00",
       "viral": true
     },
     {
