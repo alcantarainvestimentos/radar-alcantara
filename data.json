@@ -841,6 +841,19 @@
   ],
   "incidentes": [
     {
+      "id": "nvidia-ceo-2026-11-12",
+      "tipo": "empresa",
+      "plataforma": "Nvidia",
+      "titulo": "Jensen Huang renuncia como CEO e deixa o conselho; Colette Kress é CEO interina; NVDA cai mais de 10%",
+      "status": "aberto",
+      "t_detectado": "2026-11-12T14:20:00Z",
+      "t_atualizado": "2026-11-12T14:35:00Z",
+      "fontes": [
+        "https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns",
+        "https://www.tomshardware.com/tech-industry/nvidia-confirms-jensen-huang-has-resigned-as-ceo-colette-kress-executive-vice-president-and-chief-financial-officer-appointed-interim-ceo"
+      ]
+    },
+    {
       "id": "nubank-mercadopago-2026-11-06",
       "plataforma": "Nubank e Mercado Pago",
       "titulo": "Nubank normalizou depósitos e saques de cripto na noite de 6/11; Mercado Pago segue sem previsão",
