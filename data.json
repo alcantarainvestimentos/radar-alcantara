@@ -688,11 +688,27 @@
   },
   "noticias_radar": [
     {
+      "cat": "cripto",
+      "title": "Bitcoin perde US$ 72 mil e liquidações passam de US$ 656 mi em 24h; mais de 122 mil traders zerados",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-breaks-below-72k-656m-liquidation-bloodbath/",
+      "src": "Bitcoin.com",
+      "t": "2026-11-12T09:36:00-05:00",
+      "viral": true
+    },
+    {
       "cat": "acoes",
       "title": "Jensen Huang renuncia ao cargo de CEO da Nvidia; CFO Colette Kress assume interinamente",
       "link": "https://www.tomshardware.com/tech-industry/nvidia-confirms-jensen-huang-has-resigned-as-ceo-colette-kress-executive-vice-president-and-chief-financial-officer-appointed-interim-ceo",
       "src": "Tom's Hardware",
       "t": "2026-11-12T14:20:00+00:00",
+      "viral": true
+    },
+    {
+      "cat": "acoes",
+      "title": "Banco do Brasil desaba mais de 10% após lucro do 3º tri despencar e projeções piorarem; Ibovespa cai 1%",
+      "link": "https://br.investing.com/news/stock-market-news/ibovespa-recua-mais-de-1-na-abertura-com-tombo-de-bb-2125134",
+      "src": "Reuters/Investing",
+      "t": "2026-11-12T10:18:00-03:00",
       "viral": true
     },
     {
@@ -809,34 +825,6 @@
       "link": "https://www.fool.com/coverage/stock-market-today/2026/11/09/crypto-market-today-nov-9-bitcoin-and-ethereum-lag-as-nasdaq-surges-nearly-3/",
       "src": "Motley Fool",
       "t": "2026-11-09T17:20:00-05:00"
-    },
-    {
-      "cat": "acoes",
-      "title": "Petróleo cai cerca de 3% após Trump ver novos ataques ao Irã improváveis; WTI a US$ 88,11 e Brent a US$ 94,75",
-      "link": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-09-202",
-      "src": "TheStreet",
-      "t": "2026-11-09T09:15:00-05:00"
-    },
-    {
-      "cat": "acoes",
-      "title": "Ibovespa sobe 0,65%, a 169.599 pontos, puxado por bancos e Vale; dólar oscila perto de R$ 5,51",
-      "link": "https://ncnews.com.br/2026/11/09/ibovespa-abre-em-alta-e-chega-aos-1695-mil-pontos-dolar-oscila-perto-de-r-550/",
-      "src": "NC News",
-      "t": "2026-11-09T10:49:00-03:00"
-    },
-    {
-      "cat": "acoes",
-      "title": "Ibovespa abre em alta de 0,8%, aos 169,8 mil pontos; Focus eleva Selic projetada para 2026 a 13,75%",
-      "link": "https://trademap.com.br/noticias/news-8574257",
-      "src": "TradeMap",
-      "t": "2026-11-09T10:40:00-03:00"
-    },
-    {
-      "cat": "acoes",
-      "title": "Citi rebaixa ações dos EUA e tecnologia global para neutro e eleva Europa a overweight; Nvidia cai ~5% no pré",
-      "link": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-09-202#citi",
-      "src": "TheStreet",
-      "t": "2026-11-09T06:57:00-05:00"
     }
   ],
   "incidentes": [
