@@ -161,6 +161,11 @@
   ],
   "alertas": [
     {
+      "nivel": "alerta",
+      "titulo": "Jensen Huang renuncia ao comando da Nvidia; NVDA cai mais de 10%",
+      "texto": "A Nvidia confirmou nesta quinta (12/11) a saída de Jensen Huang, cofundador e CEO há 33 anos, com efeito imediato; ele deixa também o conselho. A CFO Colette Kress assume como CEO interina e o conselho busca um nome definitivo. A empresa não informou o motivo oficial. As ações caem mais de 10% e já acumulam queda de mais de 23% em um mês, o que pesa sobre Nasdaq, chips e o apetite por risco."
+    },
+    {
       "nivel": "atencao",
       "titulo": "Binance: INJ, PLASMA, NEAR e LTC ainda aguardam liberação de saques",
       "texto": "A Binance mantém a meta de reabrir os saques restantes antes do fim de semana de 14–15/11, sem data confirmada por ativo (HYPE e APT já voltaram em 8/11; redes Ethereum, BSC, Arbitrum e Optimism liberadas). Reservas seguem em queda desde o ataque de 29/10. Mercado Bitcoin segue com saques suspensos. Confira o status no app antes de movimentar."
@@ -682,6 +687,14 @@
     ]
   },
   "noticias_radar": [
+    {
+      "cat": "acoes",
+      "title": "Jensen Huang renuncia ao cargo de CEO da Nvidia; CFO Colette Kress assume interinamente",
+      "link": "https://www.tomshardware.com/tech-industry/nvidia-confirms-jensen-huang-has-resigned-as-ceo-colette-kress-executive-vice-president-and-chief-financial-officer-appointed-interim-ceo",
+      "src": "Tom's Hardware",
+      "t": "2026-11-12T14:20:00+00:00",
+      "viral": true
+    },
     {
       "cat": "cripto",
       "title": "Binance foi alertada meses antes do hack de US$ 6,3 bi; invasão começou em falsa entrevista de emprego",
