@@ -1,0 +1,13 @@
+# Site institucional alcantarainvestimentos.com
+# Base directory no Netlify: site-institucional. Só publica quando algo nesta pasta muda.
+[build]
+  publish = "."
+  command = "echo site estatico"
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- ."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
