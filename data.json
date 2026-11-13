@@ -1,30 +1,30 @@
 {
-  "atualizado_em": "2026-11-13T13:15:00-03:00",
-  "referencia": "Pregão de sexta, 13/11/2026 (parcial às 13h15)",
+  "atualizado_em": "2026-11-13T18:45:00-03:00",
+  "referencia": "Fechamento de sexta, 13/11/2026",
   "postura": {
     "estado": "RISK-OFF",
     "positivos": 2,
     "total": 6,
     "desde": "2026-11-13",
     "conviccao": "MÉDIA",
-    "resumo": "Postura RISK-OFF, com 2 de 6 sinais positivos (Ibovespa em 5 pregões e VIX abaixo de 20). No meio do pregão, o Ibovespa sobe ~0,4% (172.055 pts às 11h43) após o Senado aprovar o texto-base do ajuste fiscal (45 a 31), mas o dólar segue pressionado (~R$ 5,66) e o DI jan/31 abriu a 15,135%, com o JPMorgan e economistas vendo o pacote como insuficiente. Em NY, o PPI de outubro veio abaixo do esperado (+0,3%), mas o 10 anos sobe a ~5,16% e a alta do Fed em dezembro segue precificada. O bitcoin perdeu US$ 70 mil (~US$ 69,3 mil), menor nível desde agosto."
+    "resumo": "Postura RISK-OFF, com 2 de 6 sinais positivos (Ibovespa em 5 pregões e VIX abaixo de 20, mas já perto do limite, a 19,71). O Ibovespa fechou em alta de 0,54% (172.257 pts) após o Senado aprovar o texto-base do ajuste fiscal, e os DIs viraram para queda à tarde, mas o dólar segue a R$ 5,655, na máxima desde 2025. Em NY, o S&P 500 caiu 0,42% e o Nasdaq 0,91% com a venda de chips após a saída de Jensen Huang da Nvidia; o 10 anos foi a ~5,15%. O bitcoin perdeu US$ 70 mil (~US$ 68,5 mil)."
   },
   "sinais": [
     {
       "nome": "Ibovespa 5 pregões",
-      "valor": "+3,5%",
+      "valor": "+3,7%",
       "estado": "pos",
       "regra": "Positivo se o índice subiu nos últimos 5 pregões"
     },
     {
       "nome": "Ibovespa 1 mês",
-      "valor": "≈ −16,4%",
+      "valor": "≈ −16,3%",
       "estado": "neg",
       "regra": "Positivo se o índice está acima de 1 mês atrás"
     },
     {
       "nome": "Dólar 5 pregões",
-      "valor": "+3,1%",
+      "valor": "+3,0%",
       "estado": "neg",
       "regra": "Positivo se o dólar caiu na semana (real mais forte)"
     },
@@ -36,13 +36,13 @@
     },
     {
       "nome": "VIX",
-      "valor": "18,12",
+      "valor": "19,71",
       "estado": "pos",
       "regra": "Positivo se o VIX está abaixo de 20"
     },
     {
       "nome": "S&P 500 no dia",
-      "valor": "−0,35%",
+      "valor": "−0,42%",
       "estado": "neg",
       "regra": "Positivo se o S&P 500 subiu no último pregão"
     }
@@ -52,21 +52,21 @@
       "codigo": "WIN",
       "nome": "Ibovespa",
       "vies": "alta",
-      "nivel": "172.055 pts",
-      "dia": 0.43,
-      "semana": 3.53,
-      "mes": -16.4,
-      "nota": "Parcial: +0,43% a 172.055 pts às 11h43 (máxima 172.217), após o Senado aprovar o texto-base do ajuste fiscal (45 a 31; emendas na terça) e o varejo de setembro (+0,2% no mês, contra queda esperada). BBAS3 ainda cai ~2% após o tombo de 8,35% da véspera; CSNA3 −3,3% e CMIN3 −2,5% com prejuízo no 3T; BEEF3 +4,4%, CMIG4 +3,3%. PETR4 sobe com o Brent; VALE3 perto da estabilidade. Semana = vs 05/11."
+      "nivel": "172.257 pts",
+      "dia": 0.54,
+      "semana": 3.65,
+      "mes": -16.3,
+      "nota": "Fechou a 172.257 pts (+0,54%), após o Senado aprovar o texto-base do ajuste fiscal (45 a 31; quatro emendas na terça, depois vai à Câmara) e o varejo de setembro acima do esperado (+0,2% no mês). Ajudaram o PPI americano abaixo do esperado e o alívio nos DIs à tarde. Semana = vs 05/11."
     },
     {
       "codigo": "WDO",
       "nome": "Dólar comercial",
       "vies": "alta",
-      "nivel": "R$ ~5,66",
-      "dia": 0.13,
-      "semana": 3.12,
-      "mes": 12.7,
-      "nota": "Parcial: ~R$ 5,66 (+0,13%) às 10h47, depois de tocar R$ 5,663 na abertura; segue na máxima em 17 meses. Mesmo com o texto-base do ajuste fiscal aprovado no Senado, o JPMorgan estima impacto de até R$ 56,1 bi e recomenda cautela com ativos brasileiros; Treasuries a ~5,16% também pesam. Semana = vs 05/11."
+      "nivel": "R$ 5,655",
+      "dia": 0.05,
+      "semana": 3.03,
+      "mes": 12.6,
+      "nota": "Fechou a R$ 5,6549 (+0,05%), estável na máxima desde meados de 2025, mesmo com o texto-base do ajuste fiscal aprovado no Senado: o mercado vê o pacote (até R$ 60 bi em 2027) como insuficiente. Treasury de 10 anos a ~5,15% segue pesando. Semana = vs 05/11."
     },
     {
       "codigo": "DI F31",
@@ -76,64 +76,64 @@
       "dia": 0.035,
       "semana": 0.157,
       "mes": null,
-      "nota": "Abertura de 13/11 (9h13): jan/28 a 14,360% (+7 bp), jan/29 a 14,820% (+6 bp), jan/31 a 15,135% (+3,5 bp) e jan/35 a 15,280% (+2,5 bp), com o mercado vendo o ajuste fiscal como insuficiente. Taxas da tarde não localizadas. Semana = vs 14,978% de 05/11 (+16 bp)."
+      "nota": "Abriu em alta (jan/31 a 15,135% às 9h13), mas as taxas viraram e fecharam em queda na maior parte da curva, com o PPI americano abaixo do esperado e realização após dias de alta: jan/28 a 14,28% (estável) e jan/35 a 15,155% (−9 bp). Taxa de fechamento do jan/31 não localizada; mantido o nível da abertura. Galípolo disse que o BC não controla a curva toda. Semana = vs 14,978% de 05/11."
     },
     {
       "codigo": "BTC",
       "nome": "Bitcoin",
       "vies": "baixa",
-      "nivel": "US$ 69.259",
-      "dia": -4.9,
+      "nivel": "US$ 68.469",
+      "dia": -4.7,
       "semana": -8.4,
       "mes": null,
-      "nota": "Perdeu US$ 70 mil pela primeira vez desde agosto (US$ 69.259 às 9h25, −4,9% no dia; mínima perto de US$ 67,5 mil). Liquidações acima de US$ 1,3 bi em 24h, quase todas compradas. Pesam a alta do Fed precificada, a saída da Strategy de dois índices da MSCI e os saques dos ETFs. Semana = vs 06/11."
+      "nota": "US$ 68.469 (−4,7% em 24h) às 14h22, abaixo de US$ 70 mil pela primeira vez desde agosto; chegou perto de US$ 67,5 mil. Liquidações acima de US$ 1,3 bi em 24h e sexto dia seguido de saques nos ETFs à vista (−US$ 47,7 mi em 12/11). Pesam a alta do Fed precificada e a saída da Strategy de dois índices da MSCI. Semana = vs 06/11."
     }
   ],
   "fita": [
     {
       "nome": "IBOV",
-      "valor": "172.055",
-      "var": 0.43
+      "valor": "172.257",
+      "var": 0.54
     },
     {
       "nome": "USD/BRL",
-      "valor": "5,660",
-      "var": 0.13
+      "valor": "5,655",
+      "var": 0.05
     },
     {
       "nome": "S&P 500",
-      "valor": "7.583",
-      "var": -0.12
+      "valor": "7.561",
+      "var": -0.42
     },
     {
       "nome": "NASDAQ",
-      "valor": "25.267",
-      "var": -0.39
+      "valor": "25.136",
+      "var": -0.91
     },
     {
       "nome": "DOW",
-      "valor": "52.416",
-      "var": 0.23
+      "valor": "52.343",
+      "var": 0.09
     },
     {
       "nome": "VIX",
-      "valor": "18,12",
-      "var": -3.1
+      "valor": "19,71",
+      "var": 5.4
     },
     {
       "nome": "BRENT",
-      "valor": "96,87",
-      "var": 1.0
+      "valor": "95,84",
+      "var": 0.0
     },
     {
       "nome": "OURO",
-      "valor": "3.894",
-      "var": 0.23
+      "valor": "3.889",
+      "var": 0.09
     },
     {
       "nome": "BTC",
-      "valor": "69.259",
-      "var": -4.9
+      "valor": "68.469",
+      "var": -4.7
     },
     {
       "nome": "ETH",
@@ -162,18 +162,18 @@
   "alertas": [
     {
       "nivel": "alerta",
-      "titulo": "Senado aprova texto-base do ajuste fiscal, mas dólar segue a R$ 5,66 e DI longo sobe",
-      "texto": "O Senado aprovou o texto-base do ajuste fiscal por 45 a 31 (impacto de até R$ 60 bi em 2027, segundo o governo; emendas na terça, depois vai à Câmara). O mercado segue cético: o JPMorgan estima até R$ 56,1 bi e recomenda cautela. O Ibovespa sobe ~0,4%, mas o dólar segue perto de R$ 5,66 e o DI jan/31 abriu a 15,135%. Galípolo disse que a incerteza elevada exige cautela."
+      "titulo": "Ajuste fiscal passa no Senado; Ibovespa sobe, mas dólar segue a R$ 5,65",
+      "texto": "O Senado aprovou o texto-base do ajuste fiscal por 45 a 31 (até R$ 60 bi em 2027, segundo o governo; quatro emendas na terça, depois vai à Câmara). O Ibovespa fechou em alta de 0,54% e os DIs longos recuaram à tarde (jan/35 −9 bp), mas o dólar fechou a R$ 5,6549, na máxima desde 2025: o mercado vê o pacote como insuficiente. Galípolo disse que o BC não controla a curva toda."
     },
     {
       "nivel": "alerta",
       "titulo": "Binance: INJ, PLASMA, NEAR e LTC seguem sem saque; BTC abaixo de US$ 70 mil",
-      "texto": "A Binance mantém a meta de reabrir esses saques antes do fim de semana de 14–15/11, sem confirmação até agora. A Justiça dos EUA autorizou apreender ou bloquear mais de US$ 1,2 bi em cripto roubados no ataque de outubro, atribuído pelo FBI à Coreia do Norte. Com o BTC abaixo de US$ 70 mil e mais de US$ 1,3 bi em liquidações em 24h, cuidado com alavancagem. Mercado Bitcoin segue com saques suspensos."
+      "texto": "A Binance tinha meta de reabrir esses saques antes do fim de semana de 14–15/11, sem confirmação até o fechamento de sexta. A Justiça dos EUA autorizou apreender ou bloquear mais de US$ 1,2 bi em cripto roubados no ataque de outubro. Com o BTC a ~US$ 68,5 mil, mais de US$ 1,3 bi em liquidações em 24h e seis dias seguidos de saques nos ETFs, cuidado com alavancagem. Mercado Bitcoin segue com saques suspensos."
     },
     {
       "nivel": "atencao",
-      "titulo": "Treasury de 10 anos a ~5,16% mesmo com PPI abaixo do esperado",
-      "texto": "O PPI de outubro subiu 0,3% no mês (esperado 0,4%), mas 6,5% em 12 meses, maior alta anual desde 2022. Goolsbee disse que o Fed 'tem trabalho a fazer' e a alta de 0,25 pp em 8–9/12 segue precificada. Nvidia oscila após a saída de Jensen Huang (balanço na terça, 17/11) e uma pane global no Microsoft 365 pesa sobre MSFT."
+      "titulo": "Venda de chips derruba o Nasdaq; Treasury de 10 anos a ~5,15%",
+      "texto": "O Nasdaq caiu 0,91% e o S&P 500 0,42%, com AMD (−10%), Broadcom (−6%) e Intel (−5%) após a saída de Jensen Huang da Nvidia (balanço na terça, 17/11); o Dow subiu 0,09%. O PPI de outubro veio abaixo do esperado (+0,3%), mas a 6,5% em 12 meses; o 10 anos foi a ~5,15% e a alta do Fed em dezembro segue precificada. VIX a 19,71, perto de 20."
     }
   ],
   "indicadores": [
@@ -205,8 +205,8 @@
       "nome": "DI janeiro/2031",
       "valor": "15,135%",
       "estado": "neg",
-      "selo": "+3,5 bp na abertura",
-      "agora": "Na abertura de 13/11 (9h13): jan/28 a 14,360% (+7 bp), jan/31 a 15,135% (+3,5 bp) e jan/35 a 15,280%, estendendo a alta de 12/11 (jan/31 +22,5 bp), com o ajuste fiscal visto como insuficiente. Na semana, o jan/31 sobe ~16 bp (vs 14,978% de 05/11).",
+      "selo": "virou para queda à tarde",
+      "agora": "Os DIs abriram 13/11 em alta (jan/31 a 15,135% às 9h13), mas fecharam em queda na maior parte da curva com o PPI americano abaixo do esperado: jan/28 a 14,28% (estável) e jan/35 a 15,155% (−9 bp). Fechamento do jan/31 não localizado. Na semana, o jan/31 ainda sobe ~16 bp (vs 14,978% de 05/11).",
       "o_que_e": "A taxa de juros que o mercado cobra para emprestar ao governo até 2031. Mede o prêmio de risco de longo prazo.",
       "como_ler": "DI longo subindo encarece o valuation das ações, principalmente de empresas de crescimento e ligadas ao consumo. Queda costuma anteceder alta da bolsa."
     },
@@ -214,10 +214,10 @@
       "id": "cambio",
       "grupo": "Brasil",
       "nome": "Dólar comercial",
-      "valor": "R$ ~5,66",
+      "valor": "R$ 5,655",
       "estado": "neg",
-      "selo": "+0,1% no dia (parcial)",
-      "agora": "Perto de R$ 5,66 (+0,13%) às 10h47 de 13/11, máxima em 17 meses, mesmo após o Senado aprovar o texto-base do ajuste fiscal; o JPMorgan vê o pacote como insuficiente. Fechou a R$ 5,652 (+1,62%) em 12/11. Focus de 9/11 projeta R$ 5,35 no fim de 2026.",
+      "selo": "+0,05% no dia",
+      "agora": "Fechou 13/11 a R$ 5,6549 (+0,05%), na máxima desde 2025, mesmo após o Senado aprovar o texto-base do ajuste fiscal; Ptax a R$ 5,6518. Na semana, +3,0%. Focus de 9/11 projeta R$ 5,35 no fim de 2026.",
       "o_que_e": "A cotação do dólar no mercado à vista.",
       "como_ler": "Dólar subindo favorece exportadoras (Suzano, Embraer, petroleiras) e pressiona a inflação e as empresas endividadas em moeda estrangeira."
     },
@@ -239,7 +239,7 @@
       "valor": "3,75–4,00%",
       "estado": "neg",
       "selo": "alta em dez. precificada",
-      "agora": "O mercado precifica alta de 0,25 pp em 8–9/12. O PPI de outubro veio abaixo do esperado (+0,3% no mês), mas subiu 6,5% em 12 meses; Goolsbee disse que o Fed 'tem trabalho a fazer'. Hoje ainda falam Bowman, Daly e Jefferson. Ata de outubro em 18/11.",
+      "agora": "O mercado precifica alta de 0,25 pp em 8–9/12. O PPI de outubro veio abaixo do esperado (+0,3% no mês), mas subiu 6,5% em 12 meses; Goolsbee disse que o Fed 'tem trabalho a fazer'. Ata de outubro em 18/11.",
       "o_que_e": "A taxa básica de juros dos EUA, definida pelo Fomc.",
       "como_ler": "Juros altos nos EUA atraem capital para lá e tendem a fortalecer o dólar contra moedas emergentes como o real."
     },
@@ -258,10 +258,10 @@
       "id": "treasury",
       "grupo": "EUA",
       "nome": "Treasury 10 anos",
-      "valor": "~5,16%",
+      "valor": "~5,15%",
       "estado": "neg",
-      "selo": "+6 bp hoje",
-      "agora": "O 10 anos sobe a ~5,16% (+6 bp) na manhã de 13/11, depois de fechar a 5,105% em 12/11, maior nível desde outubro, com a aposta de alta do Fed em dezembro.",
+      "selo": "+5 bp hoje",
+      "agora": "O 10 anos subiu a ~5,15% em 13/11 (de 5,10% em 12/11), tocando 5,17%, maior nível desde outubro, com a aposta de alta do Fed em dezembro.",
       "o_que_e": "O rendimento do título de 10 anos do governo americano, referência global de juros.",
       "como_ler": "Acima de 4,5% os juros pesam sobre as ações no mundo todo. Quedas costumam aliviar a bolsa brasileira e o real."
     },
@@ -269,10 +269,10 @@
       "id": "vix",
       "grupo": "Global",
       "nome": "VIX",
-      "valor": "18,12",
+      "valor": "19,71",
       "estado": "pos",
-      "selo": "−3% hoje",
-      "agora": "Recua a 18,12 (−3,1%) na abertura de 13/11, depois de fechar a 18,71 (+7%) em 12/11 com a saída de Jensen Huang da Nvidia; segue abaixo de 20.",
+      "selo": "+5,4% hoje",
+      "agora": "Subiu a 19,71 (+5,4%) no início da tarde de 13/11, com a venda de chips após a saída de Jensen Huang da Nvidia; segue abaixo de 20, mas no limite.",
       "o_que_e": "O índice de volatilidade implícita do S&P 500, conhecido como o índice do medo.",
       "como_ler": "Abaixo de 15 indica calma, entre 15 e 20 é normal, e acima de 20 o mercado está estressado. Picos costumam vir com fuga de emergentes."
     },
@@ -280,10 +280,10 @@
       "id": "brent",
       "grupo": "Global",
       "nome": "Petróleo Brent",
-      "valor": "US$ 96,87",
+      "valor": "US$ 95,84",
       "estado": "neutro",
-      "selo": "+1% hoje",
-      "agora": "US$ 96,87 (+1%) às 11h43 de 13/11, depois de fechar a US$ 95,82 (+3,3%) em 12/11. A AIE ainda prevê excedente global no 4T; o mercado acompanha as tensões com o Irã.",
+      "selo": "estável hoje",
+      "agora": "Fechou 13/11 a US$ 95,84, praticamente estável ante US$ 95,82 de 12/11. A AIE ainda prevê excedente global no 4T; o mercado acompanha as tensões com o Irã.",
       "o_que_e": "A referência internacional de preço do petróleo.",
       "como_ler": "Brent alto favorece PETR4, PRIO3 e BRAV3, mas pressiona a inflação e os custos de aéreas e logística."
     },
@@ -291,10 +291,10 @@
       "id": "ouro",
       "grupo": "Global",
       "nome": "Ouro",
-      "valor": "US$ 3.894",
+      "valor": "US$ 3.889",
       "estado": "neutro",
-      "selo": "+0,2% hoje",
-      "agora": "US$ 3.894 (+0,23%) na manhã de 13/11, estável depois da queda de 2,8% em 12/11, ainda abaixo de US$ 4.000 com Treasuries acima de 5%.",
+      "selo": "+0,1% hoje",
+      "agora": "US$ 3.889 (+0,09%) no início da tarde de 13/11, estável depois da queda de 2,8% em 12/11, abaixo de US$ 4.000 com Treasuries acima de 5%.",
       "o_que_e": "O preço da onça-troy de ouro.",
       "como_ler": "Ouro subindo sinaliza busca por proteção. Quedas fortes junto com bolsas podem indicar venda forçada para cobrir perdas."
     }
@@ -303,9 +303,9 @@
     "itens": [
       {
         "nome": "BTC",
-        "valor": "US$ 69.259",
-        "var": -4.9,
-        "nota": "Abaixo de US$ 70 mil pela primeira vez desde agosto (US$ 69.259 às 9h25; mínima perto de US$ 67,5 mil). Mais de US$ 1,3 bi em liquidações em 24h, ~89% compradas. Pesam a alta do Fed em dezembro, a exclusão da Strategy (MSTR) de dois índices da MSCI e os saques dos ETFs à vista."
+        "valor": "US$ 68.469",
+        "var": -4.7,
+        "nota": "US$ 68.469 (−4,7% em 24h) às 14h22 de 13/11, abaixo de US$ 70 mil pela primeira vez desde agosto (mínima perto de US$ 67,5 mil). Mais de US$ 1,3 bi em liquidações em 24h e sexto dia seguido de saques nos ETFs à vista. Pesam a alta do Fed em dezembro e a exclusão da Strategy (MSTR) de dois índices da MSCI."
       },
       {
         "nome": "ETH",
@@ -475,6 +475,12 @@
       "ibov": 170700,
       "dolar": 5.6507,
       "btc": 71545
+    },
+    {
+      "data": "2026-11-13",
+      "ibov": 172257,
+      "dolar": 5.6549,
+      "btc": 68469
     }
   ],
   "fontes": [
@@ -570,7 +576,7 @@
           }
         ]
       },
-      "leitura": "Os DIs abriram 13/11 em nova alta (jan/31 a 15,135%, jan/35 a 15,28%), estendendo a disparada de 12/11, mesmo com o Senado aprovando o texto-base do ajuste fiscal: o mercado vê o pacote (até R$ 60 bi em 2027) como insuficiente. Galípolo disse que a incerteza elevada exige cautela. A curva segue bem acima da Selic de 13,75%."
+      "leitura": "Os DIs abriram 13/11 em alta, mas fecharam em queda na maior parte da curva (jan/35 a 15,155%, −9 bp; jan/28 estável a 14,28%), com o PPI americano abaixo do esperado e realização após dias de alta. O mercado segue vendo o ajuste fiscal aprovado no Senado (até R$ 60 bi em 2027) como insuficiente; Galípolo disse que o BC não controla a curva toda. A curva segue bem acima da Selic de 13,75%."
     },
     "eua": {
       "fed": "3,75–4,00%",
@@ -606,7 +612,7 @@
           }
         ]
       },
-      "leitura": "O PPI de outubro veio abaixo do esperado (+0,3% no mês; 6,5% em 12 meses), mas o 10 anos sobe a ~5,16% e a alta de 0,25 pp em dezembro segue precificada; Goolsbee disse que o Fed 'tem trabalho a fazer'. Em 12/11 o 10 anos fechou a 5,105% e o DXY foi a 103,18, máxima de 19 meses."
+      "leitura": "O PPI de outubro veio abaixo do esperado (+0,3% no mês; 6,5% em 12 meses), mas o 10 anos subiu a ~5,15% (de 5,10%) e a alta de 0,25 pp em dezembro segue precificada; Goolsbee disse que o Fed 'tem trabalho a fazer'."
     },
     "credito_eua": {
       "hy_oas": 3.14,
