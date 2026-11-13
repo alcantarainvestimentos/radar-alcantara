@@ -679,6 +679,14 @@
   },
   "noticias_radar": [
     {
+      "cat": "cripto",
+      "title": "Justiça mantém ordem para Brasil Bitcoin reverter transferência de clientes e ativos; multa de R$ 100 mil por dia",
+      "link": "https://bitnoticias.com.br/noticias/justica-rejeita-recurso-de-socios-da-brasil-bitcoin",
+      "src": "BitNotícias",
+      "t": "2026-11-12T20:04:00-03:00",
+      "viral": true
+    },
+    {
       "cat": "acoes",
       "title": "Dólar dispara 1,17%, a R$ 5,626, com mercado insatisfeito com pacote fiscal; Ibovespa recua e BB afunda",
       "link": "https://jornaldebrasilia.com.br/noticias/economia/dolar-sobe-e-ibovespa-cai-em-meio-a-insatisfacao-do-mercado-com-pacote-fiscal/",
@@ -818,20 +826,6 @@
       "link": "https://cryptoticker.io/en/bitcoin-price-us-cpi-no-annual-rate/",
       "src": "CryptoTicker",
       "t": "2026-11-10T05:21:40+00:00"
-    },
-    {
-      "cat": "acoes",
-      "title": "Ibovespa sobe 2,22% e fecha a 172.236 pontos; dólar recua 0,06%, a R$ 5,505",
-      "link": "https://br.bossanews.com/ibovespa-sobe-222-dolar-recua-e-fecha-cotado-a-r-550/",
-      "src": "BossaNews",
-      "t": "2026-11-09T20:40:00-03:00"
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin fica de lado a US$ 74,8 mil enquanto Nasdaq sobe quase 3%; ETF de ether da BlackRock cai 4,5%",
-      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/09/crypto-market-today-nov-9-bitcoin-and-ethereum-lag-as-nasdaq-surges-nearly-3/",
-      "src": "Motley Fool",
-      "t": "2026-11-09T17:20:00-05:00"
     }
   ],
   "incidentes": [
