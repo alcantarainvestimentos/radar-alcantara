@@ -680,6 +680,14 @@
   "noticias_radar": [
     {
       "cat": "cripto",
+      "title": "Bitcoin derrete 6% e cai abaixo de US$ 70 mil; US$ 1,3 bi liquidados em 24h e medo extremo domina",
+      "link": "https://cryptoticker.io/en/crypto-news-bitcoin-crash-liquidations-etf-outflows-november-13-2026/",
+      "src": "CryptoTicker",
+      "t": "2026-11-13T07:46:00+00:00",
+      "viral": true
+    },
+    {
+      "cat": "cripto",
       "title": "Justiça mantém ordem para Brasil Bitcoin reverter transferência de clientes e ativos; multa de R$ 100 mil por dia",
       "link": "https://bitnoticias.com.br/noticias/justica-rejeita-recurso-de-socios-da-brasil-bitcoin",
       "src": "BitNotícias",
@@ -812,20 +820,6 @@
       "link": "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3",
       "src": "CoinDesk",
       "t": "2026-11-10T08:32:00-05:00"
-    },
-    {
-      "cat": "acoes",
-      "title": "Futuros em NY mistos antes do CPI de outubro: Dow +0,5%, Nasdaq-100 recua; petróleo cai mais de 2%",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html",
-      "src": "Yahoo Finance",
-      "t": "2026-11-10T01:06:00-08:00"
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin a US$ 74,6 mil segura média de 200 dias antes do CPI dos EUA; mercado vê 65%–81% de chance de alta do Fed",
-      "link": "https://cryptoticker.io/en/bitcoin-price-us-cpi-no-annual-rate/",
-      "src": "CryptoTicker",
-      "t": "2026-11-10T05:21:40+00:00"
     }
   ],
   "incidentes": [
