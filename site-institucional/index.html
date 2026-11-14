@@ -62,6 +62,8 @@ nav .btn{padding:10px 18px;font-size:.86rem}
 
 /* hero */
 .hero{position:relative;overflow:hidden}
+.hero .wm{position:absolute;left:50%;bottom:0;transform:translateX(-50%);width:min(1400px,140%);height:auto;opacity:.07;pointer-events:none;z-index:0}
+.hero>.wrap{position:relative;z-index:1}
 .hero::after{content:"";position:absolute;inset:0;pointer-events:none;
   background:radial-gradient(55% 70% at 88% 18%,rgba(214,175,92,.11),transparent 70%),
              repeating-linear-gradient(90deg,transparent 0 119px,rgba(214,175,92,.03) 119px 120px)}
@@ -201,7 +203,7 @@ h2.sec{font-family:var(--serif);font-weight:500;font-size:clamp(2rem,3.8vw,3rem)
 .origin-word{font-family:var(--serif);font-size:2rem;color:var(--cream);margin:0 0 10px}
 .origin-word em{color:var(--gold)}
 .origin-txt{color:var(--muted);font-size:.95rem;margin:0}
-.about .seal{margin-top:36px;width:120px;height:115px;background:var(--emblem) center/contain no-repeat;opacity:.9}
+.about .seal{margin-top:36px;width:100%;max-width:560px;aspect-ratio:900/320;height:auto;background:url(ponte.svg) center/contain no-repeat;opacity:.95}
 .about .txt p{color:var(--muted);margin:0 0 18px;max-width:62ch}
 .about .txt p:first-child{color:var(--cream);font-size:1.12rem}
 .about .meta{display:grid;grid-template-columns:auto minmax(0,1fr);gap:11px 20px;margin:30px 0 0;padding-top:22px;border-top:1px solid var(--line);font-size:.9rem}
@@ -283,7 +285,6 @@ footer .legal{border-top:1px solid var(--line);padding-block:22px;display:flex;j
   .fact:nth-child(n+3){border-top:1px solid var(--line)}
   footer .grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
   footer .grid>div:first-child{grid-column:1/-1}
-  .about .seal{display:none}
 }
 @media (max-width:560px){
   body{font-size:15.5px}
@@ -334,6 +335,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:22px;display:flex;j
 
 <main id="inicio">
   <div class="hero">
+    <img class="wm" src="ponte.svg" alt="" aria-hidden="true">
     <div class="wrap">
       <div>
         <p class="eyebrow">Câmbio · Mesa OTC · Stablecoins</p>
