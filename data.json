@@ -685,6 +685,14 @@
   },
   "noticias_radar": [
     {
+      "cat": "acoes",
+      "title": "Dólar fecha a R$ 5,655, maior cotação de 2026 e nível mais alto desde junho de 2025; Ibovespa sobe 0,66%",
+      "link": "https://www.cruzeirofm.com.br/2026/11/13/economia/dolar-fecha-na-maior-cotacao-de-2026-enquanto-ibovespa-sobe-066/",
+      "src": "Cruzeiro FM",
+      "t": "2026-11-13T18:40:00-03:00",
+      "viral": true
+    },
+    {
       "cat": "cripto",
       "title": "FBI desmonta golpe norte-coreano 'FaceStealer' que roubou US$ 400 mi em cripto com vídeos falsos de webcam",
       "link": "https://hackread.com/fbi-disrupts-north-korean-facestealer-crypto-theft/",
@@ -816,13 +824,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-futures-035115158.html",
       "src": "Yahoo Finance",
       "t": "2026-11-10T19:51:00-08:00"
-    },
-    {
-      "cat": "acoes",
-      "title": "Ibovespa cai 0,52%, a 171.337 pontos, e dólar sobe 1,47%, a R$ 5,586, maior nível desde julho de 2025",
-      "link": "https://investnews.com.br/investimentos/ibovespa-fecha-queda-10-11-2026/",
-      "src": "InvestNews",
-      "t": "2026-11-10T19:18:00-03:00"
     }
   ],
   "incidentes": [
