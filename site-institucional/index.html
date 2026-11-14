@@ -62,8 +62,8 @@ nav .btn{padding:10px 18px;font-size:.86rem}
 
 /* hero */
 .hero{position:relative;overflow:hidden}
-.hero .wm{position:absolute;left:50%;top:52%;transform:translate(-50%,-50%);width:min(1400px,140%);height:auto;opacity:.12;pointer-events:none;z-index:0}
 .hero>.wrap{position:relative;z-index:1}
+.wm-fixo{position:fixed;left:50%;bottom:0;transform:translateX(-50%);width:min(1400px,140%);height:auto;opacity:.08;pointer-events:none;z-index:4}
 .hero::after{content:"";position:absolute;inset:0;pointer-events:none;
   background:radial-gradient(55% 70% at 88% 18%,rgba(214,175,92,.11),transparent 70%),
              repeating-linear-gradient(90deg,transparent 0 119px,rgba(214,175,92,.03) 119px 120px)}
@@ -316,6 +316,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:22px;display:flex;j
 </style>
 </head>
 <body>
+<img class="wm-fixo" src="ponte.svg" alt="" aria-hidden="true">
 <header class="top">
   <div class="wrap">
     <a class="brand" href="#inicio" aria-label="Alcantara Investimentos, início">
@@ -335,7 +336,6 @@ footer .legal{border-top:1px solid var(--line);padding-block:22px;display:flex;j
 
 <main id="inicio">
   <div class="hero">
-    <img class="wm" src="ponte.svg" alt="" aria-hidden="true">
     <div class="wrap">
       <div>
         <p class="eyebrow">Câmbio · Mesa OTC · Stablecoins</p>
