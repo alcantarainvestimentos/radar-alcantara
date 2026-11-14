@@ -685,11 +685,27 @@
   },
   "noticias_radar": [
     {
+      "cat": "cripto",
+      "title": "Bitcoin afunda abaixo de US$ 67 mil, menor nível em quase 3 meses; ether perde US$ 1.900 e XRP cai abaixo de US$ 1",
+      "link": "https://cryptopotato.com/btc-dives-below-67k-as-xrp-breaks-under-1-00-in-fresh-crypto-sell-off-weekend-watch/",
+      "src": "CryptoPotato",
+      "t": "2026-11-14T06:09:39+00:00",
+      "viral": true
+    },
+    {
       "cat": "acoes",
       "title": "Dólar fecha a R$ 5,655, maior cotação de 2026 e nível mais alto desde junho de 2025; Ibovespa sobe 0,66%",
       "link": "https://www.cruzeirofm.com.br/2026/11/13/economia/dolar-fecha-na-maior-cotacao-de-2026-enquanto-ibovespa-sobe-066/",
       "src": "Cruzeiro FM",
       "t": "2026-11-13T18:40:00-03:00",
+      "viral": true
+    },
+    {
+      "cat": "acoes",
+      "title": "AMD desaba 8,75% e Nvidia cai mais 2% após saída de Jensen Huang; Nasdaq 100 recua 1,2%",
+      "link": "https://www.stocktitan.net/articles/stock-market-today-live-november-13-2026",
+      "src": "StockTitan",
+      "t": "2026-11-13T16:17:00-05:00",
       "viral": true
     },
     {
@@ -810,20 +826,6 @@
       "src": "CoinDesk",
       "t": "2026-11-11T07:19:30-05:00",
       "viral": true
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin a US$ 73,7 mil fica 0,8% acima da média de 200 dias; IBIT soma 7 pregões de saídas, US$ 1,66 bi",
-      "link": "https://cryptoticker.io/en/bitcoin-price-ibit-outflows-200-day-moving-average/",
-      "src": "CryptoTicker",
-      "t": "2026-11-11T05:13:27+00:00"
-    },
-    {
-      "cat": "acoes",
-      "title": "Futuros em NY sobem, Nasdaq-100 +1,2%, com CoreWeave saltando 17% após balanço; Nvidia caiu 5,5% na terça",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-futures-035115158.html",
-      "src": "Yahoo Finance",
-      "t": "2026-11-10T19:51:00-08:00"
     }
   ],
   "incidentes": [
