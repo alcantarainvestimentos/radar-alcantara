@@ -690,7 +690,8 @@
    "link": "https://www.al-monitor.com/originals/2026/11/france-says-iran-behind-unprecedented-cyberattacks-fridges",
    "src": "Al-Monitor",
    "t": "2026-11-14T15:50:00+00:00",
-   "viral": true
+   "viral": true,
+   "score": 5
   },
   {
    "cat": "acoes",
@@ -698,7 +699,8 @@
    "link": "https://investnews.com.br/negocios/ataque-hacker-porto-de-santos/",
    "src": "InvestNews",
    "t": "2026-11-14T15:50:00+00:00",
-   "viral": true
+   "viral": true,
+   "score": 5
   },
   {
    "cat": "cripto",
@@ -706,7 +708,7 @@
    "link": "https://stablecoininsider.org/bitcoin-etf-outflows-seven-days",
    "src": "Stablecoin Insider",
    "t": "2026-11-14T13:23:03+00:00",
-   "viral": true
+   "score": 3
   },
   {
    "cat": "cripto",
@@ -714,7 +716,7 @@
    "link": "https://cryptopotato.com/btc-dives-below-67k-as-xrp-breaks-under-1-00-in-fresh-crypto-sell-off-weekend-watch/",
    "src": "CryptoPotato",
    "t": "2026-11-14T06:09:39+00:00",
-   "viral": true
+   "score": 3
   },
   {
    "cat": "acoes",
@@ -722,7 +724,7 @@
    "link": "https://www.cruzeirofm.com.br/2026/11/13/economia/dolar-fecha-na-maior-cotacao-de-2026-enquanto-ibovespa-sobe-066/",
    "src": "Cruzeiro FM",
    "t": "2026-11-13T18:40:00-03:00",
-   "viral": true
+   "score": 3
   },
   {
    "cat": "acoes",
@@ -730,7 +732,7 @@
    "link": "https://www.stocktitan.net/articles/stock-market-today-live-november-13-2026",
    "src": "StockTitan",
    "t": "2026-11-13T16:17:00-05:00",
-   "viral": true
+   "score": 3
   },
   {
    "cat": "cripto",
@@ -738,7 +740,8 @@
    "link": "https://hackread.com/fbi-disrupts-north-korean-facestealer-crypto-theft/",
    "src": "Hackread",
    "t": "2026-11-13T14:17:00+00:00",
-   "viral": true
+   "viral": true,
+   "score": 5
   },
   {
    "cat": "acoes",
@@ -746,7 +749,7 @@
    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/",
    "src": "InfoMoney",
    "t": "2026-11-13T09:05:00-03:00",
-   "viral": true
+   "score": 3
   },
   {
    "cat": "cripto",
@@ -754,7 +757,7 @@
    "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/us-seizes-1-billion-north-korea-binance-crypto",
    "src": "Bitdefender",
    "t": "2026-11-13T12:00:00+00:00",
-   "viral": true
+   "score": 4
   },
   {
    "cat": "cripto",
@@ -762,7 +765,7 @@
    "link": "https://cryptoticker.io/en/crypto-news-bitcoin-crash-liquidations-etf-outflows-november-13-2026/",
    "src": "CryptoTicker",
    "t": "2026-11-13T07:46:00+00:00",
-   "viral": true
+   "score": 3
   },
   {
    "cat": "cripto",
@@ -770,7 +773,7 @@
    "link": "https://bitnoticias.com.br/noticias/justica-rejeita-recurso-de-socios-da-brasil-bitcoin",
    "src": "BitNotícias",
    "t": "2026-11-12T20:04:00-03:00",
-   "viral": true
+   "score": 4
   },
   {
    "cat": "acoes",
@@ -778,7 +781,7 @@
    "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-dispara-158-e-fecha-r-565-maior-nivel-em-17-meses",
    "src": "Agência Brasil",
    "t": "2026-11-12T19:35:00-03:00",
-   "viral": true
+   "score": 3
   },
   {
    "cat": "acoes",
@@ -786,7 +789,7 @@
    "link": "https://jornaldebrasilia.com.br/noticias/economia/dolar-sobe-e-ibovespa-cai-em-meio-a-insatisfacao-do-mercado-com-pacote-fiscal/",
    "src": "Jornal de Brasília",
    "t": "2026-11-12T15:12:00-03:00",
-   "viral": true
+   "score": 3
   },
   {
    "cat": "cripto",
@@ -794,7 +797,7 @@
    "link": "https://news.bitcoin.com/market-updates/bitcoin-price-breaks-below-72k-656m-liquidation-bloodbath/",
    "src": "Bitcoin.com",
    "t": "2026-11-12T09:36:00-05:00",
-   "viral": true
+   "score": 3
   },
   {
    "cat": "acoes",
@@ -802,7 +805,7 @@
    "link": "https://www.tomshardware.com/tech-industry/nvidia-confirms-jensen-huang-has-resigned-as-ceo-colette-kress-executive-vice-president-and-chief-financial-officer-appointed-interim-ceo",
    "src": "Tom's Hardware",
    "t": "2026-11-12T14:20:00+00:00",
-   "viral": true
+   "score": 4
   },
   {
    "cat": "acoes",
@@ -810,7 +813,7 @@
    "link": "https://br.investing.com/news/stock-market-news/ibovespa-recua-mais-de-1-na-abertura-com-tombo-de-bb-2125134",
    "src": "Reuters/Investing",
    "t": "2026-11-12T10:18:00-03:00",
-   "viral": true
+   "score": 4
   },
   {
    "cat": "cripto",
@@ -818,7 +821,7 @@
    "link": "https://www.coindesk.com/daybook-us/2026/11/12/bitcoin-weakness-erases-september-s-bullish-signal",
    "src": "CoinDesk",
    "t": "2026-11-12T12:15:00+00:00",
-   "viral": true
+   "score": 3
   },
   {
    "cat": "cripto",
@@ -826,14 +829,15 @@
    "link": "https://cointelegraph.com/news/binance-cso-foreshadowed-6b-hack-tactic-months-before-attack",
    "src": "Cointelegraph",
    "t": "2026-11-12T05:07:11+00:00",
-   "viral": true
+   "score": 4
   },
   {
    "cat": "acoes",
    "title": "Ibovespa fecha em alta e dólar cai 0,43%, a R$ 5,562, com pacote que pode cortar até R$ 80 bi em gastos em 2027",
    "link": "https://ncnews.com.br/2026/11/11/bolsa-fecha/",
    "src": "NC News",
-   "t": "2026-11-11T18:34:00-03:00"
+   "t": "2026-11-11T18:34:00-03:00",
+   "score": 3
   }
  ],
  "incidentes": [
@@ -881,14 +885,15 @@
    "id": "nubank-mercadopago-2026-11-06",
    "plataforma": "Nubank e Mercado Pago",
    "titulo": "Nubank normalizou depósitos e saques de cripto na noite de 6/11; Mercado Pago segue sem previsão",
-   "status": "parcialmente normalizado",
+   "status": "encerrado",
    "t_detectado": "2026-11-06T20:35:00Z",
-   "t_atualizado": "2026-11-07T16:35:00Z",
+   "t_atualizado": "2026-11-14T16:30:00-03:00",
    "fontes": [
     "https://www.metropoles.com/brasil/entenda-por-que-nubank-e-mercado-pago-suspenderam-saques-de-cripto",
     "https://www.cnnbrasil.com.br/economia/money/tecnologia/mercado-pago-suspende-transferencias-de-criptomoedas/",
     "https://www.seudinheiro.com/2026/economia/nubank-volta-a-liberar-operacoes-com-criptomoedas-veja-o-que-diz-a-fintech-miql/"
-   ]
+   ],
+   "tipo": "financeiro"
   },
   {
    "id": "mercadobitcoin-2026-11-02",
@@ -900,7 +905,8 @@
    "fontes": [
     "https://www.otempo.com.br/economia/2026/11/6/mercado-bitcoin-reabre-na-segunda-9-so-para-consulta-de-saldo-saques-seguem-suspensos",
     "https://www.bloomberglinea.com.br/crypto/mercado-bitcoin-sofre-ataque-hacker-de-us-40-mi-mas-descarta-perdas-para-clientes/"
-   ]
+   ],
+   "tipo": "financeiro"
   },
   {
    "id": "binance-2026-10",
@@ -911,7 +917,8 @@
    "t_atualizado": "2026-11-06T14:30:00Z",
    "fontes": [
     "https://acritica.net/economia/binance-retoma-saques-em-fases-e-diz-ter-reposto-95-por-cento-das-perdas-com-ataque-hacker/"
-   ]
+   ],
+   "tipo": "financeiro"
   },
   {
    "id": "nvidia-ceo-2026-11-08",
