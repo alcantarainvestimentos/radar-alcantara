@@ -686,6 +686,14 @@
   "noticias_radar": [
     {
       "cat": "cripto",
+      "title": "ETFs de bitcoin sangram US$ 1,91 bi em 7 dias seguidos de saques; BTC cai a US$ 66,5 mil, menor nível desde agosto",
+      "link": "https://stablecoininsider.org/bitcoin-etf-outflows-seven-days",
+      "src": "Stablecoin Insider",
+      "t": "2026-11-14T13:23:03+00:00",
+      "viral": true
+    },
+    {
+      "cat": "cripto",
       "title": "Bitcoin afunda abaixo de US$ 67 mil, menor nível em quase 3 meses; ether perde US$ 1.900 e XRP cai abaixo de US$ 1",
       "link": "https://cryptopotato.com/btc-dives-below-67k-as-xrp-breaks-under-1-00-in-fresh-crypto-sell-off-weekend-watch/",
       "src": "CryptoPotato",
@@ -810,22 +818,6 @@
       "link": "https://ncnews.com.br/2026/11/11/bolsa-fecha/",
       "src": "NC News",
       "t": "2026-11-11T18:34:00-03:00"
-    },
-    {
-      "cat": "acoes",
-      "title": "Petrobras derrete até 2,7% após lucro de R$ 39,75 bi decepcionar em dividendos; Ibovespa sobe com ajuste fiscal",
-      "link": "https://investnews.com.br/investimentos/petrobras-cai-ibovespa-hoje-sobe/",
-      "src": "InvestNews",
-      "t": "2026-11-11T11:45:00-03:00",
-      "viral": true
-    },
-    {
-      "cat": "cripto",
-      "title": "Liquidações em cripto saltam 288%, a US$ 725 mi; USDT encolhe US$ 6,6 bi em 60 dias, maior queda desde 2022",
-      "link": "https://www.coindesk.com/daybook-us/2026/11/11/bitcoin-barely-flinches-at-hot-cpi-as-etf-selling-slows",
-      "src": "CoinDesk",
-      "t": "2026-11-11T07:19:30-05:00",
-      "viral": true
     }
   ],
   "incidentes": [
