@@ -685,6 +685,23 @@
   },
   "noticias_radar": [
     {
+      "cat": "cripto",
+      "title": "Bitcoin desaba 6,6% para US$ 63,5 mil e ether perde 9%; mercado já vê 88,5% de chance de alta de juros do Fed",
+      "link": "https://cryptoticker.io/en/crypto-news-bitcoin-falls-to-63500-fed-hike-bets-november-14-2026/",
+      "src": "CryptoTicker",
+      "t": "2026-11-14T23:36:10+00:00",
+      "score": 3
+    },
+    {
+      "cat": "cripto",
+      "title": "Hacker drena US$ 3,8 mi do Kava Lend e token KAVA despenca quase 40%; exchanges suspendem saques",
+      "link": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350",
+      "src": "The Block",
+      "t": "2026-11-14T18:07:00-05:00",
+      "score": 4,
+      "viral": true
+    },
+    {
       "cat": "acoes",
       "title": "França acusa Guarda Revolucionária do Irã de hackear freezers de 700 supermercados; ataques chegam a 10 países",
       "link": "https://www.al-monitor.com/originals/2026/11/france-says-iran-behind-unprecedented-cyberattacks-fridges",
@@ -839,14 +856,6 @@
       "src": "Cointelegraph",
       "t": "2026-11-12T05:07:11+00:00",
       "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Ibovespa fecha em alta e dólar cai 0,43%, a R$ 5,562, com pacote que pode cortar até R$ 80 bi em gastos em 2027",
-      "link": "https://ncnews.com.br/2026/11/11/bolsa-fecha/",
-      "src": "NC News",
-      "t": "2026-11-11T18:34:00-03:00",
-      "score": 3
     }
   ],
   "incidentes": [
