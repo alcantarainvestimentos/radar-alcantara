@@ -167,8 +167,8 @@
     },
     {
       "nivel": "alerta",
-      "titulo": "Binance: INJ, PLASMA, NEAR e LTC seguem sem saque; BTC abaixo de US$ 70 mil",
-      "texto": "A Binance tinha meta de reabrir esses saques antes do fim de semana de 14–15/11, sem confirmação até o fechamento de sexta. A Justiça dos EUA autorizou apreender ou bloquear mais de US$ 1,2 bi em cripto roubados no ataque de outubro. Com o BTC a ~US$ 68,5 mil, mais de US$ 1,3 bi em liquidações em 24h e seis dias seguidos de saques nos ETFs, cuidado com alavancagem. Mercado Bitcoin segue com saques suspensos."
+      "titulo": "BTC cai a ~US$ 62 mil, menor nível desde julho; Binance ainda com saques parciais",
+      "texto": "Segundo a Bloomberg (15/11), o bitcoin chegou perto de US$ 62 mil no fim de semana, a mínima desde julho, após cerca de US$ 3 bi em saídas de ETFs à vista nos EUA (30/10–13/11), saída de ~US$ 20 bi em stablecoins no mês e juros longos acima de 5%. Mercado de fim de semana: impacto esperado na abertura de segunda. INJ, PLASMA, NEAR e LTC seguiam sem saque na Binance até sexta (sem confirmação de reabertura) e o Mercado Bitcoin segue com saques suspensos. Cuidado com alavancagem e com golpes que exploram o pânico."
     },
     {
       "nivel": "atencao",
@@ -686,6 +686,14 @@
   "noticias_radar": [
     {
       "cat": "cripto",
+      "title": "Bitcoin cai perto de US$ 62 mil, menor nível desde julho, e cripto vive 'venda em câmera lenta'",
+      "link": "https://www.business-standard.com/markets/cryptocurrency/crypto-s-slow-motion-selloff-leaves-investors-weary-as-bitcoin-nears-lows-126111500203_1.html",
+      "src": "Bloomberg / Business Standard",
+      "t": "2026-11-15T09:00:00Z",
+      "viral": true
+    },
+    {
+      "cat": "cripto",
       "title": "Bitcoin afunda rumo a US$ 62 mil, menor nível desde julho; ETFs perdem quase US$ 3 bi em duas semanas",
       "link": "https://www.bloomberg.com/news/articles/2026-11-15/crypto-s-slow-motion-selloff-leaves-traders-weary-and-hopeless",
       "src": "Bloomberg",
@@ -932,9 +940,10 @@
       "titulo": "Ataque de US$ 6,3 bi; retomada de saques em fases (fase 9 em 6/11)",
       "status": "retomada em fases",
       "t_detectado": "2026-11-06T14:30:00Z",
-      "t_atualizado": "2026-11-06T14:30:00Z",
+      "t_atualizado": "2026-11-15T09:00:00Z",
       "fontes": [
-        "https://acritica.net/economia/binance-retoma-saques-em-fases-e-diz-ter-reposto-95-por-cento-das-perdas-com-ataque-hacker/"
+        "https://acritica.net/economia/binance-retoma-saques-em-fases-e-diz-ter-reposto-95-por-cento-das-perdas-com-ataque-hacker/",
+        "https://www.business-standard.com/markets/cryptocurrency/crypto-s-slow-motion-selloff-leaves-investors-weary-as-bitcoin-nears-lows-126111500203_1.html"
       ],
       "tipo": "financeiro"
     },
