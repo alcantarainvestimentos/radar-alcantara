@@ -686,6 +686,22 @@
   "noticias_radar": [
     {
       "cat": "cripto",
+      "title": "Corretora sul-coreana Coinone admite vazamento: senhas, documentos e dados bancários de clientes podem ter sido expostos",
+      "link": "https://thecryptobasic.com/2026/11/15/tcb-daily-edition-what-happened-in-crypto-on-november-15-2026/",
+      "src": "The Crypto Basic",
+      "t": "2026-11-15T12:00:00+00:00",
+      "score": 3
+    },
+    {
+      "cat": "acoes",
+      "title": "Nvidia encara 1º balanço sem Jensen Huang na terça, após tombo; Anthropic mira IPO de até US$ 1,45 trilhão",
+      "link": "https://finance.yahoo.com/markets/article/nvidias-first-post-jensen-earnings-and-anthropics-ipo-what-to-watch-this-week-110000732.html",
+      "src": "Yahoo Finance",
+      "t": "2026-11-15T03:00:00-08:00",
+      "score": 4
+    },
+    {
+      "cat": "cripto",
       "title": "Bitcoin afunda rumo a US$ 62 mil, menor nível desde julho; ETFs perdem quase US$ 3 bi em duas semanas",
       "link": "https://www.bloomberg.com/news/articles/2026-11-15/crypto-s-slow-motion-selloff-leaves-traders-weary-and-hopeless",
       "src": "Bloomberg",
@@ -823,14 +839,6 @@
       "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-dispara-158-e-fecha-r-565-maior-nivel-em-17-meses",
       "src": "Agência Brasil",
       "t": "2026-11-12T19:35:00-03:00",
-      "score": 3
-    },
-    {
-      "cat": "acoes",
-      "title": "Dólar dispara 1,17%, a R$ 5,626, com mercado insatisfeito com pacote fiscal; Ibovespa recua e BB afunda",
-      "link": "https://jornaldebrasilia.com.br/noticias/economia/dolar-sobe-e-ibovespa-cai-em-meio-a-insatisfacao-do-mercado-com-pacote-fiscal/",
-      "src": "Jornal de Brasília",
-      "t": "2026-11-12T15:12:00-03:00",
       "score": 3
     }
   ],
