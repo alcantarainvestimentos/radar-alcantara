@@ -1,48 +1,48 @@
 {
-  "atualizado_em": "2026-11-13T18:45:00-03:00",
-  "referencia": "Fechamento de sexta, 13/11/2026",
+  "atualizado_em": "2026-11-16T12:45:00-03:00",
+  "referencia": "Pregão de segunda, 16/11/2026 (parcial às 12h37)",
   "postura": {
     "estado": "RISK-OFF",
-    "positivos": 2,
+    "positivos": 0,
     "total": 6,
     "desde": "2026-11-13",
-    "conviccao": "MÉDIA",
-    "resumo": "Postura RISK-OFF, com 2 de 6 sinais positivos (Ibovespa em 5 pregões e VIX abaixo de 20, mas já perto do limite, a 19,71). O Ibovespa fechou em alta de 0,54% (172.257 pts) após o Senado aprovar o texto-base do ajuste fiscal, e os DIs viraram para queda à tarde, mas o dólar segue a R$ 5,655, na máxima desde 2025. Em NY, o S&P 500 caiu 0,42% e o Nasdaq 0,91% com a venda de chips após a saída de Jensen Huang da Nvidia; o 10 anos foi a ~5,15%. O bitcoin perdeu US$ 70 mil (~US$ 68,5 mil)."
+    "conviccao": "ALTA",
+    "resumo": "Postura RISK-OFF, com 0 de 6 sinais positivos e convicção ALTA: o VIX passou de 20 (~21) e o Ibovespa virou para queda em 5 pregões. Perto do meio-dia, o Ibovespa caía ~1,6% (169.661 pts às 11h49) e o dólar subia ~1,6%, a R$ 5,745, na máxima desde 2025, com o Focus elevando inflação e Selic de 2027, IBC-Br de setembro em queda (−0,2%) e o Morgan Stanley rebaixando o Brasil para underweight. Em NY, o Nasdaq cai ~1,3% com chips antes do balanço da Nvidia (terça); o bitcoin segue perto de US$ 64 mil."
   },
   "sinais": [
     {
       "nome": "Ibovespa 5 pregões",
-      "valor": "+3,7%",
-      "estado": "pos",
+      "valor": "−1,3%",
+      "estado": "neg",
       "regra": "Positivo se o índice subiu nos últimos 5 pregões"
     },
     {
       "nome": "Ibovespa 1 mês",
-      "valor": "≈ −16,3%",
+      "valor": "≈ −17,6%",
       "estado": "neg",
       "regra": "Positivo se o índice está acima de 1 mês atrás"
     },
     {
       "nome": "Dólar 5 pregões",
-      "valor": "+3,0%",
+      "valor": "+4,3%",
       "estado": "neg",
       "regra": "Positivo se o dólar caiu na semana (real mais forte)"
     },
     {
       "nome": "DI longo na semana",
-      "valor": "+16 bp",
+      "valor": "+3 bp",
       "estado": "neg",
       "regra": "Positivo se a taxa do DI longo caiu na semana"
     },
     {
       "nome": "VIX",
-      "valor": "19,71",
-      "estado": "pos",
+      "valor": "21,10",
+      "estado": "neg",
       "regra": "Positivo se o VIX está abaixo de 20"
     },
     {
       "nome": "S&P 500 no dia",
-      "valor": "−0,42%",
+      "valor": "−0,85%",
       "estado": "neg",
       "regra": "Positivo se o S&P 500 subiu no último pregão"
     }
@@ -51,94 +51,94 @@
     {
       "codigo": "WIN",
       "nome": "Ibovespa",
-      "vies": "alta",
-      "nivel": "172.257 pts",
-      "dia": 0.54,
-      "semana": 3.65,
-      "mes": -16.3,
-      "nota": "Fechou a 172.257 pts (+0,54%), após o Senado aprovar o texto-base do ajuste fiscal (45 a 31; quatro emendas na terça, depois vai à Câmara) e o varejo de setembro acima do esperado (+0,2% no mês). Ajudaram o PPI americano abaixo do esperado e o alívio nos DIs à tarde. Semana = vs 05/11."
+      "vies": "baixa",
+      "nivel": "169.661 pts",
+      "dia": -1.62,
+      "semana": -1.31,
+      "mes": -17.6,
+      "nota": "Caía ~1,6% às 11h49, a 169.661 pts, depois de abrir perto da estabilidade. Pesam Vale (−2,3%) e mineradoras com o minério na mínima em 16 meses em Dalian, Magalu (−4,6%), Localiza (−3,2%) e bancos, além do Focus pior para 2027, do IBC-Br de setembro (−0,2%) e do rebaixamento do Brasil para underweight pelo Morgan Stanley (Ibovespa a 160 mil em 2027). Minerva (+5%) e teles sobem. Semana = vs 09/11."
     },
     {
       "codigo": "WDO",
       "nome": "Dólar comercial",
       "vies": "alta",
-      "nivel": "R$ 5,655",
-      "dia": 0.05,
-      "semana": 3.03,
-      "mes": 12.6,
-      "nota": "Fechou a R$ 5,6549 (+0,05%), estável na máxima desde meados de 2025, mesmo com o texto-base do ajuste fiscal aprovado no Senado: o mercado vê o pacote (até R$ 60 bi em 2027) como insuficiente. Treasury de 10 anos a ~5,15% segue pesando. Semana = vs 05/11."
+      "nivel": "R$ 5,745",
+      "dia": 1.59,
+      "semana": 4.34,
+      "mes": 14.4,
+      "nota": "Subia ~1,6%, a R$ 5,745, às 11h46, na máxima desde 2025 (Ptax preliminar R$ 5,6916). Pesam o Focus com dólar de R$ 5,40 em 2026 e R$ 5,45 em 2027, a dúvida sobre o alcance do ajuste fiscal (destaques no Senado na terça), o rebaixamento do Morgan Stanley e o dólar forte no exterior. Semana = vs 09/11."
     },
     {
       "codigo": "DI F31",
       "nome": "Juros longos",
-      "vies": "alta",
-      "nivel": "15,135%",
-      "dia": 0.035,
-      "semana": 0.157,
+      "vies": "neutro",
+      "nivel": "15,005%",
+      "dia": 0.005,
+      "semana": 0.027,
       "mes": null,
-      "nota": "Abriu em alta (jan/31 a 15,135% às 9h13), mas as taxas viraram e fecharam em queda na maior parte da curva, com o PPI americano abaixo do esperado e realização após dias de alta: jan/28 a 14,28% (estável) e jan/35 a 15,155% (−9 bp). Taxa de fechamento do jan/31 não localizada; mantido o nível da abertura. Galípolo disse que o BC não controla a curva toda. Semana = vs 14,978% de 05/11."
+      "nota": "Estável pela manhã: jan/31 a 15,005% (+0,5 bp) às 9h21; jan/35 a 15,17% (+2 bp) e jan/27 a 13,667%. O Focus subiu a Selic de 2027 para 12,75% e o IPCA de 2027 para 5,00%, mas cortou o de 2026 para 5,11%. Taxas da tarde ainda não localizadas. Semana = vs 14,978% de 05/11."
     },
     {
       "codigo": "BTC",
       "nome": "Bitcoin",
       "vies": "baixa",
-      "nivel": "US$ 68.469",
-      "dia": -4.7,
-      "semana": -8.4,
+      "nivel": "US$ 64.376",
+      "dia": -0.54,
+      "semana": -14.9,
       "mes": null,
-      "nota": "US$ 68.469 (−4,7% em 24h) às 14h22, abaixo de US$ 70 mil pela primeira vez desde agosto; chegou perto de US$ 67,5 mil. Liquidações acima de US$ 1,3 bi em 24h e sexto dia seguido de saques nos ETFs à vista (−US$ 47,7 mi em 12/11). Pesam a alta do Fed precificada e a saída da Strategy de dois índices da MSCI. Semana = vs 06/11."
+      "nota": "US$ 64.376 (−0,54% em 24h) no fim da manhã de segunda (Yahoo Finance), após tocar ~US$ 61.970 no fim de semana, mínima desde julho; queda de ~17% desde quarta. Ações ligadas a cripto caem na abertura de NY. Semana = vs 06/11."
     }
   ],
   "fita": [
     {
       "nome": "IBOV",
-      "valor": "172.257",
-      "var": 0.54
+      "valor": "169.661",
+      "var": -1.62
     },
     {
       "nome": "USD/BRL",
-      "valor": "5,655",
-      "var": 0.05
+      "valor": "5,745",
+      "var": 1.59
     },
     {
       "nome": "S&P 500",
-      "valor": "7.561",
-      "var": -0.42
+      "valor": "7.498",
+      "var": -0.85
     },
     {
       "nome": "NASDAQ",
-      "valor": "25.136",
-      "var": -0.91
+      "valor": "24.800",
+      "var": -1.34
     },
     {
       "nome": "DOW",
-      "valor": "52.343",
-      "var": 0.09
+      "valor": "52.219",
+      "var": -0.25
     },
     {
       "nome": "VIX",
-      "valor": "19,71",
-      "var": 5.4
+      "valor": "21,10",
+      "var": 9.33
     },
     {
       "nome": "BRENT",
-      "valor": "95,84",
-      "var": 0.0
+      "valor": "94,79",
+      "var": -1.1
     },
     {
       "nome": "OURO",
-      "valor": "3.889",
-      "var": 0.09
+      "valor": "3.869",
+      "var": -0.45
     },
     {
       "nome": "BTC",
-      "valor": "68.469",
-      "var": -4.7
+      "valor": "64.376",
+      "var": -0.54
     },
     {
       "nome": "ETH",
-      "valor": "1.958",
-      "var": -3.1
+      "valor": "1.824",
+      "var": 0.5
     }
   ],
   "valor_justo": [
@@ -146,34 +146,34 @@
       "titulo": "Ibovespa",
       "rotulo": "Abaixo da média histórica",
       "justo": "P/L 10x (média)",
-      "atual": "171.324 pts (~8,1x)",
-      "gap": -19.4,
-      "detalhe": "Referência Itaú BBA (27/10): Ibovespa a 7,9x P/L com 167.922 pts, contra média de 10 anos de 10x (ex-Petrobras e Vale: 9,0x vs 11,9x). Ajustado proporcionalmente ao fechamento de 12/11 (171.324), ~8,1x, desconto de ~19%."
+      "atual": "169.661 pts (~8,0x)",
+      "gap": -20.2,
+      "detalhe": "Referência Itaú BBA (27/10): Ibovespa a 7,9x P/L com 167.922 pts, contra média de 10 anos de 10x. Ajustado proporcionalmente ao nível de 11h49 de 16/11 (169.661), ~8,0x, desconto de ~20%."
     },
     {
       "titulo": "Dólar vs Focus",
       "rotulo": "Acima da expectativa",
-      "justo": "R$ 5,35",
-      "atual": "R$ 5,652",
-      "gap": 5.6,
-      "detalhe": "Focus de 9/11 projeta dólar a R$ 5,35 no fim de 2026 e R$ 5,40 em 2027. No fechamento de 12/11, a R$ 5,652, ~5,6% acima. Novo Focus na segunda (16/11)."
+      "justo": "R$ 5,40",
+      "atual": "R$ 5,745",
+      "gap": 6.4,
+      "detalhe": "Focus de 16/11 projeta dólar a R$ 5,40 no fim de 2026 (antes R$ 5,35) e R$ 5,45 em 2027. Às 11h46 de 16/11, a R$ 5,745, ~6,4% acima."
     }
   ],
   "alertas": [
     {
       "nivel": "alerta",
-      "titulo": "Ajuste fiscal passa no Senado; Ibovespa sobe, mas dólar segue a R$ 5,65",
-      "texto": "O Senado aprovou o texto-base do ajuste fiscal por 45 a 31 (até R$ 60 bi em 2027, segundo o governo; quatro emendas na terça, depois vai à Câmara). O Ibovespa fechou em alta de 0,54% e os DIs longos recuaram à tarde (jan/35 −9 bp), mas o dólar fechou a R$ 5,6549, na máxima desde 2025: o mercado vê o pacote como insuficiente. Galípolo disse que o BC não controla a curva toda."
+      "titulo": "Dólar a R$ 5,74 e Ibovespa cai 1,6%; Morgan Stanley rebaixa o Brasil",
+      "texto": "Perto do meio-dia o dólar subia ~1,6% (R$ 5,745, máxima desde 2025) e o Ibovespa caía ~1,6% (169.661 pts). O Focus elevou IPCA (5,00%) e Selic (12,75%) de 2027 e o dólar de fim de ano para R$ 5,40; o IBC-Br de setembro caiu 0,2% (melhor que o esperado). O Morgan Stanley rebaixou o Brasil para underweight e vê o Ibovespa a 160 mil pts em 2027. Minério em Dalian na mínima em 16 meses pesa em Vale. Destaques do ajuste fiscal no Senado na terça (17/11)."
     },
     {
       "nivel": "alerta",
-      "titulo": "BTC cai a ~US$ 62 mil, menor nível desde julho; Binance ainda com saques parciais",
-      "texto": "Segundo a Bloomberg (15/11), o bitcoin chegou perto de US$ 62 mil no fim de semana, a mínima desde julho, após cerca de US$ 3 bi em saídas de ETFs à vista nos EUA (30/10–13/11), saída de ~US$ 20 bi em stablecoins no mês e juros longos acima de 5%. Mercado de fim de semana: impacto esperado na abertura de segunda. INJ, PLASMA, NEAR e LTC seguiam sem saque na Binance até sexta (sem confirmação de reabertura) e o Mercado Bitcoin segue com saques suspensos. Cuidado com alavancagem e com golpes que exploram o pânico."
+      "titulo": "Binance mira reabrir todas as redes de saque; BTC perto de US$ 64 mil",
+      "texto": "Após reabrir saques em 87 redes, a Binance disse que pretende reabrir todas as redes e ativos restantes 'até o fim da próxima semana' (post de 14/11); INJ e PLASMA sem confirmação. Confira o status da rede antes de sacar. O bitcoin está perto de US$ 64 mil depois de tocar ~US$ 62 mil no fim de semana, e o Mercado Bitcoin segue com saques suspensos. Cuidado com alavancagem e golpes."
     },
     {
       "nivel": "atencao",
-      "titulo": "Venda de chips derruba o Nasdaq; Treasury de 10 anos a ~5,15%",
-      "texto": "O Nasdaq caiu 0,91% e o S&P 500 0,42%, com AMD (−10%), Broadcom (−6%) e Intel (−5%) após a saída de Jensen Huang da Nvidia (balanço na terça, 17/11); o Dow subiu 0,09%. O PPI de outubro veio abaixo do esperado (+0,3%), mas a 6,5% em 12 meses; o 10 anos foi a ~5,15% e a alta do Fed em dezembro segue precificada. VIX a 19,71, perto de 20."
+      "titulo": "VIX acima de 20 com venda de chips antes da Nvidia; Warsh fala às 14h",
+      "texto": "Nasdaq cai ~1,3% e S&P 500 ~0,85%, com Micron, Intel e AMD em queda acima de 5%; a Nvidia acumula ~−13% em 5 dias desde a saída de Jensen Huang e divulga o 3T na terça (17/11). O VIX subiu a ~21. Treasury de 10 anos a 5,13%. O presidente do Fed, Kevin Warsh, discursa às 14h; o IPO da Anthropic estreia na quinta (19/11)."
     }
   ],
   "indicadores": [
@@ -184,7 +184,7 @@
       "valor": "13,75%",
       "estado": "neutro",
       "selo": "próx. Copom 9/12",
-      "agora": "Mantida em 13,75% em 4/11. Nesta sexta, Galípolo disse que a incerteza elevada exige cautela; o mercado espera manutenção em 9/12. O IPCA de outubro (0,14%) veio abaixo do esperado. Focus de 9/11: 13,75% no fim de 2026 e 12,50% no fim de 2027.",
+      "agora": "Mantida em 13,75% em 4/11; o mercado espera manutenção em 9/12. Focus de 16/11: 13,75% no fim de 2026 e 12,75% no fim de 2027 (antes 12,50%). O IBC-Br de setembro caiu 0,2% no mês.",
       "o_que_e": "A taxa básica de juros definida pelo Copom a cada 45 dias. Serve de base para o CDI e para o custo do crédito no país.",
       "como_ler": "Selic em queda tende a favorecer bolsa, varejo e construção. Uma pausa ou alta pressiona esses setores e fortalece a renda fixa."
     },
@@ -192,10 +192,10 @@
       "id": "ipca",
       "grupo": "Brasil",
       "nome": "IPCA 2026 (Focus)",
-      "valor": "5,22%",
+      "valor": "5,11%",
       "estado": "neg",
-      "selo": "out: 0,14% no mês",
-      "agora": "IPCA de outubro: 0,14% no mês (consenso 0,25%; setembro 0,82%) e 4,63% em 12 meses (esperado 4,73%), ainda acima do teto de 4,5%; o núcleo desacelerou. Focus de 9/11: 5,22% para 2026 e 4,90% para 2027; a ata do Copom projeta 5,6% para 2026.",
+      "selo": "Focus 2027: 5,00%",
+      "agora": "Focus de 16/11: IPCA de 2026 caiu para 5,11% (de 5,22%), mas o de 2027 subiu para 5,00% (de 4,90%), acima do teto de 4,5%. IPCA de outubro: 0,14% no mês e 4,63% em 12 meses.",
       "o_que_e": "A inflação oficial do Brasil, aqui pela mediana das projeções do Boletim Focus para o ano.",
       "como_ler": "Projeções subindo reduzem o espaço para cortes da Selic. Acima de 4,5% o Banco Central está fora da meta."
     },
@@ -203,10 +203,10 @@
       "id": "curva",
       "grupo": "Brasil",
       "nome": "DI janeiro/2031",
-      "valor": "15,135%",
+      "valor": "15,005%",
       "estado": "neg",
-      "selo": "virou para queda à tarde",
-      "agora": "Os DIs abriram 13/11 em alta (jan/31 a 15,135% às 9h13), mas fecharam em queda na maior parte da curva com o PPI americano abaixo do esperado: jan/28 a 14,28% (estável) e jan/35 a 15,155% (−9 bp). Fechamento do jan/31 não localizado. Na semana, o jan/31 ainda sobe ~16 bp (vs 14,978% de 05/11).",
+      "selo": "estável pela manhã",
+      "agora": "O DI jan/31 operava a 15,005% (+0,5 bp) às 9h21, estável apesar do dólar em alta; jan/35 a 15,17% (+2 bp). O Focus elevou a Selic de 2027 para 12,75%. Na semana, ~+3 bp vs 14,978% de 05/11.",
       "o_que_e": "A taxa de juros que o mercado cobra para emprestar ao governo até 2031. Mede o prêmio de risco de longo prazo.",
       "como_ler": "DI longo subindo encarece o valuation das ações, principalmente de empresas de crescimento e ligadas ao consumo. Queda costuma anteceder alta da bolsa."
     },
@@ -214,10 +214,10 @@
       "id": "cambio",
       "grupo": "Brasil",
       "nome": "Dólar comercial",
-      "valor": "R$ 5,655",
+      "valor": "R$ 5,745",
       "estado": "neg",
-      "selo": "+0,05% no dia",
-      "agora": "Fechou 13/11 a R$ 5,6549 (+0,05%), na máxima desde 2025, mesmo após o Senado aprovar o texto-base do ajuste fiscal; Ptax a R$ 5,6518. Na semana, +3,0%. Focus de 9/11 projeta R$ 5,35 no fim de 2026.",
+      "selo": "+1,6% hoje",
+      "agora": "Subia ~1,6%, a R$ 5,745, às 11h46 de 16/11, máxima desde 2025. Focus de 16/11 elevou o dólar de fim de 2026 para R$ 5,40 e de 2027 para R$ 5,45; o Morgan Stanley rebaixou o Brasil para underweight.",
       "o_que_e": "A cotação do dólar no mercado à vista.",
       "como_ler": "Dólar subindo favorece exportadoras (Suzano, Embraer, petroleiras) e pressiona a inflação e as empresas endividadas em moeda estrangeira."
     },
@@ -238,8 +238,8 @@
       "nome": "Fed Funds",
       "valor": "3,75–4,00%",
       "estado": "neg",
-      "selo": "alta em dez. precificada",
-      "agora": "O mercado precifica alta de 0,25 pp em 8–9/12. O PPI de outubro veio abaixo do esperado (+0,3% no mês), mas subiu 6,5% em 12 meses; Goolsbee disse que o Fed 'tem trabalho a fazer'. Ata de outubro em 18/11.",
+      "selo": "~87% de alta em dez.",
+      "agora": "O CME FedWatch apontava ~87% de chance de alta de 0,25 pp em 9/12 (13/11). Kevin Warsh discursa hoje às 14h; ata de outubro na quarta, 18/11. O diretor Michael Barr listou riscos da IA para o sistema financeiro.",
       "o_que_e": "A taxa básica de juros dos EUA, definida pelo Fomc.",
       "como_ler": "Juros altos nos EUA atraem capital para lá e tendem a fortalecer o dólar contra moedas emergentes como o real."
     },
@@ -258,10 +258,10 @@
       "id": "treasury",
       "grupo": "EUA",
       "nome": "Treasury 10 anos",
-      "valor": "~5,15%",
+      "valor": "5,13%",
       "estado": "neg",
-      "selo": "+5 bp hoje",
-      "agora": "O 10 anos subiu a ~5,15% em 13/11 (de 5,10% em 12/11), tocando 5,17%, maior nível desde outubro, com a aposta de alta do Fed em dezembro.",
+      "selo": "−2 bp hoje",
+      "agora": "O 10 anos recuava a ~5,13% (−2 bp) no fim da manhã de 16/11, depois de fechar sexta a 5,15%, com alta de ~30 bp na semana passada.",
       "o_que_e": "O rendimento do título de 10 anos do governo americano, referência global de juros.",
       "como_ler": "Acima de 4,5% os juros pesam sobre as ações no mundo todo. Quedas costumam aliviar a bolsa brasileira e o real."
     },
@@ -269,10 +269,10 @@
       "id": "vix",
       "grupo": "Global",
       "nome": "VIX",
-      "valor": "19,71",
-      "estado": "pos",
-      "selo": "+5,4% hoje",
-      "agora": "Subiu a 19,71 (+5,4%) no início da tarde de 13/11, com a venda de chips após a saída de Jensen Huang da Nvidia; segue abaixo de 20, mas no limite.",
+      "valor": "21,10",
+      "estado": "neg",
+      "selo": "acima de 20",
+      "agora": "Subiu a ~21,1 (+1,8 ponto) no fim da manhã de 16/11, com a venda de chips antes do balanço da Nvidia; passou do limite de 20.",
       "o_que_e": "O índice de volatilidade implícita do S&P 500, conhecido como o índice do medo.",
       "como_ler": "Abaixo de 15 indica calma, entre 15 e 20 é normal, e acima de 20 o mercado está estressado. Picos costumam vir com fuga de emergentes."
     },
@@ -280,10 +280,10 @@
       "id": "brent",
       "grupo": "Global",
       "nome": "Petróleo Brent",
-      "valor": "US$ 95,84",
+      "valor": "US$ 94,79",
       "estado": "neutro",
-      "selo": "estável hoje",
-      "agora": "Fechou 13/11 a US$ 95,84, praticamente estável ante US$ 95,82 de 12/11. A AIE ainda prevê excedente global no 4T; o mercado acompanha as tensões com o Irã.",
+      "selo": "−1,1% hoje",
+      "agora": "Recuava 1,1%, a US$ 94,79, na manhã de 16/11, com a AIE vendo excedente global no 4T, apesar do ataque do Irã a uma base dos EUA no Bahrein.",
       "o_que_e": "A referência internacional de preço do petróleo.",
       "como_ler": "Brent alto favorece PETR4, PRIO3 e BRAV3, mas pressiona a inflação e os custos de aéreas e logística."
     },
@@ -291,10 +291,10 @@
       "id": "ouro",
       "grupo": "Global",
       "nome": "Ouro",
-      "valor": "US$ 3.889",
+      "valor": "US$ 3.869",
       "estado": "neutro",
-      "selo": "+0,1% hoje",
-      "agora": "US$ 3.889 (+0,09%) no início da tarde de 13/11, estável depois da queda de 2,8% em 12/11, abaixo de US$ 4.000 com Treasuries acima de 5%.",
+      "selo": "−0,45% hoje",
+      "agora": "US$ 3.869 (−0,45%) no fim da manhã de 16/11, menor nível em mais de um ano, com dólar forte e Treasuries acima de 5%.",
       "o_que_e": "O preço da onça-troy de ouro.",
       "como_ler": "Ouro subindo sinaliza busca por proteção. Quedas fortes junto com bolsas podem indicar venda forçada para cobrir perdas."
     }
@@ -303,73 +303,73 @@
     "itens": [
       {
         "nome": "BTC",
-        "valor": "US$ 68.469",
-        "var": -4.7,
-        "nota": "US$ 68.469 (−4,7% em 24h) às 14h22 de 13/11, abaixo de US$ 70 mil pela primeira vez desde agosto (mínima perto de US$ 67,5 mil). Mais de US$ 1,3 bi em liquidações em 24h e sexto dia seguido de saques nos ETFs à vista. Pesam a alta do Fed em dezembro e a exclusão da Strategy (MSTR) de dois índices da MSCI."
+        "valor": "US$ 64.376",
+        "var": -0.54,
+        "nota": "US$ 64.376 (−0,54% em 24h) no fim da manhã de 16/11 (Yahoo Finance). Tocou ~US$ 61.970 no fim de semana, menor nível desde julho; ~US$ 1 bi em saídas de ETFs à vista em novembro. Warsh fala às 14h e a Nvidia divulga balanço na terça."
       },
       {
         "nome": "ETH",
-        "valor": "US$ 1.958",
-        "var": -3.1,
-        "nota": "US$ 1.958 às 9h25 (−3,1% em 24h), abaixo de US$ 2 mil, com fila de saída do staking crescendo. Oferta de stablecoins caiu ~US$ 14,2 bi em 30 dias (Glassnode): menos liquidez para o mercado."
+        "valor": "US$ 1.824",
+        "var": 0.5,
+        "nota": "US$ 1.824 (+0,5% em 24h) na manhã de 16/11 (The Crypto Basic), ainda pouco acima de US$ 1.800 depois da queda do fim de semana."
       }
     ]
   },
   "setores": {
-    "periodo": "12/11/2026",
+    "periodo": "16/11/2026 (parcial ~10h17)",
     "altas": [
       {
-        "ticker": "HAPV3",
-        "var": 14.9
-      },
-      {
-        "ticker": "AZZA3",
-        "var": 9.95
-      },
-      {
         "ticker": "BEEF3",
-        "var": 5.65
+        "var": 4.99
+      },
+      {
+        "ticker": "VIVT3",
+        "var": 2.61
+      },
+      {
+        "ticker": "TIMS3",
+        "var": 1.39
       }
     ],
     "baixas": [
       {
-        "ticker": "BBAS3",
-        "var": -8.35
-      },
-      {
         "ticker": "MGLU3",
-        "var": -7.7
+        "var": -4.61
       },
       {
-        "ticker": "TEND3",
-        "var": -6.95
+        "ticker": "RENT3",
+        "var": -3.19
+      },
+      {
+        "ticker": "BRAP4",
+        "var": -3.02
       }
     ],
-    "leitura": "Balanços ditaram o pregão: Hapvida (+14,9%) e Azzas (+9,95%) subiram após o 3T, e Minerva (+5,65%) também avançou. Na ponta negativa, Banco do Brasil (−8,35%) após lucro 66,5% menor, e varejo e construção (Magalu −7,7%, Tenda −6,95%) devolveram ganhos com a alta dos juros longos."
+    "leitura": "Pela manhã, Minerva (+5%) e teles (Vivo +2,6%, TIM +1,4%) subiam; na ponta negativa, Magalu (−4,6%), Localiza (−3,2%) e Bradespar (−3%), com Vale (−2,3%) pressionada pelo minério na mínima em 16 meses. Petrobras estável."
   },
   "agenda": [
     {
       "data": "2026-11-16",
-      "hora": "8h25",
-      "evento": "Boletim Focus",
-      "peso": "medio"
-    },
-    {
-      "data": "2026-11-17",
-      "hora": "—",
-      "evento": "Senado analisa emendas do ajuste fiscal",
+      "hora": "14h",
+      "evento": "Discurso de Kevin Warsh, presidente do Fed",
       "peso": "alto"
     },
     {
       "data": "2026-11-17",
-      "hora": "—",
-      "evento": "Nvidia divulga resultados do 3T",
+      "hora": "18h20",
+      "evento": "Nvidia divulga o 3T; Senado vota destaques do ajuste fiscal",
       "peso": "alto"
     },
     {
       "data": "2026-11-18",
       "hora": "16h",
       "evento": "Ata da reunião de outubro do Fed",
+      "peso": "medio"
+    },
+    {
+      "data": "2026-11-19",
+      "hora": "—",
+      "evento": "Estreia do IPO da Anthropic na Nasdaq (ANT)",
       "peso": "medio"
     },
     {
@@ -485,39 +485,39 @@
   ],
   "fontes": [
     {
-      "nome": "Times Brasil — Ibovespa sobe aos 172 mil pontos 13/11",
-      "url": "https://timesbrasil.com.br/investimentos/ibovespa-sobe-banco-do-brasil-recua/"
+      "nome": "ABC News (Austrália) — mercados ao vivo 16/11 (Ásia, minério, China, Japão)",
+      "url": "https://www.abc.net.au/news/2026-11-16/asx-markets-business-live-news-nov-16/107388134"
     },
     {
-      "nome": "InfoMoney — ao vivo 13/11 (DIs, varejo, fiscal)",
+      "nome": "Bloomberg — minério em Dalian na mínima em 4 anos (16/11)",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/chinese-iron-ore-futures-hit-four-year-low-on-weak-steel-outlook"
+    },
+    {
+      "nome": "Yahoo Finance — Europa estável antes da Nvidia (16/11)",
+      "url": "https://sg.finance.yahoo.com/news/european-shares-flat-nvidia-turmoil-083952986.html"
+    },
+    {
+      "nome": "Trading Economics — Nikkei, Xangai, futuros, Brent, DXY, ouro e Treasury (16/11)",
+      "url": "https://tradingeconomics.com/japan/stock-market"
+    },
+    {
+      "nome": "crypto.news — semana do bitcoin: Warsh, Nvidia, Anthropic",
+      "url": "https://crypto.news/bitcoin-fed-nvidia-anthropic-ipo-crypto-week-ahead/"
+    },
+    {
+      "nome": "KuCoin — relatório cripto 16/11",
+      "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-16-2026"
+    },
+    {
+      "nome": "InfoMoney — fechamento 13/11 (DIs, destaques)",
       "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
-    },
-    {
-      "nome": "Exame — Ibovespa ensaia recuperação, dólar renova máxima",
-      "url": "https://exame.com/invest/mercados/ibovespa-ensaia-recuperacao-enquanto-dolar-renova-maxima/"
-    },
-    {
-      "nome": "Yahoo Finance — mercado americano 13/11",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"
-    },
-    {
-      "nome": "TheStreet — mercado americano 13/11",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-13-2026"
-    },
-    {
-      "nome": "CryptoTicker — ETH e BTC 13/11",
-      "url": "https://cryptoticker.io/en/ethereum-price-1958-dollars-staking-exit-queue-november-13-2026"
-    },
-    {
-      "nome": "CoinCentral — por que o cripto cai hoje 13/11",
-      "url": "https://coincentral.com/why-is-crypto-dropping-today-november-13-2026"
     },
     {
       "nome": "Seu Dinheiro — Itaú BBA e P/L do Ibovespa",
       "url": "https://www.seudinheiro.com/2026/bolsa-dolar/tombo-da-bolsa-apos-as-eleicoes-abre-oportunidades-e-itau-bba-lista-7-acoes-para-incluir-na-carteira-agora/"
     }
   ],
-  "notas": "Atualização do meio do pregão de sexta (13/11, ~13h15): cotações parciais de Ibovespa (11h43), dólar (10h47), DIs (abertura, 9h13), EUA (abertura), VIX, Brent, ouro, BTC e ETH. O ponto de 12/11 no histórico foi gravado na véspera com valores preliminares (Ibovespa ~170.700; fechamento oficial 171.324,31) e foi mantido sem alteração. Informação para estudo, não recomendação de investimento.",
+  "notas": "Pré-abertura de segunda (16/11, 8h): fechamento oficial de sexta (13/11) para Brasil, EUA, juros e commodities; Ásia, Europa, futuros e cripto da manhã de 16/11. O ponto de 13/11 no histórico foi gravado com valor preliminar (172.257; fechamento oficial 172.457,76) e foi mantido sem alteração. Informação para estudo, não recomendação de investimento.",
   "config": {
     "brapi_token": "",
     "whatsapp": "",
@@ -543,49 +543,49 @@
         },
         {
           "rotulo": "Fim 2027",
-          "selic": 12.5
+          "selic": 12.75
         }
       ],
-      "focus_fonte": "Focus de 9/11 (fim de 2026 e fim de 2027)",
+      "focus_fonte": "Focus de 16/11 (fim de 2026 e fim de 2027)",
       "curva": {
-        "data": "13/11 às 9h13",
+        "data": "16/11 às 9h21",
         "pontos": [
           {
             "v": "jan/27",
-            "t": 13.66
+            "t": 13.667
           },
           {
             "v": "jan/28",
-            "t": 14.36
+            "t": 14.27
           },
           {
             "v": "jan/29",
-            "t": 14.82
+            "t": 14.685
           },
           {
             "v": "jan/31",
-            "t": 15.135
+            "t": 15.005
           },
           {
             "v": "jan/33",
-            "t": 15.27
+            "t": 15.155
           },
           {
             "v": "jan/35",
-            "t": 15.28
+            "t": 15.17
           }
         ]
       },
-      "leitura": "Os DIs abriram 13/11 em alta, mas fecharam em queda na maior parte da curva (jan/35 a 15,155%, −9 bp; jan/28 estável a 14,28%), com o PPI americano abaixo do esperado e realização após dias de alta. O mercado segue vendo o ajuste fiscal aprovado no Senado (até R$ 60 bi em 2027) como insuficiente; Galípolo disse que o BC não controla a curva toda. A curva segue bem acima da Selic de 13,75%."
+      "leitura": "Os DIs abriram 16/11 estáveis (jan/31 a 15,005%; jan/35 a 15,17%, +2 bp), mesmo com o dólar em alta. O Focus elevou a Selic de 2027 para 12,75% e o IPCA de 2027 para 5,00%, mas cortou o de 2026 para 5,11%; o IBC-Br de setembro caiu 0,2%. Destaques do ajuste fiscal no Senado na terça. A curva segue bem acima da Selic de 13,75%."
     },
     "eua": {
       "fed": "3,75–4,00%",
       "efetiva": 3.88,
       "fedwatch": {
         "reuniao": "dez/2026",
-        "alta": 100.0,
-        "manter": 0.0,
-        "fonte": "Mercado precifica 29 bp de alta em dez/2026 (0,25 pp integral e chance pequena de 0,50 pp), via Reuters, 12/11"
+        "alta": 87.0,
+        "manter": 13.0,
+        "fonte": "CME FedWatch: ~87% de chance de alta de 0,25 pp em 9/12, via InfoMoney, 13/11"
       },
       "curva": {
         "data": "28/10",
@@ -612,7 +612,7 @@
           }
         ]
       },
-      "leitura": "O PPI de outubro veio abaixo do esperado (+0,3% no mês; 6,5% em 12 meses), mas o 10 anos subiu a ~5,15% (de 5,10%) e a alta de 0,25 pp em dezembro segue precificada; Goolsbee disse que o Fed 'tem trabalho a fazer'."
+      "leitura": "O 10 anos recua a ~5,13% nesta segunda, depois de subir ~30 bp na semana passada; a alta de 0,25 pp em dezembro segue precificada (~87% no FedWatch em 13/11). Warsh discursa hoje às 14h e a ata do Fed sai na quarta, 18/11."
     },
     "credito_eua": {
       "hy_oas": 3.14,
