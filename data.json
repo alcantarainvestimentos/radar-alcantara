@@ -685,6 +685,14 @@
   },
   "noticias_radar": [
     {
+      "cat": "acoes",
+      "title": "Dólar sobe a R$ 5,71 e Ibovespa cai; Morgan Stanley rebaixa Brasil e vê bolsa a 160 mil pontos em 2027",
+      "link": "https://bpmoney.com.br/mercado/ibovespa-cai-aos-1715-mil-pontos-com-vale-e-petrobras-dolar-sobe-a-r-571/",
+      "src": "BPMoney",
+      "t": "2026-11-16T10:22:00-03:00",
+      "score": 3
+    },
+    {
       "cat": "cripto",
       "title": "Bitcoin acumula tombo de 17% em novembro e 6ª semana seguida de perdas; Strategy cai 8% no pré-mercado",
       "link": "https://www.coindesk.com/tech/2026/11/16/live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
@@ -824,30 +832,6 @@
       "src": "StockTitan",
       "t": "2026-11-13T16:17:00-05:00",
       "score": 3
-    },
-    {
-      "cat": "cripto",
-      "title": "FBI desmonta golpe norte-coreano 'FaceStealer' que roubou US$ 400 mi em cripto com vídeos falsos de webcam",
-      "link": "https://hackread.com/fbi-disrupts-north-korean-facestealer-crypto-theft/",
-      "src": "Hackread",
-      "t": "2026-11-13T14:17:00+00:00",
-      "score": 5
-    },
-    {
-      "cat": "acoes",
-      "title": "Senado aprova base do ajuste fiscal por 45 a 31; JPMorgan vê pacote insuficiente e dólar volta a R$ 5,66",
-      "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/",
-      "src": "InfoMoney",
-      "t": "2026-11-13T09:05:00-03:00",
-      "score": 3
-    },
-    {
-      "cat": "cripto",
-      "title": "EUA apreendem US$ 1,2 bi do hack de US$ 6,3 bi na Binance; Coreia do Norte é acusada e US$ 2,7 bi foram congelados",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/us-seizes-1-billion-north-korea-binance-crypto",
-      "src": "Bitdefender",
-      "t": "2026-11-13T12:00:00+00:00",
-      "score": 4
     }
   ],
   "incidentes": [
