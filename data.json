@@ -685,6 +685,23 @@
   },
   "noticias_radar": [
     {
+      "cat": "acoes",
+      "title": "Jensen Huang articula volta à Nvidia com petição de 100 mil assinaturas; conselho investiga caso com suposta espiã chinesa",
+      "link": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest",
+      "src": "Cointelegraph",
+      "t": "2026-11-15T22:50:00+00:00",
+      "score": 5,
+      "viral": true
+    },
+    {
+      "cat": "cripto",
+      "title": "MSCI vai expulsar Strategy de seus índices globais em 30/11; medo extremo cai a 10 e BTC perde 12% na semana",
+      "link": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest#msci",
+      "src": "Cointelegraph",
+      "t": "2026-11-15T22:49:00+00:00",
+      "score": 4
+    },
+    {
       "cat": "cripto",
       "title": "Corretora sul-coreana Coinone admite vazamento: senhas, documentos e dados bancários de clientes podem ter sido expostos",
       "link": "https://thecryptobasic.com/2026/11/15/tcb-daily-edition-what-happened-in-crypto-on-november-15-2026/",
@@ -741,7 +758,6 @@
       "link": "https://www.al-monitor.com/originals/2026/11/france-says-iran-behind-unprecedented-cyberattacks-fridges",
       "src": "Al-Monitor",
       "t": "2026-11-14T15:50:00+00:00",
-      "viral": true,
       "score": 5
     },
     {
@@ -823,22 +839,6 @@
       "link": "https://cryptoticker.io/en/crypto-news-bitcoin-crash-liquidations-etf-outflows-november-13-2026/",
       "src": "CryptoTicker",
       "t": "2026-11-13T07:46:00+00:00",
-      "score": 3
-    },
-    {
-      "cat": "cripto",
-      "title": "Justiça mantém ordem para Brasil Bitcoin reverter transferência de clientes e ativos; multa de R$ 100 mil por dia",
-      "link": "https://bitnoticias.com.br/noticias/justica-rejeita-recurso-de-socios-da-brasil-bitcoin",
-      "src": "BitNotícias",
-      "t": "2026-11-12T20:04:00-03:00",
-      "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Dólar dispara 1,58% e fecha a R$ 5,65, maior nível em 17 meses, com desconfiança no pacote fiscal",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-dispara-158-e-fecha-r-565-maior-nivel-em-17-meses",
-      "src": "Agência Brasil",
-      "t": "2026-11-12T19:35:00-03:00",
       "score": 3
     }
   ],
