@@ -685,6 +685,22 @@
   },
   "noticias_radar": [
     {
+      "cat": "cripto",
+      "title": "Bitcoin acumula tombo de 17% em novembro e 6ª semana seguida de perdas; Strategy cai 8% no pré-mercado",
+      "link": "https://www.coindesk.com/tech/2026/11/16/live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
+      "src": "CoinDesk",
+      "t": "2026-11-16T09:34:00+00:00",
+      "score": 4
+    },
+    {
+      "cat": "acoes",
+      "title": "Nasdaq futuro cai 0,9% e Nvidia recua 2% antes do 1º balanço sem Jensen Huang; VIX sobe 4%",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html",
+      "src": "Yahoo Finance",
+      "t": "2026-11-16T01:16:00-08:00",
+      "score": 4
+    },
+    {
       "cat": "acoes",
       "title": "Jensen Huang articula volta à Nvidia com petição de 100 mil assinaturas; conselho investiga caso com suposta espiã chinesa",
       "link": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest",
@@ -832,14 +848,6 @@
       "src": "Bitdefender",
       "t": "2026-11-13T12:00:00+00:00",
       "score": 4
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin derrete 6% e cai abaixo de US$ 70 mil; US$ 1,3 bi liquidados em 24h e medo extremo domina",
-      "link": "https://cryptoticker.io/en/crypto-news-bitcoin-crash-liquidations-etf-outflows-november-13-2026/",
-      "src": "CryptoTicker",
-      "t": "2026-11-13T07:46:00+00:00",
-      "score": 3
     }
   ],
   "incidentes": [
