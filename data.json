@@ -687,11 +687,28 @@
     },
     {
       "cat": "acoes",
+      "title": "Dólar dispara 2,15% a R$ 5,78, maior valor desde abril de 2025; Ibovespa cai 1,83% com medo fiscal",
+      "link": "https://www.mixvale.com.br/2026/11/16/dolar-fecha-em-alta-de-215-a-r-57767-e-ibovespa-cai-183/",
+      "src": "Mix Vale",
+      "t": "2026-11-16T20:04:00-03:00",
+      "score": 3
+    },
+    {
+      "cat": "acoes",
       "title": "Banco do Brasil diz ter 31 mil produtores inadimplentes; Aprosoja rebate e acusa generalização",
       "link": "https://www.otempo.com.br/economia/2026/11/13/banco-do-brasil-tem-31-mil-produtores-rurais-inadimplentes-diz-ceo",
       "src": "O Tempo",
       "t": "2026-11-16T19:30:00-03:00",
       "score": 4,
+      "viral": true
+    },
+    {
+      "cat": "cripto",
+      "title": "Binance vê saída de 11 mil BTC em 3 dias após hack de US$ 6,4 bi, o maior roubo cripto da história",
+      "link": "https://cointelegraph.com/news/binance-hack-institutional-crypto-custody-falconx",
+      "src": "Cointelegraph",
+      "t": "2026-11-16T22:19:00+00:00",
+      "score": 5,
       "viral": true
     },
     {
@@ -782,8 +799,7 @@
       "link": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350",
       "src": "The Block",
       "t": "2026-11-14T18:07:00-05:00",
-      "score": 4,
-      "viral": true
+      "score": 4
     },
     {
       "cat": "acoes",
@@ -825,22 +841,6 @@
       "src": "Bloomberg",
       "t": "2026-11-14T09:10:00+05:30",
       "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Dólar fecha a R$ 5,65 e acumula alta de 2,63% na semana, maior nível desde junho de 2025; pacote fiscal preocupa",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-fecha-estavel-r-565-mas-sobe-263-na-semana",
-      "src": "Agência Brasil",
-      "t": "2026-11-13T18:53:00-03:00",
-      "score": 3
-    },
-    {
-      "cat": "acoes",
-      "title": "AMD desaba 8,75% e Nvidia cai mais 2% após saída de Jensen Huang; Nasdaq 100 recua 1,2%",
-      "link": "https://www.stocktitan.net/articles/stock-market-today-live-november-13-2026",
-      "src": "StockTitan",
-      "t": "2026-11-13T16:17:00-05:00",
-      "score": 3
     }
   ],
   "incidentes": [
