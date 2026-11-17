@@ -1,30 +1,30 @@
 {
-  "atualizado_em": "2026-11-17T12:40:00-03:00",
-  "referencia": "Pregão de terça, 17/11/2026 (parcial às 12h40)",
+  "atualizado_em": "2026-11-17T18:45:00-03:00",
+  "referencia": "Fechamento de terça, 17/11/2026",
   "postura": {
     "estado": "RISK-OFF",
     "positivos": 0,
     "total": 6,
     "desde": "2026-11-13",
     "conviccao": "ALTA",
-    "resumo": "Postura RISK-OFF, com 0 de 6 sinais positivos e convicção ALTA. No meio do pregão desta terça, o Ibovespa reage (+1,09%, a 171.139 pts às 11h37) com a expectativa de conclusão do ajuste fiscal no Senado, e o dólar fica perto de R$ 5,77 depois de passar de R$ 5,80; os DIs devolvem parte da alta. Em NY, S&P 500 (−0,4%) e Nasdaq (−0,4%) recuam antes do balanço da Nvidia, à noite. Os sinais de semana e mês seguem negativos."
+    "resumo": "Postura RISK-OFF, com 0 de 6 sinais positivos e convicção ALTA. O Ibovespa devolveu quase toda a alta da manhã e fechou em +0,31% (169.817 pts), e o dólar subiu pela quarta vez, a R$ 5,782, depois que o Senado adiou para quarta a conclusão do ajuste fiscal. Em NY, Dow (−1,67%), S&P 500 (−1,02%) e Nasdaq (−0,74%) caíram antes da Nvidia, que bateu as estimativas após o fechamento. Os sinais de semana e mês seguem negativos."
   },
   "sinais": [
     {
       "nome": "Ibovespa 5 pregões",
-      "valor": "−0,4%",
+      "valor": "−0,6%",
       "estado": "neg",
       "regra": "Positivo se o índice subiu nos últimos 5 pregões"
     },
     {
       "nome": "Ibovespa 1 mês",
-      "valor": "≈ −16,6%",
+      "valor": "≈ −17,2%",
       "estado": "neg",
       "regra": "Positivo se o índice está acima de 1 mês atrás"
     },
     {
       "nome": "Dólar 5 pregões",
-      "valor": "+4,8%",
+      "valor": "+3,5%",
       "estado": "neg",
       "regra": "Positivo se o dólar caiu na semana (real mais forte)"
     },
@@ -36,13 +36,13 @@
     },
     {
       "nome": "VIX",
-      "valor": "23,12",
+      "valor": "25,13",
       "estado": "neg",
       "regra": "Positivo se o VIX está abaixo de 20"
     },
     {
       "nome": "S&P 500 no dia",
-      "valor": "−1,92%",
+      "valor": "−1,02%",
       "estado": "neg",
       "regra": "Positivo se o S&P 500 subiu no último pregão"
     }
@@ -52,21 +52,21 @@
       "codigo": "WIN",
       "nome": "Ibovespa",
       "vies": "baixa",
-      "nivel": "171.139 pts",
-      "dia": 1.09,
-      "semana": -0.45,
-      "mes": -16.6,
-      "nota": "Subia 1,09%, a 171.139 pts (máxima), às 11h37, recuperando parte da queda de 1,83% da segunda. A expectativa de conclusão do ajuste fiscal no Senado anima; Petrobras sobe ~1% com o petróleo e Magazine Luiza +6% com os juros em queda; Vale oscila com o minério em Dalian −2,4%. Semana = vs 09/11; mês = vs 23/10."
+      "nivel": "169.817 pts",
+      "dia": 0.31,
+      "semana": -0.58,
+      "mes": -17.2,
+      "nota": "Fechou em alta de 0,31%, a 169.816,64 pts, longe da máxima de 171.749 pts; volume de R$ 27,1 bi. O Senado adiou para quarta (18) a votação dos destaques do ajuste fiscal, e NY piorou à tarde. Hapvida (+11,0%) liderou as altas; Natura (−3,7%) as quedas. Semana = vs 10/11; mês = vs 23/10."
     },
     {
       "codigo": "WDO",
       "nome": "Dólar comercial",
       "vies": "alta",
-      "nivel": "R$ 5,772",
-      "dia": -0.1,
-      "semana": 4.84,
-      "mes": 15.0,
-      "nota": "Perto da estabilidade, a ~R$ 5,772 (−0,1%) no fim da manhã, depois de passar de R$ 5,80 na máxima com a incerteza sobre os destaques do ajuste fiscal no Senado. Na segunda fechou a R$ 5,7777, maior nível desde abril de 2025. Semana = vs 09/11."
+      "nivel": "R$ 5,782",
+      "dia": 0.1,
+      "semana": 3.51,
+      "mes": 15.8,
+      "nota": "Fechou a R$ 5,782 (+0,10%), quarta alta seguida e maior nível desde abril de 2025 (oscilou entre R$ 5,760 e R$ 5,812). Pesaram o adiamento do ajuste fiscal no Senado e a aposta em Fed mais duro. Semana = vs 10/11; mês = vs 23/10."
     },
     {
       "codigo": "DI F31",
@@ -82,63 +82,63 @@
       "codigo": "BTC",
       "nome": "Bitcoin",
       "vies": "baixa",
-      "nivel": "US$ 64.849",
-      "dia": 0.27,
-      "semana": -14.9,
+      "nivel": "US$ 63.716",
+      "dia": -1.95,
+      "semana": -13.1,
       "mes": null,
-      "nota": "US$ 64.849 (+0,27% em 24h) na manhã de 17/11 (CoinGecko, via FinFly). Ainda perto da mínima desde julho; Fear & Greed em medo extremo. Nvidia divulga o 3T após o fechamento de NY. Semana = vs 06/11."
+      "nota": "US$ 63.716 (−1,95% em 24h) no meio da tarde de 17/11 (Yahoo Finance), abaixo da média de 200 semanas (~US$ 68 mil). Fear & Greed em 13 (medo extremo); a Wintermute vê risco de queda para a faixa de US$ 50 mil. Semana = vs 10/11."
     }
   ],
   "fita": [
     {
       "nome": "IBOV",
-      "valor": "171.139",
-      "var": 1.09
+      "valor": "169.817",
+      "var": 0.31
     },
     {
       "nome": "USD/BRL",
-      "valor": "5,772",
-      "var": -0.1
+      "valor": "5,782",
+      "var": 0.1
     },
     {
       "nome": "S&P 500",
-      "valor": "7.385",
-      "var": -0.42
+      "valor": "7.341",
+      "var": -1.02
     },
     {
       "nome": "NASDAQ",
-      "valor": "24.418",
-      "var": -0.37
+      "valor": "24.329",
+      "var": -0.74
     },
     {
       "nome": "DOW",
-      "valor": "51.233",
-      "var": -0.73
+      "valor": "50.748",
+      "var": -1.67
     },
     {
       "nome": "VIX",
-      "valor": "23,12",
-      "var": 19.81
+      "valor": "25,13",
+      "var": 9.7
     },
     {
       "nome": "BRENT",
-      "valor": "92,30",
-      "var": -0.15
+      "valor": "93,14",
+      "var": 0.76
     },
     {
       "nome": "OURO",
-      "valor": "3.871",
-      "var": 0.47
+      "valor": "3.868",
+      "var": 0.39
     },
     {
       "nome": "BTC",
-      "valor": "64.849",
-      "var": 0.27
+      "valor": "63.716",
+      "var": -1.95
     },
     {
       "nome": "ETH",
-      "valor": "1.831",
-      "var": 0.96
+      "valor": "1.810",
+      "var": -1.02
     }
   ],
   "valor_justo": [
@@ -172,8 +172,8 @@
     },
     {
       "nivel": "alerta",
-      "titulo": "Ibovespa reage e volta aos 171 mil; dólar passou de R$ 5,80",
-      "texto": "O Ibovespa subia 1,09% (171.139 pts) às 11h37 com a expectativa de conclusão do ajuste fiscal no Senado (até R$ 60 bi em 2027), enquanto o dólar chegou a passar de R$ 5,80 antes de voltar a ~R$ 5,77. Ainda hoje: votação dos destaques no Senado e balanço da Nvidia após o fechamento de NY (18h20). Musalem (Fed) defendeu alta de juros mais cedo. Dia de volatilidade: evite alavancagem excessiva."
+      "titulo": "Senado adia ajuste fiscal; dólar a R$ 5,78 e Nvidia bate estimativas",
+      "texto": "Sem acordo sobre quatro destaques, o Senado adiou para quarta (18) a conclusão do ajuste fiscal (até R$ 56,1 bi em 2027); a Câmara ainda precisa votar. O dólar fechou a R$ 5,782, maior nível desde abril de 2025, e o Ibovespa perdeu a maior parte da alta (+0,31%). Após o fechamento de NY, a Nvidia reportou receita de US$ 115,8 bi (+103%) e projetou US$ 130 bi para o 4T. Confirmado: números do balanço e o adiamento. Ainda incerto: reação do mercado na quarta. Evite alavancagem excessiva."
     }
   ],
   "indicadores": [
@@ -214,10 +214,10 @@
       "id": "cambio",
       "grupo": "Brasil",
       "nome": "Dólar comercial",
-      "valor": "R$ 5,772",
+      "valor": "R$ 5,782",
       "estado": "neg",
-      "selo": "−0,1% hoje",
-      "agora": "Perto da estabilidade, a ~R$ 5,772 no fim da manhã de 17/11, depois de passar de R$ 5,80 na máxima. Fechou a R$ 5,7777 em 16/11, maior nível desde abril de 2025. Focus projeta R$ 5,40 no fim de 2026.",
+      "selo": "+0,1% hoje",
+      "agora": "Fechou a R$ 5,782 (+0,10%) em 17/11, quarta alta seguida e maior nível desde abril de 2025, com o Senado adiando o ajuste fiscal e a aposta em alta de juros nos EUA. Focus projeta R$ 5,40 no fim de 2026.",
       "o_que_e": "A cotação do dólar no mercado à vista.",
       "como_ler": "Dólar subindo favorece exportadoras (Suzano, Embraer, petroleiras) e pressiona a inflação e as empresas endividadas em moeda estrangeira."
     },
@@ -258,10 +258,10 @@
       "id": "treasury",
       "grupo": "EUA",
       "nome": "Treasury 10 anos",
-      "valor": "5,13%",
+      "valor": "5,10%",
       "estado": "neg",
       "selo": "−2 bp",
-      "agora": "O 10 anos recuou a 5,13% (de 5,15%) no início de 17/11, ainda acima de 5%.",
+      "agora": "O 10 anos chegou a 5,15% de manhã e recuou para ~5,10% em 17/11, ainda acima de 5%.",
       "o_que_e": "O rendimento do título de 10 anos do governo americano, referência global de juros.",
       "como_ler": "Acima de 4,5% os juros pesam sobre as ações no mundo todo. Quedas costumam aliviar a bolsa brasileira e o real."
     },
@@ -269,10 +269,10 @@
       "id": "vix",
       "grupo": "Global",
       "nome": "VIX",
-      "valor": "23,12",
+      "valor": "25,13",
       "estado": "neg",
       "selo": "acima de 20",
-      "agora": "Fechou a 23,12 (+3,8 pontos, +19,8%) em 16/11, com a venda de chips e big techs antes do balanço da Nvidia.",
+      "agora": "Subiu ~9,7%, a 25,13, em 17/11 (Finimize), com a procura por proteção antes do balanço da Nvidia.",
       "o_que_e": "O índice de volatilidade implícita do S&P 500, conhecido como o índice do medo.",
       "como_ler": "Abaixo de 15 indica calma, entre 15 e 20 é normal, e acima de 20 o mercado está estressado. Picos costumam vir com fuga de emergentes."
     },
@@ -280,10 +280,10 @@
       "id": "brent",
       "grupo": "Global",
       "nome": "Petróleo Brent",
-      "valor": "US$ 92,30",
+      "valor": "US$ 93,14",
       "estado": "neutro",
-      "selo": "−0,15% hoje",
-      "agora": "Brent a US$ 92,30 (−0,15%) na manhã de 17/11, depois de cair ~3,5% na segunda; um navio-tanque foi atingido em Ormuz, o que dá suporte ao preço.",
+      "selo": "+0,76% hoje",
+      "agora": "Brent (jan/27) fechou a US$ 93,14 (+0,76%) em 17/11, com tensões em Ormuz; a perspectiva de mais oferta limitou a alta.",
       "o_que_e": "A referência internacional de preço do petróleo.",
       "como_ler": "Brent alto favorece PETR4, PRIO3 e BRAV3, mas pressiona a inflação e os custos de aéreas e logística."
     },
@@ -291,10 +291,10 @@
       "id": "ouro",
       "grupo": "Global",
       "nome": "Ouro",
-      "valor": "US$ 3.871",
+      "valor": "US$ 3.868",
       "estado": "neutro",
-      "selo": "+0,5% hoje",
-      "agora": "O futuro de dezembro abriu a US$ 3.859,50 em 17/11, menor abertura desde set/2025, e subia a ~US$ 3.871 no início da manhã.",
+      "selo": "+0,4% hoje",
+      "agora": "Ouro a ~US$ 3.868 (+0,39%) no início da tarde de 17/11 (Yahoo Finance), depois de abrir no menor nível desde set/2025.",
       "o_que_e": "O preço da onça-troy de ouro.",
       "como_ler": "Ouro subindo sinaliza busca por proteção. Quedas fortes junto com bolsas podem indicar venda forçada para cobrir perdas."
     }
@@ -303,15 +303,15 @@
     "itens": [
       {
         "nome": "BTC",
-        "valor": "US$ 64.849",
-        "var": 0.27,
-        "nota": "US$ 64.849 (+0,27% em 24h) na manhã de 17/11 (CoinGecko, via FinFly). Suporte citado perto de US$ 61.946. Fear & Greed em medo extremo. Fed: ~91% de chance de alta de 0,25 p.p. em 9/12."
+        "valor": "US$ 63.716",
+        "var": -1.95,
+        "nota": "US$ 63.716 (−1,95% em 24h) no meio da tarde de 17/11 (Yahoo Finance). Mínima recente perto de US$ 62 mil; ETFs à vista voltaram a ter entrada (US$ 7,9 mi) na segunda. Fear & Greed em 13. FedWatch: ~91% de chance de alta de 0,25 p.p. em 9/12."
       },
       {
         "nome": "ETH",
-        "valor": "US$ 1.831",
-        "var": 0.96,
-        "nota": "US$ 1.830,93 (+0,96% em 24h) na manhã de 17/11 (CoinGecko, via FinFly), pouco acima de US$ 1.800."
+        "valor": "US$ 1.810",
+        "var": -1.02,
+        "nota": "Cerca de US$ 1.810 (−1,0%) na manhã de 17/11 (CoinDesk). O hacker do ataque à Binance movimentou US$ 63 mi em ETH roubado após duas semanas parado."
       }
     ]
   },
@@ -341,15 +341,9 @@
   },
   "agenda": [
     {
-      "data": "2026-11-17",
-      "hora": "tarde",
-      "evento": "Senado conclui votação dos destaques do ajuste fiscal",
-      "peso": "alto"
-    },
-    {
-      "data": "2026-11-17",
-      "hora": "18h20",
-      "evento": "Nvidia divulga o 3T",
+      "data": "2026-11-18",
+      "hora": "—",
+      "evento": "Senado conclui votação dos destaques do ajuste fiscal (adiada)",
       "peso": "alto"
     },
     {
@@ -479,6 +473,12 @@
       "ibov": 169168,
       "dolar": 5.777,
       "btc": 64967
+    },
+    {
+      "data": "2026-11-17",
+      "ibov": 169816.64,
+      "dolar": 5.782,
+      "btc": 63716
     }
   ],
   "fontes": [
@@ -602,7 +602,7 @@
           }
         ]
       },
-      "leitura": "O 10 anos fechou a ~5,12% nesta segunda (−3 bp), depois de subir ~30 bp na semana passada; a alta de 0,25 pp em dezembro segue precificada (~87% no FedWatch em 13/11). A ata do Fed sai na quarta, 18/11."
+      "leitura": "O 10 anos recuou para ~5,10% em 17/11, depois de tocar 5,15% de manhã; a alta de 0,25 pp em dezembro segue precificada (~91% no FedWatch). A ata do Fed sai na quarta, 18/11."
     },
     "credito_eua": {
       "hy_oas": 3.14,
