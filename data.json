@@ -678,6 +678,33 @@
   "noticias_radar": [
     {
       "cat": "cripto",
+      "title": "Ataque hacker infecta sites de HSBC, BBC e Ledger para trocar endereços de carteiras cripto; 178 empresas atingidas",
+      "link": "https://decrypt.co/383414/optimizely-hack-hijacked-ledger-bbc-and-176-other-sites-to-swap-crypto-wallet-addresses",
+      "src": "Decrypt",
+      "t": "2026-11-17T14:34:00+00:00",
+      "score": 5,
+      "viral": true
+    },
+    {
+      "cat": "acoes",
+      "title": "Nvidia derrete 26% em um mês e solta hoje 1º balanço sem Jensen Huang; mercado espera receita de US$ 108,7 bi",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nvidia-26-142802182.html",
+      "src": "Yahoo Finance",
+      "t": "2026-11-17T06:28:00-08:00",
+      "score": 5,
+      "viral": true
+    },
+    {
+      "cat": "acoes",
+      "title": "Dólar rompe R$ 5,80 com incerteza fiscal no Brasil; Ibovespa tenta reagir e volta aos 170 mil pontos",
+      "link": "https://exame.com/invest/mercados/ibovespa-sobe-e-retoma-os-170-mil-pontos-dolar-segue-em-alta-e-bate-r-580/",
+      "src": "Exame",
+      "t": "2026-11-17T10:50:00-03:00",
+      "score": 4,
+      "viral": true
+    },
+    {
+      "cat": "cripto",
       "title": "Hackers drenam cerca de US$ 15,5 mi de market makers na corretora Lighter; saques ficaram congelados",
       "link": "https://www.techtimes.com/articles/330872/20261117/lighter-crypto-exchange-traders-hacked-keys-computed-public-signatures-5m-returned.htm",
       "src": "Tech Times",
@@ -715,8 +742,7 @@
       "link": "https://www.otempo.com.br/economia/2026/11/13/banco-do-brasil-tem-31-mil-produtores-rurais-inadimplentes-diz-ceo",
       "src": "O Tempo",
       "t": "2026-11-16T19:30:00-03:00",
-      "score": 4,
-      "viral": true
+      "score": 4
     },
     {
       "cat": "cripto",
@@ -757,8 +783,7 @@
       "link": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest",
       "src": "Cointelegraph",
       "t": "2026-11-15T22:50:00+00:00",
-      "score": 5,
-      "viral": true
+      "score": 5
     },
     {
       "cat": "cripto",
@@ -790,8 +815,7 @@
       "link": "https://www.bloomberg.com/news/articles/2026-11-15/crypto-s-slow-motion-selloff-leaves-traders-weary-and-hopeless",
       "src": "Bloomberg",
       "t": "2026-11-15T12:02:00+05:30",
-      "score": 5,
-      "viral": true
+      "score": 5
     },
     {
       "cat": "cripto",
@@ -832,14 +856,6 @@
       "src": "InvestNews",
       "t": "2026-11-14T15:50:00+00:00",
       "score": 5
-    },
-    {
-      "cat": "cripto",
-      "title": "ETFs de bitcoin sangram US$ 1,91 bi em 7 dias seguidos de saques; BTC cai a US$ 66,5 mil, menor nível desde agosto",
-      "link": "https://stablecoininsider.org/bitcoin-etf-outflows-seven-days",
-      "src": "Stablecoin Insider",
-      "t": "2026-11-14T13:23:03+00:00",
-      "score": 3
     }
   ],
   "incidentes": [
