@@ -161,6 +161,11 @@
   ],
   "alertas": [
     {
+      "nivel": "alerta",
+      "titulo": "Ataque hacker atinge ~178 sites, como BBC, CNN, Zoom, IKEA e Ledger",
+      "texto": "Hackers inseriram código malicioso em ferramentas da Optimizely para roubar dados de cartão e de carteiras de cripto e infectar aparelhos Apple; as carteiras dos invasores receberam cerca de US$ 7 mil em 9 horas, em 16/11. A Optimizely diz que conteve o incidente e a maior parte do código já foi removida. Confira a fatura do cartão e nunca digite sua seed em pop-ups ou páginas que pedirem."
+    },
+    {
       "nivel": "atencao",
       "titulo": "Bancos dos EUA com apps fora do ar",
       "texto": "Clientes de JPMorgan Chase, Bank of America, Wells Fargo, U.S. Bank, Truist e do Zelle relataram falhas em apps e sites nesta segunda (16). O Chase fala em falha técnica, e a CNBC diz que não há indício de ataque; contas e fundos seguem acessíveis, mas a normalização não foi confirmada. Efeito esperado: pressão sobre bancos americanos na abertura. Sem pânico: mantenha mais de uma forma de acesso ao seu dinheiro e desconfie de links que prometem 'resolver' o problema."
@@ -676,6 +681,14 @@
   "noticias_radar": [
     {
       "cat": "cripto",
+      "title": "Ataque hacker afeta quase 200 sites, como BBC, CNN, IKEA e Ledger, para roubar cartões e cripto",
+      "link": "https://www.instagram.com/p/Df2vdMmsXXI/",
+      "src": "g1",
+      "t": "2026-11-17T20:40:00-03:00",
+      "viral": true
+    },
+    {
+      "cat": "cripto",
       "title": "Diretor do Fed usa hack de US$ 6,3 bi na Binance para alertar sobre riscos das finanças tokenizadas",
       "link": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance",
       "src": "Cointelegraph",
@@ -849,6 +862,18 @@
     }
   ],
   "incidentes": [
+    {
+      "id": "optimizely-2026-11-17",
+      "tipo": "financeiro",
+      "plataforma": "Optimizely (BBC, CNN, Zoom, IKEA, Air France, HSBC EAU, Ledger)",
+      "titulo": "Código malicioso em ~178 sites via Optimizely tentou roubar cartões e dados de cripto; incidente contido",
+      "status": "contido",
+      "t_detectado": "2026-11-17T22:45:00Z",
+      "t_atualizado": "2026-11-17T22:45:00Z",
+      "fontes": [
+        "https://g1.globo.com/"
+      ]
+    },
     {
       "id": "mundo-franca-freezers-ira-2026-11",
       "tipo": "anomalia",
