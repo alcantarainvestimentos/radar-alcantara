@@ -162,6 +162,11 @@
   "alertas": [
     {
       "nivel": "atencao",
+      "titulo": "Bancos dos EUA com apps fora do ar",
+      "texto": "Clientes de JPMorgan Chase, Bank of America, Wells Fargo, U.S. Bank, Truist e do Zelle relataram falhas em apps e sites nesta segunda (16). O Chase fala em falha técnica, e a CNBC diz que não há indício de ataque; contas e fundos seguem acessíveis, mas a normalização não foi confirmada. Efeito esperado: pressão sobre bancos americanos na abertura. Sem pânico: mantenha mais de uma forma de acesso ao seu dinheiro e desconfie de links que prometem 'resolver' o problema."
+    },
+    {
+      "nivel": "atencao",
       "titulo": "BB × agro: inadimplência rural a 6,92% e briga pública com produtores",
       "texto": "No balanço do 3T, o Banco do Brasil informou inadimplência de 6,92% no agro (acima de 90 dias), custo do crédito de R$ 21,2 bi no trimestre e lucro ajustado de R$ 1,3 bi (−66,5%). A presidente Tarciana Medeiros citou 31 mil produtores inadimplentes; a Aprosoja contesta e diz que a causa é a piora econômica, não má-fé. Confirmado: números do balanço e as falas. Não confirmado: quantos dos inadimplentes se recusaram a renegociar. Mercado fechado — impacto esperado na abertura em BBAS3. Diversifique e não concentre tudo em um só lugar."
     },
@@ -169,11 +174,6 @@
       "nivel": "alerta",
       "titulo": "Dólar fecha a R$ 5,78, maior nível desde abril de 2025; Ibovespa cai 1,9%",
       "texto": "O dólar subiu ~2,2% (R$ 5,777, máxima de R$ 5,795) e o Ibovespa caiu 1,91% (169.168 pts), com Vale e Petrobras em queda de mais de 3%. Pesaram o rebaixamento do Brasil para underweight pelo Morgan Stanley, a dúvida sobre o pacote fiscal de até R$ 60 bi em 2027 e a especulação sobre Mercadante na Fazenda. DIs subiram em toda a curva (jan/28 +26 bp). Destaques do ajuste fiscal no Senado na terça (17/11)."
-    },
-    {
-      "nivel": "alerta",
-      "titulo": "Binance mira reabrir todas as redes de saque; BTC perto de US$ 65 mil",
-      "texto": "Após reabrir saques em 87 redes, a Binance disse que pretende reabrir todas as redes e ativos restantes 'até o fim da próxima semana' (post de 14/11); INJ e PLASMA sem confirmação. Confira o status da rede antes de sacar. O bitcoin está perto de US$ 65 mil depois de tocar ~US$ 62 mil no fim de semana, com o índice de medo em 10, e o Mercado Bitcoin segue com saques suspensos. Cuidado com alavancagem e golpes."
     }
   ],
   "indicadores": [
@@ -678,6 +678,15 @@
   "noticias_radar": [
     {
       "cat": "acoes",
+      "title": "Apps de JPMorgan, Bank of America, Wells Fargo e Zelle apresentam falhas nos EUA; Chase atribui a problema técnico",
+      "link": "https://www.aljazeera.com/news/2026/11/16/thousands-report-difficulties-accessing-accounts-online-at-major-us-banks",
+      "src": "Al Jazeera / CBS News",
+      "t": "2026-11-16T22:05:00-03:00",
+      "score": 4,
+      "viral": true
+    },
+    {
+      "cat": "acoes",
       "title": "Banco do Brasil diz ter 31 mil produtores inadimplentes; Aprosoja rebate e acusa generalização",
       "link": "https://www.otempo.com.br/economia/2026/11/13/banco-do-brasil-tem-31-mil-produtores-rurais-inadimplentes-diz-ceo",
       "src": "O Tempo",
@@ -790,7 +799,7 @@
       "link": "https://investnews.com.br/negocios/ataque-hacker-porto-de-santos/",
       "src": "InvestNews",
       "t": "2026-11-14T15:50:00+00:00",
-      "viral": true,
+      "viral": false,
       "score": 5
     },
     {
@@ -942,6 +951,19 @@
       "fontes": [
         "https://www.otempo.com.br/economia/2026/11/13/banco-do-brasil-tem-31-mil-produtores-rurais-inadimplentes-diz-ceo",
         "https://redehoje.com.br/2026/11/16/agronegocio-banco-do-brasil-aponta-aumento-da-inadimplencia-entre-produtores-rurais-e-aprosoja-contesta-declaracoes/"
+      ]
+    },
+    {
+      "id": "eua-bancos-apps-2026-11-16",
+      "tipo": "anomalia",
+      "plataforma": "JPMorgan Chase, Bank of America, Wells Fargo, U.S. Bank, Truist e Zelle",
+      "titulo": "Apps e sites de grandes bancos dos EUA e o Zelle apresentam falhas; Chase fala em falha técnica e CNBC diz que não há indício de ataque; resolução não confirmada",
+      "status": "aberto",
+      "t_detectado": "2026-11-16T22:05:00-03:00",
+      "t_atualizado": "2026-11-16T22:05:00-03:00",
+      "fontes": [
+        "https://www.cbsnews.com/news/banks-online-service-outages-jpmorgan-chase-bank-of-america-wells-fargo/",
+        "https://www.aljazeera.com/news/2026/11/16/thousands-report-difficulties-accessing-accounts-online-at-major-us-banks"
       ]
     }
   ]
