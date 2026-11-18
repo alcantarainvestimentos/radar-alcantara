@@ -1,30 +1,30 @@
 {
-  "atualizado_em": "2026-11-18T10:15:00-03:00",
-  "referencia": "Pregão de quarta, 18/11/2026 (parcial às 10h15)",
+  "atualizado_em": "2026-11-18T12:40:00-03:00",
+  "referencia": "Pregão de quarta, 18/11/2026 (parcial às 12h40)",
   "postura": {
     "estado": "RISK-OFF",
     "positivos": 0,
     "total": 6,
     "desde": "2026-11-13",
     "conviccao": "ALTA",
-    "resumo": "Postura RISK-OFF, com 0 de 6 sinais positivos e convicção ALTA. No início do pregão, o dólar sobe 0,5%, a R$ 5,813 (nova máxima desde abril de 2025), e o Ibovespa futuro cai ~0,5%, perto de 170 mil pts, enquanto o Senado retoma a votação dos quatro destaques do ajuste fiscal. Os DIs voltam a subir (jan/31 a 15,09%). Em NY, os futuros do Nasdaq sobem com a Nvidia, mas o Irã atacou bases dos EUA no Kuwait; o ouro cai ~2% e o VIX segue acima de 20 (24,72). A ata do Fed sai às 16h."
+    "resumo": "Postura RISK-OFF, com 0 de 6 sinais positivos e convicção ALTA. Perto do meio-dia, o Ibovespa cai 0,69%, a 168.648 pts, com Vale e Petrobras em queda, e o dólar perde força, subindo 0,20% a R$ 5,795 após tocar R$ 5,813 e com o BC vendendo US$ 1 bi em leilões. O Senado ainda não votou os destaques do ajuste fiscal. Em NY, o Dow cai 0,9% e o Nasdaq sobe 0,5%, com a Nvidia virando para o negativo; Waller defendeu alta de 0,50 p.p. em dezembro. O VIX segue acima de 20, o BTC cai 2,5% (US$ 63,3 mil) e a ata do Fed sai às 16h."
   },
   "sinais": [
     {
       "nome": "Ibovespa 5 pregões",
-      "valor": "−0,6%",
+      "valor": "−1,3%",
       "estado": "neg",
       "regra": "Positivo se o índice subiu nos últimos 5 pregões"
     },
     {
       "nome": "Ibovespa 1 mês",
-      "valor": "≈ −17,2%",
+      "valor": "≈ −17,8%",
       "estado": "neg",
       "regra": "Positivo se o índice está acima de 1 mês atrás"
     },
     {
       "nome": "Dólar 5 pregões",
-      "valor": "+4,1%",
+      "valor": "+3,7%",
       "estado": "neg",
       "regra": "Positivo se o dólar caiu na semana (real mais forte)"
     },
@@ -52,21 +52,21 @@
       "codigo": "WIN",
       "nome": "Ibovespa",
       "vies": "baixa",
-      "nivel": "169.817 pts",
-      "dia": 0.31,
-      "semana": -0.58,
-      "mes": -17.2,
-      "nota": "Ibovespa à vista abriu às 10h; o futuro operava perto de 170.025 pts (~−0,5%) às 9h44, após renovar a mínima às 9h04, com o Senado retomando os destaques do ajuste fiscal. Nível, dia, semana e mês ainda são do fechamento de 17/11 (169.816,64 pts, +0,31%). Semana = vs 10/11; mês = vs 23/10."
+      "nivel": "168.648 pts",
+      "dia": -0.69,
+      "semana": -1.27,
+      "mes": -17.8,
+      "nota": "168.648,03 pts (−0,69%) por volta das 12h, pressionado por Vale (−2,04%), Petrobras (ON −1,65%, PN −1,32%), Itaú (−0,93%) e Bradesco (−0,90%), à espera da votação dos destaques do ajuste fiscal no Senado e da ata do Fed. Semana = vs 10/11; mês = vs 23/10."
     },
     {
       "codigo": "WDO",
       "nome": "Dólar comercial",
       "vies": "alta",
-      "nivel": "R$ 5,813",
-      "dia": 0.5,
-      "semana": 4.06,
-      "mes": 16.4,
-      "nota": "R$ 5,813 (+0,50%) às 9h28, nova máxima do dia; abriu a R$ 5,80. Pesam o impasse no Senado (limite às compensações tributárias, até R$ 18,3 bi em 2027), a aposta em alta de juros nos EUA e o IBC-Br de setembro (−0,2%). Semana = vs 10/11; mês = vs 23/10."
+      "nivel": "R$ 5,795",
+      "dia": 0.2,
+      "semana": 3.74,
+      "mes": 16.1,
+      "nota": "R$ 5,7948 (+0,20%) por volta das 12h, perdendo força após a máxima de R$ 5,813 às 9h28; o BC vendeu todo o US$ 1 bi ofertado em dois leilões pela manhã. DXY em alta (+0,25%, 103,7). Semana = vs 10/11; mês = vs 23/10."
     },
     {
       "codigo": "DI F31",
@@ -76,44 +76,44 @@
       "dia": 0.055,
       "semana": 0.112,
       "mes": null,
-      "nota": "DI jan/31 a 15,090% (+5,5 bp) na abertura de 18/11, com jan/28 a 14,460% (+6 bp) e jan/29 a 14,870% (+7,5 bp), acompanhando o dólar e o impasse do ajuste fiscal. Semana = vs 14,978% de 05/11."
+      "nota": "DI jan/31 a 15,090% (+5,5 bp) na abertura de 18/11; perto do meio-dia os DIs perderam fôlego, com o jan/28 ainda liderando (14,465%, +6,5 bp) e o jan/27 estável (13,699%). Nível do jan/31 mantido da abertura. Semana = vs 14,978% de 05/11."
     },
     {
       "codigo": "BTC",
       "nome": "Bitcoin",
       "vies": "baixa",
-      "nivel": "US$ 64.017",
-      "dia": -1.51,
-      "semana": -12.7,
+      "nivel": "US$ 63.263",
+      "dia": -2.49,
+      "semana": -13.8,
       "mes": null,
-      "nota": "US$ 64.017 (−1,51% em 24h) às 9h44 de Brasília (Yahoo Finance), sem acompanhar a alta dos futuros de tecnologia; ainda abaixo da média de 200 semanas (~US$ 68 mil). O hacker da Binance moveu mais 60 mil ETH nesta manhã. Semana = vs 10/11."
+      "nota": "US$ 63.263 (−2,49%) às 11h43 de Brasília, depois de tocar US$ 63 mil; segue abaixo da média de 200 semanas (~US$ 68 mil) e não acompanha a alta da Nvidia. O hacker da Binance moveu mais 60 mil ETH nesta manhã. Semana = vs 10/11."
     }
   ],
   "fita": [
     {
       "nome": "IBOV",
-      "valor": "169.817",
-      "var": 0.31
+      "valor": "168.648",
+      "var": -0.69
     },
     {
       "nome": "USD/BRL",
-      "valor": "5,813",
-      "var": 0.5
+      "valor": "5,795",
+      "var": 0.2
     },
     {
       "nome": "S&P 500",
-      "valor": "7.341",
-      "var": -1.02
+      "valor": "7.340",
+      "var": -0.02
     },
     {
       "nome": "NASDAQ",
-      "valor": "24.329",
-      "var": -0.74
+      "valor": "24.456",
+      "var": 0.52
     },
     {
       "nome": "DOW",
-      "valor": "50.748",
-      "var": -1.64
+      "valor": "50.291",
+      "var": -0.9
     },
     {
       "nome": "VIX",
@@ -132,13 +132,13 @@
     },
     {
       "nome": "BTC",
-      "valor": "64.017",
-      "var": -1.51
+      "valor": "63.263",
+      "var": -2.49
     },
     {
       "nome": "ETH",
-      "valor": "1.799",
-      "var": -1.25
+      "valor": "1.768",
+      "var": -0.87
     }
   ],
   "valor_justo": [
@@ -162,13 +162,13 @@
   "alertas": [
     {
       "nivel": "alerta",
-      "titulo": "Senado retoma destaques do ajuste fiscal; dólar a R$ 5,81",
-      "texto": "O Senado retoma nesta quarta a votação dos quatro destaques do PLP 299/2026 (economia de até R$ 56,1 bi em 2027), adiada na terça por falta de acordo; o impasse principal é o limite às compensações tributárias (até R$ 18,3 bi em 2027), que o governo quer derrubar. Depois o texto vai à Câmara. O dólar abriu em alta e chegou a R$ 5,813 (+0,5%). Confirmado: a votação na pauta de hoje. Ainda incerto: o resultado. Evite alavancagem excessiva em dólar e índice durante a votação."
+      "titulo": "Senado ainda vota destaques do ajuste fiscal; dólar a R$ 5,79",
+      "texto": "O Senado retoma nesta quarta a votação dos quatro destaques do PLP 299/2026 (economia de até R$ 56,1 bi em 2027), adiada na terça por falta de acordo; o impasse principal é o limite às compensações tributárias (até R$ 18,3 bi em 2027). Depois o texto vai à Câmara. O dólar chegou a R$ 5,813 e perto do meio-dia sobe 0,20% (R$ 5,795), após o BC vender US$ 1 bi em leilões; o Ibovespa cai 0,69%. Confirmado: a votação na pauta de hoje. Ainda incerto: o resultado. Evite alavancagem excessiva em dólar e índice durante a votação."
     },
     {
       "nivel": "atencao",
       "titulo": "Irã ataca bases dos EUA no Kuwait; Nvidia suspende chips para a China",
-      "texto": "O Irã atacou bases americanas no Kuwait após ataques dos EUA a uma ilha iraniana; o Brent opera em queda (~US$ 91,85, −1,4%) com alta dos estoques nos EUA, e o ouro cai ~2%. A Nvidia, que bateu as estimativas (receita de US$ 115,8 bi), suspendeu o envio à China de chips de IA aprovados pelos EUA. Efeito esperado: volatilidade em petróleo, PETR4/PRIO3 e tecnologia. Ainda incerto: escala da resposta americana."
+      "texto": "O Irã atacou bases americanas no Kuwait após ataques dos EUA a uma ilha iraniana; o petróleo opera em queda com alta dos estoques nos EUA (WTI ~US$ 84, −2,3% às 11h43), e o ouro cai ~2%. A Nvidia bateu as estimativas, mas virou para o negativo após a abertura em NY e suspendeu o envio à China de chips de IA aprovados pelos EUA. O Dow cai ~0,9%. Efeito esperado: volatilidade em petróleo, PETR4/PRIO3 e tecnologia. Ainda incerto: escala da resposta americana."
     },
     {
       "nivel": "atencao",
@@ -206,7 +206,7 @@
       "valor": "15,090%",
       "estado": "neg",
       "selo": "+5,5 bp hoje",
-      "agora": "O DI jan/31 operava a 15,090% (+5,5 bp) na abertura de 18/11, com jan/28 a 14,460% e jan/29 a 14,870%, devolvendo parte do alívio de terça com o dólar em alta e o Senado retomando os destaques do ajuste fiscal.",
+      "agora": "O DI jan/31 operava a 15,090% (+5,5 bp) na abertura de 18/11; perto do meio-dia os juros perderam fôlego, com o jan/28 a 14,465% (+6,5 bp) e o jan/27 estável em 13,699%, à espera dos destaques do ajuste fiscal no Senado.",
       "o_que_e": "A taxa de juros que o mercado cobra para emprestar ao governo até 2031. Mede o prêmio de risco de longo prazo.",
       "como_ler": "DI longo subindo encarece o valuation das ações, principalmente de empresas de crescimento e ligadas ao consumo. Queda costuma anteceder alta da bolsa."
     },
@@ -214,10 +214,10 @@
       "id": "cambio",
       "grupo": "Brasil",
       "nome": "Dólar comercial",
-      "valor": "R$ 5,813",
+      "valor": "R$ 5,795",
       "estado": "neg",
-      "selo": "+0,5% hoje",
-      "agora": "R$ 5,813 (+0,50%) às 9h28 de 18/11, nova máxima desde abril de 2025, com o impasse do ajuste fiscal no Senado e a aposta em alta de juros nos EUA. Fechou a R$ 5,782 em 17/11. Focus projeta R$ 5,40 no fim de 2026.",
+      "selo": "+0,2% hoje",
+      "agora": "R$ 5,7948 (+0,20%) perto do meio-dia de 18/11, após máxima de R$ 5,813 às 9h28 (maior nível desde abril de 2025); o BC vendeu US$ 1 bi em leilões. Fechou a R$ 5,782 em 17/11. Focus projeta R$ 5,40 no fim de 2026.",
       "o_que_e": "A cotação do dólar no mercado à vista.",
       "como_ler": "Dólar subindo favorece exportadoras (Suzano, Embraer, petroleiras) e pressiona a inflação e as empresas endividadas em moeda estrangeira."
     },
@@ -239,7 +239,7 @@
       "valor": "3,75–4,00%",
       "estado": "neg",
       "selo": "~100% de alta em dez.",
-      "agora": "O CME FedWatch mostra ~100% de chance de alta de juros em 9/12 (18/11). John Williams (Fed de NY) disse que os juros provavelmente terão de subir de novo, mas sem agressividade. A ata da reunião de outubro sai hoje às 16h.",
+      "agora": "O CME FedWatch mostra ~100% de chance de alta de juros em 9/12. Christopher Waller disse que provavelmente será preciso subir 0,50 p.p. em dezembro, a menos que o Fed sinalize claramente outra alta em janeiro. A ata da reunião de outubro sai hoje às 16h.",
       "o_que_e": "A taxa básica de juros dos EUA, definida pelo Fomc.",
       "como_ler": "Juros altos nos EUA atraem capital para lá e tendem a fortalecer o dólar contra moedas emergentes como o real."
     },
@@ -258,10 +258,10 @@
       "id": "treasury",
       "grupo": "EUA",
       "nome": "Treasury 10 anos",
-      "valor": "5,10%",
+      "valor": "5,09%",
       "estado": "neg",
-      "selo": "−2 bp hoje",
-      "agora": "O 10 anos opera a ~5,09–5,10% na manhã de 18/11 (−2 bp), e o 2 anos a 4,79%, à espera da ata do Fed.",
+      "selo": "−1,4 bp hoje",
+      "agora": "O 10 anos opera a 5,089% (−1,4 bp) às 11h43 de 18/11; os rendimentos caem, mais na ponta longa, à espera da ata do Fed.",
       "o_que_e": "O rendimento do título de 10 anos do governo americano, referência global de juros.",
       "como_ler": "Acima de 4,5% os juros pesam sobre as ações no mundo todo. Quedas costumam aliviar a bolsa brasileira e o real."
     },
@@ -303,15 +303,15 @@
     "itens": [
       {
         "nome": "BTC",
-        "valor": "US$ 64.017",
-        "var": -1.51,
-        "nota": "US$ 64.017 (−1,51% em 24h) às 9h44 de Brasília (Yahoo Finance), mesmo com os futuros do Nasdaq em alta após a Nvidia. Fear & Greed em medo extremo; FedWatch: ~100% de chance de alta de juros em dezembro. O hacker da Binance moveu mais 60 mil ETH nesta manhã."
+        "valor": "US$ 63.263",
+        "var": -2.49,
+        "nota": "US$ 63.263 (−2,49%) às 11h43 de Brasília, perto de US$ 63 mil, mesmo com o Nasdaq em leve alta; analistas citam o fim do ganho com o basis trade e a ata do Fed. Fear & Greed em medo extremo; FedWatch: ~100% de chance de alta em dezembro. A MARA vendeu US$ 1 bi em BTC para pagar dívidas. O hacker da Binance moveu mais 60 mil ETH nesta manhã."
       },
       {
         "nome": "ETH",
-        "valor": "US$ 1.799",
-        "var": -1.25,
-        "nota": "US$ 1.799,45 (−1,25%) às 8h42 de Brasília (CoinDesk). A carteira do ataque à Binance moveu mais 60 mil ETH (US$ 108,8 mi) nesta quarta, depois de US$ 137 mi na terça."
+        "valor": "US$ 1.768",
+        "var": -0.87,
+        "nota": "US$ 1.768 (−0,87%) por volta das 12h40 de Brasília (CoinDesk). A carteira do ataque à Binance moveu mais 60 mil ETH (US$ 108,8 mi) nesta quarta, depois de US$ 137 mi na terça."
       }
     ]
   },
@@ -352,12 +352,6 @@
     "leitura": "Hapvida (+11%) liderou as altas e Bradesco (+1,26%) subiu entre os bancos. Construtoras caíram com os juros (Cury −4,15%, Tenda −3,18%); Banco do Brasil (−2,21%), Itaú (−0,99%) e Vale (−0,59%) recuaram e Petrobras ficou estável."
   },
   "agenda": [
-    {
-      "data": "2026-11-18",
-      "hora": "10h30",
-      "evento": "EUA: início de construção de casas e licenças (out)",
-      "peso": "medio"
-    },
     {
       "data": "2026-11-18",
       "hora": "16h",
@@ -501,6 +495,18 @@
   ],
   "fontes": [
     {
+      "nome": "BDM — Giro das 12h de 18/11 (Ibovespa, dólar, DIs, NY)",
+      "url": "https://www.bomdiamercado.com.br/mercado-financeiro/giro-dos-mercados/giro-das-12h-bolsa-cai-e-dolar-perde-forca-a-espera-da-votacao-do-pacote-fiscal-e-da-ata-do-fed/"
+    },
+    {
+      "nome": "JournalArta — NY, Treasury, WTI e BTC (18/11, 11h43)",
+      "url": "https://journalarta.com/en/2026/11/18/wall-street-opens-mixed-as-chipmakers-lift-nasdaq-while-dow-slides/"
+    },
+    {
+      "nome": "CoinDesk — ao vivo: bitcoin e ether (18/11)",
+      "url": "https://www.coindesk.com/business/2026/11/18/live-updates-bitcoin-stuck-near-usd65-000-as-popular-basis-trade-returns-dry-up"
+    },
+    {
       "nome": "InfoMoney — ao vivo 18/11 (dólar, DIs, Ibovespa futuro, notícias)",
       "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-18112026/"
     },
@@ -527,13 +533,9 @@
     {
       "nome": "CoinDesk — bitcoin e ether (18/11, 8h42)",
       "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-drops-as-nvidia-earnings-report-drives-stock-index-futures-higher"
-    },
-    {
-      "nome": "Diário do Sudoeste/Estadão Conteúdo — fechamento de 17/11 (Ibovespa, dólar)",
-      "url": "https://diariodosudoeste.com.br/ibovespa-sobe-031-e-dolar-fecha-a-r-578-nesta-terca/"
     }
   ],
-  "notas": "Parcial de quarta (18/11) às 10h15: dólar e DIs da abertura (InfoMoney); Ibovespa à vista ainda sem cotação publicada, por isso nível e variação seguem do fechamento de 17/11 (futuro citado na nota); S&P 500, Nasdaq e Dow pelo fechamento de 17/11 (NY abre às 11h30); VIX, Brent, ouro e BTC da manhã de 18/11; ETH das 8h42. Histórico não alterado nesta rodada. Informação para estudo, não recomendação de investimento.",
+  "notas": "Parcial de quarta (18/11) às 12h40: Ibovespa, dólar, DIs e variações de NY por volta das 12h (BDM); níveis de S&P 500, Nasdaq e Dow calculados a partir do fechamento de 17/11 e das variações das 12h; BTC e Treasury das 11h43 (JournalArta); ETH da CoinDesk (~12h40); VIX, Brent e ouro mantidos da manhã por falta de cotação confiável mais recente. Histórico não alterado nesta rodada. Informação para estudo, não recomendação de investimento.",
   "config": {
     "brapi_token": "",
     "whatsapp": "",
@@ -564,15 +566,15 @@
       ],
       "focus_fonte": "Focus de 16/11 (fim de 2026 e fim de 2027)",
       "curva": {
-        "data": "18/11 (jan/28, jan/29 e jan/31 na abertura; demais de 16/11)",
+        "data": "18/11 (jan/27 e jan/28 perto do meio-dia; jan/29 e jan/31 na abertura; demais de 16/11)",
         "pontos": [
           {
             "v": "jan/27",
-            "t": 13.667
+            "t": 13.699
           },
           {
             "v": "jan/28",
-            "t": 14.46
+            "t": 14.465
           },
           {
             "v": "jan/29",
@@ -592,7 +594,7 @@
           }
         ]
       },
-      "leitura": "Os DIs voltam a subir nesta quarta: na abertura, jan/28 a 14,46%, jan/29 a 14,87% e jan/31 a 15,09%, com o dólar a R$ 5,81 e o Senado retomando os destaques do ajuste fiscal. A curva segue bem acima da Selic de 13,75%."
+      "leitura": "Os DIs subiram na abertura desta quarta (jan/31 a 15,09%) e perderam fôlego perto do meio-dia, com o jan/28 a 14,465% (+6,5 bp) e o jan/27 estável em 13,699%, com o dólar a R$ 5,79 e o Senado ainda votando os destaques do ajuste fiscal. A curva segue bem acima da Selic de 13,75%."
     },
     "eua": {
       "fed": "3,75–4,00%",
@@ -628,7 +630,7 @@
           }
         ]
       },
-      "leitura": "O 10 anos opera a ~5,09–5,10% e o 2 anos a 4,79% na manhã de 18/11; o FedWatch mostra ~100% de chance de alta em dezembro. A ata do Fed sai hoje às 16h."
+      "leitura": "O 10 anos opera a ~5,09% às 11h43 de 18/11, com os rendimentos em queda na ponta longa; o FedWatch mostra ~100% de chance de alta em dezembro, e Waller defendeu 0,50 p.p. A ata do Fed sai hoje às 16h."
     },
     "credito_eua": {
       "hy_oas": 3.14,
