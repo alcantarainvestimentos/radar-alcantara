@@ -851,22 +851,6 @@
       "src": "Yahoo Finance",
       "t": "2026-11-15T03:00:00-08:00",
       "score": 4
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin afunda rumo a US$ 62 mil, menor nível desde julho; ETFs perdem quase US$ 3 bi em duas semanas",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-15/crypto-s-slow-motion-selloff-leaves-traders-weary-and-hopeless",
-      "src": "Bloomberg",
-      "t": "2026-11-15T12:02:00+05:30",
-      "score": 5
-    },
-    {
-      "cat": "cripto",
-      "title": "XRP despenca abaixo de US$ 1 pela 1ª vez desde 2024; stablecoins encolhem e dinheiro foge da cripto",
-      "link": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto",
-      "src": "CoinDesk",
-      "t": "2026-11-14T21:50:00-05:00",
-      "score": 4
     }
   ],
   "incidentes": [
