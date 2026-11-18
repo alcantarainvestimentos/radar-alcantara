@@ -701,6 +701,23 @@
   },
   "noticias_radar": [
     {
+      "cat": "acoes",
+      "title": "Irã diz ter atacado bases dos EUA no Kuwait; dólar rompe R$ 5,81 e juros futuros sobem em toda a curva",
+      "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-18112026/",
+      "src": "InfoMoney",
+      "t": "2026-11-18T09:44:00-03:00",
+      "score": 5,
+      "viral": true
+    },
+    {
+      "cat": "cripto",
+      "title": "CZ culpa IPO da Anthropic pela queda do bitcoin; analistas apontam inflação, juros e hack da Binance",
+      "link": "https://www.coindesk.com/daybook-us/2026/11/18/blaming-anthropic-s-ipo-for-bitcoin-s-slide-is-easy-to-believe-but-flawed-analysts-say",
+      "src": "CoinDesk",
+      "t": "2026-11-18T12:00:00+00:00",
+      "score": 3
+    },
+    {
       "cat": "cripto",
       "title": "Ataque hacker afeta quase 200 sites, como BBC, CNN, IKEA e Ledger, para roubar cartões e cripto",
       "link": "https://www.instagram.com/p/Df2vdMmsXXI/",
@@ -717,6 +734,14 @@
       "t": "2026-11-17T16:30:00-05:00",
       "score": 5,
       "viral": true
+    },
+    {
+      "cat": "cripto",
+      "title": "Operação com PF em 14 países prende 266 por fraudes online; 576 carteiras cripto rastreadas",
+      "link": "https://sbtnews.sbt.com.br/noticia/brasil/pf-atua-em-operacao-internacional-contra-fraudes-digitais",
+      "src": "SBT News",
+      "t": "2026-11-17T17:50:00-03:00",
+      "score": 4
     },
     {
       "cat": "acoes",
@@ -789,8 +814,7 @@
       "link": "https://www.aljazeera.com/news/2026/11/16/thousands-report-difficulties-accessing-accounts-online-at-major-us-banks",
       "src": "Al Jazeera / CBS News",
       "t": "2026-11-16T22:05:00-03:00",
-      "score": 4,
-      "viral": true
+      "score": 4
     },
     {
       "cat": "acoes",
@@ -855,22 +879,6 @@
       "link": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest#msci",
       "src": "Cointelegraph",
       "t": "2026-11-15T22:49:00+00:00",
-      "score": 4
-    },
-    {
-      "cat": "cripto",
-      "title": "Corretora sul-coreana Coinone admite vazamento: senhas, documentos e dados bancários de clientes podem ter sido expostos",
-      "link": "https://thecryptobasic.com/2026/11/15/tcb-daily-edition-what-happened-in-crypto-on-november-15-2026/",
-      "src": "The Crypto Basic",
-      "t": "2026-11-15T12:00:00+00:00",
-      "score": 3
-    },
-    {
-      "cat": "acoes",
-      "title": "Nvidia encara 1º balanço sem Jensen Huang na terça, após tombo; Anthropic mira IPO de até US$ 1,45 trilhão",
-      "link": "https://finance.yahoo.com/markets/article/nvidias-first-post-jensen-earnings-and-anthropics-ipo-what-to-watch-this-week-110000732.html",
-      "src": "Yahoo Finance",
-      "t": "2026-11-15T03:00:00-08:00",
       "score": 4
     }
   ],
