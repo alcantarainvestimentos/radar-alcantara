@@ -723,6 +723,14 @@
       "score": 4
     },
     {
+      "cat": "acoes",
+      "title": "Ata do Fed mostra dirigentes defendendo alta maior de juros; ouro despenca 3% à mínima em 14 meses e Dow cai 1,1%",
+      "link": "https://www.investing.com/news/economy-news/trading-day-markets-mixed-in-a-nvidiaanthropic-minutes-swirl-5037221",
+      "src": "Reuters",
+      "t": "2026-11-18T17:09:00-05:00",
+      "score": 4
+    },
+    {
       "cat": "cripto",
       "title": "Bitcoin perde US$ 63 mil enquanto Anthropic estreia IPO a US$ 83 e é avaliada em mais de US$ 1,5 tri",
       "link": "https://www.coindesk.com/business/2026/11/18/live-updates-bitcoin-stuck-near-usd65-000-as-popular-basis-trade-returns-dry-up",
@@ -894,22 +902,6 @@
       "src": "BPMoney",
       "t": "2026-11-16T10:22:00-03:00",
       "score": 3
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin acumula tombo de 17% em novembro e 6ª semana seguida de perdas; Strategy cai 8% no pré-mercado",
-      "link": "https://www.coindesk.com/tech/2026/11/16/live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
-      "src": "CoinDesk",
-      "t": "2026-11-16T09:34:00+00:00",
-      "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Nasdaq futuro cai 0,9% e Nvidia recua 2% antes do 1º balanço sem Jensen Huang; VIX sobe 4%",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html",
-      "src": "Yahoo Finance",
-      "t": "2026-11-16T01:16:00-08:00",
-      "score": 4
     }
   ],
   "incidentes": [
