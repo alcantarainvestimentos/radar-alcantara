@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-19T17:45:00-03:00",
+  "atualizado_em": "2026-11-19T18:35:00-03:00",
   "referencia": "Pregão de quinta, 19/11/2026 (parcial às 12h40)",
   "postura": {
     "estado": "RISK-OFF",
@@ -162,6 +162,11 @@
   "alertas": [
     {
       "nivel": "atencao",
+      "titulo": "Dólar fecha a R$ 5,93, máxima em 19 meses, mesmo com leilão de US$ 1 bi do BC",
+      "texto": "O dólar subiu cerca de 1,1% e fechou a R$ 5,93 nesta quinta (19), o maior nível em 19 meses, segundo CNN Brasil e BPMoney, mesmo depois de o Banco Central vender US$ 1 bilhão em leilão à vista. O Ibovespa recuou (entre 0,5% e 0,7% conforme a fonte) e os juros futuros subiram, com a imprensa citando temor fiscal. Amanhã a B3 fecha por causa do feriado. Sem histeria: é prevenção. Câmbio volátil pede cuidado com concentração em uma única moeda, não decisão no impulso."
+    },
+    {
+      "nivel": "atencao",
       "titulo": "iFood e fornecedores de Visa, Mastercard e JPMorgan: dois vazamentos de dados no mesmo dia",
       "texto": "O iFood informou ataque hacker com exposição de dados de clientes, entregadores e restaurantes (a imprensa cita telefones, CPFs e contas bancárias; o alcance exato ainda não está claro). Em paralelo, Visa, Mastercard e JPMorgan disseram que fornecedores terceiros sofreram ataque cibernético; um grupo hacker reivindica dados, o que ainda não está totalmente confirmado. Sem histeria: é prevenção. Fique atento a contatos que citem seus dados, desconfie de links e ligações 'do banco' e use autenticação em duas etapas."
     },
@@ -169,11 +174,6 @@
       "nivel": "atencao",
       "titulo": "Wall Street cai forte mesmo com estreia da Anthropic; Dow chegou a perder ~800 pontos",
       "texto": "A estreia da Anthropic (ANT) na Nasdaq foi forte, com valor de mercado acima de US$ 2 trilhões segundo a imprensa financeira, mas não bastou: a AP e o Yahoo Finance relatam queda dos índices de Nova York, com o Dow perdendo cerca de 800 pontos durante o pregão (números ainda mudam até o fechamento). Leitura dos veículos: realização de lucros e falta de fôlego da tese de IA. Efeito no Brasil ainda por confirmar; amanhã a B3 fecha pelo feriado. Sem histeria: oscilação forte é prevenção para quem tem patrimônio concentrado, não motivo para decisão no impulso."
-    },
-    {
-      "nivel": "atencao",
-      "titulo": "Trump, Xi e Putin fecham cúpula histórica com declaração conjunta",
-      "texto": "Na primeira reunião trilateral, em Shenzhen (China), os três líderes adotaram uma 'declaração de paz' de quatro pontos: aumentar a produção e a oferta de petróleo, abrir diálogo sobre risco nuclear, defender reforma da ONU e alertar contra organismos que 'abusem de sua jurisdição' (caso do TPI). A Ucrânia não foi citada, e a CBS avalia que o encontro rendeu pouco de concreto. O efeito sobre petróleo, dólar e juros ainda precisa ser confirmado; o petróleo mais barato ajudaria a inflação, mas o mercado segue dominado pelo fiscal e pelo Fed. Sem histeria: é dia de acompanhar, não de decidir no impulso."
     }
   ],
   "indicadores": [
@@ -725,6 +725,15 @@
   },
   "noticias_radar": [
     {
+      "cat": "brasil",
+      "title": "Dólar fecha a R$ 5,93, máxima em 19 meses, mesmo após leilão de US$ 1 bi do BC",
+      "link": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-19-novembro-2026/",
+      "src": "CNN Brasil",
+      "t": "2026-11-19T18:35:00-03:00",
+      "score": 5,
+      "viral": true
+    },
+    {
       "cat": "mundo",
       "title": "iFood sofre ataque hacker e expõe dados de clientes, entregadores e restaurantes",
       "link": "https://olhardigital.com.br/2026/11/19/seguranca/ifood-sofre-ataque-hacker-que-expoe-dados-de-clientes-e-entregadores",
@@ -759,50 +768,23 @@
       "t": "2026-11-19T14:30:00-03:00",
       "score": 5,
       "viral": true
-    },
-    {
-      "cat": "cripto",
-      "title": "Medo extremo: índice despenca a 12, ETFs de bitcoin perdem US$ 306 mi e BTC segue preso nos US$ 63 mil",
-      "link": "https://exame.com/future-of-money/bitcoin-hoje-19-11-2026/",
-      "src": "Exame",
-      "t": "2026-11-19T10:42:00-03:00",
-      "score": 3
-    },
-    {
-      "cat": "acoes",
-      "title": "Dólar passa de R$ 5,90 e Ibovespa cai mesmo após BC queimar US$ 1 bi em leilão",
-      "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-19112026/",
-      "src": "InfoMoney",
-      "t": "2026-11-19T09:04:00-03:00",
-      "score": 4,
-      "viral": true
-    },
-    {
-      "cat": "cripto",
-      "title": "PF integra operação em 14 países: 266 presos, 576 carteiras cripto rastreadas e 11 quadrilhas desmontadas",
-      "link": "https://livecoins.com.br/pf-participa-de-operacao-internacional-que-rastreou-576-carteiras-de-criptomoedas/",
-      "src": "Livecoins",
-      "t": "2026-11-19T07:01:00-03:00",
-      "score": 4
-    },
-    {
-      "cat": "cripto",
-      "title": "Hacker da Binance move mais US$ 248 mi em ETH; US$ 2,5 bi do roubo seguem em carteiras ligadas ao ataque",
-      "link": "https://crypto.news/binance-hacker-moves-another-248m-in-eth-where-are-the-stolen-funds/",
-      "src": "crypto.news",
-      "t": "2026-11-19T07:52:00+00:00",
-      "score": 3
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin apaga todo o rali do verão: cai 14% em 7 dias, a US$ 63 mil, e perdas realizadas somam US$ 8,4 bi",
-      "link": "https://crypto.news/bitcoin-price-liquidity-realized-losses-57k-support/",
-      "src": "crypto.news",
-      "t": "2026-11-19T05:55:00+00:00",
-      "score": 3
     }
   ],
   "incidentes": [
+    {
+      "id": "dolar-593-bc-leilao-2026-11-19",
+      "tipo": "mercado_br",
+      "plataforma": "Dólar / Banco Central",
+      "titulo": "Dólar fecha a R$ 5,93 (+~1,1%), maior nível em 19 meses, mesmo após leilão de US$ 1 bi do BC; Ibovespa recua em meio a temor fiscal",
+      "status": "aberto",
+      "t_detectado": "2026-11-19T18:35:00-03:00",
+      "t_atualizado": "2026-11-19T18:35:00-03:00",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-19-novembro-2026/",
+        "https://bpmoney.com.br/mercado/ibovespa-cai-dolar-renova-maxima-19-meses-r-593/",
+        "https://timesbrasil.com.br/brasil/economia-brasileira/apesar-de-intervencao-do-bc-dolar-fecha-a-r-593/"
+      ]
+    },
     {
       "id": "ifood-vazamento-2026-11-19",
       "tipo": "anomalia",
