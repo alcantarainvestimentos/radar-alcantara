@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-19T12:40:00-03:00",
+  "atualizado_em": "2026-11-19T16:45:00-03:00",
   "referencia": "Pregão de quinta, 19/11/2026 (parcial às 12h40)",
   "postura": {
     "estado": "RISK-OFF",
@@ -162,6 +162,11 @@
   "alertas": [
     {
       "nivel": "atencao",
+      "titulo": "Wall Street cai forte mesmo com estreia da Anthropic; Dow chegou a perder ~800 pontos",
+      "texto": "A estreia da Anthropic (ANT) na Nasdaq foi forte, com valor de mercado acima de US$ 2 trilhões segundo a imprensa financeira, mas não bastou: a AP e o Yahoo Finance relatam queda dos índices de Nova York, com o Dow perdendo cerca de 800 pontos durante o pregão (números ainda mudam até o fechamento). Leitura dos veículos: realização de lucros e falta de fôlego da tese de IA. Efeito no Brasil ainda por confirmar; amanhã a B3 fecha pelo feriado. Sem histeria: oscilação forte é prevenção para quem tem patrimônio concentrado, não motivo para decisão no impulso."
+    },
+    {
+      "nivel": "atencao",
       "titulo": "Trump, Xi e Putin fecham cúpula histórica com declaração conjunta",
       "texto": "Na primeira reunião trilateral, em Shenzhen (China), os três líderes adotaram uma 'declaração de paz' de quatro pontos: aumentar a produção e a oferta de petróleo, abrir diálogo sobre risco nuclear, defender reforma da ONU e alertar contra organismos que 'abusem de sua jurisdição' (caso do TPI). A Ucrânia não foi citada, e a CBS avalia que o encontro rendeu pouco de concreto. O efeito sobre petróleo, dólar e juros ainda precisa ser confirmado; o petróleo mais barato ajudaria a inflação, mas o mercado segue dominado pelo fiscal e pelo Fed. Sem histeria: é dia de acompanhar, não de decidir no impulso."
     },
@@ -169,11 +174,6 @@
       "nivel": "atencao",
       "titulo": "Dólar passa de R$ 5,92 e BC vende US$ 1 bi à vista",
       "texto": "Mesmo com o Senado concluindo o ajuste fiscal (texto vai à Câmara em 24/11), o dólar chegou a R$ 5,9287 nesta manhã. Às 12h17 o BC vendeu US$ 1 bi no mercado à vista (corte a 5,86), e a moeda recuou para R$ 5,892 (+0,45%) às 12h25; o Ibovespa virou para queda (−0,37%). A IFI alertou que ~70% da receita prevista no pacote é incerta, e o BTG rebaixou o Brasil para neutro. O CMN se reúne no fim da tarde, e amanhã a B3 fecha pelo feriado: liquidez menor e ajuste de posições são comuns."
-    },
-    {
-      "nivel": "atencao",
-      "titulo": "Estreia da Anthropic puxa Nasdaq; VIX ainda acima de 20",
-      "texto": "A Anthropic (ANT) estreia hoje na Nasdaq após IPO de US$ 81,3 bi a US$ 83 por ação, o maior da história, avaliada em ~US$ 1,5 tri. Na abertura, o Nasdaq subia 1,55% e o S&P 500 0,90%. Os pedidos de auxílio-desemprego vieram em 203 mil (esperado 197 mil) e o Treasury de 10 anos está em 5,08%; a ata do Fed segue indicando nova alta em dezembro."
     }
   ],
   "indicadores": [
@@ -725,6 +725,15 @@
   },
   "noticias_radar": [
     {
+      "cat": "mercado",
+      "title": "Wall Street cai forte e Dow chega a perder ~800 pontos, mesmo com estreia da Anthropic",
+      "link": "https://www.baltimoresun.com/2026/11/19/us-stocks-anthropic-ipo/",
+      "src": "AP",
+      "t": "2026-11-19T16:45:00-03:00",
+      "score": 5,
+      "viral": true
+    },
+    {
       "cat": "mundo",
       "title": "Trump, Xi e Putin fecham cúpula inédita em Shenzhen com declaração de paz: mais petróleo, risco nuclear e reforma da ONU",
       "link": "https://thehill.com/policy/international/6229659-trump-xi-putin-peace-declaration-china-summit",
@@ -756,174 +765,23 @@
       "src": "Reuters",
       "t": "2026-11-18T17:09:00-05:00",
       "score": 4
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin perde US$ 63 mil enquanto Anthropic estreia IPO a US$ 83 e é avaliada em mais de US$ 1,5 tri",
-      "link": "https://www.coindesk.com/business/2026/11/18/live-updates-bitcoin-stuck-near-usd65-000-as-popular-basis-trade-returns-dry-up",
-      "src": "CoinDesk",
-      "t": "2026-11-18T16:20:00-05:00",
-      "score": 5,
-      "viral": true
-    },
-    {
-      "cat": "cripto",
-      "title": "Binance obtém ordem de congelamento de US$ 6,5 bi em Abu Dhabi para caçar cripto roubada no hack de outubro",
-      "link": "https://www.theblock.co/news/business/2026-11-18-binance-freezing-court-order-adgm-crypto-october-hack-443491",
-      "src": "The Block",
-      "t": "2026-11-18T14:39:00-05:00",
-      "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "PF bloqueia R$ 2,3 bi do dono da Esportes da Sorte; grupo teria mandado € 500 mi ao exterior",
-      "link": "https://www.correiobraziliense.com.br/brasil/2026/11/7540458-pf-mira-grupo-de-apostas-ilegais-e-bloqueia-rs-23-bilhoes-em-operacao.html",
-      "src": "Correio Braziliense",
-      "t": "2026-11-18T11:06:00-03:00",
-      "score": 5,
-      "viral": true
-    },
-    {
-      "cat": "acoes",
-      "title": "Irã diz ter atacado bases dos EUA no Kuwait; dólar rompe R$ 5,81 e juros futuros sobem em toda a curva",
-      "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-18112026/",
-      "src": "InfoMoney",
-      "t": "2026-11-18T09:44:00-03:00",
-      "score": 5,
-      "viral": true
-    },
-    {
-      "cat": "cripto",
-      "title": "CZ culpa IPO da Anthropic pela queda do bitcoin; analistas apontam inflação, juros e hack da Binance",
-      "link": "https://www.coindesk.com/daybook-us/2026/11/18/blaming-anthropic-s-ipo-for-bitcoin-s-slide-is-easy-to-believe-but-flawed-analysts-say",
-      "src": "CoinDesk",
-      "t": "2026-11-18T12:00:00+00:00",
-      "score": 3
-    },
-    {
-      "cat": "cripto",
-      "title": "Ataque hacker afeta quase 200 sites, como BBC, CNN, IKEA e Ledger, para roubar cartões e cripto",
-      "link": "https://www.instagram.com/p/Df2vdMmsXXI/",
-      "src": "g1",
-      "t": "2026-11-17T20:40:00-03:00",
-      "score": 5,
-      "viral": true
-    },
-    {
-      "cat": "acoes",
-      "title": "Nvidia fatura US$ 115,8 bi no 1º balanço sem Jensen Huang; conselho descarta volta do ex-CEO e ação sobe",
-      "link": "https://www.investing.com/news/stock-market-news/nvidia-earnings-beat-estimates-attention-turns-to-call-5034180",
-      "src": "Reuters",
-      "t": "2026-11-17T16:30:00-05:00",
-      "score": 5,
-      "viral": true
-    },
-    {
-      "cat": "cripto",
-      "title": "Operação com PF em 14 países prende 266 por fraudes online; 576 carteiras cripto rastreadas",
-      "link": "https://sbtnews.sbt.com.br/noticia/brasil/pf-atua-em-operacao-internacional-contra-fraudes-digitais",
-      "src": "SBT News",
-      "t": "2026-11-17T17:50:00-03:00",
-      "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Dólar fecha a R$ 5,78, maior valor em 19 meses, com medo fiscal e Fed mais duro",
-      "link": "https://www.metropoles.com/brasil/dolar-ibovespa-bolsa-17-novembro",
-      "src": "Metrópoles",
-      "t": "2026-11-17T17:46:00-03:00",
-      "score": 3
-    },
-    {
-      "cat": "cripto",
-      "title": "Diretor do Fed usa hack de US$ 6,3 bi na Binance para alertar sobre riscos das finanças tokenizadas",
-      "link": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance",
-      "src": "Cointelegraph",
-      "t": "2026-11-17T17:39:00+00:00",
-      "score": 4
-    },
-    {
-      "cat": "cripto",
-      "title": "Hacker da Binance volta a agir: carteiras movem US$ 137 mi em ether após 2 semanas paradas e trocam por bitcoin",
-      "link": "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks",
-      "src": "Decrypt",
-      "t": "2026-11-17T17:18:00+00:00",
-      "score": 4
-    },
-    {
-      "cat": "cripto",
-      "title": "Ataque hacker infecta sites de HSBC, BBC e Ledger para trocar endereços de carteiras cripto; 178 empresas atingidas",
-      "link": "https://decrypt.co/383414/optimizely-hack-hijacked-ledger-bbc-and-176-other-sites-to-swap-crypto-wallet-addresses",
-      "src": "Decrypt",
-      "t": "2026-11-17T14:34:00+00:00",
-      "score": 5
-    },
-    {
-      "cat": "acoes",
-      "title": "Nvidia derrete 26% em um mês e solta hoje 1º balanço sem Jensen Huang; mercado espera receita de US$ 108,7 bi",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nvidia-26-142802182.html",
-      "src": "Yahoo Finance",
-      "t": "2026-11-17T06:28:00-08:00",
-      "score": 5
-    },
-    {
-      "cat": "acoes",
-      "title": "Dólar rompe R$ 5,80 com incerteza fiscal no Brasil; Ibovespa tenta reagir e volta aos 170 mil pontos",
-      "link": "https://exame.com/invest/mercados/ibovespa-sobe-e-retoma-os-170-mil-pontos-dolar-segue-em-alta-e-bate-r-580/",
-      "src": "Exame",
-      "t": "2026-11-17T10:50:00-03:00",
-      "score": 4
-    },
-    {
-      "cat": "cripto",
-      "title": "Hackers drenam cerca de US$ 15,5 mi de market makers na corretora Lighter; saques ficaram congelados",
-      "link": "https://www.techtimes.com/articles/330872/20261117/lighter-crypto-exchange-traders-hacked-keys-computed-public-signatures-5m-returned.htm",
-      "src": "Tech Times",
-      "t": "2026-11-17T04:39:00-05:00",
-      "score": 3
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin cai a US$ 64 mil e acumula tombo de 21% em 30 dias; Grayscale vê 'pontos de entrada'",
-      "link": "https://www.theblock.co/news/markets/2026-11-17-grayscale-compelling-entry-points-bitcoin-442083",
-      "src": "The Block",
-      "t": "2026-11-17T02:39:00-05:00",
-      "score": 3
-    },
-    {
-      "cat": "acoes",
-      "title": "Apps de JPMorgan, Bank of America, Wells Fargo e Zelle apresentam falhas nos EUA; Chase atribui a problema técnico",
-      "link": "https://www.aljazeera.com/news/2026/11/16/thousands-report-difficulties-accessing-accounts-online-at-major-us-banks",
-      "src": "Al Jazeera / CBS News",
-      "t": "2026-11-16T22:05:00-03:00",
-      "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Dólar dispara 2,15% a R$ 5,78, maior valor desde abril de 2025; Ibovespa cai 1,83% com medo fiscal",
-      "link": "https://www.mixvale.com.br/2026/11/16/dolar-fecha-em-alta-de-215-a-r-57767-e-ibovespa-cai-183/",
-      "src": "Mix Vale",
-      "t": "2026-11-16T20:04:00-03:00",
-      "score": 3
-    },
-    {
-      "cat": "acoes",
-      "title": "Banco do Brasil diz ter 31 mil produtores inadimplentes; Aprosoja rebate e acusa generalização",
-      "link": "https://www.otempo.com.br/economia/2026/11/13/banco-do-brasil-tem-31-mil-produtores-rurais-inadimplentes-diz-ceo",
-      "src": "O Tempo",
-      "t": "2026-11-16T19:30:00-03:00",
-      "score": 4
-    },
-    {
-      "cat": "cripto",
-      "title": "Binance vê saída de 11 mil BTC em 3 dias após hack de US$ 6,4 bi, o maior roubo cripto da história",
-      "link": "https://cointelegraph.com/news/binance-hack-institutional-crypto-custody-falconx",
-      "src": "Cointelegraph",
-      "t": "2026-11-16T22:19:00+00:00",
-      "score": 5
     }
   ],
   "incidentes": [
+    {
+      "id": "mercado-wallstreet-2026-11-19",
+      "tipo": "mundo",
+      "plataforma": "Wall Street (Dow, S&P 500, Nasdaq)",
+      "titulo": "Wall Street cai forte mesmo com estreia da Anthropic; Dow chegou a perder ~800 pontos",
+      "status": "aberto",
+      "t_detectado": "2026-11-19T16:45:00-03:00",
+      "t_atualizado": "2026-11-19T16:45:00-03:00",
+      "fontes": [
+        "https://www.baltimoresun.com/2026/11/19/us-stocks-anthropic-ipo/",
+        "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html",
+        "https://www.koreatimes.co.kr/world/20261120/wall-st-falls-sharply-as-anthropic-debut-fails-to-reignite-ai-trade"
+      ]
+    },
     {
       "id": "mundo-cupula-shenzhen-2026-11-19",
       "tipo": "mundo",
