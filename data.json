@@ -752,6 +752,39 @@
     },
     {
       "cat": "acoes",
+      "title": "Dólar passa de R$ 5,90 e Ibovespa cai mesmo após BC queimar US$ 1 bi em leilão",
+      "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-19112026/",
+      "src": "InfoMoney",
+      "t": "2026-11-19T09:04:00-03:00",
+      "score": 4,
+      "viral": true
+    },
+    {
+      "cat": "cripto",
+      "title": "PF integra operação em 14 países: 266 presos, 576 carteiras cripto rastreadas e 11 quadrilhas desmontadas",
+      "link": "https://livecoins.com.br/pf-participa-de-operacao-internacional-que-rastreou-576-carteiras-de-criptomoedas/",
+      "src": "Livecoins",
+      "t": "2026-11-19T07:01:00-03:00",
+      "score": 4
+    },
+    {
+      "cat": "cripto",
+      "title": "Hacker da Binance move mais US$ 248 mi em ETH; US$ 2,5 bi do roubo seguem em carteiras ligadas ao ataque",
+      "link": "https://crypto.news/binance-hacker-moves-another-248m-in-eth-where-are-the-stolen-funds/",
+      "src": "crypto.news",
+      "t": "2026-11-19T07:52:00+00:00",
+      "score": 3
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin apaga todo o rali do verão: cai 14% em 7 dias, a US$ 63 mil, e perdas realizadas somam US$ 8,4 bi",
+      "link": "https://crypto.news/bitcoin-price-liquidity-realized-losses-57k-support/",
+      "src": "crypto.news",
+      "t": "2026-11-19T05:55:00+00:00",
+      "score": 3
+    },
+    {
+      "cat": "acoes",
       "title": "Dólar fecha a R$ 5,87, maior valor em 19 meses, mesmo com BC injetando US$ 1 bi; Ibovespa cai 1,34%",
       "link": "https://www.brasil247.com/economia/dolar-chega-a-r-587-e-ibovespa-cai-134-com-pressao-externa-e-fiscal",
       "src": "Brasil 247 / Reuters",
