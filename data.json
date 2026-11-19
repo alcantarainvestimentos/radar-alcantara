@@ -1,6 +1,6 @@
 {
-  "atualizado_em": "2026-11-19T09:15:00-03:00",
-  "referencia": "Pregão de quinta, 19/11/2026 (parcial às 09h15, pré-abertura)",
+  "atualizado_em": "2026-11-19T09:10:00-03:00",
+  "referencia": "Pregão de quinta, 19/11/2026 (parcial às 09h10, pré-abertura)",
   "postura": {
     "estado": "RISK-OFF",
     "positivos": 0,
@@ -563,7 +563,7 @@
       "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-090910916.html"
     }
   ],
-  "notas": "Fechamento de quarta (18/11) mantido para Ibovespa, dólar, índices de NY e Brent e no histórico (B3 ainda não abriu). Atualização das 9h15 de 19/11: VIX, ouro, Treasury e BTC (Yahoo Finance); ETH da CoinDesk na manhã. Taxas de fechamento dos DIs de 18/11 não localizadas; mantidos os níveis da manhã. Informação para estudo, não recomendação de investimento.",
+  "notas": "Fechamento de quarta (18/11) mantido para Ibovespa, dólar, índices de NY e Brent e no histórico (B3 ainda não abriu). Atualização das 9h10 de 19/11: VIX, ouro, Treasury e BTC (Yahoo Finance); ETH da CoinDesk na manhã. Taxas de fechamento dos DIs de 18/11 não localizadas; mantidos os níveis da manhã. Informação para estudo, não recomendação de investimento.",
   "config": {
     "brapi_token": "",
     "whatsapp": "",
