@@ -715,6 +715,23 @@
   },
   "noticias_radar": [
     {
+      "cat": "acoes",
+      "title": "Dólar fecha a R$ 5,87, maior valor em 19 meses, mesmo com BC injetando US$ 1 bi; Ibovespa cai 1,34%",
+      "link": "https://www.brasil247.com/economia/dolar-chega-a-r-587-e-ibovespa-cai-134-com-pressao-externa-e-fiscal",
+      "src": "Brasil 247 / Reuters",
+      "t": "2026-11-18T21:49:00-03:00",
+      "score": 4
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin perde US$ 63 mil enquanto Anthropic estreia IPO a US$ 83 e é avaliada em mais de US$ 1,5 tri",
+      "link": "https://www.coindesk.com/business/2026/11/18/live-updates-bitcoin-stuck-near-usd65-000-as-popular-basis-trade-returns-dry-up",
+      "src": "CoinDesk",
+      "t": "2026-11-18T16:20:00-05:00",
+      "score": 5,
+      "viral": true
+    },
+    {
       "cat": "cripto",
       "title": "Binance obtém ordem de congelamento de US$ 6,5 bi em Abu Dhabi para caçar cripto roubada no hack de outubro",
       "link": "https://www.theblock.co/news/business/2026-11-18-binance-freezing-court-order-adgm-crypto-october-hack-443491",
@@ -868,8 +885,7 @@
       "link": "https://cointelegraph.com/news/binance-hack-institutional-crypto-custody-falconx",
       "src": "Cointelegraph",
       "t": "2026-11-16T22:19:00+00:00",
-      "score": 5,
-      "viral": true
+      "score": 5
     },
     {
       "cat": "acoes",
@@ -893,22 +909,6 @@
       "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html",
       "src": "Yahoo Finance",
       "t": "2026-11-16T01:16:00-08:00",
-      "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Jensen Huang articula volta à Nvidia com petição de 100 mil assinaturas; conselho investiga caso com suposta espiã chinesa",
-      "link": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest",
-      "src": "Cointelegraph",
-      "t": "2026-11-15T22:50:00+00:00",
-      "score": 5
-    },
-    {
-      "cat": "cripto",
-      "title": "MSCI vai expulsar Strategy de seus índices globais em 30/11; medo extremo cai a 10 e BTC perde 12% na semana",
-      "link": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest#msci",
-      "src": "Cointelegraph",
-      "t": "2026-11-15T22:49:00+00:00",
       "score": 4
     }
   ],
