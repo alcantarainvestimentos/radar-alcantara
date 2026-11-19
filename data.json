@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-19T16:30:00-03:00",
+  "atualizado_em": "2026-11-19T17:45:00-03:00",
   "referencia": "Pregão de quinta, 19/11/2026 (parcial às 12h40)",
   "postura": {
     "estado": "RISK-OFF",
@@ -162,6 +162,11 @@
   "alertas": [
     {
       "nivel": "atencao",
+      "titulo": "iFood e fornecedores de Visa, Mastercard e JPMorgan: dois vazamentos de dados no mesmo dia",
+      "texto": "O iFood informou ataque hacker com exposição de dados de clientes, entregadores e restaurantes (a imprensa cita telefones, CPFs e contas bancárias; o alcance exato ainda não está claro). Em paralelo, Visa, Mastercard e JPMorgan disseram que fornecedores terceiros sofreram ataque cibernético; um grupo hacker reivindica dados, o que ainda não está totalmente confirmado. Sem histeria: é prevenção. Fique atento a contatos que citem seus dados, desconfie de links e ligações 'do banco' e use autenticação em duas etapas."
+    },
+    {
+      "nivel": "atencao",
       "titulo": "Wall Street cai forte mesmo com estreia da Anthropic; Dow chegou a perder ~800 pontos",
       "texto": "A estreia da Anthropic (ANT) na Nasdaq foi forte, com valor de mercado acima de US$ 2 trilhões segundo a imprensa financeira, mas não bastou: a AP e o Yahoo Finance relatam queda dos índices de Nova York, com o Dow perdendo cerca de 800 pontos durante o pregão (números ainda mudam até o fechamento). Leitura dos veículos: realização de lucros e falta de fôlego da tese de IA. Efeito no Brasil ainda por confirmar; amanhã a B3 fecha pelo feriado. Sem histeria: oscilação forte é prevenção para quem tem patrimônio concentrado, não motivo para decisão no impulso."
     },
@@ -169,11 +174,6 @@
       "nivel": "atencao",
       "titulo": "Trump, Xi e Putin fecham cúpula histórica com declaração conjunta",
       "texto": "Na primeira reunião trilateral, em Shenzhen (China), os três líderes adotaram uma 'declaração de paz' de quatro pontos: aumentar a produção e a oferta de petróleo, abrir diálogo sobre risco nuclear, defender reforma da ONU e alertar contra organismos que 'abusem de sua jurisdição' (caso do TPI). A Ucrânia não foi citada, e a CBS avalia que o encontro rendeu pouco de concreto. O efeito sobre petróleo, dólar e juros ainda precisa ser confirmado; o petróleo mais barato ajudaria a inflação, mas o mercado segue dominado pelo fiscal e pelo Fed. Sem histeria: é dia de acompanhar, não de decidir no impulso."
-    },
-    {
-      "nivel": "atencao",
-      "titulo": "Dólar passa de R$ 5,92 e BC vende US$ 1 bi à vista",
-      "texto": "Mesmo com o Senado concluindo o ajuste fiscal (texto vai à Câmara em 24/11), o dólar chegou a R$ 5,9287 nesta manhã. Às 12h17 o BC vendeu US$ 1 bi no mercado à vista (corte a 5,86), e a moeda recuou para R$ 5,892 (+0,45%) às 12h25; o Ibovespa virou para queda (−0,37%). A IFI alertou que ~70% da receita prevista no pacote é incerta, e o BTG rebaixou o Brasil para neutro. O CMN se reúne no fim da tarde, e amanhã a B3 fecha pelo feriado: liquidez menor e ajuste de posições são comuns."
     }
   ],
   "indicadores": [
@@ -725,6 +725,24 @@
   },
   "noticias_radar": [
     {
+      "cat": "mundo",
+      "title": "iFood sofre ataque hacker e expõe dados de clientes, entregadores e restaurantes",
+      "link": "https://olhardigital.com.br/2026/11/19/seguranca/ifood-sofre-ataque-hacker-que-expoe-dados-de-clientes-e-entregadores",
+      "src": "Olhar Digital",
+      "t": "2026-11-19T17:45:00-03:00",
+      "score": 4,
+      "viral": true
+    },
+    {
+      "cat": "mercado",
+      "title": "Visa, Mastercard e JPMorgan dizem que fornecedores foram alvo de ataque cibernético",
+      "link": "https://finance.yahoo.com/markets/article/jpmorgan-visa-and-mastercard-disclose-cyberattack-on-third-party-vendors-190314490.html",
+      "src": "Yahoo Finance",
+      "t": "2026-11-19T17:45:00-03:00",
+      "score": 4,
+      "viral": true
+    },
+    {
       "cat": "mercado",
       "title": "Wall Street cai forte e Dow chega a perder ~800 pontos, mesmo com estreia da Anthropic",
       "link": "https://www.baltimoresun.com/2026/11/19/us-stocks-anthropic-ipo/",
@@ -782,25 +800,37 @@
       "src": "crypto.news",
       "t": "2026-11-19T05:55:00+00:00",
       "score": 3
-    },
-    {
-      "cat": "acoes",
-      "title": "Dólar fecha a R$ 5,87, maior valor em 19 meses, mesmo com BC injetando US$ 1 bi; Ibovespa cai 1,34%",
-      "link": "https://www.brasil247.com/economia/dolar-chega-a-r-587-e-ibovespa-cai-134-com-pressao-externa-e-fiscal",
-      "src": "Brasil 247 / Reuters",
-      "t": "2026-11-18T21:49:00-03:00",
-      "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Ata do Fed mostra dirigentes defendendo alta maior de juros; ouro despenca 3% à mínima em 14 meses e Dow cai 1,1%",
-      "link": "https://www.investing.com/news/economy-news/trading-day-markets-mixed-in-a-nvidiaanthropic-minutes-swirl-5037221",
-      "src": "Reuters",
-      "t": "2026-11-18T17:09:00-05:00",
-      "score": 4
     }
   ],
   "incidentes": [
+    {
+      "id": "ifood-vazamento-2026-11-19",
+      "tipo": "anomalia",
+      "plataforma": "iFood",
+      "titulo": "iFood sofre ataque hacker e informa vazamento de dados de clientes, entregadores e restaurantes (telefones, CPFs e contas bancárias citados)",
+      "status": "aberto",
+      "t_detectado": "2026-11-19T17:45:00-03:00",
+      "t_atualizado": "2026-11-19T17:45:00-03:00",
+      "fontes": [
+        "https://olhardigital.com.br/2026/11/19/seguranca/ifood-sofre-ataque-hacker-que-expoe-dados-de-clientes-e-entregadores",
+        "https://canaltech.com.br/mercado/ifood-sofre-ataque-hacker-e-expoe-dados-de-clientes-e-entregadores-veja-o-que-vazou/",
+        "https://www.cnnbrasil.com.br/economia/money/tecnologia/ifood-revela-vazamento-de-dados-de-usuarios-entregadores-e-parceiros/"
+      ]
+    },
+    {
+      "id": "visa-mc-jpm-fornecedores-2026-11-19",
+      "tipo": "financeiro",
+      "plataforma": "Visa, Mastercard e JPMorgan (fornecedores terceiros)",
+      "titulo": "Visa, Mastercard e JPMorgan dizem que fornecedores terceiros foram alvo de ataque cibernético; grupo hacker n0n reivindica dados",
+      "status": "aberto",
+      "t_detectado": "2026-11-19T17:45:00-03:00",
+      "t_atualizado": "2026-11-19T17:45:00-03:00",
+      "fontes": [
+        "https://finance.yahoo.com/markets/article/jpmorgan-visa-and-mastercard-disclose-cyberattack-on-third-party-vendors-190314490.html",
+        "https://qz.com/hackers-leak-visa-mastercard-jpmorgan-data-vendors-111926",
+        "https://bpmoney.com.br/inovacao/tecnologia/visa-mastercard-jpmorgan-fornecedores-ataque-cibernetico/"
+      ]
+    },
     {
       "id": "mercado-wallstreet-2026-11-19",
       "tipo": "mundo",
