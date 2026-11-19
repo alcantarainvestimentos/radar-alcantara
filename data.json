@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-19T16:45:00-03:00",
+  "atualizado_em": "2026-11-19T16:30:00-03:00",
   "referencia": "Pregão de quinta, 19/11/2026 (parcial às 12h40)",
   "postura": {
     "estado": "RISK-OFF",
@@ -729,7 +729,7 @@
       "title": "Wall Street cai forte e Dow chega a perder ~800 pontos, mesmo com estreia da Anthropic",
       "link": "https://www.baltimoresun.com/2026/11/19/us-stocks-anthropic-ipo/",
       "src": "AP",
-      "t": "2026-11-19T16:45:00-03:00",
+      "t": "2026-11-19T16:30:00-03:00",
       "score": 5,
       "viral": true
     },
@@ -774,8 +774,8 @@
       "plataforma": "Wall Street (Dow, S&P 500, Nasdaq)",
       "titulo": "Wall Street cai forte mesmo com estreia da Anthropic; Dow chegou a perder ~800 pontos",
       "status": "aberto",
-      "t_detectado": "2026-11-19T16:45:00-03:00",
-      "t_atualizado": "2026-11-19T16:45:00-03:00",
+      "t_detectado": "2026-11-19T16:30:00-03:00",
+      "t_atualizado": "2026-11-19T16:30:00-03:00",
       "fontes": [
         "https://www.baltimoresun.com/2026/11/19/us-stocks-anthropic-ipo/",
         "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html",
