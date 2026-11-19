@@ -162,6 +162,11 @@
   "alertas": [
     {
       "nivel": "atencao",
+      "titulo": "Trump, Xi e Putin fecham cúpula histórica com declaração conjunta",
+      "texto": "Na primeira reunião trilateral, em Shenzhen (China), os três líderes adotaram uma 'declaração de paz' de quatro pontos: aumentar a produção e a oferta de petróleo, abrir diálogo sobre risco nuclear, defender reforma da ONU e alertar contra organismos que 'abusem de sua jurisdição' (caso do TPI). A Ucrânia não foi citada, e a CBS avalia que o encontro rendeu pouco de concreto. O efeito sobre petróleo, dólar e juros ainda precisa ser confirmado; o petróleo mais barato ajudaria a inflação, mas o mercado segue dominado pelo fiscal e pelo Fed. Sem histeria: é dia de acompanhar, não de decidir no impulso."
+    },
+    {
+      "nivel": "atencao",
       "titulo": "Dólar passa de R$ 5,92 e BC vende US$ 1 bi à vista",
       "texto": "Mesmo com o Senado concluindo o ajuste fiscal (texto vai à Câmara em 24/11), o dólar chegou a R$ 5,9287 nesta manhã. Às 12h17 o BC vendeu US$ 1 bi no mercado à vista (corte a 5,86), e a moeda recuou para R$ 5,892 (+0,45%) às 12h25; o Ibovespa virou para queda (−0,37%). A IFI alertou que ~70% da receita prevista no pacote é incerta, e o BTG rebaixou o Brasil para neutro. O CMN se reúne no fim da tarde, e amanhã a B3 fecha pelo feriado: liquidez menor e ajuste de posições são comuns."
     },
@@ -169,11 +174,6 @@
       "nivel": "atencao",
       "titulo": "Estreia da Anthropic puxa Nasdaq; VIX ainda acima de 20",
       "texto": "A Anthropic (ANT) estreia hoje na Nasdaq após IPO de US$ 81,3 bi a US$ 83 por ação, o maior da história, avaliada em ~US$ 1,5 tri. Na abertura, o Nasdaq subia 1,55% e o S&P 500 0,90%. Os pedidos de auxílio-desemprego vieram em 203 mil (esperado 197 mil) e o Treasury de 10 anos está em 5,08%; a ata do Fed segue indicando nova alta em dezembro."
-    },
-    {
-      "nivel": "atencao",
-      "titulo": "Binance obtém ordem para congelar até US$ 6,5 bi do ataque",
-      "texto": "A Binance conseguiu nos tribunais de Abu Dhabi (ADGM) uma ordem mundial de congelamento de até US$ 6,5 bi ligada ao ataque de 29/10, com 26 mil carteiras identificadas; cerca de US$ 2,85 bi já foram congelados ou interceptados, mas ~US$ 3,3 bi em BTC, ETH e XRP não podem ser bloqueados. A carteira do ataque moveu 60 mil ETH na quarta. Se você usa a Binance, mantenha 2FA ativo, confira a lista de endereços de saque e não clique em links de 'reembolso'."
     }
   ],
   "indicadores": [
@@ -725,6 +725,15 @@
   },
   "noticias_radar": [
     {
+      "cat": "mundo",
+      "title": "Trump, Xi e Putin fecham cúpula inédita em Shenzhen com declaração de paz: mais petróleo, risco nuclear e reforma da ONU",
+      "link": "https://thehill.com/policy/international/6229659-trump-xi-putin-peace-declaration-china-summit",
+      "src": "The Hill",
+      "t": "2026-11-19T14:30:00-03:00",
+      "score": 5,
+      "viral": true
+    },
+    {
       "cat": "cripto",
       "title": "Medo extremo: índice despenca a 12, ETFs de bitcoin perdem US$ 306 mi e BTC segue preso nos US$ 63 mil",
       "link": "https://exame.com/future-of-money/bitcoin-hoje-19-11-2026/",
@@ -915,6 +924,21 @@
     }
   ],
   "incidentes": [
+    {
+      "id": "mundo-cupula-shenzhen-2026-11-19",
+      "tipo": "mundo",
+      "plataforma": "Cúpula Trump–Xi–Putin (Shenzhen, China)",
+      "titulo": "Trump, Xi e Putin encerram 1ª cúpula trilateral com 'declaração de paz' de quatro pontos: mais petróleo, risco nuclear, reforma da ONU e imunidade de líderes; sem menção à Ucrânia",
+      "status": "aberto",
+      "t_detectado": "2026-11-19T14:30:00-03:00",
+      "t_atualizado": "2026-11-19T14:30:00-03:00",
+      "fontes": [
+        "https://thehill.com/policy/international/6229659-trump-xi-putin-peace-declaration-china-summit",
+        "https://www.cnnbrasil.com.br/internacional/china-eua-e-russia-anunciam-declaracao-conjunta-diz-midia-chinesa/",
+        "https://timesbrasil.com.br/mundo/china-eua-e-russia-adotam-declaracao-de-paz-em-cupula-historica-entre-xi-trump-e-putin/",
+        "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+      ]
+    },
     {
       "id": "optimizely-2026-11-17",
       "tipo": "financeiro",
