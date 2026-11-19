@@ -731,6 +731,14 @@
   },
   "noticias_radar": [
     {
+      "cat": "cripto",
+      "title": "Medo extremo: índice despenca a 12, ETFs de bitcoin perdem US$ 306 mi e BTC segue preso nos US$ 63 mil",
+      "link": "https://exame.com/future-of-money/bitcoin-hoje-19-11-2026/",
+      "src": "Exame",
+      "t": "2026-11-19T10:42:00-03:00",
+      "score": 3
+    },
+    {
       "cat": "acoes",
       "title": "Dólar fecha a R$ 5,87, maior valor em 19 meses, mesmo com BC injetando US$ 1 bi; Ibovespa cai 1,34%",
       "link": "https://www.brasil247.com/economia/dolar-chega-a-r-587-e-ibovespa-cai-134-com-pressao-externa-e-fiscal",
@@ -910,14 +918,6 @@
       "src": "Cointelegraph",
       "t": "2026-11-16T22:19:00+00:00",
       "score": 5
-    },
-    {
-      "cat": "acoes",
-      "title": "Dólar sobe a R$ 5,71 e Ibovespa cai; Morgan Stanley rebaixa Brasil e vê bolsa a 160 mil pontos em 2027",
-      "link": "https://bpmoney.com.br/mercado/ibovespa-cai-aos-1715-mil-pontos-com-vale-e-petrobras-dolar-sobe-a-r-571/",
-      "src": "BPMoney",
-      "t": "2026-11-16T10:22:00-03:00",
-      "score": 3
     }
   ],
   "incidentes": [
