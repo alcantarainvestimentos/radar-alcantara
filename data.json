@@ -726,6 +726,23 @@
   "noticias_radar": [
     {
       "cat": "cripto",
+      "title": "Bitcoin cai a US$ 61,3 mil, menor nível desde julho; 'medo extremo' e US$ 175 mi em liquidações em 4 horas",
+      "link": "https://news.bitcoin.com/pt/market-updates/bitcoin-cai-para-us-61-300-menor-nivel-desde-julho-bolsas-asiaticas-caem/",
+      "src": "Bitcoin.com",
+      "t": "2026-11-20T07:25:00Z",
+      "score": 3
+    },
+    {
+      "cat": "acoes",
+      "title": "Pânico da IA chega à Ásia: Kospi desaba quase 5% com pregão interrompido e Nikkei cai 4,8%; futuros de NY recuam",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-20/us-stock-futures-fall-as-ai-selloff-spreads-to-asia-and-europe",
+      "src": "Bloomberg",
+      "t": "2026-11-20T04:58:00Z",
+      "score": 5,
+      "viral": true
+    },
+    {
+      "cat": "cripto",
       "title": "Bitcoin desliza rumo a US$ 60 mil após perder 13% na semana; ETFs somam saques de US$ 2,9 bi em novembro",
       "link": "https://cryptobriefing.com/bitcoin-nears-60000-etf-outflows/",
       "src": "Crypto Briefing",
@@ -782,8 +799,7 @@
       "link": "https://thehill.com/policy/international/6229659-trump-xi-putin-peace-declaration-china-summit",
       "src": "The Hill",
       "t": "2026-11-19T14:30:00-03:00",
-      "score": 5,
-      "viral": true
+      "score": 5
     },
     {
       "cat": "cripto",
