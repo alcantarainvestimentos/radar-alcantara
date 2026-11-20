@@ -725,6 +725,14 @@
   },
   "noticias_radar": [
     {
+      "cat": "acoes",
+      "title": "Taiwan tem pior semana desde 1991 (-6,2% no dia) e AMD derrete mais 7% no pré-mercado; Nasdaq futuro cai 1,6%",
+      "link": "https://247wallst.com/investing/2026/11/20/amd-stock-drops-another-7-0-before-the-bell-and-taiwan-semiconductor-slides-4-2-as-nasdaq-futures-fall-1-6-after-asias-chip-selloff/",
+      "src": "24/7 Wall St.",
+      "t": "2026-11-20T12:13:00Z",
+      "score": 3
+    },
+    {
       "cat": "cripto",
       "title": "Bitcoin cai a US$ 61,3 mil, menor nível desde julho; 'medo extremo' e US$ 175 mi em liquidações em 4 horas",
       "link": "https://news.bitcoin.com/pt/market-updates/bitcoin-cai-para-us-61-300-menor-nivel-desde-julho-bolsas-asiaticas-caem/",
