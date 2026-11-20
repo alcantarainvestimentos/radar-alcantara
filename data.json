@@ -725,7 +725,24 @@
   },
   "noticias_radar": [
     {
-      "cat": "brasil",
+      "cat": "cripto",
+      "title": "Bitcoin desliza rumo a US$ 60 mil após perder 13% na semana; ETFs somam saques de US$ 2,9 bi em novembro",
+      "link": "https://cryptobriefing.com/bitcoin-nears-60000-etf-outflows/",
+      "src": "Crypto Briefing",
+      "t": "2026-11-19T22:54:00Z",
+      "score": 3
+    },
+    {
+      "cat": "acoes",
+      "title": "Nvidia cai 3,3% com volume quase dobrado: mercado pesa crise após saída de Jensen Huang, apesar de receita recorde",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-19-222025646.html",
+      "src": "Yahoo Finance",
+      "t": "2026-11-19T14:20:00-08:00",
+      "score": 4,
+      "viral": true
+    },
+    {
+      "cat": "acoes",
       "title": "Dólar fecha a R$ 5,93, máxima em 19 meses, mesmo após leilão de US$ 1 bi do BC",
       "link": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-19-novembro-2026/",
       "src": "CNN Brasil",
@@ -734,7 +751,7 @@
       "viral": true
     },
     {
-      "cat": "mundo",
+      "cat": "acoes",
       "title": "iFood sofre ataque hacker e expõe dados de clientes, entregadores e restaurantes",
       "link": "https://olhardigital.com.br/2026/11/19/seguranca/ifood-sofre-ataque-hacker-que-expoe-dados-de-clientes-e-entregadores",
       "src": "Olhar Digital",
@@ -743,16 +760,15 @@
       "viral": true
     },
     {
-      "cat": "mercado",
+      "cat": "acoes",
       "title": "Visa, Mastercard e JPMorgan dizem que fornecedores foram alvo de ataque cibernético",
       "link": "https://finance.yahoo.com/markets/article/jpmorgan-visa-and-mastercard-disclose-cyberattack-on-third-party-vendors-190314490.html",
       "src": "Yahoo Finance",
       "t": "2026-11-19T17:45:00-03:00",
-      "score": 4,
-      "viral": true
+      "score": 4
     },
     {
-      "cat": "mercado",
+      "cat": "acoes",
       "title": "Wall Street cai forte e Dow chega a perder ~800 pontos, mesmo com estreia da Anthropic",
       "link": "https://www.baltimoresun.com/2026/11/19/us-stocks-anthropic-ipo/",
       "src": "AP",
@@ -761,13 +777,29 @@
       "viral": true
     },
     {
-      "cat": "mundo",
+      "cat": "acoes",
       "title": "Trump, Xi e Putin fecham cúpula inédita em Shenzhen com declaração de paz: mais petróleo, risco nuclear e reforma da ONU",
       "link": "https://thehill.com/policy/international/6229659-trump-xi-putin-peace-declaration-china-summit",
       "src": "The Hill",
       "t": "2026-11-19T14:30:00-03:00",
       "score": 5,
       "viral": true
+    },
+    {
+      "cat": "cripto",
+      "title": "Binance obtém congelamento mundial de US$ 6,5 bi em Abu Dhabi para tentar reaver fundos do hack",
+      "link": "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack",
+      "src": "Cointelegraph",
+      "t": "2026-11-19T10:00:00Z",
+      "score": 4
+    },
+    {
+      "cat": "cripto",
+      "title": "S&P mantém USDT, da Tether, na pior nota de estabilidade e aponta riscos nas reservas",
+      "link": "https://cointelegraph.com/news/tether-usdt-sp-stability-assessment-reserve-risks",
+      "src": "Cointelegraph",
+      "t": "2026-11-19T09:00:00Z",
+      "score": 4
     }
   ],
   "incidentes": [
