@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-11-19T18:45:00-03:00",
-  "referencia": "Fechamento de quinta, 19/11/2026",
+  "atualizado_em": "2026-11-20T12:45:00-03:00",
+  "referencia": "Pregão de sexta, 20/11/2026 (parcial às 12h45 · B3 fechada no feriado, NY aberta)",
   "postura": {
     "estado": "RISK-OFF",
     "positivos": 0,
     "total": 6,
     "desde": "2026-11-13",
     "conviccao": "ALTA",
-    "resumo": "Postura RISK-OFF, com 0 de 6 sinais positivos e convicção ALTA. O Ibovespa fechou em queda de 0,69%, a 166.376 pts, e o dólar subiu 1,15%, a R$ 5,934, maior nível desde abril de 2025, mesmo com a venda de US$ 1 bi do BC; os DIs dispararam após falas de Lula sobre o fiscal. Em NY, o S&P 500 caiu 2,02% e o Nasdaq 2,25% no dia da estreia da Anthropic, e o VIX subiu para 27,98. Amanhã (20/11) a B3 fecha pelo feriado."
+    "resumo": "Postura RISK-OFF, com 0 de 6 sinais positivos e convicção ALTA. A B3 está fechada pelo feriado, e lá fora a aversão a risco continua: às 11h56 (Brasília) o Nasdaq caía 0,51% e o S&P 500 andava de lado (+0,04%), enquanto o Dow subia 0,70% (Reuters); a Anthropic recuava cerca de 6% no segundo pregão e a Nvidia caía 3,7%. O VIX chegou perto de 31, maior nível desde março. Aqui, o dólar fechou quinta a R$ 5,935 e o DI jan/31 a 15,42%."
   },
   "sinais": [
     {
@@ -30,13 +30,13 @@
     },
     {
       "nome": "DI longo na semana",
-      "valor": "+0,24 p.p.",
+      "valor": "+0,32 p.p.",
       "estado": "neg",
       "regra": "Positivo se a taxa do DI longo caiu na semana"
     },
     {
       "nome": "VIX",
-      "valor": "27,98",
+      "valor": "30,99",
       "estado": "neg",
       "regra": "Positivo se o VIX está abaixo de 20"
     },
@@ -56,37 +56,37 @@
       "dia": -0.69,
       "semana": -2.53,
       "mes": -18.88,
-      "nota": "Fechou a 166.376,43 pts (−0,69%), entre a máxima de 168.498,42 e a mínima de 165.833,29; volume de R$ 35,9 bi (BPMoney). Abriu em alta com a conclusão do ajuste fiscal no Senado e virou à tarde com o dólar a R$ 5,93, as falas de Lula sobre o fiscal e a queda de mais de 2% em NY. Usiminas (+2,40%), Fleury (+2,19%) e Gerdau (+1,96%) subiram; Azzas (−6,27%), CSN (−5,48%), Natura (−5,44%) e Marcopolo (−5,03%) caíram. Amanhã (20/11) a B3 fecha pelo feriado. Semana = vs 12/11; mês = vs 23/10."
+      "nota": "Fechou quinta (19) a 166.376,43 pts (−0,69%), entre a máxima de 168.498,42 e a mínima de 165.833,29; volume de R$ 35,9 bi (BPMoney). Hoje (20/11) a B3 está fechada pelo feriado e reabre na segunda (23), com Ásia, Europa e futuros de NY em queda. Semana = vs 12/11; mês = vs 23/10."
     },
     {
       "codigo": "WDO",
       "nome": "Dólar comercial",
       "vies": "alta",
-      "nivel": "R$ 5,934",
-      "dia": 1.15,
-      "semana": 5.01,
-      "mes": 18.85,
-      "nota": "Fechou a R$ 5,934 (+1,15%), maior nível desde abril de 2025, mesmo depois de o BC vender US$ 1 bi no mercado à vista (taxa de corte R$ 5,86), que levou a moeda brevemente para perto de R$ 5,85 (BPMoney, Misto Brasil). Pesaram as falas de Lula de que não tem pressa para escolher a nova equipe econômica e não vai cortar direitos sociais para equilibrar as contas. Semana = vs 12/11; mês = vs 23/10."
+      "nivel": "R$ 5,935",
+      "dia": 1.16,
+      "semana": 5.03,
+      "mes": 18.87,
+      "nota": "Fechou quinta a R$ 5,9350 (+1,16%), maior nível desde abril de 2025, mesmo depois de o BC vender US$ 1 bi no mercado à vista (Enfoque, BPMoney). Pesaram as falas de Lula sobre o fiscal e a aversão a risco global. Sem negociação hoje no Brasil (feriado). Semana = vs 12/11; mês = vs 23/10."
     },
     {
       "codigo": "DI F31",
       "nome": "Juros longos",
       "vies": "alta",
-      "nivel": "15,215%",
-      "dia": 0.055,
-      "semana": 0.237,
+      "nivel": "15,42%",
+      "dia": 0.26,
+      "semana": 0.32,
       "mes": null,
-      "nota": "Sem fechamento confiável do jan/31 até agora; mantido o último dado (15,215% às 9h38). À tarde os DIs dispararam após as falas de Lula sobre o fiscal: o jan/28 foi a 15,05% (+54 bp) e o jan/35 a 15,465% (+22 bp) às 13h07 (BPMoney). Semana = vs 14,978% de 05/11."
+      "nota": "Fechou quinta a 15,42% (de 15,16%), máxima do ano, depois que a intervenção do BC no câmbio e as falas de Lula sobre o fiscal estressaram a curva; jan/28 a 14,85% e jan/29 a 15,275% (DGABC/Estadão). Semana = vs 15,10% de 12/11."
     },
     {
       "codigo": "BTC",
       "nome": "Bitcoin",
       "vies": "baixa",
-      "nivel": "US$ 61.828",
-      "dia": -0.69,
-      "semana": -13.58,
+      "nivel": "US$ 61.851",
+      "dia": -3.0,
+      "semana": -13.55,
       "mes": null,
-      "nota": "US$ 61.827,95 (−0,69%) no fechamento de NY (Yahoo Finance); caiu de US$ 63.885 na abertura de NY para US$ 62.236 às 12h20 de NY, acompanhando a queda das bolsas. Fear & Greed perto de 10 (medo extremo). Semana = vs 12/11."
+      "nota": "US$ 61.851 (−3,0% em 24h) às 7h30 de 20/11 (BitNotícias); tocou ~US$ 61.300 na noite de quinta, menor nível desde o início de julho, com mais de US$ 600 mi em liquidações (CoinDesk). Semana = vs 12/11."
     }
   ],
   "fita": [
@@ -97,48 +97,48 @@
     },
     {
       "nome": "USD/BRL",
-      "valor": "5,934",
-      "var": 1.15
+      "valor": "5,935",
+      "var": 1.16
     },
     {
       "nome": "S&P 500",
-      "valor": "7.176",
-      "var": -2.02
+      "valor": "7.179",
+      "var": 0.04
     },
     {
       "nome": "NASDAQ",
-      "valor": "23.879",
-      "var": -2.25
+      "valor": "23.758",
+      "var": -0.51
     },
     {
       "nome": "DOW",
-      "valor": "49.097",
-      "var": -2.19
+      "valor": "49.451",
+      "var": 0.7
     },
     {
       "nome": "VIX",
-      "valor": "27,98",
-      "var": 13.79
+      "valor": "30,99",
+      "var": 10.76
     },
     {
       "nome": "BRENT",
-      "valor": "91,98",
-      "var": 0.03
+      "valor": "91,61",
+      "var": -0.4
     },
     {
       "nome": "OURO",
-      "valor": "3.665",
-      "var": -2.06
+      "valor": "3.570",
+      "var": -1.61
     },
     {
       "nome": "BTC",
-      "valor": "61.828",
-      "var": -0.69
+      "valor": "61.851",
+      "var": -3.0
     },
     {
       "nome": "ETH",
-      "valor": "1.763",
-      "var": -0.49
+      "valor": "1.749",
+      "var": -3.0
     }
   ],
   "valor_justo": [
@@ -146,34 +146,34 @@
       "titulo": "Ibovespa",
       "rotulo": "Abaixo da média histórica",
       "justo": "P/L 10x (média)",
-      "atual": "167.538 pts (~7,9x)",
-      "gap": -21.0,
-      "detalhe": "Referência Itaú BBA (27/10): Ibovespa a 7,9x P/L com 167.922 pts, contra média de 10 anos de 10x. Ajustado proporcionalmente ao fechamento de 18/11 (167.538), ~7,9x, desconto de ~21%."
+      "atual": "166.376 pts (~7,8x)",
+      "gap": -21.7,
+      "detalhe": "Referência Itaú BBA (27/10): Ibovespa a 7,9x P/L com 167.922 pts, contra média de 10 anos de 10x. Ajustado proporcionalmente ao fechamento de 19/11 (166.376), ~7,8x, desconto de ~22%."
     },
     {
       "titulo": "Dólar vs Focus",
       "rotulo": "Acima da expectativa",
       "justo": "R$ 5,40",
-      "atual": "R$ 5,867",
-      "gap": 8.6,
-      "detalhe": "Focus de 16/11 projeta dólar a R$ 5,40 no fim de 2026 (antes R$ 5,35) e R$ 5,45 em 2027. No fechamento de 18/11, a R$ 5,867, ~8,6% acima."
+      "atual": "R$ 5,935",
+      "gap": 9.9,
+      "detalhe": "Focus de 16/11 projeta dólar a R$ 5,40 no fim de 2026 e R$ 5,45 em 2027. No fechamento de 19/11, a R$ 5,935, ~9,9% acima."
     }
   ],
   "alertas": [
     {
       "nivel": "atencao",
-      "titulo": "Dólar fecha a R$ 5,93, máxima em 19 meses, mesmo com leilão de US$ 1 bi do BC",
-      "texto": "O dólar subiu cerca de 1,1% e fechou a R$ 5,93 nesta quinta (19), o maior nível em 19 meses, segundo CNN Brasil e BPMoney, mesmo depois de o Banco Central vender US$ 1 bilhão em leilão à vista. O Ibovespa recuou (entre 0,5% e 0,7% conforme a fonte) e os juros futuros subiram, com a imprensa citando temor fiscal. Amanhã a B3 fecha por causa do feriado. Sem histeria: é prevenção. Câmbio volátil pede cuidado com concentração em uma única moeda, não decisão no impulso."
+      "titulo": "Venda de ações de IA segue em NY após Ásia despencar: Nasdaq em queda e VIX perto de 31",
+      "texto": "Depois de o Nikkei cair 5,06% e o Kospi 5,2%, a pressão sobre tecnologia continuou na abertura de NY: às 11h56 (Brasília) o Nasdaq caía 0,51%, a Nvidia 3,7% (menor nível desde junho de 2025) e a Anthropic cerca de 6% no segundo dia de negociação, enquanto o Dow subia 0,70% (Reuters). O VIX chegou a 30,99, maior nível desde março (CNBC). A B3 reabre segunda (23) absorvendo esse movimento. Sem histeria: é prevenção, não decisão no impulso."
     },
     {
       "nivel": "atencao",
-      "titulo": "iFood e fornecedores de Visa, Mastercard e JPMorgan: dois vazamentos de dados no mesmo dia",
-      "texto": "O iFood informou ataque hacker com exposição de dados de clientes, entregadores e restaurantes (a imprensa cita telefones, CPFs e contas bancárias; o alcance exato ainda não está claro). Em paralelo, Visa, Mastercard e JPMorgan disseram que fornecedores terceiros sofreram ataque cibernético; um grupo hacker reivindica dados, o que ainda não está totalmente confirmado. Sem histeria: é prevenção. Fique atento a contatos que citem seus dados, desconfie de links e ligações 'do banco' e use autenticação em duas etapas."
+      "titulo": "Bitcoin no menor nível desde julho; Binance segue com saques em fases após o ataque",
+      "texto": "O bitcoin chegou perto de US$ 61.300 na noite de quinta e estava em US$ 61.851 (−3,0% em 24h) às 7h30, com mais de US$ 600 milhões em liquidações de futuros (CoinDesk). A Binance segue com a retomada de saques em fases após o ataque de outubro. Sem histeria: é prevenção. Evite alavancagem em mercado estressado e confira os canais oficiais antes de movimentar fundos."
     },
     {
       "nivel": "atencao",
-      "titulo": "Wall Street fecha em queda de mais de 2% no dia da estreia da Anthropic",
-      "texto": "A Anthropic (ANT) estreou na Nasdaq e fechou a US$ 97,17 (+17% sobre o preço de IPO de US$ 83), mas não bastou para animar o mercado: o S&P 500 caiu 2,02%, o Nasdaq 2,25% e o Dow 2,19% (−1.101 pontos), e o VIX saltou 13,8%, para 27,98 (Yahoo Finance). Leitura dos veículos: a estreia não foi um 'sinal verde' para a tese de IA. Amanhã a B3 fecha pelo feriado, mas NY abre. Sem histeria: oscilação forte é prevenção para quem tem patrimônio concentrado, não motivo para decisão no impulso."
+      "titulo": "iFood e fornecedores de Visa, Mastercard e JPMorgan: vazamentos de dados seguem em apuração",
+      "texto": "O iFood informou ataque hacker com exposição de dados de clientes, entregadores e restaurantes, e Visa, Mastercard e JPMorgan disseram que fornecedores terceiros sofreram ataque cibernético. O alcance ainda não está totalmente claro. Sem histeria: é prevenção. Desconfie de contatos que citem seus dados, de links e de ligações 'do banco', e use autenticação em duas etapas."
     }
   ],
   "indicadores": [
@@ -203,10 +203,10 @@
       "id": "curva",
       "grupo": "Brasil",
       "nome": "DI janeiro/2031",
-      "valor": "15,215%",
+      "valor": "15,42%",
       "estado": "neg",
-      "selo": "em alta à tarde",
-      "agora": "Sem fechamento confiável do jan/31; mantido 15,215% (9h38). À tarde os DIs dispararam após Lula dizer que não tem pressa para escolher a nova equipe econômica: jan/28 a 15,05% (+54 bp) e jan/35 a 15,465% (+22 bp) às 13h07 (BPMoney).",
+      "selo": "+0,26 p.p. no dia",
+      "agora": "Fechou 19/11 a 15,42% (de 15,16%), máxima do ano, com a intervenção do BC no câmbio e as falas de Lula sobre o fiscal; jan/28 a 14,85% e jan/29 a 15,275% (DGABC/Estadão). Sem negociação hoje (feriado).",
       "o_que_e": "A taxa de juros que o mercado cobra para emprestar ao governo até 2031. Mede o prêmio de risco de longo prazo.",
       "como_ler": "DI longo subindo encarece o valuation das ações, principalmente de empresas de crescimento e ligadas ao consumo. Queda costuma anteceder alta da bolsa."
     },
@@ -214,10 +214,10 @@
       "id": "cambio",
       "grupo": "Brasil",
       "nome": "Dólar comercial",
-      "valor": "R$ 5,934",
+      "valor": "R$ 5,935",
       "estado": "neg",
-      "selo": "+1,15% hoje",
-      "agora": "Fechou a R$ 5,934 (+1,15%) em 19/11, maior nível desde abril de 2025, mesmo com a venda de US$ 1 bi do BC no mercado à vista (corte a R$ 5,86). Focus projeta R$ 5,40 no fim de 2026.",
+      "selo": "+1,16% na quinta",
+      "agora": "Fechou a R$ 5,9350 (+1,16%) em 19/11, maior nível desde abril de 2025, mesmo com a venda de US$ 1 bi do BC no mercado à vista. Mercado local fechado hoje pelo feriado. Focus projeta R$ 5,40 no fim de 2026.",
       "o_que_e": "A cotação do dólar no mercado à vista.",
       "como_ler": "Dólar subindo favorece exportadoras (Suzano, Embraer, petroleiras) e pressiona a inflação e as empresas endividadas em moeda estrangeira."
     },
@@ -239,7 +239,7 @@
       "valor": "3,75–4,00%",
       "estado": "neg",
       "selo": "~100% de alta em dez.",
-      "agora": "A ata da reunião de outubro, divulgada em 18/11, mostrou que quase todos os dirigentes consideram provável a necessidade de novas altas. O CME FedWatch indica ~100% de chance de alta em 9/12, e Christopher Waller defendeu 0,50 p.p. em dezembro.",
+      "agora": "A ata da reunião de outubro, divulgada em 18/11, mostrou que quase todos os dirigentes consideram provável a necessidade de novas altas. O CME FedWatch indica ~100% de chance de alta em 9/12, e Christopher Waller defendeu 0,50 p.p. em dezembro. Confiança do consumidor de Michigan (final de novembro) veio em 51,5, de 48,0 em outubro (Reuters).",
       "o_que_e": "A taxa básica de juros dos EUA, definida pelo Fomc.",
       "como_ler": "Juros altos nos EUA atraem capital para lá e tendem a fortalecer o dólar contra moedas emergentes como o real."
     },
@@ -258,10 +258,10 @@
       "id": "treasury",
       "grupo": "EUA",
       "nome": "Treasury 10 anos",
-      "valor": "5,05%",
+      "valor": "5,02%",
       "estado": "neg",
-      "selo": "−1 bp hoje",
-      "agora": "O 10 anos fechou perto de 5,05% (−1 bp), depois de 5,08% de manhã, com a fuga para segurança na queda das bolsas (Yahoo Finance, Bloomberg).",
+      "selo": "noite de 19/11",
+      "agora": "O 10 anos estava perto de 5,02% e o 30 anos em 5,39% na noite de quinta (Stocktwits), com a expectativa de alta de juros do Fed em dezembro.",
       "o_que_e": "O rendimento do título de 10 anos do governo americano, referência global de juros.",
       "como_ler": "Acima de 4,5% os juros pesam sobre as ações no mundo todo. Quedas costumam aliviar a bolsa brasileira e o real."
     },
@@ -269,10 +269,10 @@
       "id": "vix",
       "grupo": "Global",
       "nome": "VIX",
-      "valor": "27,98",
+      "valor": "30,99",
       "estado": "neg",
-      "selo": "+13,8% hoje",
-      "agora": "27,98 (+13,79%) no fechamento (Yahoo Finance), com NY caindo mais de 2% no dia da estreia da Anthropic; bem acima de 20.",
+      "selo": "maior desde março",
+      "agora": "30,99 às 9h52 (Brasília) de 20/11 (CNBC), acima do fechamento de 27,98 de quinta, com a venda de ações de IA se espalhando da Ásia para NY; bem acima de 20.",
       "o_que_e": "O índice de volatilidade implícita do S&P 500, conhecido como o índice do medo.",
       "como_ler": "Abaixo de 15 indica calma, entre 15 e 20 é normal, e acima de 20 o mercado está estressado. Picos costumam vir com fuga de emergentes."
     },
@@ -280,10 +280,10 @@
       "id": "brent",
       "grupo": "Global",
       "nome": "Petróleo Brent",
-      "valor": "US$ 91,98",
+      "valor": "US$ 91,61",
       "estado": "neutro",
-      "selo": "estável hoje",
-      "agora": "Brent (jan/27) a US$ 91,98 (+0,03%) e WTI perto de US$ 83 no fim do dia (BPMoney, Yahoo Finance).",
+      "selo": "−0,4% hoje",
+      "agora": "Brent a US$ 91,61 (−0,4%) e WTI a US$ 82,31 (−0,2%) às 10h24 de Brasília (AP), caminhando para a terceira queda semanal.",
       "o_que_e": "A referência internacional de preço do petróleo.",
       "como_ler": "Brent alto favorece PETR4, PRIO3 e BRAV3, mas pressiona a inflação e os custos de aéreas e logística."
     },
@@ -291,10 +291,10 @@
       "id": "ouro",
       "grupo": "Global",
       "nome": "Ouro",
-      "valor": "US$ 3.665",
+      "valor": "US$ 3.570",
       "estado": "neg",
-      "selo": "−2,1% hoje",
-      "agora": "Ouro à vista a US$ 3.665,56 (−1,6%) e futuro a US$ 3.664,70 (−2,06%) no fim do dia (Bloomberg, Yahoo Finance), abaixo de US$ 3.700 e na mínima desde setembro de 2025.",
+      "selo": "−1,6% hoje",
+      "agora": "Ouro a US$ 3.569,93 (−1,61%) cedo nesta sexta, depois de tocar abaixo de US$ 3.515; caminha para queda de quase 9% na semana, com juros americanos altos e apostas de alta do Fed (Jornal de Negócios).",
       "o_que_e": "O preço da onça-troy de ouro.",
       "como_ler": "Ouro subindo sinaliza busca por proteção. Quedas fortes junto com bolsas podem indicar venda forçada para cobrir perdas."
     }
@@ -303,15 +303,15 @@
     "itens": [
       {
         "nome": "BTC",
-        "valor": "US$ 61.828",
-        "var": -0.69,
-        "nota": "US$ 61.827,95 (−0,69%) no fechamento de NY (Yahoo Finance), depois de cair de US$ 63.885 para US$ 62.236 durante o pregão americano. Fear & Greed perto de 10 (medo extremo). A Binance obteve ordem para congelar até US$ 6,5 bi do ataque de 29/10."
+        "valor": "US$ 61.851",
+        "var": -3.0,
+        "nota": "US$ 61.851 (−3,0% em 24h) às 7h30 de 20/11 (BitNotícias); tocou ~US$ 61.300, menor nível desde o início de julho, com mais de US$ 600 mi em liquidações (CoinDesk). A Binance segue com saques em fases após o ataque de outubro."
       },
       {
         "nome": "ETH",
-        "valor": "US$ 1.763",
-        "var": -0.49,
-        "nota": "US$ 1.762,63 à tarde (Bloomberg), −0,49% em 24h (CoinGecko via KuCoin). A carteira do ataque à Binance moveu 60 mil ETH na quarta, sem sinal de venda até agora."
+        "valor": "US$ 1.749",
+        "var": -3.0,
+        "nota": "US$ 1.749,48 (−3,0% em 24h) às 7h30 de 20/11 (BitNotícias); os ETFs de ether tiveram saída líquida de US$ 131 mi em 19/11 (KuCoin)."
       }
     ]
   },
@@ -366,8 +366,8 @@
   "agenda": [
     {
       "data": "2026-11-20",
-      "hora": "—",
-      "evento": "Feriado da Consciência Negra: B3 fechada (NY abre)",
+      "hora": "14h15",
+      "evento": "Lisa Cook (Fed) discursa · B3 fechada (feriado)",
       "peso": "medio"
     },
     {
@@ -513,51 +513,43 @@
   ],
   "fontes": [
     {
-      "nome": "Jornal do Comércio — Senado conclui votação do ajuste fiscal (18/11, 19h55)",
-      "url": "https://www.jornaldocomercio.com/economia/2026/11/1271101-em-vitoria-do-governo-senado-conclui-votacao-do-plp-do-ajuste-fiscal.html"
+      "nome": "Boston Globe/AP — bolsas globais caem com IA (20/11)",
+      "url": "https://www.bostonglobe.com/2026/11/20/business/global-shares-ai-wall-street-anthropic/"
     },
     {
-      "nome": "O Povo — bolsas da Ásia fecham sem direção única (19/11)",
-      "url": "https://www.opovo.com.br/noticias/economia/2026/11/19/bolsas-da-asia-fecham-sem-direcao-unica-com-estreia-da-anthropic-em-ny-no-radar.html"
+      "nome": "IBTimes — Nikkei cai 5,06% (20/11)",
+      "url": "https://ibtimes.com.au/nikkei-225-falls-ai-stock-selloff-softbank-chipmakers-1878993"
     },
     {
-      "nome": "Agora Litoral — futuros de NY, Stoxx 600 e petróleo (19/11, 5h47)",
-      "url": "https://agoralitoral.com.br/2026/11/19/futuros-de-ny-avancam-com-euforia-em-torno-do-ipo-recorde-da-anthropic"
+      "nome": "Jornal de Negócios — mercados num minuto (20/11)",
+      "url": "https://www.jornaldenegocios.pt/mercados/mercados-num-minuto/detalhe/bolsas-asiaticas-afundam-com-a-ia-no-centro-das-vendas"
     },
     {
-      "nome": "CoinDesk — ao vivo: bitcoin e ether (19/11)",
-      "url": "https://www.coindesk.com/markets/2026/11/19/live-updates-bitcoin-nears-usd64-000-as-anthropic-s-record-ipo-lifts-tech"
+      "nome": "Benzinga/TradingView — futuros e agenda de NY (20/11)",
+      "url": "https://www.tradingview.com/news/benzinga:ec99bbe15094b:0-stock-market-will-s-p-500-open-up-or-down-today/"
     },
     {
-      "nome": "BPMoney — fechamento de 18/11 (Ibovespa, dólar, maiores altas e quedas, Senado)",
-      "url": "https://bpmoney.com.br/mercado/ibovespa-cai-134-dolar-sobe-587-impasse-fiscal/"
+      "nome": "Trading Economics — minério de ferro em iuanes (20/11)",
+      "url": "https://pt.tradingeconomics.com/commodity/iron-ore-cny"
     },
     {
-      "nome": "Times Brasil — dólar fecha a R$ 5,8667 (18/11)",
-      "url": "https://timesbrasil.com.br/brasil/economia-brasileira/dolar-sobe-146-e-chega-a-r-586/"
+      "nome": "DGABC/Estadão — fechamento dos DIs (19/11)",
+      "url": "https://www.dgabc.com.br/Noticia/4369795/intervencao-do-bc-no-mercado-de-cambio-estressa-curva-e-taxas-de-juros-saltam-na-sessao"
     },
     {
-      "nome": "Metrópoles — fechamento do dólar e petróleo (18/11)",
-      "url": "https://www.metropoles.com/brasil/dolar-ibovespa-bolsa-fechamento-18-novembro"
+      "nome": "CoinDesk — bitcoin no menor nível desde julho (20/11)",
+      "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-hits-four-month-low-after-anthropic-s-ipo-as-tech-stocks-wilt"
     },
     {
-      "nome": "Vista Partners — fechamento de NY, VIX, Treasury, ouro, BTC (18/11)",
-      "url": "https://vistapglobal.com/u-s-stock-market-today-november-18-2026-dow-falls-561-points-nasdaq-rises-ahead-of-anthropic-ipo-ant-eprx-googl-modd-nvda-ser-tgt/"
+      "nome": "BitNotícias — preço do ether e do bitcoin (20/11, 7h30)",
+      "url": "https://bitnoticias.com.br/mercado/preco-do-ethereum-hoje-20-de-novembro-de-2026/"
     },
     {
-      "nome": "StockTitan — fechamento de NY e ata do Fed (18/11)",
-      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
-    },
-    {
-      "nome": "CoinDesk — ao vivo: bitcoin e ether (18/11)",
-      "url": "https://www.coindesk.com/business/2026/11/18/live-updates-bitcoin-stuck-near-usd65-000-as-popular-basis-trade-returns-dry-up"
-    },
-    {
-      "nome": "Yahoo Finance — futuros de NY, VIX, ouro, Treasury e BTC (19/11, ~9h)",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-090910916.html"
+      "nome": "Money Times — agenda de sexta (20/11)",
+      "url": "https://www.moneytimes.com.br/feriado-no-brasil-confianca-nos-eua-e-bce-o-que-acompanha-o-mercado-nesta-sexta-feira-mlem/"
     }
   ],
-  "notas": "Atualização parcial de 19/11: Ibovespa e dólar às 12h23–12h25 (InfoMoney); DIs às 9h18–9h38; S&P 500, Nasdaq e Dow na abertura de NY (nível do Dow estimado pela variação em pontos); VIX, Treasury e BTC por volta das 10h30 (Yahoo Finance); ouro (Kitco), Brent e ETH da manhã. Setores mantidos do fechamento de 18/11. Informação para estudo, não recomendação de investimento.",
+  "notas": "Atualização pré-abertura de 20/11 (feriado no Brasil, B3 fechada): Ibovespa, dólar e DIs do fechamento de 19/11; S&P 500, Nasdaq, Dow e VIX do fechamento de 19/11; Brent, ouro, BTC e ETH da manhã de 20/11. Setores mantidos do fechamento de 18/11. Histórico sem novo ponto (não houve pregão). Informação para estudo, não recomendação de investimento.",
   "config": {
     "brapi_token": "",
     "whatsapp": "",
@@ -588,7 +580,7 @@
       ],
       "focus_fonte": "Focus de 16/11 (fim de 2026 e fim de 2027)",
       "curva": {
-        "data": "19/11 (jan/28 e jan/35 às 13h07; jan/27, jan/29 e jan/31 às 9h38; jan/33 de 16/11)",
+        "data": "19/11 (jan/28, jan/29 e jan/31 no fechamento; jan/27 às 9h38; jan/35 às 13h07; jan/33 de 16/11)",
         "pontos": [
           {
             "v": "jan/27",
@@ -596,15 +588,15 @@
           },
           {
             "v": "jan/28",
-            "t": 15.05
+            "t": 14.85
           },
           {
             "v": "jan/29",
-            "t": 14.965
+            "t": 15.275
           },
           {
             "v": "jan/31",
-            "t": 15.215
+            "t": 15.42
           },
           {
             "v": "jan/33",
@@ -616,7 +608,7 @@
           }
         ]
       },
-      "leitura": "Os DIs dispararam nesta quinta depois de Lula dizer que não tem pressa para escolher a nova equipe econômica e não vai cortar direitos sociais para equilibrar as contas: o jan/28 foi a 15,05% (+54 bp) e o jan/35 a 15,465% às 13h07. A curva segue bem acima da Selic de 13,75%."
+      "leitura": "Os DIs fecharam quinta nas máximas do ano: o jan/31 a 15,42% (+0,26 p.p.) e o jan/29 a 15,275%, depois da intervenção do BC no câmbio e das falas de Lula sobre o fiscal. A curva segue bem acima da Selic de 13,75%. Sem negociação hoje (feriado)."
     },
     "eua": {
       "fed": "3,75–4,00%",
