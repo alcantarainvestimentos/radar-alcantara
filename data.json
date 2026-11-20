@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-11-20T12:45:00-03:00",
-  "referencia": "Pregão de sexta, 20/11/2026 (parcial às 12h45 · B3 fechada no feriado, NY aberta)",
+  "atualizado_em": "2026-11-20T18:40:00-03:00",
+  "referencia": "Fechamento de sexta, 20/11/2026 (B3 fechada no feriado; NY no fechamento)",
   "postura": {
     "estado": "RISK-OFF",
     "positivos": 0,
     "total": 6,
     "desde": "2026-11-13",
     "conviccao": "ALTA",
-    "resumo": "Postura RISK-OFF, com 0 de 6 sinais positivos e convicção ALTA. A B3 está fechada pelo feriado, e lá fora a aversão a risco continua: às 11h56 (Brasília) o Nasdaq caía 0,51% e o S&P 500 andava de lado (+0,04%), enquanto o Dow subia 0,70% (Reuters); a Anthropic recuava cerca de 6% no segundo pregão e a Nvidia caía 3,7%. O VIX chegou perto de 31, maior nível desde março. Aqui, o dólar fechou quinta a R$ 5,935 e o DI jan/31 a 15,42%."
+    "resumo": "Postura RISK-OFF, com 0 de 6 sinais positivos e convicção ALTA. Com a B3 fechada pelo feriado, NY teve um dos piores dias do ano: o S&P 500 caiu 3,7% (6.910) e entrou em correção, o Nasdaq despencou 5,3% e zerou o ganho de 2026, e o Dow recuou 1,9% (AP). Nvidia caiu 13,8% e Anthropic 9,1%. O VIX subiu cerca de 31%, para perto de 36, e o EWZ caiu 3,29%, sinal de abertura pesada para a B3 na segunda (23). Aqui, o dólar fechou quinta a R$ 5,935 e o DI jan/31 a 15,42%."
   },
   "sinais": [
     {
@@ -36,13 +36,13 @@
     },
     {
       "nome": "VIX",
-      "valor": "30,99",
+      "valor": "≈36,7",
       "estado": "neg",
       "regra": "Positivo se o VIX está abaixo de 20"
     },
     {
       "nome": "S&P 500 no dia",
-      "valor": "−2,02%",
+      "valor": "−3,70%",
       "estado": "neg",
       "regra": "Positivo se o S&P 500 subiu no último pregão"
     }
@@ -56,7 +56,7 @@
       "dia": -0.69,
       "semana": -2.53,
       "mes": -18.88,
-      "nota": "Fechou quinta (19) a 166.376,43 pts (−0,69%), entre a máxima de 168.498,42 e a mínima de 165.833,29; volume de R$ 35,9 bi (BPMoney). Hoje (20/11) a B3 está fechada pelo feriado e reabre na segunda (23), com Ásia, Europa e futuros de NY em queda. Semana = vs 12/11; mês = vs 23/10."
+      "nota": "Fechou quinta (19) a 166.376,43 pts (−0,69%), entre a máxima de 168.498,42 e a mínima de 165.833,29; volume de R$ 35,9 bi (BPMoney). B3 fechada em 20/11 (feriado); reabre segunda (23) depois de o EWZ cair 3,29% em NY (VALE −3,46%, ITUB −2,54%, PBR −1,72%; Money Times). Semana = vs 12/11; mês = vs 23/10."
     },
     {
       "codigo": "WDO",
@@ -82,11 +82,11 @@
       "codigo": "BTC",
       "nome": "Bitcoin",
       "vies": "baixa",
-      "nivel": "US$ 61.851",
-      "dia": -3.0,
-      "semana": -13.55,
+      "nivel": "US$ 59.422",
+      "dia": -5.3,
+      "semana": -16.95,
       "mes": null,
-      "nota": "US$ 61.851 (−3,0% em 24h) às 7h30 de 20/11 (BitNotícias); tocou ~US$ 61.300 na noite de quinta, menor nível desde o início de julho, com mais de US$ 600 mi em liquidações (CoinDesk). Semana = vs 12/11."
+      "nota": "US$ 59.422 (−5,3% em 24h) às 14h de 20/11, com mínima de US$ 59.241: perdeu os US$ 60 mil pela primeira vez desde julho e caminha para a 7ª semana de queda (Economic News Brasil). Fundos de BTC nos EUA tiveram saída de US$ 582 mi em 19/11. Semana = vs 12/11."
     }
   ],
   "fita": [
@@ -102,43 +102,43 @@
     },
     {
       "nome": "S&P 500",
-      "valor": "7.179",
-      "var": 0.04
+      "valor": "6.910",
+      "var": -3.7
     },
     {
       "nome": "NASDAQ",
-      "valor": "23.758",
-      "var": -0.51
+      "valor": "22.618",
+      "var": -5.3
     },
     {
       "nome": "DOW",
-      "valor": "49.451",
-      "var": 0.7
+      "valor": "48.147",
+      "var": -1.9
     },
     {
       "nome": "VIX",
-      "valor": "30,99",
-      "var": 10.76
+      "valor": "36,7",
+      "var": 31.0
     },
     {
       "nome": "BRENT",
-      "valor": "91,61",
-      "var": -0.4
+      "valor": "92,57",
+      "var": 0.6
     },
     {
       "nome": "OURO",
-      "valor": "3.570",
-      "var": -1.61
+      "valor": "3.558",
+      "var": -1.9
     },
     {
       "nome": "BTC",
-      "valor": "61.851",
-      "var": -3.0
+      "valor": "59.422",
+      "var": -5.3
     },
     {
       "nome": "ETH",
-      "valor": "1.749",
-      "var": -3.0
+      "valor": "1.642",
+      "var": -7.2
     }
   ],
   "valor_justo": [
@@ -162,13 +162,13 @@
   "alertas": [
     {
       "nivel": "atencao",
-      "titulo": "Venda de ações de IA segue em NY após Ásia despencar: Nasdaq em queda e VIX perto de 31",
-      "texto": "Depois de o Nikkei cair 5,06% e o Kospi 5,2%, a pressão sobre tecnologia continuou na abertura de NY: às 11h56 (Brasília) o Nasdaq caía 0,51%, a Nvidia 3,7% (menor nível desde junho de 2025) e a Anthropic cerca de 6% no segundo dia de negociação, enquanto o Dow subia 0,70% (Reuters). O VIX chegou a 30,99, maior nível desde março (CNBC). A B3 reabre segunda (23) absorvendo esse movimento. Sem histeria: é prevenção, não decisão no impulso."
+      "titulo": "NY derrete na venda de IA: S&P 500 −3,7% em correção, Nasdaq −5,3% e EWZ −3,29%",
+      "texto": "O S&P 500 fechou a 6.910 (−3,7%), mais de 10% abaixo do recorde de 6/10, o Nasdaq caiu 5,3% e ficou negativo no ano, e o Dow perdeu 1,9% (AP). Nvidia −13,8%, Micron −13,9%, AMD −13,3%, Anthropic −9,1%. O VIX subiu cerca de 31%, para perto de 36. Com a B3 fechada, o EWZ caiu 3,29% e os ADRs de Vale (−3,46%) e Itaú (−2,54%) recuaram (Money Times): a segunda (23) tende a abrir pressionada. Sem histeria: é prevenção, não decisão no impulso."
     },
     {
       "nivel": "atencao",
-      "titulo": "Bitcoin no menor nível desde julho; Binance segue com saques em fases após o ataque",
-      "texto": "O bitcoin chegou perto de US$ 61.300 na noite de quinta e estava em US$ 61.851 (−3,0% em 24h) às 7h30, com mais de US$ 600 milhões em liquidações de futuros (CoinDesk). A Binance segue com a retomada de saques em fases após o ataque de outubro. Sem histeria: é prevenção. Evite alavancagem em mercado estressado e confira os canais oficiais antes de movimentar fundos."
+      "titulo": "Bitcoin perde US$ 60 mil pela primeira vez desde julho; Binance segue com saques em fases após o ataque",
+      "texto": "O bitcoin estava em US$ 59.422 (−5,3% em 24h) às 14h, com mínima de US$ 59.241, e o ether em US$ 1.642 (−7,2%) (Economic News Brasil), arrastados pela venda de ações de IA e pela expectativa de alta de juros nos EUA. A Binance segue com a retomada de saques em fases após o ataque de outubro. Sem histeria: é prevenção. Evite alavancagem em mercado estressado e confira os canais oficiais antes de movimentar fundos."
     },
     {
       "nivel": "atencao",
@@ -239,7 +239,7 @@
       "valor": "3,75–4,00%",
       "estado": "neg",
       "selo": "~100% de alta em dez.",
-      "agora": "A ata da reunião de outubro, divulgada em 18/11, mostrou que quase todos os dirigentes consideram provável a necessidade de novas altas. O CME FedWatch indica ~100% de chance de alta em 9/12, e Christopher Waller defendeu 0,50 p.p. em dezembro. Confiança do consumidor de Michigan (final de novembro) veio em 51,5, de 48,0 em outubro (Reuters).",
+      "agora": "A ata de outubro mostrou que quase todos os dirigentes veem novas altas como prováveis, e o CME FedWatch indica ~100% de chance de alta em 9/12. Nesta sexta, Lisa Cook disse que esperar mais para subir os juros arrisca deixar o Fed atrás da curva; ela preferia alta já em outubro. Waller defendeu 0,50 p.p. em dezembro.",
       "o_que_e": "A taxa básica de juros dos EUA, definida pelo Fomc.",
       "como_ler": "Juros altos nos EUA atraem capital para lá e tendem a fortalecer o dólar contra moedas emergentes como o real."
     },
@@ -258,10 +258,10 @@
       "id": "treasury",
       "grupo": "EUA",
       "nome": "Treasury 10 anos",
-      "valor": "5,02%",
+      "valor": "4,93%",
       "estado": "neg",
-      "selo": "noite de 19/11",
-      "agora": "O 10 anos estava perto de 5,02% e o 30 anos em 5,39% na noite de quinta (Stocktwits), com a expectativa de alta de juros do Fed em dezembro.",
+      "selo": "fechamento 20/11",
+      "agora": "O 10 anos caiu para 4,93% (de 5,04% na quinta) com a fuga para segurança na queda das bolsas (AP), mas segue perto de 5% com a expectativa de alta do Fed em dezembro.",
       "o_que_e": "O rendimento do título de 10 anos do governo americano, referência global de juros.",
       "como_ler": "Acima de 4,5% os juros pesam sobre as ações no mundo todo. Quedas costumam aliviar a bolsa brasileira e o real."
     },
@@ -269,10 +269,10 @@
       "id": "vix",
       "grupo": "Global",
       "nome": "VIX",
-      "valor": "30,99",
+      "valor": "≈36,7",
       "estado": "neg",
-      "selo": "maior desde março",
-      "agora": "30,99 às 9h52 (Brasília) de 20/11 (CNBC), acima do fechamento de 27,98 de quinta, com a venda de ações de IA se espalhando da Ásia para NY; bem acima de 20.",
+      "selo": "+31% no dia",
+      "agora": "Subiu cerca de 31% nesta sexta, para perto de 36 pontos (Money Times, 17h42), ante 27,98 no fechamento de quinta; maior nível desde março e muito acima de 20.",
       "o_que_e": "O índice de volatilidade implícita do S&P 500, conhecido como o índice do medo.",
       "como_ler": "Abaixo de 15 indica calma, entre 15 e 20 é normal, e acima de 20 o mercado está estressado. Picos costumam vir com fuga de emergentes."
     },
@@ -280,10 +280,10 @@
       "id": "brent",
       "grupo": "Global",
       "nome": "Petróleo Brent",
-      "valor": "US$ 91,61",
+      "valor": "US$ 92,57",
       "estado": "neutro",
-      "selo": "−0,4% hoje",
-      "agora": "Brent a US$ 91,61 (−0,4%) e WTI a US$ 82,31 (−0,2%) às 10h24 de Brasília (AP), caminhando para a terceira queda semanal.",
+      "selo": "+0,6% hoje",
+      "agora": "Brent fechou a US$ 92,57 (+0,6%) nesta sexta (AP), depois de tocar US$ 90,33 de manhã; ainda caminha para queda na semana.",
       "o_que_e": "A referência internacional de preço do petróleo.",
       "como_ler": "Brent alto favorece PETR4, PRIO3 e BRAV3, mas pressiona a inflação e os custos de aéreas e logística."
     },
@@ -291,10 +291,10 @@
       "id": "ouro",
       "grupo": "Global",
       "nome": "Ouro",
-      "valor": "US$ 3.570",
+      "valor": "US$ 3.558",
       "estado": "neg",
-      "selo": "−1,6% hoje",
-      "agora": "Ouro a US$ 3.569,93 (−1,61%) cedo nesta sexta, depois de tocar abaixo de US$ 3.515; caminha para queda de quase 9% na semana, com juros americanos altos e apostas de alta do Fed (Jornal de Negócios).",
+      "selo": "≈−1,9% hoje",
+      "agora": "Ouro recuou para US$ 3.558 nesta sexta, na pior semana desde março, com apostas de alta do Fed (USAGOLD); chegou a mínima de 14 meses.",
       "o_que_e": "O preço da onça-troy de ouro.",
       "como_ler": "Ouro subindo sinaliza busca por proteção. Quedas fortes junto com bolsas podem indicar venda forçada para cobrir perdas."
     }
@@ -303,15 +303,15 @@
     "itens": [
       {
         "nome": "BTC",
-        "valor": "US$ 61.851",
-        "var": -3.0,
-        "nota": "US$ 61.851 (−3,0% em 24h) às 7h30 de 20/11 (BitNotícias); tocou ~US$ 61.300, menor nível desde o início de julho, com mais de US$ 600 mi em liquidações (CoinDesk). A Binance segue com saques em fases após o ataque de outubro."
+        "valor": "US$ 59.422",
+        "var": -5.3,
+        "nota": "US$ 59.422 (−5,3% em 24h) às 14h de 20/11, entre US$ 59.241 e US$ 63.282 no dia; abaixo de US$ 60 mil pela primeira vez desde julho (Economic News Brasil). A Binance segue com saques em fases após o ataque de outubro."
       },
       {
         "nome": "ETH",
-        "valor": "US$ 1.749",
-        "var": -3.0,
-        "nota": "US$ 1.749,48 (−3,0% em 24h) às 7h30 de 20/11 (BitNotícias); os ETFs de ether tiveram saída líquida de US$ 131 mi em 19/11 (KuCoin)."
+        "valor": "US$ 1.642",
+        "var": -7.2,
+        "nota": "US$ 1.641,99 (−7,2% em 24h) às 14h de 20/11 (Economic News Brasil); os ETFs de ether tiveram saída líquida de US$ 131 mi em 19/11 (KuCoin)."
       }
     ]
   },
@@ -365,12 +365,6 @@
   },
   "agenda": [
     {
-      "data": "2026-11-20",
-      "hora": "14h15",
-      "evento": "Lisa Cook (Fed) discursa · B3 fechada (feriado)",
-      "peso": "medio"
-    },
-    {
       "data": "2026-11-23",
       "hora": "—",
       "evento": "Petrobras atualiza o Plano Estratégico",
@@ -381,6 +375,12 @@
       "hora": "—",
       "evento": "Câmara vota o ajuste fiscal aprovado pelo Senado",
       "peso": "alto"
+    },
+    {
+      "data": "2026-11-26",
+      "hora": "—",
+      "evento": "Ação de Graças: bolsas de NY fechadas",
+      "peso": "medio"
     },
     {
       "data": "2026-12-09",
@@ -549,7 +549,7 @@
       "url": "https://www.moneytimes.com.br/feriado-no-brasil-confianca-nos-eua-e-bce-o-que-acompanha-o-mercado-nesta-sexta-feira-mlem/"
     }
   ],
-  "notas": "Atualização pré-abertura de 20/11 (feriado no Brasil, B3 fechada): Ibovespa, dólar e DIs do fechamento de 19/11; S&P 500, Nasdaq, Dow e VIX do fechamento de 19/11; Brent, ouro, BTC e ETH da manhã de 20/11. Setores mantidos do fechamento de 18/11. Histórico sem novo ponto (não houve pregão). Informação para estudo, não recomendação de investimento.",
+  "notas": "Atualização após o fechamento de 20/11 (feriado no Brasil, B3 fechada): Ibovespa, dólar e DIs do fechamento de 19/11; S&P 500, Nasdaq, Dow, Treasury e Brent do fechamento de 20/11 (AP); VIX e ouro do fim da tarde; BTC e ETH das 14h. Setores mantidos do fechamento de 18/11. Histórico sem novo ponto (não houve pregão). Informação para estudo, não recomendação de investimento.",
   "config": {
     "brapi_token": "",
     "whatsapp": "",
@@ -644,7 +644,7 @@
           }
         ]
       },
-      "leitura": "O 10 anos fechou perto de 5,05% em 19/11, com fuga para segurança na queda das bolsas. A ata de outubro mostrou que quase todos os dirigentes do Fed veem novas altas como prováveis; o FedWatch indica ~100% de chance de alta em dezembro."
+      "leitura": "O 10 anos caiu para 4,93% em 20/11 (de 5,04%) com a fuga para segurança na queda das bolsas. A ata de outubro e a fala de Lisa Cook reforçam alta em dezembro; o FedWatch indica ~100% de chance."
     },
     "credito_eua": {
       "hy_oas": 3.14,
