@@ -852,6 +852,20 @@
   ],
   "incidentes": [
     {
+      "id": "master-esteves-pf-2026-11-20",
+      "tipo": "escandalo",
+      "plataforma": "Banco Master / BTG",
+      "titulo": "André Esteves (BTG) diz à PF que o Master era 'banco muito pequeno, inexpressivo' e que o BTG desistiu de comprá-lo por falta de garantias sobre os ativos",
+      "status": "aberto",
+      "t_detectado": "2026-11-20T19:45:00-03:00",
+      "t_atualizado": "2026-11-20T19:45:00-03:00",
+      "fontes": [
+        "https://metropoles.com/colunas/manoela-alcantara/esteves-diz-a-pf-que-btg-desistiu-de-comprar-master-por-falta-de-garantias",
+        "https://www.folhape.com.br/economia/andre-esteves-depoe-a-pf-master-era-um-banco-muito-pequeno/525248/"
+      ],
+      "nota": "Depoimento reportado por Metrópoles e Folha PE; investigação segue em curso. Sem story: pauta só no site."
+    },
+    {
       "id": "dolar-593-bc-leilao-2026-11-19",
       "tipo": "mercado_br",
       "plataforma": "Dólar / Banco Central",
