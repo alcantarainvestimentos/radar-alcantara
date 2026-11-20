@@ -313,6 +313,20 @@ footer .legal{border-top:1px solid var(--line);padding-block:22px;display:flex;j
   @keyframes rise{from{transform:translateY(10px)}to{transform:none}}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.ebk-combo{display:grid;grid-template-columns:minmax(140px,240px) 1fr;gap:clamp(18px,3vw,36px);align-items:center;border:1px solid var(--line2);background:var(--bg2);padding:clamp(18px,3vw,28px);text-decoration:none;color:var(--cream);margin-bottom:28px}
+.ebk-combo img{width:100%;height:auto;display:block}
+.ebk-combo small,.ebk small{font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+.ebk-combo h3{margin:8px 0 10px;font-size:clamp(1.3rem,2.2vw,1.7rem)}
+.ebk-combo p{color:var(--muted);margin:0 0 18px;max-width:56ch}
+.ebks{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:18px}
+.ebk{border:1px solid var(--line);background:var(--bg2);padding:14px;text-decoration:none;color:var(--cream);display:grid;gap:6px;align-content:start;transition:border-color .2s}
+.ebk:hover,.ebk-combo:hover{border-color:var(--gold)}
+.ebk img{width:100%;height:auto;display:block;margin-bottom:6px}
+.ebk h3{margin:0;font-size:1.05rem}
+.ebk p{margin:0;color:var(--muted);font-size:.86rem}
+.ebk .go{color:var(--gold);font-size:.86rem;font-weight:700;margin-top:4px}
+.ebk-note{color:var(--dim);font-size:.8rem;margin:22px 0 0}
+@media (max-width:640px){.ebk-combo{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -327,6 +341,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:22px;display:flex;j
       <a href="#servicos">O que fazemos</a>
       <a href="#como-funciona">Como funciona</a>
       <a href="#simulador">Simulador</a>
+      <a href="#ebooks">E-books</a>
       <a href="#quem-somos">Quem somos</a>
       <a href="#carta">Carta</a>
       <a class="btn primary" href="https://wa.me/5516993222225" target="_blank" rel="noopener"><span class="long">Pedir cotação</span><span class="short">Cotação</span></a>
@@ -621,6 +636,50 @@ footer .legal{border-top:1px solid var(--line);padding-block:22px;display:flex;j
     </div>
   </section>
 
+  <section id="ebooks">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><p class="kicker">E-BOOKS</p><h2 class="sec">Coleção Alcantara de Educação Financeira.</h2></div>
+        <p class="intro">Sete níveis, do orçamento às criptomoedas, escritos por Kaynander C. Alcantara. Linguagem direta e checklist prático no fim de cada capítulo.</p>
+      </div>
+      <a class="ebk-combo" href="https://pay.hotmart.com/Y108593501I" target="_blank" rel="noopener">
+        <img src="ebooks/colecao.jpg" alt="Capa da Coleção Completa com os 7 e-books" width="300" height="300" loading="lazy">
+        <div><small>Coleção completa · 7 e-books</small><h3>Todos os níveis por R$ 99</h3><p>Os 7 avulsos somam R$ 189. Na coleção completa você leva a trilha inteira com 48% de desconto, em PDF, com garantia de 7 dias pela Hotmart.</p><span class="btn primary">Comprar a coleção</span></div>
+      </a>
+      <div class="ebks">
+        <a class="ebk" href="https://pay.hotmart.com/R108592854D" target="_blank" rel="noopener">
+          <img src="ebooks/n1.jpg" alt="Capa do e-book Nível 1: Dominando suas Finanças" width="300" height="300" loading="lazy">
+          <small>Nível 1</small><h3>Dominando suas Finanças</h3><p>Orçamento, reserva de emergência e primeiros investimentos.</p><span class="go">Comprar · R$ 27 →</span>
+        </a>
+        <a class="ebk" href="https://pay.hotmart.com/C108592905K" target="_blank" rel="noopener">
+          <img src="ebooks/n2.jpg" alt="Capa do e-book Nível 2: Guia Prático da Independência Financeira" width="300" height="300" loading="lazy">
+          <small>Nível 2</small><h3>Guia Prático da Independência Financeira</h3><p>Mentalidade, renda passiva, dívidas e o seu número da independência.</p><span class="go">Comprar · R$ 27 →</span>
+        </a>
+        <a class="ebk" href="https://pay.hotmart.com/G108592943K" target="_blank" rel="noopener">
+          <img src="ebooks/n3.jpg" alt="Capa do e-book Nível 3: Investindo do Zero" width="300" height="300" loading="lazy">
+          <small>Nível 3</small><h3>Investindo do Zero</h3><p>Conta, corretora e primeira aplicação, passo a passo.</p><span class="go">Comprar · R$ 27 →</span>
+        </a>
+        <a class="ebk" href="https://pay.hotmart.com/P108592977X" target="_blank" rel="noopener">
+          <img src="ebooks/n4.jpg" alt="Capa do e-book Nível 4: Multiplicando Patrimônio" width="300" height="300" loading="lazy">
+          <small>Nível 4</small><h3>Multiplicando Patrimônio</h3><p>Juros compostos, carteira diversificada e estratégias de longo prazo.</p><span class="go">Comprar · R$ 27 →</span>
+        </a>
+        <a class="ebk" href="https://pay.hotmart.com/P108593053D" target="_blank" rel="noopener">
+          <img src="ebooks/n5.jpg" alt="Capa do e-book Nível 5: Renda Fixa ou Variável" width="300" height="300" loading="lazy">
+          <small>Nível 5</small><h3>Renda Fixa ou Variável</h3><p>Como escolher entre segurança e potencial de retorno.</p><span class="go">Comprar · R$ 27 →</span>
+        </a>
+        <a class="ebk" href="https://pay.hotmart.com/N108593091I" target="_blank" rel="noopener">
+          <img src="ebooks/n6.jpg" alt="Capa do e-book Nível 6: Diversificação de Investimentos" width="300" height="300" loading="lazy">
+          <small>Nível 6</small><h3>Diversificação de Investimentos</h3><p>Como distribuir o patrimônio e reduzir riscos.</p><span class="go">Comprar · R$ 27 →</span>
+        </a>
+        <a class="ebk" href="https://pay.hotmart.com/I108593146N" target="_blank" rel="noopener">
+          <img src="ebooks/n7.jpg" alt="Capa do e-book Nível 7: Criptomoedas" width="300" height="300" loading="lazy">
+          <small>Nível 7</small><h3>Criptomoedas</h3><p>Entender, comprar, guardar e declarar ativos digitais.</p><span class="go">Comprar · R$ 27 →</span>
+        </a>
+      </div>
+      <p class="ebk-note">Também disponível em inglês e espanhol na Hotmart. Conteúdo educativo; não é recomendação de investimento. Pagamento processado pela Hotmart.</p>
+    </div>
+  </section>
+
   <section id="quem-somos">
     <div class="wrap about">
       <div>
@@ -751,6 +810,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:22px;display:flex;j
         <li><a href="#servicos">Stablecoins</a></li>
         <li><a href="#simulador">Simulador de spread</a></li>
         <li><a href="#duvidas">Perguntas frequentes</a></li>
+        <li><a href="#ebooks">E-books</a></li>
       </ul>
     </div>
     <div>

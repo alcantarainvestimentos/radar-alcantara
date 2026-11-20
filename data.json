@@ -687,8 +687,72 @@
   },
   "cursos": {
     "titulo": "Cursos e e-books",
-    "intro": "Conteúdo da Alcantara para entender mercado, câmbio e cripto com método. Os primeiros materiais estão em produção.",
+    "intro": "Coleção Alcantara de Educação Financeira, por Kaynander C. Alcantara: sete níveis, do orçamento às criptomoedas, em PDF pela Hotmart (também em inglês e espanhol). Conteúdo educativo; não é recomendação de investimento.",
     "itens": [
+      {
+        "tipo": "Coleção completa",
+        "titulo": "7 e-books · do orçamento às criptomoedas",
+        "descricao": "A trilha inteira da Coleção Alcantara de Educação Financeira. Os 7 avulsos somam R$ 189.",
+        "status": "disponivel",
+        "preco": "R$ 99",
+        "link": "https://pay.hotmart.com/Y108593501I"
+      },
+      {
+        "tipo": "E-book · Nível 1",
+        "titulo": "Dominando suas Finanças",
+        "descricao": "Orçamento, reserva de emergência e primeiros investimentos.",
+        "status": "disponivel",
+        "preco": "R$ 27",
+        "link": "https://pay.hotmart.com/R108592854D"
+      },
+      {
+        "tipo": "E-book · Nível 2",
+        "titulo": "Guia Prático da Independência Financeira",
+        "descricao": "Mentalidade, renda passiva, dívidas e o seu número da independência.",
+        "status": "disponivel",
+        "preco": "R$ 27",
+        "link": "https://pay.hotmart.com/C108592905K"
+      },
+      {
+        "tipo": "E-book · Nível 3",
+        "titulo": "Investindo do Zero",
+        "descricao": "Conta, corretora e primeira aplicação, passo a passo.",
+        "status": "disponivel",
+        "preco": "R$ 27",
+        "link": "https://pay.hotmart.com/G108592943K"
+      },
+      {
+        "tipo": "E-book · Nível 4",
+        "titulo": "Multiplicando Patrimônio",
+        "descricao": "Juros compostos, carteira diversificada e estratégias de longo prazo.",
+        "status": "disponivel",
+        "preco": "R$ 27",
+        "link": "https://pay.hotmart.com/P108592977X"
+      },
+      {
+        "tipo": "E-book · Nível 5",
+        "titulo": "Renda Fixa ou Variável",
+        "descricao": "Como escolher entre segurança e potencial de retorno.",
+        "status": "disponivel",
+        "preco": "R$ 27",
+        "link": "https://pay.hotmart.com/P108593053D"
+      },
+      {
+        "tipo": "E-book · Nível 6",
+        "titulo": "Diversificação de Investimentos",
+        "descricao": "Como distribuir o patrimônio e reduzir riscos.",
+        "status": "disponivel",
+        "preco": "R$ 27",
+        "link": "https://pay.hotmart.com/N108593091I"
+      },
+      {
+        "tipo": "E-book · Nível 7",
+        "titulo": "Criptomoedas",
+        "descricao": "Entender, comprar, guardar e declarar ativos digitais.",
+        "status": "disponivel",
+        "preco": "R$ 27",
+        "link": "https://pay.hotmart.com/I108593146N"
+      },
       {
         "tipo": "E-book",
         "titulo": "Dólar e câmbio para empresas",
@@ -701,14 +765,6 @@
         "tipo": "Curso",
         "titulo": "Lendo o mercado com o Radar",
         "descricao": "Postura do dia, curva de juros, liquidez e crédito: como cada indicador do Radar se encaixa.",
-        "status": "em_breve",
-        "preco": "",
-        "link": ""
-      },
-      {
-        "tipo": "E-book",
-        "titulo": "Cripto com segurança",
-        "descricao": "Custódia, corretoras, carteiras e os erros mais comuns de quem está começando.",
         "status": "em_breve",
         "preco": "",
         "link": ""
