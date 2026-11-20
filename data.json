@@ -718,6 +718,39 @@
   "noticias_radar": [
     {
       "cat": "acoes",
+      "title": "Nasdaq despenca quase 3% com AMD e Micron liderando liquidação brutal dos chips",
+      "link": "https://fool.com/coverage/stock-market-today/2026/11/20/stock-market-midday-nov-20-nasdaq-plunges-nearly-3-as-amd-and-micron-lead-a-brutal-semiconductor-sell-off",
+      "src": "Motley Fool",
+      "t": "2026-11-20T17:00:00Z",
+      "score": 4
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin perde os US$ 60 mil e aprofunda queda com liquidação das ações de IA",
+      "link": "https://www.investing.com/news/stock-market-news/bitcoin-falls-below-60000-level-5042271",
+      "src": "Reuters",
+      "t": "2026-11-20T15:51:00Z",
+      "score": 5,
+      "viral": true
+    },
+    {
+      "cat": "cripto",
+      "title": "Hackers da Binance aceleram lavagem: US$ 149 mi em bitcoin passam por misturadores, diz Elliptic",
+      "link": "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758",
+      "src": "The Block",
+      "t": "2026-11-20T14:00:00Z",
+      "score": 4
+    },
+    {
+      "cat": "cripto",
+      "title": "Erros em carteiras de bitcoin expuseram US$ 106 mi a ladrões; robôs atacam em segundos",
+      "link": "https://coindesk.com/tech/2026/11/20/bitcoin-bots-pounced-within-seconds-when-researchers-exposed-their-keys",
+      "src": "CoinDesk",
+      "t": "2026-11-20T13:00:00Z",
+      "score": 3
+    },
+    {
+      "cat": "acoes",
       "title": "Taiwan tem pior semana desde 1991 (-6,2% no dia) e AMD derrete mais 7% no pré-mercado; Nasdaq futuro cai 1,6%",
       "link": "https://247wallst.com/investing/2026/11/20/amd-stock-drops-another-7-0-before-the-bell-and-taiwan-semiconductor-slides-4-2-as-nasdaq-futures-fall-1-6-after-asias-chip-selloff/",
       "src": "24/7 Wall St.",
@@ -755,8 +788,7 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-19-222025646.html",
       "src": "Yahoo Finance",
       "t": "2026-11-19T14:20:00-08:00",
-      "score": 4,
-      "viral": true
+      "score": 4
     },
     {
       "cat": "acoes",
