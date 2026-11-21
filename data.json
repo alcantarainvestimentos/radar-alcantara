@@ -162,6 +162,11 @@
   "alertas": [
     {
       "nivel": "atencao",
+      "titulo": "Ciberataque nos EUA: FBI investiga possível invasão ao banco de dados criminal e USDA teria sistema de pagamentos violado",
+      "texto": "A CNN e a NBC informam que o FBI apura uma possível brecha no NCIC, seu banco de dados criminal — a segunda do órgão desde setembro. Relatos apontam que o sistema de pagamentos a fazendeiros do Departamento de Agricultura (USDA) também foi invadido, após uma semana de panes de tecnologia nos EUA. Autoria e alcance ainda não confirmados; não há efeito de mercado direto apurado. Sem histeria: é prevenção, não decisão no impulso."
+    },
+    {
+      "nivel": "atencao",
       "titulo": "NY derrete na venda de IA: S&P 500 −3,7% em correção, Nasdaq −5,3% e EWZ −3,29%",
       "texto": "O S&P 500 fechou a 6.910 (−3,7%), mais de 10% abaixo do recorde de 6/10, o Nasdaq caiu 5,3% e ficou negativo no ano, e o Dow perdeu 1,9% (AP). Nvidia −13,8%, Micron −13,9%, AMD −13,3%, Anthropic −9,1%. O VIX subiu cerca de 31%, para perto de 36. Com a B3 fechada, o EWZ caiu 3,29% e os ADRs de Vale (−3,46%) e Itaú (−2,54%) recuaram (Money Times): a segunda (23) tende a abrir pressionada. Sem histeria: é prevenção, não decisão no impulso."
     },
@@ -169,11 +174,6 @@
       "nivel": "atencao",
       "titulo": "Bitcoin perde US$ 60 mil pela primeira vez desde julho; Binance segue com saques em fases após o ataque",
       "texto": "O bitcoin estava em US$ 59.422 (−5,3% em 24h) às 14h, com mínima de US$ 59.241, e o ether em US$ 1.642 (−7,2%) (Economic News Brasil), arrastados pela venda de ações de IA e pela expectativa de alta de juros nos EUA. A Binance segue com a retomada de saques em fases após o ataque de outubro. Sem histeria: é prevenção. Evite alavancagem em mercado estressado e confira os canais oficiais antes de movimentar fundos."
-    },
-    {
-      "nivel": "atencao",
-      "titulo": "iFood e fornecedores de Visa, Mastercard e JPMorgan: vazamentos de dados seguem em apuração",
-      "texto": "O iFood informou ataque hacker com exposição de dados de clientes, entregadores e restaurantes, e Visa, Mastercard e JPMorgan disseram que fornecedores terceiros sofreram ataque cibernético. O alcance ainda não está totalmente claro. Sem histeria: é prevenção. Desconfie de contatos que citem seus dados, de links e de ligações 'do banco', e use autenticação em duas etapas."
     }
   ],
   "indicadores": [
@@ -955,6 +955,21 @@
     }
   ],
   "incidentes": [
+    {
+      "id": "eua-fbi-usda-ciber-2026-11-20",
+      "tipo": "ciber",
+      "plataforma": "FBI / USDA (EUA)",
+      "titulo": "FBI investiga possível invasão ao seu banco de dados criminal (NCIC) e relatos apontam que o sistema de pagamentos a fazendeiros do USDA também foi violado; segunda brecha no FBI desde setembro",
+      "status": "aberto",
+      "t_detectado": "2026-11-21T13:50:00-03:00",
+      "t_atualizado": "2026-11-21T13:50:00-03:00",
+      "fontes": [
+        "https://www.cnn.com/2026/11/20/politics/fbi-hacked-again-target-crime-database",
+        "https://www.nbcnews.com/politics/justice-department/fbi-investigating-potential-breach-crime-database-rcna610536",
+        "https://www.metropoles.com/mundo/hackers-invadem-banco-de-dados-criminal-do-fbi-e-sistema-agricola-dos-eua"
+      ],
+      "nota": "Confirmado: o FBI investiga a possível brecha (CNN, NBC). USDA: invasão ao sistema de pagamentos ainda aparece como 'segundo relatos'. Autoria e extensão não confirmadas. Sem story (suspeita): pauta só no site."
+    },
     {
       "id": "master-esteves-pf-2026-11-20",
       "tipo": "escandalo",
