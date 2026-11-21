@@ -774,6 +774,22 @@
   "noticias_radar": [
     {
       "cat": "cripto",
+      "title": "Bitcoin desaba a US$ 55,1 mil, menor nível desde 2024; US$ 2,7 bi liquidados em 24 h",
+      "link": "https://247wallst.com/investing/2026/11/21/bitcoin-crashes-below-56000-as-2-7-billion-crypto-liquidation-wipes-out-traders/",
+      "src": "24/7 Wall St.",
+      "t": "2026-11-21T15:01:53+00:00",
+      "score": 3
+    },
+    {
+      "cat": "acoes",
+      "title": "Nvidia tem pior semana desde 2008: queda de 23% apaga cerca de US$ 1 trilhão em valor de mercado",
+      "link": "https://www.fool.com/investing/2026/11/21/after-its-worst-week-in-18-years-nvidia-now-faces-an-sec-investigation-what-it-means-for-investors/",
+      "src": "Motley Fool",
+      "t": "2026-11-21T06:10:05+00:00",
+      "score": 4
+    },
+    {
+      "cat": "cripto",
       "title": "Bitcoin cai à mínima em mais de dois anos com derrocada dos mercados globais",
       "link": "https://www.bloomberg.com/news/articles/2026-11-20/bitcoin-falls-to-more-than-two-year-low-as-global-markets-sink",
       "src": "Bloomberg",
