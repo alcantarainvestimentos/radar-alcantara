@@ -773,6 +773,23 @@
   },
   "noticias_radar": [
     {
+      "cat": "cripto",
+      "title": "Bitcoin cai à mínima em mais de dois anos com derrocada dos mercados globais",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-20/bitcoin-falls-to-more-than-two-year-low-as-global-markets-sink",
+      "src": "Bloomberg",
+      "t": "2026-11-20T18:00:00-05:00",
+      "score": 4
+    },
+    {
+      "cat": "acoes",
+      "title": "Nvidia desaba 14% com investigação contábil da SEC; Nasdaq afunda 5% e S&P perde os 7 mil pontos",
+      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-nvidia-s-usd2-5-trillion-rout-deepens-as-sec-accounting-probe-adds-to-wall-street-s-ai-sell-off/",
+      "src": "Motley Fool",
+      "t": "2026-11-20T16:35:00-05:00",
+      "score": 5,
+      "viral": true
+    },
+    {
       "cat": "acoes",
       "title": "Nasdaq despenca quase 3% com AMD e Micron liderando liquidação brutal dos chips",
       "link": "https://fool.com/coverage/stock-market-today/2026/11/20/stock-market-midday-nov-20-nasdaq-plunges-nearly-3-as-amd-and-micron-lead-a-brutal-semiconductor-sell-off",
@@ -878,8 +895,7 @@
       "link": "https://www.baltimoresun.com/2026/11/19/us-stocks-anthropic-ipo/",
       "src": "AP",
       "t": "2026-11-19T16:30:00-03:00",
-      "score": 5,
-      "viral": true
+      "score": 5
     },
     {
       "cat": "acoes",
