@@ -773,6 +773,15 @@
   },
   "noticias_radar": [
     {
+      "cat": "cripto",
+      "title": "PF participa de operação em 14 países contra golpes digitais: 266 presos e 576 carteiras cripto rastreadas",
+      "link": "https://oantagonista.com.br/ladooa/entretenimento/operacao-internacional-com-participacao-da-pf-termina-com-266-prisoes-e-rastreamento-de-576-carteiras-de-criptomoedas",
+      "src": "O Antagonista",
+      "t": "2026-11-21T21:13:00-03:00",
+      "score": 4,
+      "viral": true
+    },
+    {
       "cat": "acoes",
       "title": "Lula ataca a Faria Lima: 'Não é o sistema financeiro que vai me ensinar a dirigir esse país'",
       "link": "https://www.metropoles.com/brasil/lula-defende-ajuste-fiscal-e-diz-que-mercado-nao-o-ensinara-a-governar",
@@ -780,6 +789,14 @@
       "t": "2026-11-21T12:43:00-03:00",
       "score": 4,
       "viral": true
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin volta a US$ 60 mil após tombar perto de US$ 55 mil de madrugada; US$ 2,67 bi liquidados em 24 h",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-rebounds-60k-crash-near-55k-billions-liquidations/",
+      "src": "Bitcoin.com",
+      "t": "2026-11-21T10:18:47-05:00",
+      "score": 3
     },
     {
       "cat": "acoes",
@@ -918,8 +935,7 @@
       "link": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-19-novembro-2026/",
       "src": "CNN Brasil",
       "t": "2026-11-19T18:35:00-03:00",
-      "score": 5,
-      "viral": true
+      "score": 5
     },
     {
       "cat": "acoes",
