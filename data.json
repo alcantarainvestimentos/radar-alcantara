@@ -774,6 +774,32 @@
   "noticias_radar": [
     {
       "cat": "cripto",
+      "title": "Hackers levam 122,9 BTC da Chainflip e prejuízo chega a US$ 12 mi; protocolo oferece recompensa ao invasor",
+      "link": "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829",
+      "src": "The Block",
+      "t": "2026-11-22T18:57:55+00:00",
+      "score": 4,
+      "viral": true
+    },
+    {
+      "cat": "acoes",
+      "title": "Bessent cobra a Nvidia: governo Trump ainda espera respostas sobre chips enviados à China",
+      "link": "https://br.investing.com/news/company-news/bessent-diz-que-governo-trump-precisa-de-respostas-da-nvidia-2134966",
+      "src": "Investing.com",
+      "t": "2026-11-22T15:48:00-03:00",
+      "score": 4
+    },
+    {
+      "cat": "acoes",
+      "title": "Pânico na Ásia: Taiwan proíbe venda a descoberto e Coreia cria fundo de emergência após derrocada da IA",
+      "link": "https://br.investing.com/news/stock-market-news/paises-asiaticos-tomam-medidas-para-apoiar-mercados-apos-queda-da-ia-2134947",
+      "src": "Investing.com",
+      "t": "2026-11-22T12:12:00-03:00",
+      "score": 5,
+      "viral": true
+    },
+    {
+      "cat": "cripto",
       "title": "Strategy acumula US$ 12,8 bi de prejuízo no papel com bitcoin, mas Saylor sinaliza nova compra",
       "link": "https://crypto.news/michael-saylor-strategy-bitcoin-buy-hint-november-2026/",
       "src": "crypto.news",
@@ -885,8 +911,7 @@
       "link": "https://www.investing.com/news/stock-market-news/bitcoin-falls-below-60000-level-5042271",
       "src": "Reuters",
       "t": "2026-11-20T15:51:00Z",
-      "score": 5,
-      "viral": true
+      "score": 5
     },
     {
       "cat": "cripto",
@@ -926,8 +951,7 @@
       "link": "https://www.bloomberg.com/news/articles/2026-11-20/us-stock-futures-fall-as-ai-selloff-spreads-to-asia-and-europe",
       "src": "Bloomberg",
       "t": "2026-11-20T04:58:00Z",
-      "score": 5,
-      "viral": true
+      "score": 5
     },
     {
       "cat": "cripto",
@@ -968,22 +992,6 @@
       "src": "Yahoo Finance",
       "t": "2026-11-19T17:45:00-03:00",
       "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Wall Street cai forte e Dow chega a perder ~800 pontos, mesmo com estreia da Anthropic",
-      "link": "https://www.baltimoresun.com/2026/11/19/us-stocks-anthropic-ipo/",
-      "src": "AP",
-      "t": "2026-11-19T16:30:00-03:00",
-      "score": 5
-    },
-    {
-      "cat": "acoes",
-      "title": "Trump, Xi e Putin fecham cúpula inédita em Shenzhen com declaração de paz: mais petróleo, risco nuclear e reforma da ONU",
-      "link": "https://thehill.com/policy/international/6229659-trump-xi-putin-peace-declaration-china-summit",
-      "src": "The Hill",
-      "t": "2026-11-19T14:30:00-03:00",
-      "score": 5
     }
   ],
   "incidentes": [
