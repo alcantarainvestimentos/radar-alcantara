@@ -1,1240 +1,1255 @@
 {
- "atualizado_em": "2026-11-22T09:45:00-03:00",
- "referencia": "Fechamento de sexta, 20/11/2026 (B3 fechada no feriado; NY no fechamento)",
- "postura": {
-  "estado": "RISK-OFF",
-  "positivos": 0,
-  "total": 6,
-  "desde": "2026-11-13",
-  "conviccao": "ALTA",
-  "resumo": "Postura RISK-OFF, com 0 de 6 sinais positivos e convicção ALTA. Com a B3 fechada pelo feriado, NY teve um dos piores dias do ano: o S&P 500 caiu 3,7% (6.910) e entrou em correção, o Nasdaq despencou 5,3% e zerou o ganho de 2026, e o Dow recuou 1,9% (AP). Nvidia caiu 13,8% e Anthropic 9,1%. O VIX subiu cerca de 31%, para perto de 36, e o EWZ caiu 3,29%, sinal de abertura pesada para a B3 na segunda (23). Aqui, o dólar fechou quinta a R$ 5,935 e o DI jan/31 a 15,42%."
- },
- "sinais": [
-  {
-   "nome": "Ibovespa 5 pregões",
-   "valor": "−2,5%",
-   "estado": "neg",
-   "regra": "Positivo se o índice subiu nos últimos 5 pregões"
+  "atualizado_em": "2026-11-22T09:45:00-03:00",
+  "referencia": "Fechamento de sexta, 20/11/2026 (B3 fechada no feriado; NY no fechamento)",
+  "postura": {
+    "estado": "RISK-OFF",
+    "positivos": 0,
+    "total": 6,
+    "desde": "2026-11-13",
+    "conviccao": "ALTA",
+    "resumo": "Postura RISK-OFF, com 0 de 6 sinais positivos e convicção ALTA. Com a B3 fechada pelo feriado, NY teve um dos piores dias do ano: o S&P 500 caiu 3,7% (6.910) e entrou em correção, o Nasdaq despencou 5,3% e zerou o ganho de 2026, e o Dow recuou 1,9% (AP). Nvidia caiu 13,8% e Anthropic 9,1%. O VIX subiu cerca de 31%, para perto de 36, e o EWZ caiu 3,29%, sinal de abertura pesada para a B3 na segunda (23). Aqui, o dólar fechou quinta a R$ 5,935 e o DI jan/31 a 15,42%."
   },
-  {
-   "nome": "Ibovespa 1 mês",
-   "valor": "≈ −18,9%",
-   "estado": "neg",
-   "regra": "Positivo se o índice está acima de 1 mês atrás"
-  },
-  {
-   "nome": "Dólar 5 pregões",
-   "valor": "+5,0%",
-   "estado": "neg",
-   "regra": "Positivo se o dólar caiu na semana (real mais forte)"
-  },
-  {
-   "nome": "DI longo na semana",
-   "valor": "+0,32 p.p.",
-   "estado": "neg",
-   "regra": "Positivo se a taxa do DI longo caiu na semana"
-  },
-  {
-   "nome": "VIX",
-   "valor": "≈36,7",
-   "estado": "neg",
-   "regra": "Positivo se o VIX está abaixo de 20"
-  },
-  {
-   "nome": "S&P 500 no dia",
-   "valor": "−3,70%",
-   "estado": "neg",
-   "regra": "Positivo se o S&P 500 subiu no último pregão"
-  }
- ],
- "mercados": [
-  {
-   "codigo": "WIN",
-   "nome": "Ibovespa",
-   "vies": "baixa",
-   "nivel": "166.376 pts",
-   "dia": -0.69,
-   "semana": -2.53,
-   "mes": -18.88,
-   "nota": "Fechou quinta (19) a 166.376,43 pts (−0,69%), entre a máxima de 168.498,42 e a mínima de 165.833,29; volume de R$ 35,9 bi (BPMoney). B3 fechada em 20/11 (feriado); reabre segunda (23) depois de o EWZ cair 3,29% em NY (VALE −3,46%, ITUB −2,54%, PBR −1,72%; Money Times). Semana = vs 12/11; mês = vs 23/10."
-  },
-  {
-   "codigo": "WDO",
-   "nome": "Dólar comercial",
-   "vies": "alta",
-   "nivel": "R$ 5,935",
-   "dia": 1.16,
-   "semana": 5.03,
-   "mes": 18.87,
-   "nota": "Fechou quinta a R$ 5,9350 (+1,16%), maior nível desde abril de 2025, mesmo depois de o BC vender US$ 1 bi no mercado à vista (Enfoque, BPMoney). Pesaram as falas de Lula sobre o fiscal e a aversão a risco global. Sem negociação hoje no Brasil (feriado). Semana = vs 12/11; mês = vs 23/10."
-  },
-  {
-   "codigo": "DI F31",
-   "nome": "Juros longos",
-   "vies": "alta",
-   "nivel": "15,42%",
-   "dia": 0.26,
-   "semana": 0.32,
-   "mes": null,
-   "nota": "Fechou quinta a 15,42% (de 15,16%), máxima do ano, depois que a intervenção do BC no câmbio e as falas de Lula sobre o fiscal estressaram a curva; jan/28 a 14,85% e jan/29 a 15,275% (DGABC/Estadão). Semana = vs 15,10% de 12/11."
-  },
-  {
-   "codigo": "BTC",
-   "nome": "Bitcoin",
-   "vies": "baixa",
-   "nivel": "US$ 59.422",
-   "dia": -5.3,
-   "semana": -16.95,
-   "mes": null,
-   "nota": "US$ 59.422 (−5,3% em 24h) às 14h de 20/11, com mínima de US$ 59.241: perdeu os US$ 60 mil pela primeira vez desde julho e caminha para a 7ª semana de queda (Economic News Brasil). Fundos de BTC nos EUA tiveram saída de US$ 582 mi em 19/11. Semana = vs 12/11."
-  }
- ],
- "fita": [
-  {
-   "nome": "IBOV",
-   "valor": "166.376",
-   "var": -0.69
-  },
-  {
-   "nome": "USD/BRL",
-   "valor": "5,935",
-   "var": 1.16
-  },
-  {
-   "nome": "S&P 500",
-   "valor": "6.910",
-   "var": -3.7
-  },
-  {
-   "nome": "NASDAQ",
-   "valor": "22.618",
-   "var": -5.3
-  },
-  {
-   "nome": "DOW",
-   "valor": "48.147",
-   "var": -1.9
-  },
-  {
-   "nome": "VIX",
-   "valor": "36,7",
-   "var": 31.0
-  },
-  {
-   "nome": "BRENT",
-   "valor": "92,57",
-   "var": 0.6
-  },
-  {
-   "nome": "OURO",
-   "valor": "3.558",
-   "var": -1.9
-  },
-  {
-   "nome": "BTC",
-   "valor": "59.422",
-   "var": -5.3
-  },
-  {
-   "nome": "ETH",
-   "valor": "1.642",
-   "var": -7.2
-  }
- ],
- "valor_justo": [
-  {
-   "titulo": "Ibovespa",
-   "rotulo": "Abaixo da média histórica",
-   "justo": "P/L 10x (média)",
-   "atual": "166.376 pts (~7,8x)",
-   "gap": -21.7,
-   "detalhe": "Referência Itaú BBA (27/10): Ibovespa a 7,9x P/L com 167.922 pts, contra média de 10 anos de 10x. Ajustado proporcionalmente ao fechamento de 19/11 (166.376), ~7,8x, desconto de ~22%."
-  },
-  {
-   "titulo": "Dólar vs Focus",
-   "rotulo": "Acima da expectativa",
-   "justo": "R$ 5,40",
-   "atual": "R$ 5,935",
-   "gap": 9.9,
-   "detalhe": "Focus de 16/11 projeta dólar a R$ 5,40 no fim de 2026 e R$ 5,45 em 2027. No fechamento de 19/11, a R$ 5,935, ~9,9% acima."
-  }
- ],
- "alertas": [
-  {
-   "nivel": "atencao",
-   "titulo": "Ciberataque nos EUA: FBI investiga possível invasão ao banco de dados criminal e USDA teria sistema de pagamentos violado",
-   "texto": "A CNN e a NBC informam que o FBI apura uma possível brecha no NCIC, seu banco de dados criminal — a segunda do órgão desde setembro. Relatos apontam que o sistema de pagamentos a fazendeiros do Departamento de Agricultura (USDA) também foi invadido, após uma semana de panes de tecnologia nos EUA. Autoria e alcance ainda não confirmados; não há efeito de mercado direto apurado. Sem histeria: é prevenção, não decisão no impulso."
-  },
-  {
-   "nivel": "atencao",
-   "titulo": "NY derrete na venda de IA: S&P 500 −3,7% em correção, Nasdaq −5,3% e EWZ −3,29%",
-   "texto": "O S&P 500 fechou a 6.910 (−3,7%), mais de 10% abaixo do recorde de 6/10, o Nasdaq caiu 5,3% e ficou negativo no ano, e o Dow perdeu 1,9% (AP). Nvidia −13,8%, Micron −13,9%, AMD −13,3%, Anthropic −9,1%. O VIX subiu cerca de 31%, para perto de 36. Com a B3 fechada, o EWZ caiu 3,29% e os ADRs de Vale (−3,46%) e Itaú (−2,54%) recuaram (Money Times): a segunda (23) tende a abrir pressionada. Sem histeria: é prevenção, não decisão no impulso."
-  },
-  {
-   "nivel": "atencao",
-   "titulo": "Bitcoin toca perto de US$ 55 mil, mínima em dois anos, e depois volta a ~US$ 60 mil; Binance segue com saques em fases",
-   "texto": "Após perder US$ 60 mil na sexta, o bitcoin chegou a cair para perto de US$ 55 mil no sábado (21), menor nível em dois anos, com liquidações de bilhões em posições alavancadas (o valor exato varia por fonte). Depois reagiu e voltou a ~US$ 60 mil (Reuters/agências). Contexto: venda de ações de IA e expectativa de juros altos nos EUA; a Binance segue com a retomada de saques em fases. Sem histeria: é prevenção. Evite alavancagem em mercado estressado e confira os canais oficiais antes de movimentar fundos."
-  }
- ],
- "indicadores": [
-  {
-   "id": "selic",
-   "grupo": "Brasil",
-   "nome": "Selic",
-   "valor": "13,75%",
-   "estado": "neutro",
-   "selo": "próx. Copom 9/12",
-   "agora": "Mantida em 13,75% em 4/11; o mercado espera manutenção em 9/12. Focus de 16/11: 13,75% no fim de 2026 e 12,75% no fim de 2027 (antes 12,50%). O IBC-Br de setembro caiu 0,2% no mês.",
-   "o_que_e": "A taxa básica de juros definida pelo Copom a cada 45 dias. Serve de base para o CDI e para o custo do crédito no país.",
-   "como_ler": "Selic em queda tende a favorecer bolsa, varejo e construção. Uma pausa ou alta pressiona esses setores e fortalece a renda fixa."
-  },
-  {
-   "id": "ipca",
-   "grupo": "Brasil",
-   "nome": "IPCA 2026 (Focus)",
-   "valor": "5,11%",
-   "estado": "neg",
-   "selo": "Focus 2027: 5,00%",
-   "agora": "Focus de 16/11: IPCA de 2026 caiu para 5,11% (de 5,22%), mas o de 2027 subiu para 5,00% (de 4,90%), acima do teto de 4,5%. IPCA de outubro: 0,14% no mês e 4,63% em 12 meses.",
-   "o_que_e": "A inflação oficial do Brasil, aqui pela mediana das projeções do Boletim Focus para o ano.",
-   "como_ler": "Projeções subindo reduzem o espaço para cortes da Selic. Acima de 4,5% o Banco Central está fora da meta."
-  },
-  {
-   "id": "curva",
-   "grupo": "Brasil",
-   "nome": "DI janeiro/2031",
-   "valor": "15,42%",
-   "estado": "neg",
-   "selo": "+0,26 p.p. no dia",
-   "agora": "Fechou 19/11 a 15,42% (de 15,16%), máxima do ano, com a intervenção do BC no câmbio e as falas de Lula sobre o fiscal; jan/28 a 14,85% e jan/29 a 15,275% (DGABC/Estadão). Sem negociação hoje (feriado).",
-   "o_que_e": "A taxa de juros que o mercado cobra para emprestar ao governo até 2031. Mede o prêmio de risco de longo prazo.",
-   "como_ler": "DI longo subindo encarece o valuation das ações, principalmente de empresas de crescimento e ligadas ao consumo. Queda costuma anteceder alta da bolsa."
-  },
-  {
-   "id": "cambio",
-   "grupo": "Brasil",
-   "nome": "Dólar comercial",
-   "valor": "R$ 5,935",
-   "estado": "neg",
-   "selo": "+1,16% na quinta",
-   "agora": "Fechou a R$ 5,9350 (+1,16%) em 19/11, maior nível desde abril de 2025, mesmo com a venda de US$ 1 bi do BC no mercado à vista. Mercado local fechado hoje pelo feriado. Focus projeta R$ 5,40 no fim de 2026.",
-   "o_que_e": "A cotação do dólar no mercado à vista.",
-   "como_ler": "Dólar subindo favorece exportadoras (Suzano, Embraer, petroleiras) e pressiona a inflação e as empresas endividadas em moeda estrangeira."
-  },
-  {
-   "id": "emprego",
-   "grupo": "Brasil",
-   "nome": "Desemprego (IBGE)",
-   "valor": "5,2%",
-   "estado": "pos",
-   "selo": "trimestre até set.",
-   "agora": "O mercado de trabalho segue apertado, o que sustenta o consumo, mas também a inflação de serviços.",
-   "o_que_e": "A taxa de desocupação da PNAD Contínua, em trimestre móvel.",
-   "como_ler": "Desemprego baixo é bom para a economia, mas dificulta a queda da inflação e o corte de juros."
-  },
-  {
-   "id": "fed",
-   "grupo": "EUA",
-   "nome": "Fed Funds",
-   "valor": "3,75–4,00%",
-   "estado": "neg",
-   "selo": "~100% de alta em dez.",
-   "agora": "A ata de outubro mostrou que quase todos os dirigentes veem novas altas como prováveis, e o CME FedWatch indica ~100% de chance de alta em 9/12. Nesta sexta, Lisa Cook disse que esperar mais para subir os juros arrisca deixar o Fed atrás da curva; ela preferia alta já em outubro. Waller defendeu 0,50 p.p. em dezembro.",
-   "o_que_e": "A taxa básica de juros dos EUA, definida pelo Fomc.",
-   "como_ler": "Juros altos nos EUA atraem capital para lá e tendem a fortalecer o dólar contra moedas emergentes como o real."
-  },
-  {
-   "id": "pce",
-   "grupo": "EUA",
-   "nome": "PCE (set.)",
-   "valor": "3,6% a/a",
-   "estado": "neg",
-   "selo": "núcleo 3,1%",
-   "agora": "Subiu de 3,4% em agosto para 3,6% em setembro, alta de 0,5% no mês, em linha com o esperado.",
-   "o_que_e": "A medida de inflação preferida do Fed, baseada nos gastos de consumo.",
-   "como_ler": "PCE subindo aumenta a chance de alta de juros nos EUA. Dados abaixo do esperado aliviam os mercados emergentes."
-  },
-  {
-   "id": "treasury",
-   "grupo": "EUA",
-   "nome": "Treasury 10 anos",
-   "valor": "4,93%",
-   "estado": "neg",
-   "selo": "fechamento 20/11",
-   "agora": "O 10 anos caiu para 4,93% (de 5,04% na quinta) com a fuga para segurança na queda das bolsas (AP), mas segue perto de 5% com a expectativa de alta do Fed em dezembro.",
-   "o_que_e": "O rendimento do título de 10 anos do governo americano, referência global de juros.",
-   "como_ler": "Acima de 4,5% os juros pesam sobre as ações no mundo todo. Quedas costumam aliviar a bolsa brasileira e o real."
-  },
-  {
-   "id": "vix",
-   "grupo": "Global",
-   "nome": "VIX",
-   "valor": "≈36,7",
-   "estado": "neg",
-   "selo": "+31% no dia",
-   "agora": "Subiu cerca de 31% nesta sexta, para perto de 36 pontos (Money Times, 17h42), ante 27,98 no fechamento de quinta; maior nível desde março e muito acima de 20.",
-   "o_que_e": "O índice de volatilidade implícita do S&P 500, conhecido como o índice do medo.",
-   "como_ler": "Abaixo de 15 indica calma, entre 15 e 20 é normal, e acima de 20 o mercado está estressado. Picos costumam vir com fuga de emergentes."
-  },
-  {
-   "id": "brent",
-   "grupo": "Global",
-   "nome": "Petróleo Brent",
-   "valor": "US$ 92,57",
-   "estado": "neutro",
-   "selo": "+0,6% hoje",
-   "agora": "Brent fechou a US$ 92,57 (+0,6%) nesta sexta (AP), depois de tocar US$ 90,33 de manhã; ainda caminha para queda na semana.",
-   "o_que_e": "A referência internacional de preço do petróleo.",
-   "como_ler": "Brent alto favorece PETR4, PRIO3 e BRAV3, mas pressiona a inflação e os custos de aéreas e logística."
-  },
-  {
-   "id": "ouro",
-   "grupo": "Global",
-   "nome": "Ouro",
-   "valor": "US$ 3.558",
-   "estado": "neg",
-   "selo": "≈−1,9% hoje",
-   "agora": "Ouro recuou para US$ 3.558 nesta sexta, na pior semana desde março, com apostas de alta do Fed (USAGOLD); chegou a mínima de 14 meses.",
-   "o_que_e": "O preço da onça-troy de ouro.",
-   "como_ler": "Ouro subindo sinaliza busca por proteção. Quedas fortes junto com bolsas podem indicar venda forçada para cobrir perdas."
-  }
- ],
- "cripto": {
-  "itens": [
-   {
-    "nome": "BTC",
-    "valor": "US$ 59.422",
-    "var": -5.3,
-    "nota": "US$ 59.422 (−5,3% em 24h) às 14h de 20/11, entre US$ 59.241 e US$ 63.282 no dia; abaixo de US$ 60 mil pela primeira vez desde julho (Economic News Brasil). A Binance segue com saques em fases após o ataque de outubro."
-   },
-   {
-    "nome": "ETH",
-    "valor": "US$ 1.642",
-    "var": -7.2,
-    "nota": "US$ 1.641,99 (−7,2% em 24h) às 14h de 20/11 (Economic News Brasil); os ETFs de ether tiveram saída líquida de US$ 131 mi em 19/11 (KuCoin)."
-   }
-  ]
- },
- "setores": {
-  "periodo": "18/11/2026 (fechamento)",
-  "altas": [
-   {
-    "ticker": "CMIN3",
-    "var": 8.21
-   },
-   {
-    "ticker": "BEEF3",
-    "var": 5.48
-   },
-   {
-    "ticker": "MGLU3",
-    "var": 5.16
-   },
-   {
-    "ticker": "MBRF3",
-    "var": 4.06
-   },
-   {
-    "ticker": "HAPV3",
-    "var": 3.92
-   }
-  ],
-  "baixas": [
-   {
-    "ticker": "TEND3",
-    "var": -4.87
-   },
-   {
-    "ticker": "MRVE3",
-    "var": -4.39
-   },
-   {
-    "ticker": "CURY3",
-    "var": -3.8
-   },
-   {
-    "ticker": "BRAV3",
-    "var": -3.79
-   },
-   {
-    "ticker": "CXSE3",
-    "var": -3.52
-   }
-  ],
-  "leitura": "CSN Mineração (+8,21%), Minerva (+5,48%) e Magazine Luiza (+5,16%) lideraram as altas. Construtoras voltaram a cair com os juros (Tenda −4,87%, MRV −4,39%, Cury −3,80%), e Brava (−3,79%) recuou com o petróleo."
- },
- "agenda": [
-  {
-   "data": "2026-11-23",
-   "hora": "—",
-   "evento": "Petrobras atualiza o Plano Estratégico",
-   "peso": "medio"
-  },
-  {
-   "data": "2026-11-24",
-   "hora": "—",
-   "evento": "Câmara vota o ajuste fiscal aprovado pelo Senado",
-   "peso": "alto"
-  },
-  {
-   "data": "2026-11-26",
-   "hora": "—",
-   "evento": "Ação de Graças: bolsas de NY fechadas",
-   "peso": "medio"
-  },
-  {
-   "data": "2026-12-09",
-   "hora": "—",
-   "evento": "Decisões de juros do Fed e do Copom",
-   "peso": "alto"
-  }
- ],
- "historico": [
-  {
-   "data": "2026-09-30",
-   "ibov": 186340.46,
-   "dolar": 5.172,
-   "btc": 83342
-  },
-  {
-   "data": "2026-10-23",
-   "ibov": 205082.56,
-   "dolar": 4.993,
-   "btc": null
-  },
-  {
-   "data": "2026-10-26",
-   "ibov": 176611,
-   "dolar": 5.407,
-   "btc": null
-  },
-  {
-   "data": "2026-10-27",
-   "ibov": 175710.05,
-   "dolar": 5.349,
-   "btc": null
-  },
-  {
-   "data": "2026-10-28",
-   "ibov": 170999,
-   "dolar": 5.34,
-   "btc": null
-  },
-  {
-   "data": "2026-10-29",
-   "ibov": 169186.42,
-   "dolar": 5.387,
-   "btc": null
-  },
-  {
-   "data": "2026-10-30",
-   "ibov": 167921.8,
-   "dolar": 5.444,
-   "btc": 77894
-  },
-  {
-   "data": "2026-11-03",
-   "ibov": 165528.92,
-   "dolar": 5.487,
-   "btc": null
-  },
-  {
-   "data": "2026-11-04",
-   "ibov": 167563.47,
-   "dolar": 5.4518,
-   "btc": null
-  },
-  {
-   "data": "2026-11-05",
-   "ibov": 166191.45,
-   "dolar": 5.4886,
-   "btc": 75855
-  },
-  {
-   "data": "2026-11-06",
-   "ibov": 168404.68,
-   "dolar": 5.508,
-   "btc": 75637
-  },
-  {
-   "data": "2026-11-09",
-   "ibov": 171906.5,
-   "dolar": 5.5058,
-   "btc": 74800
-  },
-  {
-   "data": "2026-11-10",
-   "ibov": 170809,
-   "dolar": 5.586,
-   "btc": 73363
-  },
-  {
-   "data": "2026-11-11",
-   "ibov": 172060.43,
-   "dolar": 5.562,
-   "btc": 73745
-  },
-  {
-   "data": "2026-11-12",
-   "ibov": 170700,
-   "dolar": 5.6507,
-   "btc": 71545
-  },
-  {
-   "data": "2026-11-13",
-   "ibov": 172257,
-   "dolar": 5.6549,
-   "btc": 68469
-  },
-  {
-   "data": "2026-11-16",
-   "ibov": 169168,
-   "dolar": 5.777,
-   "btc": 64967
-  },
-  {
-   "data": "2026-11-17",
-   "ibov": 169816.64,
-   "dolar": 5.782,
-   "btc": 63716
-  },
-  {
-   "data": "2026-11-18",
-   "ibov": 167537.95,
-   "dolar": 5.8667,
-   "btc": 62450
-  },
-  {
-   "data": "2026-11-19",
-   "ibov": 166376.43,
-   "dolar": 5.934,
-   "btc": 61828
-  }
- ],
- "fontes": [
-  {
-   "nome": "Boston Globe/AP — bolsas globais caem com IA (20/11)",
-   "url": "https://www.bostonglobe.com/2026/11/20/business/global-shares-ai-wall-street-anthropic/"
-  },
-  {
-   "nome": "IBTimes — Nikkei cai 5,06% (20/11)",
-   "url": "https://ibtimes.com.au/nikkei-225-falls-ai-stock-selloff-softbank-chipmakers-1878993"
-  },
-  {
-   "nome": "Jornal de Negócios — mercados num minuto (20/11)",
-   "url": "https://www.jornaldenegocios.pt/mercados/mercados-num-minuto/detalhe/bolsas-asiaticas-afundam-com-a-ia-no-centro-das-vendas"
-  },
-  {
-   "nome": "Benzinga/TradingView — futuros e agenda de NY (20/11)",
-   "url": "https://www.tradingview.com/news/benzinga:ec99bbe15094b:0-stock-market-will-s-p-500-open-up-or-down-today/"
-  },
-  {
-   "nome": "Trading Economics — minério de ferro em iuanes (20/11)",
-   "url": "https://pt.tradingeconomics.com/commodity/iron-ore-cny"
-  },
-  {
-   "nome": "DGABC/Estadão — fechamento dos DIs (19/11)",
-   "url": "https://www.dgabc.com.br/Noticia/4369795/intervencao-do-bc-no-mercado-de-cambio-estressa-curva-e-taxas-de-juros-saltam-na-sessao"
-  },
-  {
-   "nome": "CoinDesk — bitcoin no menor nível desde julho (20/11)",
-   "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-hits-four-month-low-after-anthropic-s-ipo-as-tech-stocks-wilt"
-  },
-  {
-   "nome": "BitNotícias — preço do ether e do bitcoin (20/11, 7h30)",
-   "url": "https://bitnoticias.com.br/mercado/preco-do-ethereum-hoje-20-de-novembro-de-2026/"
-  },
-  {
-   "nome": "Money Times — agenda de sexta (20/11)",
-   "url": "https://www.moneytimes.com.br/feriado-no-brasil-confianca-nos-eua-e-bce-o-que-acompanha-o-mercado-nesta-sexta-feira-mlem/"
-  }
- ],
- "notas": "Atualização após o fechamento de 20/11 (feriado no Brasil, B3 fechada): Ibovespa, dólar e DIs do fechamento de 19/11; S&P 500, Nasdaq, Dow, Treasury e Brent do fechamento de 20/11 (AP); VIX e ouro do fim da tarde; BTC e ETH das 14h. Setores mantidos do fechamento de 18/11. Histórico sem novo ponto (não houve pregão). Informação para estudo, não recomendação de investimento.",
- "config": {
-  "brapi_token": "",
-  "whatsapp": "",
-  "instagram": "alcantarainvestimentos"
- },
- "juros_liquidez": {
-  "brasil": {
-   "selic": "13,75%",
-   "copom": {
-    "data": "2026-11-04",
-    "manter": 62,
-    "cortar": 28,
-    "fonte": "Termômetro do Copom (Valor Investe), 27/10"
-   },
-   "focus": [
+  "sinais": [
     {
-     "rotulo": "Hoje",
-     "selic": 13.75
+      "nome": "Ibovespa 5 pregões",
+      "valor": "−2,5%",
+      "estado": "neg",
+      "regra": "Positivo se o índice subiu nos últimos 5 pregões"
     },
     {
-     "rotulo": "Fim 2026",
-     "selic": 13.75
+      "nome": "Ibovespa 1 mês",
+      "valor": "≈ −18,9%",
+      "estado": "neg",
+      "regra": "Positivo se o índice está acima de 1 mês atrás"
     },
     {
-     "rotulo": "Fim 2027",
-     "selic": 12.75
+      "nome": "Dólar 5 pregões",
+      "valor": "+5,0%",
+      "estado": "neg",
+      "regra": "Positivo se o dólar caiu na semana (real mais forte)"
+    },
+    {
+      "nome": "DI longo na semana",
+      "valor": "+0,32 p.p.",
+      "estado": "neg",
+      "regra": "Positivo se a taxa do DI longo caiu na semana"
+    },
+    {
+      "nome": "VIX",
+      "valor": "≈36,7",
+      "estado": "neg",
+      "regra": "Positivo se o VIX está abaixo de 20"
+    },
+    {
+      "nome": "S&P 500 no dia",
+      "valor": "−3,70%",
+      "estado": "neg",
+      "regra": "Positivo se o S&P 500 subiu no último pregão"
     }
-   ],
-   "focus_fonte": "Focus de 16/11 (fim de 2026 e fim de 2027)",
-   "curva": {
-    "data": "19/11 (jan/28, jan/29 e jan/31 no fechamento; jan/27 às 9h38; jan/35 às 13h07; jan/33 de 16/11)",
-    "pontos": [
-     {
-      "v": "jan/27",
-      "t": 13.694
-     },
-     {
-      "v": "jan/28",
-      "t": 14.85
-     },
-     {
-      "v": "jan/29",
-      "t": 15.275
-     },
-     {
-      "v": "jan/31",
-      "t": 15.42
-     },
-     {
-      "v": "jan/33",
-      "t": 15.155
-     },
-     {
-      "v": "jan/35",
-      "t": 15.465
-     }
-    ]
-   },
-   "leitura": "Os DIs fecharam quinta nas máximas do ano: o jan/31 a 15,42% (+0,26 p.p.) e o jan/29 a 15,275%, depois da intervenção do BC no câmbio e das falas de Lula sobre o fiscal. A curva segue bem acima da Selic de 13,75%. Sem negociação hoje (feriado)."
-  },
-  "eua": {
-   "fed": "3,75–4,00%",
-   "efetiva": 3.88,
-   "fedwatch": {
-    "reuniao": "dez/2026",
-    "alta": 100.0,
-    "manter": 0.0,
-    "fonte": "CME FedWatch via KuCoin/Benzinga, 18/11: ~100% de chance de alta em 9/12"
-   },
-   "curva": {
-    "data": "28/10",
-    "pontos": [
-     {
-      "v": "3m",
-      "t": 4.18
-     },
-     {
-      "v": "2a",
-      "t": 4.67
-     },
-     {
-      "v": "5a",
-      "t": 4.85
-     },
-     {
-      "v": "10a",
-      "t": 5.05
-     },
-     {
-      "v": "30a",
-      "t": 5.37
-     }
-    ]
-   },
-   "leitura": "O 10 anos caiu para 4,93% em 20/11 (de 5,04%) com a fuga para segurança na queda das bolsas. A ata de outubro e a fala de Lisa Cook reforçam alta em dezembro; o FedWatch indica ~100% de chance."
-  },
-  "credito_eua": {
-   "hy_oas": 3.14,
-   "data": "28/10",
-   "media": 3.21,
-   "min": 2.59,
-   "max": 4.69,
-   "periodo": "mai/2023 a out/2026",
-   "sinais": [
+  ],
+  "mercados": [
     {
-     "estado": "neutro",
-     "texto": "Spread high yield em 3,14%, perto da média recente (3,21%): o crédito médio ainda não precifica estresse."
+      "codigo": "WIN",
+      "nome": "Ibovespa",
+      "vies": "baixa",
+      "nivel": "166.376 pts",
+      "dia": -0.69,
+      "semana": -2.53,
+      "mes": -18.88,
+      "nota": "Fechou quinta (19) a 166.376,43 pts (−0,69%), entre a máxima de 168.498,42 e a mínima de 165.833,29; volume de R$ 35,9 bi (BPMoney). B3 fechada em 20/11 (feriado); reabre segunda (23) depois de o EWZ cair 3,29% em NY (VALE −3,46%, ITUB −2,54%, PBR −1,72%; Money Times). Semana = vs 12/11; mês = vs 23/10."
     },
     {
-     "estado": "neg",
-     "texto": "Spreads dos papéis CCC, os de pior nota, nas máximas em 4 anos: estresse concentrado nas empresas mais frágeis."
+      "codigo": "WDO",
+      "nome": "Dólar comercial",
+      "vies": "alta",
+      "nivel": "R$ 5,935",
+      "dia": 1.16,
+      "semana": 5.03,
+      "mes": 18.87,
+      "nota": "Fechou quinta a R$ 5,9350 (+1,16%), maior nível desde abril de 2025, mesmo depois de o BC vender US$ 1 bi no mercado à vista (Enfoque, BPMoney). Pesaram as falas de Lula sobre o fiscal e a aversão a risco global. Sem negociação hoje no Brasil (feriado). Semana = vs 12/11; mês = vs 23/10."
     },
     {
-     "estado": "neg",
-     "texto": "High yield europeu no spread mais largo desde 2009 (29/10)."
+      "codigo": "DI F31",
+      "nome": "Juros longos",
+      "vies": "alta",
+      "nivel": "15,42%",
+      "dia": 0.26,
+      "semana": 0.32,
+      "mes": null,
+      "nota": "Fechou quinta a 15,42% (de 15,16%), máxima do ano, depois que a intervenção do BC no câmbio e as falas de Lula sobre o fiscal estressaram a curva; jan/28 a 14,85% e jan/29 a 15,275% (DGABC/Estadão). Semana = vs 15,10% de 12/11."
+    },
+    {
+      "codigo": "BTC",
+      "nome": "Bitcoin",
+      "vies": "baixa",
+      "nivel": "US$ 59.422",
+      "dia": -5.3,
+      "semana": -16.95,
+      "mes": null,
+      "nota": "US$ 59.422 (−5,3% em 24h) às 14h de 20/11, com mínima de US$ 59.241: perdeu os US$ 60 mil pela primeira vez desde julho e caminha para a 7ª semana de queda (Economic News Brasil). Fundos de BTC nos EUA tiveram saída de US$ 582 mi em 19/11. Semana = vs 12/11."
     }
-   ],
-   "fonte": "ICE BofA US High Yield OAS (FRED, via MacroRadar); Seeking Alpha; Bloomberg"
+  ],
+  "fita": [
+    {
+      "nome": "IBOV",
+      "valor": "166.376",
+      "var": -0.69
+    },
+    {
+      "nome": "USD/BRL",
+      "valor": "5,935",
+      "var": 1.16
+    },
+    {
+      "nome": "S&P 500",
+      "valor": "6.910",
+      "var": -3.7
+    },
+    {
+      "nome": "NASDAQ",
+      "valor": "22.618",
+      "var": -5.3
+    },
+    {
+      "nome": "DOW",
+      "valor": "48.147",
+      "var": -1.9
+    },
+    {
+      "nome": "VIX",
+      "valor": "36,7",
+      "var": 31.0
+    },
+    {
+      "nome": "BRENT",
+      "valor": "92,57",
+      "var": 0.6
+    },
+    {
+      "nome": "OURO",
+      "valor": "3.558",
+      "var": -1.9
+    },
+    {
+      "nome": "BTC",
+      "valor": "59.422",
+      "var": -5.3
+    },
+    {
+      "nome": "ETH",
+      "valor": "1.642",
+      "var": -7.2
+    }
+  ],
+  "valor_justo": [
+    {
+      "titulo": "Ibovespa",
+      "rotulo": "Abaixo da média histórica",
+      "justo": "P/L 10x (média)",
+      "atual": "166.376 pts (~7,8x)",
+      "gap": -21.7,
+      "detalhe": "Referência Itaú BBA (27/10): Ibovespa a 7,9x P/L com 167.922 pts, contra média de 10 anos de 10x. Ajustado proporcionalmente ao fechamento de 19/11 (166.376), ~7,8x, desconto de ~22%."
+    },
+    {
+      "titulo": "Dólar vs Focus",
+      "rotulo": "Acima da expectativa",
+      "justo": "R$ 5,40",
+      "atual": "R$ 5,935",
+      "gap": 9.9,
+      "detalhe": "Focus de 16/11 projeta dólar a R$ 5,40 no fim de 2026 e R$ 5,45 em 2027. No fechamento de 19/11, a R$ 5,935, ~9,9% acima."
+    }
+  ],
+  "alertas": [
+    {
+      "nivel": "atencao",
+      "titulo": "Ciberataque nos EUA: FBI investiga possível invasão ao banco de dados criminal e USDA teria sistema de pagamentos violado",
+      "texto": "A CNN e a NBC informam que o FBI apura uma possível brecha no NCIC, seu banco de dados criminal — a segunda do órgão desde setembro. Relatos apontam que o sistema de pagamentos a fazendeiros do Departamento de Agricultura (USDA) também foi invadido, após uma semana de panes de tecnologia nos EUA. Autoria e alcance ainda não confirmados; não há efeito de mercado direto apurado. Sem histeria: é prevenção, não decisão no impulso."
+    },
+    {
+      "nivel": "atencao",
+      "titulo": "NY derrete na venda de IA: S&P 500 −3,7% em correção, Nasdaq −5,3% e EWZ −3,29%",
+      "texto": "O S&P 500 fechou a 6.910 (−3,7%), mais de 10% abaixo do recorde de 6/10, o Nasdaq caiu 5,3% e ficou negativo no ano, e o Dow perdeu 1,9% (AP). Nvidia −13,8%, Micron −13,9%, AMD −13,3%, Anthropic −9,1%. O VIX subiu cerca de 31%, para perto de 36. Com a B3 fechada, o EWZ caiu 3,29% e os ADRs de Vale (−3,46%) e Itaú (−2,54%) recuaram (Money Times): a segunda (23) tende a abrir pressionada. Sem histeria: é prevenção, não decisão no impulso."
+    },
+    {
+      "nivel": "atencao",
+      "titulo": "Bitcoin toca perto de US$ 55 mil, mínima em dois anos, e depois volta a ~US$ 60 mil; Binance segue com saques em fases",
+      "texto": "Após perder US$ 60 mil na sexta, o bitcoin chegou a cair para perto de US$ 55 mil no sábado (21), menor nível em dois anos, com liquidações de bilhões em posições alavancadas (o valor exato varia por fonte). Depois reagiu e voltou a ~US$ 60 mil (Reuters/agências). Contexto: venda de ações de IA e expectativa de juros altos nos EUA; a Binance segue com a retomada de saques em fases. Sem histeria: é prevenção. Evite alavancagem em mercado estressado e confira os canais oficiais antes de movimentar fundos."
+    }
+  ],
+  "indicadores": [
+    {
+      "id": "selic",
+      "grupo": "Brasil",
+      "nome": "Selic",
+      "valor": "13,75%",
+      "estado": "neutro",
+      "selo": "próx. Copom 9/12",
+      "agora": "Mantida em 13,75% em 4/11; o mercado espera manutenção em 9/12. Focus de 16/11: 13,75% no fim de 2026 e 12,75% no fim de 2027 (antes 12,50%). O IBC-Br de setembro caiu 0,2% no mês.",
+      "o_que_e": "A taxa básica de juros definida pelo Copom a cada 45 dias. Serve de base para o CDI e para o custo do crédito no país.",
+      "como_ler": "Selic em queda tende a favorecer bolsa, varejo e construção. Uma pausa ou alta pressiona esses setores e fortalece a renda fixa."
+    },
+    {
+      "id": "ipca",
+      "grupo": "Brasil",
+      "nome": "IPCA 2026 (Focus)",
+      "valor": "5,11%",
+      "estado": "neg",
+      "selo": "Focus 2027: 5,00%",
+      "agora": "Focus de 16/11: IPCA de 2026 caiu para 5,11% (de 5,22%), mas o de 2027 subiu para 5,00% (de 4,90%), acima do teto de 4,5%. IPCA de outubro: 0,14% no mês e 4,63% em 12 meses.",
+      "o_que_e": "A inflação oficial do Brasil, aqui pela mediana das projeções do Boletim Focus para o ano.",
+      "como_ler": "Projeções subindo reduzem o espaço para cortes da Selic. Acima de 4,5% o Banco Central está fora da meta."
+    },
+    {
+      "id": "curva",
+      "grupo": "Brasil",
+      "nome": "DI janeiro/2031",
+      "valor": "15,42%",
+      "estado": "neg",
+      "selo": "+0,26 p.p. no dia",
+      "agora": "Fechou 19/11 a 15,42% (de 15,16%), máxima do ano, com a intervenção do BC no câmbio e as falas de Lula sobre o fiscal; jan/28 a 14,85% e jan/29 a 15,275% (DGABC/Estadão). Sem negociação hoje (feriado).",
+      "o_que_e": "A taxa de juros que o mercado cobra para emprestar ao governo até 2031. Mede o prêmio de risco de longo prazo.",
+      "como_ler": "DI longo subindo encarece o valuation das ações, principalmente de empresas de crescimento e ligadas ao consumo. Queda costuma anteceder alta da bolsa."
+    },
+    {
+      "id": "cambio",
+      "grupo": "Brasil",
+      "nome": "Dólar comercial",
+      "valor": "R$ 5,935",
+      "estado": "neg",
+      "selo": "+1,16% na quinta",
+      "agora": "Fechou a R$ 5,9350 (+1,16%) em 19/11, maior nível desde abril de 2025, mesmo com a venda de US$ 1 bi do BC no mercado à vista. Mercado local fechado hoje pelo feriado. Focus projeta R$ 5,40 no fim de 2026.",
+      "o_que_e": "A cotação do dólar no mercado à vista.",
+      "como_ler": "Dólar subindo favorece exportadoras (Suzano, Embraer, petroleiras) e pressiona a inflação e as empresas endividadas em moeda estrangeira."
+    },
+    {
+      "id": "emprego",
+      "grupo": "Brasil",
+      "nome": "Desemprego (IBGE)",
+      "valor": "5,2%",
+      "estado": "pos",
+      "selo": "trimestre até set.",
+      "agora": "O mercado de trabalho segue apertado, o que sustenta o consumo, mas também a inflação de serviços.",
+      "o_que_e": "A taxa de desocupação da PNAD Contínua, em trimestre móvel.",
+      "como_ler": "Desemprego baixo é bom para a economia, mas dificulta a queda da inflação e o corte de juros."
+    },
+    {
+      "id": "fed",
+      "grupo": "EUA",
+      "nome": "Fed Funds",
+      "valor": "3,75–4,00%",
+      "estado": "neg",
+      "selo": "~100% de alta em dez.",
+      "agora": "A ata de outubro mostrou que quase todos os dirigentes veem novas altas como prováveis, e o CME FedWatch indica ~100% de chance de alta em 9/12. Nesta sexta, Lisa Cook disse que esperar mais para subir os juros arrisca deixar o Fed atrás da curva; ela preferia alta já em outubro. Waller defendeu 0,50 p.p. em dezembro.",
+      "o_que_e": "A taxa básica de juros dos EUA, definida pelo Fomc.",
+      "como_ler": "Juros altos nos EUA atraem capital para lá e tendem a fortalecer o dólar contra moedas emergentes como o real."
+    },
+    {
+      "id": "pce",
+      "grupo": "EUA",
+      "nome": "PCE (set.)",
+      "valor": "3,6% a/a",
+      "estado": "neg",
+      "selo": "núcleo 3,1%",
+      "agora": "Subiu de 3,4% em agosto para 3,6% em setembro, alta de 0,5% no mês, em linha com o esperado.",
+      "o_que_e": "A medida de inflação preferida do Fed, baseada nos gastos de consumo.",
+      "como_ler": "PCE subindo aumenta a chance de alta de juros nos EUA. Dados abaixo do esperado aliviam os mercados emergentes."
+    },
+    {
+      "id": "treasury",
+      "grupo": "EUA",
+      "nome": "Treasury 10 anos",
+      "valor": "4,93%",
+      "estado": "neg",
+      "selo": "fechamento 20/11",
+      "agora": "O 10 anos caiu para 4,93% (de 5,04% na quinta) com a fuga para segurança na queda das bolsas (AP), mas segue perto de 5% com a expectativa de alta do Fed em dezembro.",
+      "o_que_e": "O rendimento do título de 10 anos do governo americano, referência global de juros.",
+      "como_ler": "Acima de 4,5% os juros pesam sobre as ações no mundo todo. Quedas costumam aliviar a bolsa brasileira e o real."
+    },
+    {
+      "id": "vix",
+      "grupo": "Global",
+      "nome": "VIX",
+      "valor": "≈36,7",
+      "estado": "neg",
+      "selo": "+31% no dia",
+      "agora": "Subiu cerca de 31% nesta sexta, para perto de 36 pontos (Money Times, 17h42), ante 27,98 no fechamento de quinta; maior nível desde março e muito acima de 20.",
+      "o_que_e": "O índice de volatilidade implícita do S&P 500, conhecido como o índice do medo.",
+      "como_ler": "Abaixo de 15 indica calma, entre 15 e 20 é normal, e acima de 20 o mercado está estressado. Picos costumam vir com fuga de emergentes."
+    },
+    {
+      "id": "brent",
+      "grupo": "Global",
+      "nome": "Petróleo Brent",
+      "valor": "US$ 92,57",
+      "estado": "neutro",
+      "selo": "+0,6% hoje",
+      "agora": "Brent fechou a US$ 92,57 (+0,6%) nesta sexta (AP), depois de tocar US$ 90,33 de manhã; ainda caminha para queda na semana.",
+      "o_que_e": "A referência internacional de preço do petróleo.",
+      "como_ler": "Brent alto favorece PETR4, PRIO3 e BRAV3, mas pressiona a inflação e os custos de aéreas e logística."
+    },
+    {
+      "id": "ouro",
+      "grupo": "Global",
+      "nome": "Ouro",
+      "valor": "US$ 3.558",
+      "estado": "neg",
+      "selo": "≈−1,9% hoje",
+      "agora": "Ouro recuou para US$ 3.558 nesta sexta, na pior semana desde março, com apostas de alta do Fed (USAGOLD); chegou a mínima de 14 meses.",
+      "o_que_e": "O preço da onça-troy de ouro.",
+      "como_ler": "Ouro subindo sinaliza busca por proteção. Quedas fortes junto com bolsas podem indicar venda forçada para cobrir perdas."
+    }
+  ],
+  "cripto": {
+    "itens": [
+      {
+        "nome": "BTC",
+        "valor": "US$ 59.422",
+        "var": -5.3,
+        "nota": "US$ 59.422 (−5,3% em 24h) às 14h de 20/11, entre US$ 59.241 e US$ 63.282 no dia; abaixo de US$ 60 mil pela primeira vez desde julho (Economic News Brasil). A Binance segue com saques em fases após o ataque de outubro."
+      },
+      {
+        "nome": "ETH",
+        "valor": "US$ 1.642",
+        "var": -7.2,
+        "nota": "US$ 1.641,99 (−7,2% em 24h) às 14h de 20/11 (Economic News Brasil); os ETFs de ether tiveram saída líquida de US$ 131 mi em 19/11 (KuCoin)."
+      }
+    ]
   },
-  "liquidez": {
-   "m2_global": 103.66,
-   "m2_data": "ago/2026",
-   "m2_nota": "Recorde. Subiu cerca de US$ 1 tri em agosto, 10º mês seguido de alta. Soma do M2 de EUA, Zona do Euro, Japão e China.",
-   "m2_fonte": "MacroMicro, via CoinGabbar (28/09)",
-   "fed_ativos": 6745.6,
-   "tga": 1015.6,
-   "rrp": 325.8,
-   "reservas": 2895.2,
-   "fed_data": "28/10",
-   "fed_semana": -8.0,
-   "fed_ano": 158.6,
-   "fed_fonte": "Federal Reserve, H.4.1 de 28/10",
-   "leitura": "Liquidez global em recorde costuma sustentar ativos de risco e cripto com defasagem. No curto prazo, o TGA acima de US$ 1 tri drena reservas do sistema nos EUA."
-  }
- },
- "cursos": {
-  "titulo": "Cursos e e-books",
-  "intro": "Coleção Alcantara de Educação Financeira, por Kaynander C. Alcantara: sete níveis, do orçamento às criptomoedas, em PDF com pagamento por Pix ou cartão (versões em inglês e espanhol na Hotmart). Conteúdo educativo; não é recomendação de investimento.",
-  "itens": [
-   {
-    "tipo": "Coleção completa",
-    "titulo": "7 e-books · do orçamento às criptomoedas",
-    "descricao": "A trilha inteira da Coleção Alcantara de Educação Financeira. Os 7 avulsos somam R$ 189.",
-    "status": "disponivel",
-    "preco": "R$ 99",
-    "link": "https://pay.kiwify.com.br/oFHy0ir"
-   },
-   {
-    "tipo": "E-book · Nível 1",
-    "titulo": "Dominando suas Finanças",
-    "descricao": "Orçamento, reserva de emergência e primeiros investimentos.",
-    "status": "disponivel",
-    "preco": "R$ 27",
-    "link": "https://pay.kiwify.com.br/9o6BQVf"
-   },
-   {
-    "tipo": "E-book · Nível 2",
-    "titulo": "Guia Prático da Independência Financeira",
-    "descricao": "Mentalidade, renda passiva, dívidas e o seu número da independência.",
-    "status": "disponivel",
-    "preco": "R$ 27",
-    "link": "https://pay.kiwify.com.br/eYUJ5rg"
-   },
-   {
-    "tipo": "E-book · Nível 3",
-    "titulo": "Investindo do Zero",
-    "descricao": "Conta, corretora e primeira aplicação, passo a passo.",
-    "status": "disponivel",
-    "preco": "R$ 27",
-    "link": "https://pay.kiwify.com.br/OaGNlC9"
-   },
-   {
-    "tipo": "E-book · Nível 4",
-    "titulo": "Multiplicando Patrimônio",
-    "descricao": "Juros compostos, carteira diversificada e estratégias de longo prazo.",
-    "status": "disponivel",
-    "preco": "R$ 27",
-    "link": "https://pay.kiwify.com.br/7nSZTBd"
-   },
-   {
-    "tipo": "E-book · Nível 5",
-    "titulo": "Renda Fixa ou Variável",
-    "descricao": "Como escolher entre segurança e potencial de retorno.",
-    "status": "disponivel",
-    "preco": "R$ 27",
-    "link": "https://pay.kiwify.com.br/LTx0Dfr"
-   },
-   {
-    "tipo": "E-book · Nível 6",
-    "titulo": "Diversificação de Investimentos",
-    "descricao": "Como distribuir o patrimônio e reduzir riscos.",
-    "status": "disponivel",
-    "preco": "R$ 27",
-    "link": "https://pay.kiwify.com.br/aZMMO9B"
-   },
-   {
-    "tipo": "E-book · Nível 7",
-    "titulo": "Criptomoedas",
-    "descricao": "Entender, comprar, guardar e declarar ativos digitais.",
-    "status": "disponivel",
-    "preco": "R$ 27",
-    "link": "https://pay.kiwify.com.br/NRQOXMy"
-   },
-   {
-    "tipo": "E-book",
-    "titulo": "Dólar e câmbio para empresas",
-    "descricao": "Como funciona o câmbio, o que encarece a operação e quando faz sentido usar OTC.",
-    "status": "em_breve",
-    "preco": "",
-    "link": ""
-   },
-   {
-    "tipo": "Curso",
-    "titulo": "Lendo o mercado com o Radar",
-    "descricao": "Postura do dia, curva de juros, liquidez e crédito: como cada indicador do Radar se encaixa.",
-    "status": "em_breve",
-    "preco": "",
-    "link": ""
-   }
+  "setores": {
+    "periodo": "18/11/2026 (fechamento)",
+    "altas": [
+      {
+        "ticker": "CMIN3",
+        "var": 8.21
+      },
+      {
+        "ticker": "BEEF3",
+        "var": 5.48
+      },
+      {
+        "ticker": "MGLU3",
+        "var": 5.16
+      },
+      {
+        "ticker": "MBRF3",
+        "var": 4.06
+      },
+      {
+        "ticker": "HAPV3",
+        "var": 3.92
+      }
+    ],
+    "baixas": [
+      {
+        "ticker": "TEND3",
+        "var": -4.87
+      },
+      {
+        "ticker": "MRVE3",
+        "var": -4.39
+      },
+      {
+        "ticker": "CURY3",
+        "var": -3.8
+      },
+      {
+        "ticker": "BRAV3",
+        "var": -3.79
+      },
+      {
+        "ticker": "CXSE3",
+        "var": -3.52
+      }
+    ],
+    "leitura": "CSN Mineração (+8,21%), Minerva (+5,48%) e Magazine Luiza (+5,16%) lideraram as altas. Construtoras voltaram a cair com os juros (Tenda −4,87%, MRV −4,39%, Cury −3,80%), e Brava (−3,79%) recuou com o petróleo."
+  },
+  "agenda": [
+    {
+      "data": "2026-11-23",
+      "hora": "—",
+      "evento": "Petrobras atualiza o Plano Estratégico",
+      "peso": "medio"
+    },
+    {
+      "data": "2026-11-24",
+      "hora": "—",
+      "evento": "Câmara vota o ajuste fiscal aprovado pelo Senado",
+      "peso": "alto"
+    },
+    {
+      "data": "2026-11-26",
+      "hora": "—",
+      "evento": "Ação de Graças: bolsas de NY fechadas",
+      "peso": "medio"
+    },
+    {
+      "data": "2026-12-09",
+      "hora": "—",
+      "evento": "Decisões de juros do Fed e do Copom",
+      "peso": "alto"
+    }
+  ],
+  "historico": [
+    {
+      "data": "2026-09-30",
+      "ibov": 186340.46,
+      "dolar": 5.172,
+      "btc": 83342
+    },
+    {
+      "data": "2026-10-23",
+      "ibov": 205082.56,
+      "dolar": 4.993,
+      "btc": null
+    },
+    {
+      "data": "2026-10-26",
+      "ibov": 176611,
+      "dolar": 5.407,
+      "btc": null
+    },
+    {
+      "data": "2026-10-27",
+      "ibov": 175710.05,
+      "dolar": 5.349,
+      "btc": null
+    },
+    {
+      "data": "2026-10-28",
+      "ibov": 170999,
+      "dolar": 5.34,
+      "btc": null
+    },
+    {
+      "data": "2026-10-29",
+      "ibov": 169186.42,
+      "dolar": 5.387,
+      "btc": null
+    },
+    {
+      "data": "2026-10-30",
+      "ibov": 167921.8,
+      "dolar": 5.444,
+      "btc": 77894
+    },
+    {
+      "data": "2026-11-03",
+      "ibov": 165528.92,
+      "dolar": 5.487,
+      "btc": null
+    },
+    {
+      "data": "2026-11-04",
+      "ibov": 167563.47,
+      "dolar": 5.4518,
+      "btc": null
+    },
+    {
+      "data": "2026-11-05",
+      "ibov": 166191.45,
+      "dolar": 5.4886,
+      "btc": 75855
+    },
+    {
+      "data": "2026-11-06",
+      "ibov": 168404.68,
+      "dolar": 5.508,
+      "btc": 75637
+    },
+    {
+      "data": "2026-11-09",
+      "ibov": 171906.5,
+      "dolar": 5.5058,
+      "btc": 74800
+    },
+    {
+      "data": "2026-11-10",
+      "ibov": 170809,
+      "dolar": 5.586,
+      "btc": 73363
+    },
+    {
+      "data": "2026-11-11",
+      "ibov": 172060.43,
+      "dolar": 5.562,
+      "btc": 73745
+    },
+    {
+      "data": "2026-11-12",
+      "ibov": 170700,
+      "dolar": 5.6507,
+      "btc": 71545
+    },
+    {
+      "data": "2026-11-13",
+      "ibov": 172257,
+      "dolar": 5.6549,
+      "btc": 68469
+    },
+    {
+      "data": "2026-11-16",
+      "ibov": 169168,
+      "dolar": 5.777,
+      "btc": 64967
+    },
+    {
+      "data": "2026-11-17",
+      "ibov": 169816.64,
+      "dolar": 5.782,
+      "btc": 63716
+    },
+    {
+      "data": "2026-11-18",
+      "ibov": 167537.95,
+      "dolar": 5.8667,
+      "btc": 62450
+    },
+    {
+      "data": "2026-11-19",
+      "ibov": 166376.43,
+      "dolar": 5.934,
+      "btc": 61828
+    }
+  ],
+  "fontes": [
+    {
+      "nome": "Boston Globe/AP — bolsas globais caem com IA (20/11)",
+      "url": "https://www.bostonglobe.com/2026/11/20/business/global-shares-ai-wall-street-anthropic/"
+    },
+    {
+      "nome": "IBTimes — Nikkei cai 5,06% (20/11)",
+      "url": "https://ibtimes.com.au/nikkei-225-falls-ai-stock-selloff-softbank-chipmakers-1878993"
+    },
+    {
+      "nome": "Jornal de Negócios — mercados num minuto (20/11)",
+      "url": "https://www.jornaldenegocios.pt/mercados/mercados-num-minuto/detalhe/bolsas-asiaticas-afundam-com-a-ia-no-centro-das-vendas"
+    },
+    {
+      "nome": "Benzinga/TradingView — futuros e agenda de NY (20/11)",
+      "url": "https://www.tradingview.com/news/benzinga:ec99bbe15094b:0-stock-market-will-s-p-500-open-up-or-down-today/"
+    },
+    {
+      "nome": "Trading Economics — minério de ferro em iuanes (20/11)",
+      "url": "https://pt.tradingeconomics.com/commodity/iron-ore-cny"
+    },
+    {
+      "nome": "DGABC/Estadão — fechamento dos DIs (19/11)",
+      "url": "https://www.dgabc.com.br/Noticia/4369795/intervencao-do-bc-no-mercado-de-cambio-estressa-curva-e-taxas-de-juros-saltam-na-sessao"
+    },
+    {
+      "nome": "CoinDesk — bitcoin no menor nível desde julho (20/11)",
+      "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-hits-four-month-low-after-anthropic-s-ipo-as-tech-stocks-wilt"
+    },
+    {
+      "nome": "BitNotícias — preço do ether e do bitcoin (20/11, 7h30)",
+      "url": "https://bitnoticias.com.br/mercado/preco-do-ethereum-hoje-20-de-novembro-de-2026/"
+    },
+    {
+      "nome": "Money Times — agenda de sexta (20/11)",
+      "url": "https://www.moneytimes.com.br/feriado-no-brasil-confianca-nos-eua-e-bce-o-que-acompanha-o-mercado-nesta-sexta-feira-mlem/"
+    }
+  ],
+  "notas": "Atualização após o fechamento de 20/11 (feriado no Brasil, B3 fechada): Ibovespa, dólar e DIs do fechamento de 19/11; S&P 500, Nasdaq, Dow, Treasury e Brent do fechamento de 20/11 (AP); VIX e ouro do fim da tarde; BTC e ETH das 14h. Setores mantidos do fechamento de 18/11. Histórico sem novo ponto (não houve pregão). Informação para estudo, não recomendação de investimento.",
+  "config": {
+    "brapi_token": "",
+    "whatsapp": "",
+    "instagram": "alcantarainvestimentos"
+  },
+  "juros_liquidez": {
+    "brasil": {
+      "selic": "13,75%",
+      "copom": {
+        "data": "2026-11-04",
+        "manter": 62,
+        "cortar": 28,
+        "fonte": "Termômetro do Copom (Valor Investe), 27/10"
+      },
+      "focus": [
+        {
+          "rotulo": "Hoje",
+          "selic": 13.75
+        },
+        {
+          "rotulo": "Fim 2026",
+          "selic": 13.75
+        },
+        {
+          "rotulo": "Fim 2027",
+          "selic": 12.75
+        }
+      ],
+      "focus_fonte": "Focus de 16/11 (fim de 2026 e fim de 2027)",
+      "curva": {
+        "data": "19/11 (jan/28, jan/29 e jan/31 no fechamento; jan/27 às 9h38; jan/35 às 13h07; jan/33 de 16/11)",
+        "pontos": [
+          {
+            "v": "jan/27",
+            "t": 13.694
+          },
+          {
+            "v": "jan/28",
+            "t": 14.85
+          },
+          {
+            "v": "jan/29",
+            "t": 15.275
+          },
+          {
+            "v": "jan/31",
+            "t": 15.42
+          },
+          {
+            "v": "jan/33",
+            "t": 15.155
+          },
+          {
+            "v": "jan/35",
+            "t": 15.465
+          }
+        ]
+      },
+      "leitura": "Os DIs fecharam quinta nas máximas do ano: o jan/31 a 15,42% (+0,26 p.p.) e o jan/29 a 15,275%, depois da intervenção do BC no câmbio e das falas de Lula sobre o fiscal. A curva segue bem acima da Selic de 13,75%. Sem negociação hoje (feriado)."
+    },
+    "eua": {
+      "fed": "3,75–4,00%",
+      "efetiva": 3.88,
+      "fedwatch": {
+        "reuniao": "dez/2026",
+        "alta": 100.0,
+        "manter": 0.0,
+        "fonte": "CME FedWatch via KuCoin/Benzinga, 18/11: ~100% de chance de alta em 9/12"
+      },
+      "curva": {
+        "data": "28/10",
+        "pontos": [
+          {
+            "v": "3m",
+            "t": 4.18
+          },
+          {
+            "v": "2a",
+            "t": 4.67
+          },
+          {
+            "v": "5a",
+            "t": 4.85
+          },
+          {
+            "v": "10a",
+            "t": 5.05
+          },
+          {
+            "v": "30a",
+            "t": 5.37
+          }
+        ]
+      },
+      "leitura": "O 10 anos caiu para 4,93% em 20/11 (de 5,04%) com a fuga para segurança na queda das bolsas. A ata de outubro e a fala de Lisa Cook reforçam alta em dezembro; o FedWatch indica ~100% de chance."
+    },
+    "credito_eua": {
+      "hy_oas": 3.14,
+      "data": "28/10",
+      "media": 3.21,
+      "min": 2.59,
+      "max": 4.69,
+      "periodo": "mai/2023 a out/2026",
+      "sinais": [
+        {
+          "estado": "neutro",
+          "texto": "Spread high yield em 3,14%, perto da média recente (3,21%): o crédito médio ainda não precifica estresse."
+        },
+        {
+          "estado": "neg",
+          "texto": "Spreads dos papéis CCC, os de pior nota, nas máximas em 4 anos: estresse concentrado nas empresas mais frágeis."
+        },
+        {
+          "estado": "neg",
+          "texto": "High yield europeu no spread mais largo desde 2009 (29/10)."
+        }
+      ],
+      "fonte": "ICE BofA US High Yield OAS (FRED, via MacroRadar); Seeking Alpha; Bloomberg"
+    },
+    "liquidez": {
+      "m2_global": 103.66,
+      "m2_data": "ago/2026",
+      "m2_nota": "Recorde. Subiu cerca de US$ 1 tri em agosto, 10º mês seguido de alta. Soma do M2 de EUA, Zona do Euro, Japão e China.",
+      "m2_fonte": "MacroMicro, via CoinGabbar (28/09)",
+      "fed_ativos": 6745.6,
+      "tga": 1015.6,
+      "rrp": 325.8,
+      "reservas": 2895.2,
+      "fed_data": "28/10",
+      "fed_semana": -8.0,
+      "fed_ano": 158.6,
+      "fed_fonte": "Federal Reserve, H.4.1 de 28/10",
+      "leitura": "Liquidez global em recorde costuma sustentar ativos de risco e cripto com defasagem. No curto prazo, o TGA acima de US$ 1 tri drena reservas do sistema nos EUA."
+    }
+  },
+  "cursos": {
+    "titulo": "Cursos e e-books",
+    "intro": "Coleção Alcantara de Educação Financeira, por Kaynander C. Alcantara: sete níveis, do orçamento às criptomoedas, em PDF com pagamento por Pix ou cartão (versões em inglês e espanhol na Hotmart). Conteúdo educativo; não é recomendação de investimento.",
+    "itens": [
+      {
+        "tipo": "Coleção completa",
+        "titulo": "7 e-books · do orçamento às criptomoedas",
+        "descricao": "A trilha inteira da Coleção Alcantara de Educação Financeira. Os 7 avulsos somam R$ 189.",
+        "status": "disponivel",
+        "preco": "R$ 99",
+        "link": "https://pay.kiwify.com.br/oFHy0ir"
+      },
+      {
+        "tipo": "E-book · Nível 1",
+        "titulo": "Dominando suas Finanças",
+        "descricao": "Orçamento, reserva de emergência e primeiros investimentos.",
+        "status": "disponivel",
+        "preco": "R$ 27",
+        "link": "https://pay.kiwify.com.br/9o6BQVf"
+      },
+      {
+        "tipo": "E-book · Nível 2",
+        "titulo": "Guia Prático da Independência Financeira",
+        "descricao": "Mentalidade, renda passiva, dívidas e o seu número da independência.",
+        "status": "disponivel",
+        "preco": "R$ 27",
+        "link": "https://pay.kiwify.com.br/eYUJ5rg"
+      },
+      {
+        "tipo": "E-book · Nível 3",
+        "titulo": "Investindo do Zero",
+        "descricao": "Conta, corretora e primeira aplicação, passo a passo.",
+        "status": "disponivel",
+        "preco": "R$ 27",
+        "link": "https://pay.kiwify.com.br/OaGNlC9"
+      },
+      {
+        "tipo": "E-book · Nível 4",
+        "titulo": "Multiplicando Patrimônio",
+        "descricao": "Juros compostos, carteira diversificada e estratégias de longo prazo.",
+        "status": "disponivel",
+        "preco": "R$ 27",
+        "link": "https://pay.kiwify.com.br/7nSZTBd"
+      },
+      {
+        "tipo": "E-book · Nível 5",
+        "titulo": "Renda Fixa ou Variável",
+        "descricao": "Como escolher entre segurança e potencial de retorno.",
+        "status": "disponivel",
+        "preco": "R$ 27",
+        "link": "https://pay.kiwify.com.br/LTx0Dfr"
+      },
+      {
+        "tipo": "E-book · Nível 6",
+        "titulo": "Diversificação de Investimentos",
+        "descricao": "Como distribuir o patrimônio e reduzir riscos.",
+        "status": "disponivel",
+        "preco": "R$ 27",
+        "link": "https://pay.kiwify.com.br/aZMMO9B"
+      },
+      {
+        "tipo": "E-book · Nível 7",
+        "titulo": "Criptomoedas",
+        "descricao": "Entender, comprar, guardar e declarar ativos digitais.",
+        "status": "disponivel",
+        "preco": "R$ 27",
+        "link": "https://pay.kiwify.com.br/NRQOXMy"
+      },
+      {
+        "tipo": "E-book",
+        "titulo": "Dólar e câmbio para empresas",
+        "descricao": "Como funciona o câmbio, o que encarece a operação e quando faz sentido usar OTC.",
+        "status": "em_breve",
+        "preco": "",
+        "link": ""
+      },
+      {
+        "tipo": "Curso",
+        "titulo": "Lendo o mercado com o Radar",
+        "descricao": "Postura do dia, curva de juros, liquidez e crédito: como cada indicador do Radar se encaixa.",
+        "status": "em_breve",
+        "preco": "",
+        "link": ""
+      }
+    ]
+  },
+  "noticias_radar": [
+    {
+      "cat": "cripto",
+      "title": "Strategy acumula US$ 12,8 bi de prejuízo no papel com bitcoin, mas Saylor sinaliza nova compra",
+      "link": "https://crypto.news/michael-saylor-strategy-bitcoin-buy-hint-november-2026/",
+      "src": "crypto.news",
+      "t": "2026-11-22T14:04:59+00:00",
+      "score": 3
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin trava perto de US$ 60 mil após mínima de US$ 55,1 mil no fim de semana; queda na semana chega a 12,5%",
+      "link": "https://crypto.news/bitcoin-price-pi-network-vvv-weekend-recovery/",
+      "src": "crypto.news",
+      "t": "2026-11-22T08:39:51+00:00",
+      "score": 3
+    },
+    {
+      "cat": "cripto",
+      "title": "PF participa de operação em 14 países contra golpes digitais: 266 presos e 576 carteiras cripto rastreadas",
+      "link": "https://oantagonista.com.br/ladooa/entretenimento/operacao-internacional-com-participacao-da-pf-termina-com-266-prisoes-e-rastreamento-de-576-carteiras-de-criptomoedas",
+      "src": "O Antagonista",
+      "t": "2026-11-21T21:13:00-03:00",
+      "score": 4,
+      "viral": true
+    },
+    {
+      "cat": "acoes",
+      "title": "Lula ataca a Faria Lima: 'Não é o sistema financeiro que vai me ensinar a dirigir esse país'",
+      "link": "https://www.metropoles.com/brasil/lula-defende-ajuste-fiscal-e-diz-que-mercado-nao-o-ensinara-a-governar",
+      "src": "Metrópoles",
+      "t": "2026-11-21T12:43:00-03:00",
+      "score": 4,
+      "viral": true
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin volta a US$ 60 mil após tombar perto de US$ 55 mil de madrugada; US$ 2,67 bi liquidados em 24 h",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-rebounds-60k-crash-near-55k-billions-liquidations/",
+      "src": "Bitcoin.com",
+      "t": "2026-11-21T10:18:47-05:00",
+      "score": 3
+    },
+    {
+      "cat": "acoes",
+      "title": "Semana de terror na B3: Natura derrete 12,7%, Tenda e Brava caem 11% e dólar sobe quase 5%",
+      "link": "https://www.seudinheiro.com/2026/bolsa-dolar/em-semana-turbulenta-minerva-beef3-lidera-altas-e-natura-natu3-perde-mais-de-12-quais-acoes-do-ibovespa-se-destacaram-giov/",
+      "src": "Seu Dinheiro",
+      "t": "2026-11-21T12:18:45-03:00",
+      "score": 3
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin desaba a US$ 55,1 mil, menor nível desde 2024; US$ 2,7 bi liquidados em 24 h",
+      "link": "https://247wallst.com/investing/2026/11/21/bitcoin-crashes-below-56000-as-2-7-billion-crypto-liquidation-wipes-out-traders/",
+      "src": "24/7 Wall St.",
+      "t": "2026-11-21T15:01:53+00:00",
+      "score": 3
+    },
+    {
+      "cat": "acoes",
+      "title": "Nvidia tem pior semana desde 2008: queda de 23% apaga cerca de US$ 1 trilhão em valor de mercado",
+      "link": "https://www.fool.com/investing/2026/11/21/after-its-worst-week-in-18-years-nvidia-now-faces-an-sec-investigation-what-it-means-for-investors/",
+      "src": "Motley Fool",
+      "t": "2026-11-21T06:10:05+00:00",
+      "score": 4
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin cai à mínima em mais de dois anos com derrocada dos mercados globais",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-20/bitcoin-falls-to-more-than-two-year-low-as-global-markets-sink",
+      "src": "Bloomberg",
+      "t": "2026-11-20T18:00:00-05:00",
+      "score": 4
+    },
+    {
+      "cat": "acoes",
+      "title": "Nvidia desaba 14% com investigação contábil da SEC; Nasdaq afunda 5% e S&P perde os 7 mil pontos",
+      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-nvidia-s-usd2-5-trillion-rout-deepens-as-sec-accounting-probe-adds-to-wall-street-s-ai-sell-off/",
+      "src": "Motley Fool",
+      "t": "2026-11-20T16:35:00-05:00",
+      "score": 5,
+      "viral": true
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin derrete 25% em novembro e caminha para o pior mês desde 2022; ETFs já perderam US$ 3,5 bi",
+      "link": "https://finance.yahoo.com/markets/article/bitcoin-plunges-below-59000-on-pace-for-its-worst-month-since-june-2022-192922111.html",
+      "src": "Yahoo Finance",
+      "t": "2026-11-20T11:29:00-08:00",
+      "score": 4
+    },
+    {
+      "cat": "cripto",
+      "title": "US$ 1,5 bi liquidados em 24 h: bitcoin fura US$ 59 mil e fica a 2% da mínima do bear market",
+      "link": "https://www.coindesk.com/markets/2026/11/20/bitcoin-plunges-below-usd59-000-as-rush-to-cash-puts-new-bear-market-lows-back-in-play",
+      "src": "CoinDesk",
+      "t": "2026-11-20T13:13:00-05:00",
+      "score": 4
+    },
+    {
+      "cat": "acoes",
+      "title": "Nasdaq despenca quase 3% com AMD e Micron liderando liquidação brutal dos chips",
+      "link": "https://fool.com/coverage/stock-market-today/2026/11/20/stock-market-midday-nov-20-nasdaq-plunges-nearly-3-as-amd-and-micron-lead-a-brutal-semiconductor-sell-off",
+      "src": "Motley Fool",
+      "t": "2026-11-20T17:00:00Z",
+      "score": 4
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin perde os US$ 60 mil e aprofunda queda com liquidação das ações de IA",
+      "link": "https://www.investing.com/news/stock-market-news/bitcoin-falls-below-60000-level-5042271",
+      "src": "Reuters",
+      "t": "2026-11-20T15:51:00Z",
+      "score": 5,
+      "viral": true
+    },
+    {
+      "cat": "cripto",
+      "title": "Hackers da Binance aceleram lavagem: US$ 149 mi em bitcoin passam por misturadores, diz Elliptic",
+      "link": "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758",
+      "src": "The Block",
+      "t": "2026-11-20T14:00:00Z",
+      "score": 4
+    },
+    {
+      "cat": "cripto",
+      "title": "Erros em carteiras de bitcoin expuseram US$ 106 mi a ladrões; robôs atacam em segundos",
+      "link": "https://coindesk.com/tech/2026/11/20/bitcoin-bots-pounced-within-seconds-when-researchers-exposed-their-keys",
+      "src": "CoinDesk",
+      "t": "2026-11-20T13:00:00Z",
+      "score": 3
+    },
+    {
+      "cat": "acoes",
+      "title": "Taiwan tem pior semana desde 1991 (-6,2% no dia) e AMD derrete mais 7% no pré-mercado; Nasdaq futuro cai 1,6%",
+      "link": "https://247wallst.com/investing/2026/11/20/amd-stock-drops-another-7-0-before-the-bell-and-taiwan-semiconductor-slides-4-2-as-nasdaq-futures-fall-1-6-after-asias-chip-selloff/",
+      "src": "24/7 Wall St.",
+      "t": "2026-11-20T12:13:00Z",
+      "score": 3
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin cai a US$ 61,3 mil, menor nível desde julho; 'medo extremo' e US$ 175 mi em liquidações em 4 horas",
+      "link": "https://news.bitcoin.com/pt/market-updates/bitcoin-cai-para-us-61-300-menor-nivel-desde-julho-bolsas-asiaticas-caem/",
+      "src": "Bitcoin.com",
+      "t": "2026-11-20T07:25:00Z",
+      "score": 3
+    },
+    {
+      "cat": "acoes",
+      "title": "Pânico da IA chega à Ásia: Kospi desaba quase 5% com pregão interrompido e Nikkei cai 4,8%; futuros de NY recuam",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-20/us-stock-futures-fall-as-ai-selloff-spreads-to-asia-and-europe",
+      "src": "Bloomberg",
+      "t": "2026-11-20T04:58:00Z",
+      "score": 5,
+      "viral": true
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin desliza rumo a US$ 60 mil após perder 13% na semana; ETFs somam saques de US$ 2,9 bi em novembro",
+      "link": "https://cryptobriefing.com/bitcoin-nears-60000-etf-outflows/",
+      "src": "Crypto Briefing",
+      "t": "2026-11-19T22:54:00Z",
+      "score": 3
+    },
+    {
+      "cat": "acoes",
+      "title": "Nvidia cai 3,3% com volume quase dobrado: mercado pesa crise após saída de Jensen Huang, apesar de receita recorde",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-19-222025646.html",
+      "src": "Yahoo Finance",
+      "t": "2026-11-19T14:20:00-08:00",
+      "score": 4
+    },
+    {
+      "cat": "acoes",
+      "title": "Dólar fecha a R$ 5,93, máxima em 19 meses, mesmo após leilão de US$ 1 bi do BC",
+      "link": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-19-novembro-2026/",
+      "src": "CNN Brasil",
+      "t": "2026-11-19T18:35:00-03:00",
+      "score": 5
+    },
+    {
+      "cat": "acoes",
+      "title": "iFood sofre ataque hacker e expõe dados de clientes, entregadores e restaurantes",
+      "link": "https://olhardigital.com.br/2026/11/19/seguranca/ifood-sofre-ataque-hacker-que-expoe-dados-de-clientes-e-entregadores",
+      "src": "Olhar Digital",
+      "t": "2026-11-19T17:45:00-03:00",
+      "score": 4
+    },
+    {
+      "cat": "acoes",
+      "title": "Visa, Mastercard e JPMorgan dizem que fornecedores foram alvo de ataque cibernético",
+      "link": "https://finance.yahoo.com/markets/article/jpmorgan-visa-and-mastercard-disclose-cyberattack-on-third-party-vendors-190314490.html",
+      "src": "Yahoo Finance",
+      "t": "2026-11-19T17:45:00-03:00",
+      "score": 4
+    },
+    {
+      "cat": "acoes",
+      "title": "Wall Street cai forte e Dow chega a perder ~800 pontos, mesmo com estreia da Anthropic",
+      "link": "https://www.baltimoresun.com/2026/11/19/us-stocks-anthropic-ipo/",
+      "src": "AP",
+      "t": "2026-11-19T16:30:00-03:00",
+      "score": 5
+    },
+    {
+      "cat": "acoes",
+      "title": "Trump, Xi e Putin fecham cúpula inédita em Shenzhen com declaração de paz: mais petróleo, risco nuclear e reforma da ONU",
+      "link": "https://thehill.com/policy/international/6229659-trump-xi-putin-peace-declaration-china-summit",
+      "src": "The Hill",
+      "t": "2026-11-19T14:30:00-03:00",
+      "score": 5
+    }
+  ],
+  "incidentes": [
+    {
+      "id": "bb-fazendas-fantasmas-pf-2026-11-22",
+      "tipo": "escandalo",
+      "plataforma": "Banco do Brasil / crédito rural",
+      "titulo": "PF investiga fraudes em crédito rural com 'fazendas fantasmas' (Operação Agroghost II); BB nega ter emprestado a propriedades inexistentes e o número de R$ 256 bi que circula nas redes é apontado como falso",
+      "status": "aberto",
+      "t_detectado": "2026-11-22T15:45:00-03:00",
+      "t_atualizado": "2026-11-22T15:45:00-03:00",
+      "fontes": [
+        "https://timesbrasil.com.br/brasil/fazendas-fantasmas-pf-investiga-fraudes-em-credito-rural-banco-do-brasil-nega-emprestimos-a-propriedades-inexistentes/",
+        "https://www.metropoles.com/colunas/dinheiro-e-negocios/fazendas-fantasmas-o-que-a-policia-investiga-e-o-que-diz-o-banco-do-brasil",
+        "https://www.suno.com.br/noticias/banco-do-brasil-bbas3-fazendas-fantasmas-fraude/"
+      ],
+      "nota": "Confirmado: a PF investiga fraudes em operações de crédito rural (garantias com registros suspeitos) e o BB nega o vínculo. Não confirmado: o valor de R$ 256 bi atribuído ao BB, desmentido por checagens. Sem story: pauta só no site."
+    },
+    {
+      "id": "bitcoin-minima-2anos-2026-11-21",
+      "tipo": "mercado_cripto",
+      "plataforma": "Bitcoin / mercado cripto",
+      "titulo": "Bitcoin cai a perto de US$ 55 mil, mínima em dois anos, com liquidações de bilhões em posições alavancadas; depois recupera e volta a ~US$ 60 mil",
+      "status": "aberto",
+      "t_detectado": "2026-11-22T09:45:00-03:00",
+      "t_atualizado": "2026-11-22T09:45:00-03:00",
+      "fontes": [
+        "https://247wallst.com/investing/2026/11/21/bitcoin-crashes-below-56000-as-2-7-billion-crypto-liquidation-wipes-out-traders/",
+        "https://www.nst.com.my/business/economy/2026/11/1583217/bitcoin-rises-after-falling-two-year-low",
+        "https://za.investing.com/news/forex-news/bitcoin-rises-over-2-to-more-than-60000-4590320"
+      ],
+      "nota": "Mínima de dois anos e rebote são reportados por Reuters/agências; o valor das liquidações varia por fonte (US$ 1,9 bi a 2,7 bi) e não é tratado como confirmado. Atualização de alerta já publicado; sem novo story."
+    },
+    {
+      "id": "eua-fbi-usda-ciber-2026-11-20",
+      "tipo": "ciber",
+      "plataforma": "FBI / USDA (EUA)",
+      "titulo": "FBI investiga possível invasão ao seu banco de dados criminal (NCIC) e relatos apontam que o sistema de pagamentos a fazendeiros do USDA também foi violado; segunda brecha no FBI desde setembro",
+      "status": "aberto",
+      "t_detectado": "2026-11-21T13:50:00-03:00",
+      "t_atualizado": "2026-11-21T13:50:00-03:00",
+      "fontes": [
+        "https://www.cnn.com/2026/11/20/politics/fbi-hacked-again-target-crime-database",
+        "https://www.nbcnews.com/politics/justice-department/fbi-investigating-potential-breach-crime-database-rcna610536",
+        "https://www.metropoles.com/mundo/hackers-invadem-banco-de-dados-criminal-do-fbi-e-sistema-agricola-dos-eua"
+      ],
+      "nota": "Confirmado: o FBI investiga a possível brecha (CNN, NBC). USDA: invasão ao sistema de pagamentos ainda aparece como 'segundo relatos'. Autoria e extensão não confirmadas. Sem story (suspeita): pauta só no site."
+    },
+    {
+      "id": "master-esteves-pf-2026-11-20",
+      "tipo": "escandalo",
+      "plataforma": "Banco Master / BTG",
+      "titulo": "André Esteves (BTG) diz à PF que o Master era 'banco muito pequeno, inexpressivo' e que o BTG desistiu de comprá-lo por falta de garantias sobre os ativos",
+      "status": "aberto",
+      "t_detectado": "2026-11-20T19:45:00-03:00",
+      "t_atualizado": "2026-11-20T19:45:00-03:00",
+      "fontes": [
+        "https://metropoles.com/colunas/manoela-alcantara/esteves-diz-a-pf-que-btg-desistiu-de-comprar-master-por-falta-de-garantias",
+        "https://www.folhape.com.br/economia/andre-esteves-depoe-a-pf-master-era-um-banco-muito-pequeno/525248/"
+      ],
+      "nota": "Depoimento reportado por Metrópoles e Folha PE; investigação segue em curso. Sem story: pauta só no site."
+    },
+    {
+      "id": "dolar-593-bc-leilao-2026-11-19",
+      "tipo": "mercado_br",
+      "plataforma": "Dólar / Banco Central",
+      "titulo": "Dólar fecha a R$ 5,93 (+~1,1%), maior nível em 19 meses, mesmo após leilão de US$ 1 bi do BC; Ibovespa recua em meio a temor fiscal",
+      "status": "aberto",
+      "t_detectado": "2026-11-19T18:35:00-03:00",
+      "t_atualizado": "2026-11-19T18:35:00-03:00",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-19-novembro-2026/",
+        "https://bpmoney.com.br/mercado/ibovespa-cai-dolar-renova-maxima-19-meses-r-593/",
+        "https://timesbrasil.com.br/brasil/economia-brasileira/apesar-de-intervencao-do-bc-dolar-fecha-a-r-593/"
+      ]
+    },
+    {
+      "id": "ifood-vazamento-2026-11-19",
+      "tipo": "anomalia",
+      "plataforma": "iFood",
+      "titulo": "iFood sofre ataque hacker e informa vazamento de dados de clientes, entregadores e restaurantes (telefones, CPFs e contas bancárias citados)",
+      "status": "aberto",
+      "t_detectado": "2026-11-19T17:45:00-03:00",
+      "t_atualizado": "2026-11-19T17:45:00-03:00",
+      "fontes": [
+        "https://olhardigital.com.br/2026/11/19/seguranca/ifood-sofre-ataque-hacker-que-expoe-dados-de-clientes-e-entregadores",
+        "https://canaltech.com.br/mercado/ifood-sofre-ataque-hacker-e-expoe-dados-de-clientes-e-entregadores-veja-o-que-vazou/",
+        "https://www.cnnbrasil.com.br/economia/money/tecnologia/ifood-revela-vazamento-de-dados-de-usuarios-entregadores-e-parceiros/"
+      ]
+    },
+    {
+      "id": "visa-mc-jpm-fornecedores-2026-11-19",
+      "tipo": "financeiro",
+      "plataforma": "Visa, Mastercard e JPMorgan (fornecedores terceiros)",
+      "titulo": "Visa, Mastercard e JPMorgan dizem que fornecedores terceiros foram alvo de ataque cibernético; grupo hacker n0n reivindica dados",
+      "status": "aberto",
+      "t_detectado": "2026-11-19T17:45:00-03:00",
+      "t_atualizado": "2026-11-19T17:45:00-03:00",
+      "fontes": [
+        "https://finance.yahoo.com/markets/article/jpmorgan-visa-and-mastercard-disclose-cyberattack-on-third-party-vendors-190314490.html",
+        "https://qz.com/hackers-leak-visa-mastercard-jpmorgan-data-vendors-111926",
+        "https://bpmoney.com.br/inovacao/tecnologia/visa-mastercard-jpmorgan-fornecedores-ataque-cibernetico/"
+      ]
+    },
+    {
+      "id": "mercado-wallstreet-2026-11-19",
+      "tipo": "mundo",
+      "plataforma": "Wall Street (Dow, S&P 500, Nasdaq)",
+      "titulo": "Wall Street cai forte mesmo com estreia da Anthropic; Dow chegou a perder ~800 pontos",
+      "status": "aberto",
+      "t_detectado": "2026-11-19T16:30:00-03:00",
+      "t_atualizado": "2026-11-19T16:30:00-03:00",
+      "fontes": [
+        "https://www.baltimoresun.com/2026/11/19/us-stocks-anthropic-ipo/",
+        "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html",
+        "https://www.koreatimes.co.kr/world/20261120/wall-st-falls-sharply-as-anthropic-debut-fails-to-reignite-ai-trade"
+      ]
+    },
+    {
+      "id": "mundo-cupula-shenzhen-2026-11-19",
+      "tipo": "mundo",
+      "plataforma": "Cúpula Trump–Xi–Putin (Shenzhen, China)",
+      "titulo": "Trump, Xi e Putin encerram 1ª cúpula trilateral com 'declaração de paz' de quatro pontos: mais petróleo, risco nuclear, reforma da ONU e imunidade de líderes; sem menção à Ucrânia",
+      "status": "aberto",
+      "t_detectado": "2026-11-19T14:30:00-03:00",
+      "t_atualizado": "2026-11-19T14:30:00-03:00",
+      "fontes": [
+        "https://thehill.com/policy/international/6229659-trump-xi-putin-peace-declaration-china-summit",
+        "https://www.cnnbrasil.com.br/internacional/china-eua-e-russia-anunciam-declaracao-conjunta-diz-midia-chinesa/",
+        "https://timesbrasil.com.br/mundo/china-eua-e-russia-adotam-declaracao-de-paz-em-cupula-historica-entre-xi-trump-e-putin/",
+        "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+      ]
+    },
+    {
+      "id": "optimizely-2026-11-17",
+      "tipo": "financeiro",
+      "plataforma": "Optimizely (BBC, CNN, Zoom, IKEA, Air France, HSBC EAU, Ledger)",
+      "titulo": "Código malicioso em ~178 sites via Optimizely tentou roubar cartões e dados de cripto; incidente contido",
+      "status": "contido",
+      "t_detectado": "2026-11-17T22:45:00Z",
+      "t_atualizado": "2026-11-17T22:45:00Z",
+      "fontes": [
+        "https://g1.globo.com/"
+      ]
+    },
+    {
+      "id": "mundo-franca-freezers-ira-2026-11",
+      "tipo": "anomalia",
+      "plataforma": "Supermercados na França e em mais 9 países europeus",
+      "titulo": "França acusa unidade cibernética da Guarda Revolucionária do Irã de sabotar freezers de 700 supermercados; ataques chegaram a pelo menos 10 países",
+      "status": "aberto",
+      "t_detectado": "2026-11-14T15:50:00Z",
+      "t_atualizado": "2026-11-14T15:50:00Z",
+      "fontes": [
+        "https://www.al-monitor.com/originals/2026/11/france-says-iran-behind-unprecedented-cyberattacks-fridges",
+        "https://www.folhape.com.br/noticias/franca-aponta-ira-como-responsavel-por-ataques-ciberneticos-a/523220/"
+      ]
+    },
+    {
+      "id": "mundo-porto-santos-ciber-2026-11-07",
+      "tipo": "anomalia",
+      "plataforma": "Porto de Santos (Autoridade Portuária)",
+      "titulo": "Ataque hacker derruba sistemas administrativos do Porto de Santos; PF investiga. Pedido de resgate de 23 BTC citado nas redes ainda não confirmado pela imprensa",
+      "status": "parcialmente normalizado",
+      "t_detectado": "2026-11-07T06:00:00Z",
+      "t_atualizado": "2026-11-14T15:50:00Z",
+      "fontes": [
+        "https://investnews.com.br/negocios/ataque-hacker-porto-de-santos/",
+        "https://timesbrasil.com.br/brasil/porto-de-santos-cria-gabinete-de-crise-apos-ataque-cibernetico/",
+        "https://tecnoblog.net/noticias/dois-ataques-hacker-brasil-resgate-bitcoin-ransomware/"
+      ]
+    },
+    {
+      "id": "nvidia-ceo-2026-11-12",
+      "tipo": "empresa",
+      "plataforma": "Nvidia",
+      "titulo": "Jensen Huang renuncia como CEO e deixa o conselho; Colette Kress é CEO interina; NVDA cai mais de 10%",
+      "status": "aberto",
+      "t_detectado": "2026-11-12T14:20:00Z",
+      "t_atualizado": "2026-11-12T14:35:00Z",
+      "fontes": [
+        "https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns",
+        "https://www.tomshardware.com/tech-industry/nvidia-confirms-jensen-huang-has-resigned-as-ceo-colette-kress-executive-vice-president-and-chief-financial-officer-appointed-interim-ceo"
+      ]
+    },
+    {
+      "id": "nubank-mercadopago-2026-11-06",
+      "plataforma": "Nubank e Mercado Pago",
+      "titulo": "Nubank normalizou depósitos e saques de cripto na noite de 6/11; Mercado Pago segue sem previsão",
+      "status": "encerrado",
+      "t_detectado": "2026-11-06T20:35:00Z",
+      "t_atualizado": "2026-11-14T16:30:00-03:00",
+      "fontes": [
+        "https://www.metropoles.com/brasil/entenda-por-que-nubank-e-mercado-pago-suspenderam-saques-de-cripto",
+        "https://www.cnnbrasil.com.br/economia/money/tecnologia/mercado-pago-suspende-transferencias-de-criptomoedas/",
+        "https://www.seudinheiro.com/2026/economia/nubank-volta-a-liberar-operacoes-com-criptomoedas-veja-o-que-diz-a-fintech-miql/"
+      ],
+      "tipo": "financeiro"
+    },
+    {
+      "id": "mercadobitcoin-2026-11-02",
+      "plataforma": "Mercado Bitcoin",
+      "titulo": "Ataque hacker; saques, depósitos e negociação suspensos; reabertura parcial (só consulta) em 9/11",
+      "status": "saques suspensos",
+      "t_detectado": "2026-11-06T14:30:00Z",
+      "t_atualizado": "2026-11-06T14:30:00Z",
+      "fontes": [
+        "https://www.otempo.com.br/economia/2026/11/6/mercado-bitcoin-reabre-na-segunda-9-so-para-consulta-de-saldo-saques-seguem-suspensos",
+        "https://www.bloomberglinea.com.br/crypto/mercado-bitcoin-sofre-ataque-hacker-de-us-40-mi-mas-descarta-perdas-para-clientes/"
+      ],
+      "tipo": "financeiro"
+    },
+    {
+      "id": "binance-2026-10",
+      "plataforma": "Binance",
+      "titulo": "Ataque de US$ 6,3 bi; retomada de saques em fases (fase 9 em 6/11)",
+      "status": "retomada em fases",
+      "t_detectado": "2026-11-06T14:30:00Z",
+      "t_atualizado": "2026-11-15T09:00:00Z",
+      "fontes": [
+        "https://acritica.net/economia/binance-retoma-saques-em-fases-e-diz-ter-reposto-95-por-cento-das-perdas-com-ataque-hacker/",
+        "https://www.business-standard.com/markets/cryptocurrency/crypto-s-slow-motion-selloff-leaves-investors-weary-as-bitcoin-nears-lows-126111500203_1.html"
+      ],
+      "tipo": "financeiro"
+    },
+    {
+      "id": "nvidia-ceo-2026-11-08",
+      "tipo": "empresa",
+      "plataforma": "Nvidia",
+      "titulo": "Conselho da Nvidia abre investigação independente após reportagem de que o CEO Jensen Huang foi alvo de esforço de inteligência estrangeira; Huang segue no cargo",
+      "status": "investigação aberta; mercado fechado",
+      "t_detectado": "2026-11-08T23:50:00Z",
+      "t_atualizado": "2026-11-09T00:10:00Z",
+      "fontes": [
+        "https://www.investing.com/news/stock-market-news/nvidia-launches-probe-after-report-ceo-huang-was-target-of-foreign-intelligence-5010307",
+        "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+        "https://www.cnn.com/2026/11/08/business/nvidia-investigation-ceo-jensen-huang",
+        "https://www.cnnbrasil.com.br/economia/money/tecnologia/nvidia-vai-apurar-se-ceo-foi-alvo-de-acao-de-inteligencia-estrangeira/",
+        "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity"
+      ]
+    },
+    {
+      "id": "bb-agro-inadimplencia-2026-11-13",
+      "tipo": "escandalo",
+      "plataforma": "Banco do Brasil e agro",
+      "titulo": "BB diz ter 31 mil produtores rurais inadimplentes (6,92% de atraso no agro, provisões de R$ 42,6 bi); Aprosoja contesta e acusa generalização",
+      "status": "aberto",
+      "t_detectado": "2026-11-16T19:30:00-03:00",
+      "t_atualizado": "2026-11-16T19:30:00-03:00",
+      "fontes": [
+        "https://www.otempo.com.br/economia/2026/11/13/banco-do-brasil-tem-31-mil-produtores-rurais-inadimplentes-diz-ceo",
+        "https://redehoje.com.br/2026/11/16/agronegocio-banco-do-brasil-aponta-aumento-da-inadimplencia-entre-produtores-rurais-e-aprosoja-contesta-declaracoes/"
+      ]
+    },
+    {
+      "id": "eua-bancos-apps-2026-11-16",
+      "tipo": "anomalia",
+      "plataforma": "JPMorgan Chase, Bank of America, Wells Fargo, U.S. Bank, Truist e Zelle",
+      "titulo": "Apps e sites de grandes bancos dos EUA e o Zelle apresentam falhas; Chase fala em falha técnica e CNBC diz que não há indício de ataque; resolução não confirmada",
+      "status": "aberto",
+      "t_detectado": "2026-11-16T22:05:00-03:00",
+      "t_atualizado": "2026-11-16T22:05:00-03:00",
+      "fontes": [
+        "https://www.cbsnews.com/news/banks-online-service-outages-jpmorgan-chase-bank-of-america-wells-fargo/",
+        "https://www.aljazeera.com/news/2026/11/16/thousands-report-difficulties-accessing-accounts-online-at-major-us-banks"
+      ]
+    }
   ]
- },
- "noticias_radar": [
-  {
-   "cat": "cripto",
-   "title": "Strategy acumula US$ 12,8 bi de prejuízo no papel com bitcoin, mas Saylor sinaliza nova compra",
-   "link": "https://crypto.news/michael-saylor-strategy-bitcoin-buy-hint-november-2026/",
-   "src": "crypto.news",
-   "t": "2026-11-22T14:04:59+00:00",
-   "score": 3
-  },
-  {
-   "cat": "cripto",
-   "title": "Bitcoin trava perto de US$ 60 mil após mínima de US$ 55,1 mil no fim de semana; queda na semana chega a 12,5%",
-   "link": "https://crypto.news/bitcoin-price-pi-network-vvv-weekend-recovery/",
-   "src": "crypto.news",
-   "t": "2026-11-22T08:39:51+00:00",
-   "score": 3
-  },
-  {
-   "cat": "cripto",
-   "title": "PF participa de operação em 14 países contra golpes digitais: 266 presos e 576 carteiras cripto rastreadas",
-   "link": "https://oantagonista.com.br/ladooa/entretenimento/operacao-internacional-com-participacao-da-pf-termina-com-266-prisoes-e-rastreamento-de-576-carteiras-de-criptomoedas",
-   "src": "O Antagonista",
-   "t": "2026-11-21T21:13:00-03:00",
-   "score": 4,
-   "viral": true
-  },
-  {
-   "cat": "acoes",
-   "title": "Lula ataca a Faria Lima: 'Não é o sistema financeiro que vai me ensinar a dirigir esse país'",
-   "link": "https://www.metropoles.com/brasil/lula-defende-ajuste-fiscal-e-diz-que-mercado-nao-o-ensinara-a-governar",
-   "src": "Metrópoles",
-   "t": "2026-11-21T12:43:00-03:00",
-   "score": 4,
-   "viral": true
-  },
-  {
-   "cat": "cripto",
-   "title": "Bitcoin volta a US$ 60 mil após tombar perto de US$ 55 mil de madrugada; US$ 2,67 bi liquidados em 24 h",
-   "link": "https://news.bitcoin.com/market-updates/bitcoin-price-rebounds-60k-crash-near-55k-billions-liquidations/",
-   "src": "Bitcoin.com",
-   "t": "2026-11-21T10:18:47-05:00",
-   "score": 3
-  },
-  {
-   "cat": "acoes",
-   "title": "Semana de terror na B3: Natura derrete 12,7%, Tenda e Brava caem 11% e dólar sobe quase 5%",
-   "link": "https://www.seudinheiro.com/2026/bolsa-dolar/em-semana-turbulenta-minerva-beef3-lidera-altas-e-natura-natu3-perde-mais-de-12-quais-acoes-do-ibovespa-se-destacaram-giov/",
-   "src": "Seu Dinheiro",
-   "t": "2026-11-21T12:18:45-03:00",
-   "score": 3
-  },
-  {
-   "cat": "cripto",
-   "title": "Bitcoin desaba a US$ 55,1 mil, menor nível desde 2024; US$ 2,7 bi liquidados em 24 h",
-   "link": "https://247wallst.com/investing/2026/11/21/bitcoin-crashes-below-56000-as-2-7-billion-crypto-liquidation-wipes-out-traders/",
-   "src": "24/7 Wall St.",
-   "t": "2026-11-21T15:01:53+00:00",
-   "score": 3
-  },
-  {
-   "cat": "acoes",
-   "title": "Nvidia tem pior semana desde 2008: queda de 23% apaga cerca de US$ 1 trilhão em valor de mercado",
-   "link": "https://www.fool.com/investing/2026/11/21/after-its-worst-week-in-18-years-nvidia-now-faces-an-sec-investigation-what-it-means-for-investors/",
-   "src": "Motley Fool",
-   "t": "2026-11-21T06:10:05+00:00",
-   "score": 4
-  },
-  {
-   "cat": "cripto",
-   "title": "Bitcoin cai à mínima em mais de dois anos com derrocada dos mercados globais",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-20/bitcoin-falls-to-more-than-two-year-low-as-global-markets-sink",
-   "src": "Bloomberg",
-   "t": "2026-11-20T18:00:00-05:00",
-   "score": 4
-  },
-  {
-   "cat": "acoes",
-   "title": "Nvidia desaba 14% com investigação contábil da SEC; Nasdaq afunda 5% e S&P perde os 7 mil pontos",
-   "link": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-nvidia-s-usd2-5-trillion-rout-deepens-as-sec-accounting-probe-adds-to-wall-street-s-ai-sell-off/",
-   "src": "Motley Fool",
-   "t": "2026-11-20T16:35:00-05:00",
-   "score": 5,
-   "viral": true
-  },
-  {
-   "cat": "cripto",
-   "title": "Bitcoin derrete 25% em novembro e caminha para o pior mês desde 2022; ETFs já perderam US$ 3,5 bi",
-   "link": "https://finance.yahoo.com/markets/article/bitcoin-plunges-below-59000-on-pace-for-its-worst-month-since-june-2022-192922111.html",
-   "src": "Yahoo Finance",
-   "t": "2026-11-20T11:29:00-08:00",
-   "score": 4
-  },
-  {
-   "cat": "cripto",
-   "title": "US$ 1,5 bi liquidados em 24 h: bitcoin fura US$ 59 mil e fica a 2% da mínima do bear market",
-   "link": "https://www.coindesk.com/markets/2026/11/20/bitcoin-plunges-below-usd59-000-as-rush-to-cash-puts-new-bear-market-lows-back-in-play",
-   "src": "CoinDesk",
-   "t": "2026-11-20T13:13:00-05:00",
-   "score": 4
-  },
-  {
-   "cat": "acoes",
-   "title": "Nasdaq despenca quase 3% com AMD e Micron liderando liquidação brutal dos chips",
-   "link": "https://fool.com/coverage/stock-market-today/2026/11/20/stock-market-midday-nov-20-nasdaq-plunges-nearly-3-as-amd-and-micron-lead-a-brutal-semiconductor-sell-off",
-   "src": "Motley Fool",
-   "t": "2026-11-20T17:00:00Z",
-   "score": 4
-  },
-  {
-   "cat": "cripto",
-   "title": "Bitcoin perde os US$ 60 mil e aprofunda queda com liquidação das ações de IA",
-   "link": "https://www.investing.com/news/stock-market-news/bitcoin-falls-below-60000-level-5042271",
-   "src": "Reuters",
-   "t": "2026-11-20T15:51:00Z",
-   "score": 5,
-   "viral": true
-  },
-  {
-   "cat": "cripto",
-   "title": "Hackers da Binance aceleram lavagem: US$ 149 mi em bitcoin passam por misturadores, diz Elliptic",
-   "link": "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758",
-   "src": "The Block",
-   "t": "2026-11-20T14:00:00Z",
-   "score": 4
-  },
-  {
-   "cat": "cripto",
-   "title": "Erros em carteiras de bitcoin expuseram US$ 106 mi a ladrões; robôs atacam em segundos",
-   "link": "https://coindesk.com/tech/2026/11/20/bitcoin-bots-pounced-within-seconds-when-researchers-exposed-their-keys",
-   "src": "CoinDesk",
-   "t": "2026-11-20T13:00:00Z",
-   "score": 3
-  },
-  {
-   "cat": "acoes",
-   "title": "Taiwan tem pior semana desde 1991 (-6,2% no dia) e AMD derrete mais 7% no pré-mercado; Nasdaq futuro cai 1,6%",
-   "link": "https://247wallst.com/investing/2026/11/20/amd-stock-drops-another-7-0-before-the-bell-and-taiwan-semiconductor-slides-4-2-as-nasdaq-futures-fall-1-6-after-asias-chip-selloff/",
-   "src": "24/7 Wall St.",
-   "t": "2026-11-20T12:13:00Z",
-   "score": 3
-  },
-  {
-   "cat": "cripto",
-   "title": "Bitcoin cai a US$ 61,3 mil, menor nível desde julho; 'medo extremo' e US$ 175 mi em liquidações em 4 horas",
-   "link": "https://news.bitcoin.com/pt/market-updates/bitcoin-cai-para-us-61-300-menor-nivel-desde-julho-bolsas-asiaticas-caem/",
-   "src": "Bitcoin.com",
-   "t": "2026-11-20T07:25:00Z",
-   "score": 3
-  },
-  {
-   "cat": "acoes",
-   "title": "Pânico da IA chega à Ásia: Kospi desaba quase 5% com pregão interrompido e Nikkei cai 4,8%; futuros de NY recuam",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-20/us-stock-futures-fall-as-ai-selloff-spreads-to-asia-and-europe",
-   "src": "Bloomberg",
-   "t": "2026-11-20T04:58:00Z",
-   "score": 5,
-   "viral": true
-  },
-  {
-   "cat": "cripto",
-   "title": "Bitcoin desliza rumo a US$ 60 mil após perder 13% na semana; ETFs somam saques de US$ 2,9 bi em novembro",
-   "link": "https://cryptobriefing.com/bitcoin-nears-60000-etf-outflows/",
-   "src": "Crypto Briefing",
-   "t": "2026-11-19T22:54:00Z",
-   "score": 3
-  },
-  {
-   "cat": "acoes",
-   "title": "Nvidia cai 3,3% com volume quase dobrado: mercado pesa crise após saída de Jensen Huang, apesar de receita recorde",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-19-222025646.html",
-   "src": "Yahoo Finance",
-   "t": "2026-11-19T14:20:00-08:00",
-   "score": 4
-  },
-  {
-   "cat": "acoes",
-   "title": "Dólar fecha a R$ 5,93, máxima em 19 meses, mesmo após leilão de US$ 1 bi do BC",
-   "link": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-19-novembro-2026/",
-   "src": "CNN Brasil",
-   "t": "2026-11-19T18:35:00-03:00",
-   "score": 5
-  },
-  {
-   "cat": "acoes",
-   "title": "iFood sofre ataque hacker e expõe dados de clientes, entregadores e restaurantes",
-   "link": "https://olhardigital.com.br/2026/11/19/seguranca/ifood-sofre-ataque-hacker-que-expoe-dados-de-clientes-e-entregadores",
-   "src": "Olhar Digital",
-   "t": "2026-11-19T17:45:00-03:00",
-   "score": 4
-  },
-  {
-   "cat": "acoes",
-   "title": "Visa, Mastercard e JPMorgan dizem que fornecedores foram alvo de ataque cibernético",
-   "link": "https://finance.yahoo.com/markets/article/jpmorgan-visa-and-mastercard-disclose-cyberattack-on-third-party-vendors-190314490.html",
-   "src": "Yahoo Finance",
-   "t": "2026-11-19T17:45:00-03:00",
-   "score": 4
-  },
-  {
-   "cat": "acoes",
-   "title": "Wall Street cai forte e Dow chega a perder ~800 pontos, mesmo com estreia da Anthropic",
-   "link": "https://www.baltimoresun.com/2026/11/19/us-stocks-anthropic-ipo/",
-   "src": "AP",
-   "t": "2026-11-19T16:30:00-03:00",
-   "score": 5
-  },
-  {
-   "cat": "acoes",
-   "title": "Trump, Xi e Putin fecham cúpula inédita em Shenzhen com declaração de paz: mais petróleo, risco nuclear e reforma da ONU",
-   "link": "https://thehill.com/policy/international/6229659-trump-xi-putin-peace-declaration-china-summit",
-   "src": "The Hill",
-   "t": "2026-11-19T14:30:00-03:00",
-   "score": 5
-  }
- ],
- "incidentes": [
-  {
-   "id": "bitcoin-minima-2anos-2026-11-21",
-   "tipo": "mercado_cripto",
-   "plataforma": "Bitcoin / mercado cripto",
-   "titulo": "Bitcoin cai a perto de US$ 55 mil, mínima em dois anos, com liquidações de bilhões em posições alavancadas; depois recupera e volta a ~US$ 60 mil",
-   "status": "aberto",
-   "t_detectado": "2026-11-22T09:45:00-03:00",
-   "t_atualizado": "2026-11-22T09:45:00-03:00",
-   "fontes": [
-    "https://247wallst.com/investing/2026/11/21/bitcoin-crashes-below-56000-as-2-7-billion-crypto-liquidation-wipes-out-traders/",
-    "https://www.nst.com.my/business/economy/2026/11/1583217/bitcoin-rises-after-falling-two-year-low",
-    "https://za.investing.com/news/forex-news/bitcoin-rises-over-2-to-more-than-60000-4590320"
-   ],
-   "nota": "Mínima de dois anos e rebote são reportados por Reuters/agências; o valor das liquidações varia por fonte (US$ 1,9 bi a 2,7 bi) e não é tratado como confirmado. Atualização de alerta já publicado; sem novo story."
-  },
-  {
-   "id": "eua-fbi-usda-ciber-2026-11-20",
-   "tipo": "ciber",
-   "plataforma": "FBI / USDA (EUA)",
-   "titulo": "FBI investiga possível invasão ao seu banco de dados criminal (NCIC) e relatos apontam que o sistema de pagamentos a fazendeiros do USDA também foi violado; segunda brecha no FBI desde setembro",
-   "status": "aberto",
-   "t_detectado": "2026-11-21T13:50:00-03:00",
-   "t_atualizado": "2026-11-21T13:50:00-03:00",
-   "fontes": [
-    "https://www.cnn.com/2026/11/20/politics/fbi-hacked-again-target-crime-database",
-    "https://www.nbcnews.com/politics/justice-department/fbi-investigating-potential-breach-crime-database-rcna610536",
-    "https://www.metropoles.com/mundo/hackers-invadem-banco-de-dados-criminal-do-fbi-e-sistema-agricola-dos-eua"
-   ],
-   "nota": "Confirmado: o FBI investiga a possível brecha (CNN, NBC). USDA: invasão ao sistema de pagamentos ainda aparece como 'segundo relatos'. Autoria e extensão não confirmadas. Sem story (suspeita): pauta só no site."
-  },
-  {
-   "id": "master-esteves-pf-2026-11-20",
-   "tipo": "escandalo",
-   "plataforma": "Banco Master / BTG",
-   "titulo": "André Esteves (BTG) diz à PF que o Master era 'banco muito pequeno, inexpressivo' e que o BTG desistiu de comprá-lo por falta de garantias sobre os ativos",
-   "status": "aberto",
-   "t_detectado": "2026-11-20T19:45:00-03:00",
-   "t_atualizado": "2026-11-20T19:45:00-03:00",
-   "fontes": [
-    "https://metropoles.com/colunas/manoela-alcantara/esteves-diz-a-pf-que-btg-desistiu-de-comprar-master-por-falta-de-garantias",
-    "https://www.folhape.com.br/economia/andre-esteves-depoe-a-pf-master-era-um-banco-muito-pequeno/525248/"
-   ],
-   "nota": "Depoimento reportado por Metrópoles e Folha PE; investigação segue em curso. Sem story: pauta só no site."
-  },
-  {
-   "id": "dolar-593-bc-leilao-2026-11-19",
-   "tipo": "mercado_br",
-   "plataforma": "Dólar / Banco Central",
-   "titulo": "Dólar fecha a R$ 5,93 (+~1,1%), maior nível em 19 meses, mesmo após leilão de US$ 1 bi do BC; Ibovespa recua em meio a temor fiscal",
-   "status": "aberto",
-   "t_detectado": "2026-11-19T18:35:00-03:00",
-   "t_atualizado": "2026-11-19T18:35:00-03:00",
-   "fontes": [
-    "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-19-novembro-2026/",
-    "https://bpmoney.com.br/mercado/ibovespa-cai-dolar-renova-maxima-19-meses-r-593/",
-    "https://timesbrasil.com.br/brasil/economia-brasileira/apesar-de-intervencao-do-bc-dolar-fecha-a-r-593/"
-   ]
-  },
-  {
-   "id": "ifood-vazamento-2026-11-19",
-   "tipo": "anomalia",
-   "plataforma": "iFood",
-   "titulo": "iFood sofre ataque hacker e informa vazamento de dados de clientes, entregadores e restaurantes (telefones, CPFs e contas bancárias citados)",
-   "status": "aberto",
-   "t_detectado": "2026-11-19T17:45:00-03:00",
-   "t_atualizado": "2026-11-19T17:45:00-03:00",
-   "fontes": [
-    "https://olhardigital.com.br/2026/11/19/seguranca/ifood-sofre-ataque-hacker-que-expoe-dados-de-clientes-e-entregadores",
-    "https://canaltech.com.br/mercado/ifood-sofre-ataque-hacker-e-expoe-dados-de-clientes-e-entregadores-veja-o-que-vazou/",
-    "https://www.cnnbrasil.com.br/economia/money/tecnologia/ifood-revela-vazamento-de-dados-de-usuarios-entregadores-e-parceiros/"
-   ]
-  },
-  {
-   "id": "visa-mc-jpm-fornecedores-2026-11-19",
-   "tipo": "financeiro",
-   "plataforma": "Visa, Mastercard e JPMorgan (fornecedores terceiros)",
-   "titulo": "Visa, Mastercard e JPMorgan dizem que fornecedores terceiros foram alvo de ataque cibernético; grupo hacker n0n reivindica dados",
-   "status": "aberto",
-   "t_detectado": "2026-11-19T17:45:00-03:00",
-   "t_atualizado": "2026-11-19T17:45:00-03:00",
-   "fontes": [
-    "https://finance.yahoo.com/markets/article/jpmorgan-visa-and-mastercard-disclose-cyberattack-on-third-party-vendors-190314490.html",
-    "https://qz.com/hackers-leak-visa-mastercard-jpmorgan-data-vendors-111926",
-    "https://bpmoney.com.br/inovacao/tecnologia/visa-mastercard-jpmorgan-fornecedores-ataque-cibernetico/"
-   ]
-  },
-  {
-   "id": "mercado-wallstreet-2026-11-19",
-   "tipo": "mundo",
-   "plataforma": "Wall Street (Dow, S&P 500, Nasdaq)",
-   "titulo": "Wall Street cai forte mesmo com estreia da Anthropic; Dow chegou a perder ~800 pontos",
-   "status": "aberto",
-   "t_detectado": "2026-11-19T16:30:00-03:00",
-   "t_atualizado": "2026-11-19T16:30:00-03:00",
-   "fontes": [
-    "https://www.baltimoresun.com/2026/11/19/us-stocks-anthropic-ipo/",
-    "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html",
-    "https://www.koreatimes.co.kr/world/20261120/wall-st-falls-sharply-as-anthropic-debut-fails-to-reignite-ai-trade"
-   ]
-  },
-  {
-   "id": "mundo-cupula-shenzhen-2026-11-19",
-   "tipo": "mundo",
-   "plataforma": "Cúpula Trump–Xi–Putin (Shenzhen, China)",
-   "titulo": "Trump, Xi e Putin encerram 1ª cúpula trilateral com 'declaração de paz' de quatro pontos: mais petróleo, risco nuclear, reforma da ONU e imunidade de líderes; sem menção à Ucrânia",
-   "status": "aberto",
-   "t_detectado": "2026-11-19T14:30:00-03:00",
-   "t_atualizado": "2026-11-19T14:30:00-03:00",
-   "fontes": [
-    "https://thehill.com/policy/international/6229659-trump-xi-putin-peace-declaration-china-summit",
-    "https://www.cnnbrasil.com.br/internacional/china-eua-e-russia-anunciam-declaracao-conjunta-diz-midia-chinesa/",
-    "https://timesbrasil.com.br/mundo/china-eua-e-russia-adotam-declaracao-de-paz-em-cupula-historica-entre-xi-trump-e-putin/",
-    "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
-   ]
-  },
-  {
-   "id": "optimizely-2026-11-17",
-   "tipo": "financeiro",
-   "plataforma": "Optimizely (BBC, CNN, Zoom, IKEA, Air France, HSBC EAU, Ledger)",
-   "titulo": "Código malicioso em ~178 sites via Optimizely tentou roubar cartões e dados de cripto; incidente contido",
-   "status": "contido",
-   "t_detectado": "2026-11-17T22:45:00Z",
-   "t_atualizado": "2026-11-17T22:45:00Z",
-   "fontes": [
-    "https://g1.globo.com/"
-   ]
-  },
-  {
-   "id": "mundo-franca-freezers-ira-2026-11",
-   "tipo": "anomalia",
-   "plataforma": "Supermercados na França e em mais 9 países europeus",
-   "titulo": "França acusa unidade cibernética da Guarda Revolucionária do Irã de sabotar freezers de 700 supermercados; ataques chegaram a pelo menos 10 países",
-   "status": "aberto",
-   "t_detectado": "2026-11-14T15:50:00Z",
-   "t_atualizado": "2026-11-14T15:50:00Z",
-   "fontes": [
-    "https://www.al-monitor.com/originals/2026/11/france-says-iran-behind-unprecedented-cyberattacks-fridges",
-    "https://www.folhape.com.br/noticias/franca-aponta-ira-como-responsavel-por-ataques-ciberneticos-a/523220/"
-   ]
-  },
-  {
-   "id": "mundo-porto-santos-ciber-2026-11-07",
-   "tipo": "anomalia",
-   "plataforma": "Porto de Santos (Autoridade Portuária)",
-   "titulo": "Ataque hacker derruba sistemas administrativos do Porto de Santos; PF investiga. Pedido de resgate de 23 BTC citado nas redes ainda não confirmado pela imprensa",
-   "status": "parcialmente normalizado",
-   "t_detectado": "2026-11-07T06:00:00Z",
-   "t_atualizado": "2026-11-14T15:50:00Z",
-   "fontes": [
-    "https://investnews.com.br/negocios/ataque-hacker-porto-de-santos/",
-    "https://timesbrasil.com.br/brasil/porto-de-santos-cria-gabinete-de-crise-apos-ataque-cibernetico/",
-    "https://tecnoblog.net/noticias/dois-ataques-hacker-brasil-resgate-bitcoin-ransomware/"
-   ]
-  },
-  {
-   "id": "nvidia-ceo-2026-11-12",
-   "tipo": "empresa",
-   "plataforma": "Nvidia",
-   "titulo": "Jensen Huang renuncia como CEO e deixa o conselho; Colette Kress é CEO interina; NVDA cai mais de 10%",
-   "status": "aberto",
-   "t_detectado": "2026-11-12T14:20:00Z",
-   "t_atualizado": "2026-11-12T14:35:00Z",
-   "fontes": [
-    "https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns",
-    "https://www.tomshardware.com/tech-industry/nvidia-confirms-jensen-huang-has-resigned-as-ceo-colette-kress-executive-vice-president-and-chief-financial-officer-appointed-interim-ceo"
-   ]
-  },
-  {
-   "id": "nubank-mercadopago-2026-11-06",
-   "plataforma": "Nubank e Mercado Pago",
-   "titulo": "Nubank normalizou depósitos e saques de cripto na noite de 6/11; Mercado Pago segue sem previsão",
-   "status": "encerrado",
-   "t_detectado": "2026-11-06T20:35:00Z",
-   "t_atualizado": "2026-11-14T16:30:00-03:00",
-   "fontes": [
-    "https://www.metropoles.com/brasil/entenda-por-que-nubank-e-mercado-pago-suspenderam-saques-de-cripto",
-    "https://www.cnnbrasil.com.br/economia/money/tecnologia/mercado-pago-suspende-transferencias-de-criptomoedas/",
-    "https://www.seudinheiro.com/2026/economia/nubank-volta-a-liberar-operacoes-com-criptomoedas-veja-o-que-diz-a-fintech-miql/"
-   ],
-   "tipo": "financeiro"
-  },
-  {
-   "id": "mercadobitcoin-2026-11-02",
-   "plataforma": "Mercado Bitcoin",
-   "titulo": "Ataque hacker; saques, depósitos e negociação suspensos; reabertura parcial (só consulta) em 9/11",
-   "status": "saques suspensos",
-   "t_detectado": "2026-11-06T14:30:00Z",
-   "t_atualizado": "2026-11-06T14:30:00Z",
-   "fontes": [
-    "https://www.otempo.com.br/economia/2026/11/6/mercado-bitcoin-reabre-na-segunda-9-so-para-consulta-de-saldo-saques-seguem-suspensos",
-    "https://www.bloomberglinea.com.br/crypto/mercado-bitcoin-sofre-ataque-hacker-de-us-40-mi-mas-descarta-perdas-para-clientes/"
-   ],
-   "tipo": "financeiro"
-  },
-  {
-   "id": "binance-2026-10",
-   "plataforma": "Binance",
-   "titulo": "Ataque de US$ 6,3 bi; retomada de saques em fases (fase 9 em 6/11)",
-   "status": "retomada em fases",
-   "t_detectado": "2026-11-06T14:30:00Z",
-   "t_atualizado": "2026-11-15T09:00:00Z",
-   "fontes": [
-    "https://acritica.net/economia/binance-retoma-saques-em-fases-e-diz-ter-reposto-95-por-cento-das-perdas-com-ataque-hacker/",
-    "https://www.business-standard.com/markets/cryptocurrency/crypto-s-slow-motion-selloff-leaves-investors-weary-as-bitcoin-nears-lows-126111500203_1.html"
-   ],
-   "tipo": "financeiro"
-  },
-  {
-   "id": "nvidia-ceo-2026-11-08",
-   "tipo": "empresa",
-   "plataforma": "Nvidia",
-   "titulo": "Conselho da Nvidia abre investigação independente após reportagem de que o CEO Jensen Huang foi alvo de esforço de inteligência estrangeira; Huang segue no cargo",
-   "status": "investigação aberta; mercado fechado",
-   "t_detectado": "2026-11-08T23:50:00Z",
-   "t_atualizado": "2026-11-09T00:10:00Z",
-   "fontes": [
-    "https://www.investing.com/news/stock-market-news/nvidia-launches-probe-after-report-ceo-huang-was-target-of-foreign-intelligence-5010307",
-    "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
-    "https://www.cnn.com/2026/11/08/business/nvidia-investigation-ceo-jensen-huang",
-    "https://www.cnnbrasil.com.br/economia/money/tecnologia/nvidia-vai-apurar-se-ceo-foi-alvo-de-acao-de-inteligencia-estrangeira/",
-    "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity"
-   ]
-  },
-  {
-   "id": "bb-agro-inadimplencia-2026-11-13",
-   "tipo": "escandalo",
-   "plataforma": "Banco do Brasil e agro",
-   "titulo": "BB diz ter 31 mil produtores rurais inadimplentes (6,92% de atraso no agro, provisões de R$ 42,6 bi); Aprosoja contesta e acusa generalização",
-   "status": "aberto",
-   "t_detectado": "2026-11-16T19:30:00-03:00",
-   "t_atualizado": "2026-11-16T19:30:00-03:00",
-   "fontes": [
-    "https://www.otempo.com.br/economia/2026/11/13/banco-do-brasil-tem-31-mil-produtores-rurais-inadimplentes-diz-ceo",
-    "https://redehoje.com.br/2026/11/16/agronegocio-banco-do-brasil-aponta-aumento-da-inadimplencia-entre-produtores-rurais-e-aprosoja-contesta-declaracoes/"
-   ]
-  },
-  {
-   "id": "eua-bancos-apps-2026-11-16",
-   "tipo": "anomalia",
-   "plataforma": "JPMorgan Chase, Bank of America, Wells Fargo, U.S. Bank, Truist e Zelle",
-   "titulo": "Apps e sites de grandes bancos dos EUA e o Zelle apresentam falhas; Chase fala em falha técnica e CNBC diz que não há indício de ataque; resolução não confirmada",
-   "status": "aberto",
-   "t_detectado": "2026-11-16T22:05:00-03:00",
-   "t_atualizado": "2026-11-16T22:05:00-03:00",
-   "fontes": [
-    "https://www.cbsnews.com/news/banks-online-service-outages-jpmorgan-chase-bank-of-america-wells-fargo/",
-    "https://www.aljazeera.com/news/2026/11/16/thousands-report-difficulties-accessing-accounts-online-at-major-us-banks"
-   ]
-  }
- ]
 }
