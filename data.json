@@ -162,6 +162,11 @@
   "alertas": [
     {
       "nivel": "atencao",
+      "titulo": "Dólar volta a bater R$ 6 pela primeira vez desde abril de 2025",
+      "texto": "A moeda tocou R$ 6,00 nesta segunda (23), com o mercado de olho na votação do ajuste fiscal na Câmara, e o Ibovespa abriu em queda. Segundo a CNN Brasil, o dólar recuou depois de bater a marca. Fechamento ainda não confirmado; fontes: CNN Brasil e Folha."
+    },
+    {
+      "nivel": "atencao",
       "titulo": "Ciberataque nos EUA: FBI investiga possível invasão ao banco de dados criminal e USDA teria sistema de pagamentos violado",
       "texto": "A CNN e a NBC informam que o FBI apura uma possível brecha no NCIC, seu banco de dados criminal — a segunda do órgão desde setembro. Relatos apontam que o sistema de pagamentos a fazendeiros do Departamento de Agricultura (USDA) também foi invadido, após uma semana de panes de tecnologia nos EUA. Autoria e alcance ainda não confirmados; não há efeito de mercado direto apurado. Sem histeria: é prevenção, não decisão no impulso."
     },
@@ -169,11 +174,6 @@
       "nivel": "atencao",
       "titulo": "NY derrete na venda de IA: S&P 500 −3,7% em correção, Nasdaq −5,3% e EWZ −3,29%",
       "texto": "O S&P 500 fechou a 6.910 (−3,7%), mais de 10% abaixo do recorde de 6/10, o Nasdaq caiu 5,3% e ficou negativo no ano, e o Dow perdeu 1,9% (AP). Nvidia −13,8%, Micron −13,9%, AMD −13,3%, Anthropic −9,1%. O VIX subiu cerca de 31%, para perto de 36. Com a B3 fechada, o EWZ caiu 3,29% e os ADRs de Vale (−3,46%) e Itaú (−2,54%) recuaram (Money Times): a segunda (23) tende a abrir pressionada. Sem histeria: é prevenção, não decisão no impulso."
-    },
-    {
-      "nivel": "atencao",
-      "titulo": "Bitcoin toca perto de US$ 55 mil, mínima em dois anos, e depois volta a ~US$ 60 mil; Binance segue com saques em fases",
-      "texto": "Após perder US$ 60 mil na sexta, o bitcoin chegou a cair para perto de US$ 55 mil no sábado (21), menor nível em dois anos, com liquidações de bilhões em posições alavancadas (o valor exato varia por fonte). Depois reagiu e voltou a ~US$ 60 mil (Reuters/agências). Contexto: venda de ações de IA e expectativa de juros altos nos EUA; a Binance segue com a retomada de saques em fases. Sem histeria: é prevenção. Evite alavancagem em mercado estressado e confira os canais oficiais antes de movimentar fundos."
     }
   ],
   "indicadores": [
@@ -963,6 +963,20 @@
     }
   ],
   "incidentes": [
+    {
+      "id": "dolar-r6-2026-11-23",
+      "tipo": "mercado_cambio",
+      "plataforma": "Dólar / Ibovespa",
+      "titulo": "Dólar bate R$ 6 pela primeira vez desde abril de 2025 com foco na votação do ajuste fiscal na Câmara; Ibovespa abre em queda e dólar recua depois da máxima",
+      "status": "aberto",
+      "t_detectado": "2026-11-23T12:45:00-03:00",
+      "t_atualizado": "2026-11-23T12:45:00-03:00",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-23-novembro-2026/",
+        "https://folhadealphaville.com.br/nacional/2026/11/23/dolar-chega-a-r-6-pela-primeira-vez-desde-abril-de-2025.html"
+      ],
+      "nota": "Confirmado: dólar tocou R$ 6 na segunda (23), primeira vez desde abril de 2025, com Ibovespa em queda e votação do pacote fiscal no radar (CNN Brasil, Folha). Fechamento do dia não verificado."
+    },
     {
       "id": "bb-fazendas-fantasmas-pf-2026-11-22",
       "tipo": "escandalo",
