@@ -1,0 +1,15 @@
+{
+ "tema": "Nvidia investiga suposto ataque de ransomware (The Gentlemen)",
+ "resumo": "Grupo lista Nvidia com contagem de 10 dias; empresa investiga incidente possivelmente ligado a terceiros; sem prova publicada",
+ "legenda": "🚨 Nvidia investiga suposto ataque de ransomware. O grupo The Gentlemen listou a empresa e deu 10 dias para divulgar dados; não há prova publicada. Acompanhe ao vivo: radaralcantara.com.br @kaaka_alcantara",
+ "fontes": [
+  "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
+  "https://securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim",
+  "https://olhardigital.com.br/2026/11/23/seguranca/nvidia-investiga-possivel-vazamento-de-dados-apos-ameaca-de-grupo-hacker",
+  "https://timesbrasil.com.br/brasil/grupo-hacker-ameaca-divulgar-supostos-dados-da-nvidia-em-10-dias-empresa-ainda-nao-se-pronunciou/"
+ ],
+ "slot": "alerta3",
+ "type": "story",
+ "tag": "kaaka_alcantara",
+ "autopublicar": true
+}

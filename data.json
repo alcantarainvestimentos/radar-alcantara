@@ -162,6 +162,11 @@
   "alertas": [
     {
       "nivel": "atencao",
+      "titulo": "Nvidia investiga suposto ataque de ransomware: grupo The Gentlemen dá 10 dias para divulgar dados",
+      "texto": "O grupo The Gentlemen listou a Nvidia em seu site de vazamentos com uma contagem regressiva de cerca de 10 dias. A empresa diz que apura um possível incidente ligado a terceiros. Não há confirmação de invasão nem prova publicada dos dados. Fontes: BleepingComputer, SecurityWeek, Olhar Digital, Times Brasil. Sem histeria: é prevenção, não decisão no impulso."
+    },
+    {
+      "nivel": "atencao",
       "titulo": "Dólar toca R$ 6 pela primeira vez desde abril de 2025; Ibovespa fecha em queda de 0,95%",
       "texto": "O dólar bateu máxima de R$ 6,006 e fechou a R$ 5,926 (−0,14%), interrompendo seis altas. O Ibovespa caiu 0,95%, a 164.796 pts, com a Câmara convocada para votar hoje o ajuste fiscal de ~R$ 50 bi aprovado pelo Senado (resultado ainda não confirmado). O Focus subiu IPCA 2027 para 5,12%, Selic 2027 para 13% e dólar de 2026 para R$ 5,55. Fontes: BPMoney, InfoMoney, CNN Brasil. Sem histeria: é prevenção, não decisão no impulso."
     },
@@ -169,11 +174,6 @@
       "nivel": "atencao",
       "titulo": "Ciberataque nos EUA: FBI investiga possível invasão ao banco de dados criminal e USDA teria sistema de pagamentos violado",
       "texto": "A CNN e a NBC informam que o FBI apura uma possível brecha no NCIC, seu banco de dados criminal — a segunda do órgão desde setembro. Relatos apontam que o sistema de pagamentos a fazendeiros do Departamento de Agricultura (USDA) também foi invadido, após uma semana de panes de tecnologia nos EUA. Autoria e alcance ainda não confirmados; não há efeito de mercado direto apurado. Sem histeria: é prevenção, não decisão no impulso."
-    },
-    {
-      "nivel": "atencao",
-      "titulo": "NY tem o melhor dia desde abril de 2025 com a volta de Jensen Huang à Nvidia",
-      "texto": "A Nvidia recolocou Jensen Huang como CEO e presidente do conselho; a ação subiu cerca de 32% (Yahoo Finance). O S&P 500 fechou em alta de 4,74% (7.238), o Nasdaq 6,51% e o Dow 3,01% (BPMoney). O VIX caiu 24%, para ~27, ainda acima de 20. A Nomura alerta que parte da alta foi compra mecânica (cobertura de vendidos). O Brent caiu 3,5%, a US$ 89. Sem histeria: é prevenção, não decisão no impulso."
     }
   ],
   "indicadores": [
@@ -949,6 +949,22 @@
     }
   ],
   "incidentes": [
+    {
+      "id": "nvidia-gentlemen-ransomware-2026-11-23",
+      "tipo": "anomalia",
+      "plataforma": "Nvidia",
+      "titulo": "Grupo de ransomware The Gentlemen lista a Nvidia em seu site com contagem de 10 dias; Nvidia investiga possível incidente ligado a terceiros",
+      "status": "aberto",
+      "t_detectado": "2026-11-23T20:40:00-03:00",
+      "t_atualizado": "2026-11-23T20:40:00-03:00",
+      "fontes": [
+        "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
+        "https://securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim",
+        "https://olhardigital.com.br/2026/11/23/seguranca/nvidia-investiga-possivel-vazamento-de-dados-apos-ameaca-de-grupo-hacker",
+        "https://timesbrasil.com.br/brasil/grupo-hacker-ameaca-divulgar-supostos-dados-da-nvidia-em-10-dias-empresa-ainda-nao-se-pronunciou/"
+      ],
+      "nota": "Confirmado: o grupo reivindica o ataque e a Nvidia diz investigar. Não confirmado: invasão, volume e tipo de dados; nenhuma prova foi publicada até agora."
+    },
     {
       "id": "dolar-r6-2026-11-23",
       "tipo": "mercado_cambio",
