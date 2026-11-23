@@ -762,10 +762,35 @@
   "noticias_radar": [
     {
       "cat": "acoes",
+      "title": "Wall Street dispara com volta de Jensen Huang à Nvidia: Nasdaq salta mais de 6% e ação da Nvidia sobe 30%",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html",
+      "src": "Yahoo Finance",
+      "t": "2026-11-23T21:00:00+00:00",
+      "score": 4
+    },
+    {
+      "cat": "acoes",
+      "title": "Dólar sobe após romper R$ 6 com fiscal no radar e Ibovespa cai",
+      "link": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-23-novembro-2026/",
+      "src": "CNN Brasil",
+      "t": "2026-11-23T17:30:00-03:00",
+      "score": 4
+    },
+    {
+      "cat": "acoes",
       "title": "Nvidia devolve o comando a Jensen Huang e ação dispara 30% no pré-mercado; bitcoin volta a US$ 63 mil",
       "link": "https://www.theblock.co/news/markets/2026-11-23-bitcoin-crypto-tech-stocks-rally-nvidia-reinstates-jensen-huang-ceo-nvda-jumps-444952",
       "src": "The Block",
       "t": "2026-11-23T15:01:19+00:00",
+      "score": 5,
+      "viral": true
+    },
+    {
+      "cat": "cripto",
+      "title": "Hackers da Binance lavam US$ 247 mi em bitcoin por mixers; ainda restam US$ 2,35 bi roubados sem lavar",
+      "link": "https://coindesk.com/business/2026/11/23/binance-hackers-push-usd247-million-through-transactions-designed-to-cloud-the-source",
+      "src": "CoinDesk",
+      "t": "2026-11-23T15:00:00+00:00",
       "score": 5,
       "viral": true
     },
@@ -816,8 +841,7 @@
       "link": "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829",
       "src": "The Block",
       "t": "2026-11-22T18:57:55+00:00",
-      "score": 4,
-      "viral": true
+      "score": 4
     },
     {
       "cat": "acoes",
@@ -916,38 +940,6 @@
       "t": "2026-11-20T16:35:00-05:00",
       "score": 5,
       "viral": true
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin derrete 25% em novembro e caminha para o pior mês desde 2022; ETFs já perderam US$ 3,5 bi",
-      "link": "https://finance.yahoo.com/markets/article/bitcoin-plunges-below-59000-on-pace-for-its-worst-month-since-june-2022-192922111.html",
-      "src": "Yahoo Finance",
-      "t": "2026-11-20T11:29:00-08:00",
-      "score": 4
-    },
-    {
-      "cat": "cripto",
-      "title": "US$ 1,5 bi liquidados em 24 h: bitcoin fura US$ 59 mil e fica a 2% da mínima do bear market",
-      "link": "https://www.coindesk.com/markets/2026/11/20/bitcoin-plunges-below-usd59-000-as-rush-to-cash-puts-new-bear-market-lows-back-in-play",
-      "src": "CoinDesk",
-      "t": "2026-11-20T13:13:00-05:00",
-      "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Nasdaq despenca quase 3% com AMD e Micron liderando liquidação brutal dos chips",
-      "link": "https://fool.com/coverage/stock-market-today/2026/11/20/stock-market-midday-nov-20-nasdaq-plunges-nearly-3-as-amd-and-micron-lead-a-brutal-semiconductor-sell-off",
-      "src": "Motley Fool",
-      "t": "2026-11-20T17:00:00Z",
-      "score": 4
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin perde os US$ 60 mil e aprofunda queda com liquidação das ações de IA",
-      "link": "https://www.investing.com/news/stock-market-news/bitcoin-falls-below-60000-level-5042271",
-      "src": "Reuters",
-      "t": "2026-11-20T15:51:00Z",
-      "score": 5
     }
   ],
   "incidentes": [
