@@ -774,6 +774,31 @@
   "noticias_radar": [
     {
       "cat": "acoes",
+      "title": "Nvidia devolve o comando a Jensen Huang e ação dispara 30% no pré-mercado; bitcoin volta a US$ 63 mil",
+      "link": "https://www.theblock.co/news/markets/2026-11-23-bitcoin-crypto-tech-stocks-rally-nvidia-reinstates-jensen-huang-ceo-nvda-jumps-444952",
+      "src": "The Block",
+      "t": "2026-11-23T15:01:19+00:00",
+      "score": 5,
+      "viral": true
+    },
+    {
+      "cat": "acoes",
+      "title": "Dólar encosta em R$ 6 e Ibovespa futuro cai 1%; Focus eleva Selic de 2027 para 13%",
+      "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-23112026/",
+      "src": "InfoMoney",
+      "t": "2026-11-23T09:33:38-03:00",
+      "score": 4
+    },
+    {
+      "cat": "cripto",
+      "title": "Bitcoin quebra 18 dias seguidos de topos mais baixos após tombo a US$ 55,1 mil; novembro já cai 21%",
+      "link": "https://www.coindesk.com/markets/2026/11/23/bitcoin-breaks-a-record-streak-of-lower-highs-here-s-what-it-means",
+      "src": "CoinDesk",
+      "t": "2026-11-23T10:31:02+00:00",
+      "score": 3
+    },
+    {
+      "cat": "acoes",
       "title": "Kospi afunda 5% e já perdeu metade do pico; futuros do Nasdaq sobem 3% após pior semana desde 2020",
       "link": "https://finance.yahoo.com/markets/stocks/articles/us-futures-bounce-while-asia-234419517.html",
       "src": "Reuters",
@@ -845,8 +870,7 @@
       "link": "https://oantagonista.com.br/ladooa/entretenimento/operacao-internacional-com-participacao-da-pf-termina-com-266-prisoes-e-rastreamento-de-576-carteiras-de-criptomoedas",
       "src": "O Antagonista",
       "t": "2026-11-21T21:13:00-03:00",
-      "score": 4,
-      "viral": true
+      "score": 4
     },
     {
       "cat": "acoes",
@@ -936,30 +960,6 @@
       "src": "Reuters",
       "t": "2026-11-20T15:51:00Z",
       "score": 5
-    },
-    {
-      "cat": "cripto",
-      "title": "Hackers da Binance aceleram lavagem: US$ 149 mi em bitcoin passam por misturadores, diz Elliptic",
-      "link": "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758",
-      "src": "The Block",
-      "t": "2026-11-20T14:00:00Z",
-      "score": 4
-    },
-    {
-      "cat": "cripto",
-      "title": "Erros em carteiras de bitcoin expuseram US$ 106 mi a ladrões; robôs atacam em segundos",
-      "link": "https://coindesk.com/tech/2026/11/20/bitcoin-bots-pounced-within-seconds-when-researchers-exposed-their-keys",
-      "src": "CoinDesk",
-      "t": "2026-11-20T13:00:00Z",
-      "score": 3
-    },
-    {
-      "cat": "acoes",
-      "title": "Taiwan tem pior semana desde 1991 (-6,2% no dia) e AMD derrete mais 7% no pré-mercado; Nasdaq futuro cai 1,6%",
-      "link": "https://247wallst.com/investing/2026/11/20/amd-stock-drops-another-7-0-before-the-bell-and-taiwan-semiconductor-slides-4-2-as-nasdaq-futures-fall-1-6-after-asias-chip-selloff/",
-      "src": "24/7 Wall St.",
-      "t": "2026-11-20T12:13:00Z",
-      "score": 3
     }
   ],
   "incidentes": [
