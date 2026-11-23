@@ -773,6 +773,23 @@
   },
   "noticias_radar": [
     {
+      "cat": "acoes",
+      "title": "Nasdaq teve pior semana desde 2020 (-10%) e Taiwan, desde 1990 (-17%); Kospi abre caindo mais de 3%",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/us-futures-bounce-while-asia-234419517.html",
+      "src": "Reuters",
+      "t": "2026-11-22T16:17:00-08:00",
+      "score": 5,
+      "viral": true
+    },
+    {
+      "cat": "cripto",
+      "title": "Hacker cria tokens do nada e leva US$ 2 mi da ponte da Fusionist; traders saqueiam mais US$ 3,7 mi",
+      "link": "https://www.theblock.co/news/defi/2026-11-22-a-2-million-exploit-leads-to-a-3-7-million-free-for-all-as-traders-empty-fusionists-ace-bridge-444838",
+      "src": "The Block",
+      "t": "2026-11-22T23:16:06+00:00",
+      "score": 4
+    },
+    {
       "cat": "cripto",
       "title": "Hackers levam 122,9 BTC da Chainflip e prejuízo chega a US$ 12 mi; protocolo oferece recompensa ao invasor",
       "link": "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829",
@@ -829,8 +846,7 @@
       "link": "https://www.metropoles.com/brasil/lula-defende-ajuste-fiscal-e-diz-que-mercado-nao-o-ensinara-a-governar",
       "src": "Metrópoles",
       "t": "2026-11-21T12:43:00-03:00",
-      "score": 4,
-      "viral": true
+      "score": 4
     },
     {
       "cat": "cripto",
@@ -952,46 +968,6 @@
       "src": "Bloomberg",
       "t": "2026-11-20T04:58:00Z",
       "score": 5
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin desliza rumo a US$ 60 mil após perder 13% na semana; ETFs somam saques de US$ 2,9 bi em novembro",
-      "link": "https://cryptobriefing.com/bitcoin-nears-60000-etf-outflows/",
-      "src": "Crypto Briefing",
-      "t": "2026-11-19T22:54:00Z",
-      "score": 3
-    },
-    {
-      "cat": "acoes",
-      "title": "Nvidia cai 3,3% com volume quase dobrado: mercado pesa crise após saída de Jensen Huang, apesar de receita recorde",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-19-222025646.html",
-      "src": "Yahoo Finance",
-      "t": "2026-11-19T14:20:00-08:00",
-      "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Dólar fecha a R$ 5,93, máxima em 19 meses, mesmo após leilão de US$ 1 bi do BC",
-      "link": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-19-novembro-2026/",
-      "src": "CNN Brasil",
-      "t": "2026-11-19T18:35:00-03:00",
-      "score": 5
-    },
-    {
-      "cat": "acoes",
-      "title": "iFood sofre ataque hacker e expõe dados de clientes, entregadores e restaurantes",
-      "link": "https://olhardigital.com.br/2026/11/19/seguranca/ifood-sofre-ataque-hacker-que-expoe-dados-de-clientes-e-entregadores",
-      "src": "Olhar Digital",
-      "t": "2026-11-19T17:45:00-03:00",
-      "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Visa, Mastercard e JPMorgan dizem que fornecedores foram alvo de ataque cibernético",
-      "link": "https://finance.yahoo.com/markets/article/jpmorgan-visa-and-mastercard-disclose-cyberattack-on-third-party-vendors-190314490.html",
-      "src": "Yahoo Finance",
-      "t": "2026-11-19T17:45:00-03:00",
-      "score": 4
     }
   ],
   "incidentes": [
