@@ -1,30 +1,30 @@
 {
-  "atualizado_em": "2026-11-23T12:40:00-03:00",
-  "referencia": "Pregão de segunda, 23/11/2026 (parcial às 12h40)",
+  "atualizado_em": "2026-11-23T18:45:00-03:00",
+  "referencia": "Fechamento de segunda, 23/11/2026",
   "postura": {
     "estado": "RISK-OFF",
     "positivos": 1,
     "total": 6,
     "desde": "2026-11-13",
     "conviccao": "ALTA",
-    "resumo": "Postura RISK-OFF, com 1 de 6 sinais positivos e convicção ALTA. Na volta do feriado, a B3 cai: o Ibovespa marcava 164.578 pts (−1,08%) às 10h35 e o dólar tocou R$ 6,006, primeira vez acima de R$ 6 desde abril de 2025, com a Câmara tentando votar o ajuste fiscal de ~R$ 50 bi. Lá fora, NY dispara depois de a Nvidia recolocar Jensen Huang como CEO: S&P 500 +3,9% e Nasdaq +5,8% na abertura, e o VIX recua para perto de 27, ainda acima de 20. O Focus piorou: IPCA 2027 a 5,12% e Selic 2027 a 13%."
+    "resumo": "Postura RISK-OFF, com 1 de 6 sinais positivos e convicção ALTA. Na volta do feriado, o Ibovespa fechou em queda de 0,95%, a 164.796 pts, e o dólar, que chegou a R$ 6,006 (primeira vez acima de R$ 6 desde abril de 2025), fechou a R$ 5,926 (−0,14%), interrompendo seis altas, com a Câmara convocada para votar o ajuste fiscal de ~R$ 50 bi. Em NY, a volta de Jensen Huang à Nvidia deu o melhor dia desde abril de 2025: S&P 500 +4,74% e Nasdaq +6,51%; o VIX recuou para ~27, ainda acima de 20. O Focus piorou: IPCA 2027 a 5,12% e Selic 2027 a 13%."
   },
   "sinais": [
     {
       "nome": "Ibovespa 5 pregões",
-      "valor": "−4,46%",
+      "valor": "−4,33%",
       "estado": "neg",
       "regra": "Positivo se o índice subiu nos últimos 5 pregões"
     },
     {
       "nome": "Ibovespa 1 mês",
-      "valor": "≈ −19,75%",
+      "valor": "≈ −19,64%",
       "estado": "neg",
       "regra": "Positivo se o índice está acima de 1 mês atrás"
     },
     {
       "nome": "Dólar 5 pregões",
-      "valor": "+5,98%",
+      "valor": "+4,79%",
       "estado": "neg",
       "regra": "Positivo se o dólar caiu na semana (real mais forte)"
     },
@@ -36,13 +36,13 @@
     },
     {
       "nome": "VIX",
-      "valor": "≈26,8",
+      "valor": "≈27,2",
       "estado": "neg",
       "regra": "Positivo se o VIX está abaixo de 20"
     },
     {
       "nome": "S&P 500 no dia",
-      "valor": "+3,92%",
+      "valor": "+4,74%",
       "estado": "pos",
       "regra": "Positivo se o S&P 500 subiu no último pregão"
     }
@@ -52,21 +52,21 @@
       "codigo": "WIN",
       "nome": "Ibovespa",
       "vies": "baixa",
-      "nivel": "164.578 pts",
-      "dia": -1.08,
-      "semana": -4.46,
-      "mes": -19.75,
-      "nota": "Parcial: 164.577,84 pts (−1,08%) às 10h35 (Portal do Agronegócio), depois de fechar quinta (19) a 166.376,43. Pesam o dólar a R$ 6, a votação do ajuste fiscal na Câmara e o Focus pior; a alta de NY com a volta de Jensen Huang à Nvidia não contagia a B3. Semana = vs 13/11; mês = vs 23/10."
+      "nivel": "164.796 pts",
+      "dia": -0.95,
+      "semana": -4.33,
+      "mes": -19.64,
+      "nota": "Fechou a 164.796,05 pts (−0,95%), com máxima de 166.373,68 e mínima de 164.129,33; volume de R$ 35,9 bi (BPMoney). Petrobras pesou (PETR4 −3,14%, PETR3 −3,48%) com o Brent em queda; Magazine Luiza (+9,88%) e RD Saúde (+6,85%) subiram. A B3 destoou da disparada de NY por causa do fiscal e do Focus pior. Semana = vs 13/11; mês = vs 23/10."
     },
     {
       "codigo": "WDO",
       "nome": "Dólar comercial",
       "vies": "alta",
-      "nivel": "R$ 5,993",
-      "dia": 1.04,
-      "semana": 5.98,
-      "mes": 20.03,
-      "nota": "R$ 5,993 (+1,04%) às 10h30, depois de máxima de R$ 6,006 (Portal do Agronegócio): primeira vez acima de R$ 6 desde abril de 2025 (CNN Brasil). Focus de hoje subiu o dólar do fim de 2026 para R$ 5,55 (de R$ 5,40). Galípolo disse que a função de reação do BC não mudou. Semana = vs 13/11; mês = vs 23/10."
+      "nivel": "R$ 5,926",
+      "dia": -0.14,
+      "semana": 4.79,
+      "mes": 18.69,
+      "nota": "Fechou a R$ 5,926 (−0,14%), interrompendo seis altas seguidas, depois de máxima de R$ 6,006, a primeira acima de R$ 6 desde abril de 2025 (BPMoney, CNN Brasil). Dólar futuro dez/26 a R$ 5,935 às 17h03. Focus de hoje subiu o dólar do fim de 2026 para R$ 5,55 (de R$ 5,40). Semana = vs 13/11; mês = vs 23/10."
     },
     {
       "codigo": "DI F31",
@@ -76,64 +76,64 @@
       "dia": 0.26,
       "semana": 0.32,
       "mes": null,
-      "nota": "Último fechamento: 15,42% em 19/11 (de 15,16%), máxima do ano; jan/27 a 13,724% e jan/29 a 15,275% (InfoMoney). Sem cotação confiável de hoje até 12h40. Semana = vs 15,10% de 12/11."
+      "nota": "Sem fechamento confiável do jan/31 hoje: mantido 15,42% de 19/11 (máxima do ano). No fim do dia, as taxas recuaram com a especulação de nomes para a Fazenda (Alckmin e Rafael Fonteles cotados): jan/28 a 14,63% e jan/35 a 15,335% (−17 pb) (BPMoney). Semana = vs 15,10% de 12/11."
     },
     {
       "codigo": "BTC",
       "nome": "Bitcoin",
       "vies": "baixa",
-      "nivel": "US$ 63.205",
-      "dia": 3.34,
-      "semana": -2.71,
+      "nivel": "US$ 61.443",
+      "dia": 1.28,
+      "semana": -5.42,
       "mes": null,
-      "nota": "US$ 63.205 (+3,34% em 24h) às 11h42 (JournalArta), voltando acima de US$ 60 mil com a recuperação das ações de IA. Semana = vs 16/11."
+      "nota": "US$ 61.443 (+1,28%) às 15h21 (Yahoo Finance), devolvendo parte da alta da manhã, quando chegou perto de US$ 63 mil. Semana = vs 16/11."
     }
   ],
   "fita": [
     {
       "nome": "IBOV",
-      "valor": "164.578",
-      "var": -1.08
+      "valor": "164.796",
+      "var": -0.95
     },
     {
       "nome": "USD/BRL",
-      "valor": "5,993",
-      "var": 1.04
+      "valor": "5,926",
+      "var": -0.14
     },
     {
       "nome": "S&P 500",
-      "valor": "7.181",
-      "var": 3.92
+      "valor": "7.238",
+      "var": 4.74
     },
     {
       "nome": "NASDAQ",
-      "valor": "23.924",
-      "var": 5.77
+      "valor": "24.090",
+      "var": 6.51
     },
     {
       "nome": "DOW",
-      "valor": "49.178",
-      "var": 2.14
+      "valor": "49.599",
+      "var": 3.01
     },
     {
       "nome": "VIX",
-      "valor": "26,8",
-      "var": -25.44
+      "valor": "27,2",
+      "var": -24.17
     },
     {
       "nome": "BRENT",
-      "valor": "88,15",
-      "var": -4.78
+      "valor": "89,37",
+      "var": -3.46
     },
     {
       "nome": "OURO",
-      "valor": "3.669",
-      "var": 3.87
+      "valor": "3.657",
+      "var": 4.01
     },
     {
       "nome": "BTC",
-      "valor": "63.205",
-      "var": 3.34
+      "valor": "61.443",
+      "var": 1.28
     },
     {
       "nome": "ETH",
@@ -146,24 +146,24 @@
       "titulo": "Ibovespa",
       "rotulo": "Abaixo da média histórica",
       "justo": "P/L 10x (média)",
-      "atual": "164.578 pts (~7,7x)",
-      "gap": -22.6,
-      "detalhe": "Referência Itaú BBA (27/10): Ibovespa a 7,9x P/L com 167.922 pts, contra média de 10 anos de 10x. Ajustado proporcionalmente à parcial de 23/11 (164.578), ~7,7x, desconto de ~23%."
+      "atual": "164.796 pts (~7,8x)",
+      "gap": -22.5,
+      "detalhe": "Referência Itaú BBA (27/10): Ibovespa a 7,9x P/L com 167.922 pts, contra média de 10 anos de 10x. Ajustado proporcionalmente ao fechamento de 23/11 (164.796), ~7,8x, desconto de ~22%."
     },
     {
       "titulo": "Dólar vs Focus",
       "rotulo": "Acima da expectativa",
       "justo": "R$ 5,55",
-      "atual": "R$ 5,993",
-      "gap": 8.0,
-      "detalhe": "Focus de 23/11 elevou o dólar do fim de 2026 para R$ 5,55 (de R$ 5,40). Na parcial de hoje, a R$ 5,993, ~8% acima."
+      "atual": "R$ 5,926",
+      "gap": 6.8,
+      "detalhe": "Focus de 23/11 elevou o dólar do fim de 2026 para R$ 5,55 (de R$ 5,40). No fechamento de hoje, a R$ 5,926, ~7% acima."
     }
   ],
   "alertas": [
     {
       "nivel": "atencao",
-      "titulo": "Dólar passa de R$ 6 pela primeira vez desde abril de 2025; Ibovespa cai 1%",
-      "texto": "O dólar bateu máxima de R$ 6,006 e marcava R$ 5,993 (+1,04%) às 10h30, enquanto a Câmara tenta votar hoje o ajuste fiscal de ~R$ 50 bi aprovado pelo Senado. O Ibovespa caía 1,08% (164.578 pts). O Focus subiu IPCA 2027 para 5,12%, Selic 2027 para 13% e dólar de 2026 para R$ 5,55. Fontes: Portal do Agronegócio, InfoMoney, CNN Brasil. Sem histeria: é prevenção, não decisão no impulso."
+      "titulo": "Dólar toca R$ 6 pela primeira vez desde abril de 2025; Ibovespa fecha em queda de 0,95%",
+      "texto": "O dólar bateu máxima de R$ 6,006 e fechou a R$ 5,926 (−0,14%), interrompendo seis altas. O Ibovespa caiu 0,95%, a 164.796 pts, com a Câmara convocada para votar hoje o ajuste fiscal de ~R$ 50 bi aprovado pelo Senado (resultado ainda não confirmado). O Focus subiu IPCA 2027 para 5,12%, Selic 2027 para 13% e dólar de 2026 para R$ 5,55. Fontes: BPMoney, InfoMoney, CNN Brasil. Sem histeria: é prevenção, não decisão no impulso."
     },
     {
       "nivel": "atencao",
@@ -172,8 +172,8 @@
     },
     {
       "nivel": "atencao",
-      "titulo": "NY dispara com a volta de Jensen Huang à Nvidia: S&P 500 +3,9%, Nasdaq +5,8%",
-      "texto": "A Nvidia recolocou Jensen Huang como CEO e presidente do conselho, com efeito imediato; a ação abriu em alta de cerca de 32% (Yahoo Finance), e a investigação independente segue até o fim. Às 11h42, o S&P 500 subia 3,92% (7.181), o Nasdaq 5,77% e o Dow 2,14% (JournalArta). O VIX caiu 25%, para 26,8, ainda acima de 20. O Brent recua 4,8%, a US$ 88. Sem histeria: é prevenção, não decisão no impulso."
+      "titulo": "NY tem o melhor dia desde abril de 2025 com a volta de Jensen Huang à Nvidia",
+      "texto": "A Nvidia recolocou Jensen Huang como CEO e presidente do conselho; a ação subiu cerca de 32% (Yahoo Finance). O S&P 500 fechou em alta de 4,74% (7.238), o Nasdaq 6,51% e o Dow 3,01% (BPMoney). O VIX caiu 24%, para ~27, ainda acima de 20. A Nomura alerta que parte da alta foi compra mecânica (cobertura de vendidos). O Brent caiu 3,5%, a US$ 89. Sem histeria: é prevenção, não decisão no impulso."
     }
   ],
   "indicadores": [
@@ -184,7 +184,7 @@
       "valor": "13,75%",
       "estado": "neutro",
       "selo": "próx. Copom 9/12",
-      "agora": "Mantida em 13,75% em 4/11; o mercado espera manutenção em 9/12. Focus de 23/11: 13,75% no fim de 2026 e 13% no fim de 2027 (antes 12,75%). Galípolo disse hoje que a função de reação do BC não mudou e que dar guidance agora seria contraproducente.",
+      "agora": "Mantida em 13,75% em 4/11; o mercado espera manutenção em 9/12. Focus de 23/11: 13,75% no fim de 2026 e 13% no fim de 2027 (antes 12,75%). Galípolo disse hoje que a função de reação do BC não mudou e, à tarde, defendeu equilíbrio entre política fiscal e monetária e a redução de renúncias fiscais regressivas.",
       "o_que_e": "A taxa básica de juros definida pelo Copom a cada 45 dias. Serve de base para o CDI e para o custo do crédito no país.",
       "como_ler": "Selic em queda tende a favorecer bolsa, varejo e construção. Uma pausa ou alta pressiona esses setores e fortalece a renda fixa."
     },
@@ -205,8 +205,8 @@
       "nome": "DI janeiro/2031",
       "valor": "15,42%",
       "estado": "neg",
-      "selo": "fechamento 19/11",
-      "agora": "Último fechamento: 15,42% em 19/11 (de 15,16%), máxima do ano; jan/27 a 13,724% e jan/29 a 15,275% (InfoMoney). Sem cotação confiável de hoje até 12h40, com o dólar acima de R$ 6.",
+      "selo": "jan/31 de 19/11",
+      "agora": "Sem fechamento confiável do jan/31 hoje (mantido 15,42% de 19/11, máxima do ano). No fim do dia, os DIs recuaram com a especulação de nomes para a Fazenda: jan/28 a 14,63% (de 14,83%) e jan/35 a 15,335% (−17 pb) (BPMoney).",
       "o_que_e": "A taxa de juros que o mercado cobra para emprestar ao governo até 2031. Mede o prêmio de risco de longo prazo.",
       "como_ler": "DI longo subindo encarece o valuation das ações, principalmente de empresas de crescimento e ligadas ao consumo. Queda costuma anteceder alta da bolsa."
     },
@@ -214,10 +214,10 @@
       "id": "cambio",
       "grupo": "Brasil",
       "nome": "Dólar comercial",
-      "valor": "R$ 5,993",
+      "valor": "R$ 5,926",
       "estado": "neg",
-      "selo": "+1,04% hoje",
-      "agora": "R$ 5,993 (+1,04%) às 10h30, depois de máxima de R$ 6,006, a primeira acima de R$ 6 desde abril de 2025, com a votação do ajuste fiscal na Câmara. Focus de 23/11 projeta R$ 5,55 no fim de 2026 (de R$ 5,40).",
+      "selo": "−0,14% hoje",
+      "agora": "Fechou a R$ 5,926 (−0,14%), interrompendo seis altas, depois de máxima de R$ 6,006, a primeira acima de R$ 6 desde abril de 2025. Focus de 23/11 projeta R$ 5,55 no fim de 2026 (de R$ 5,40).",
       "o_que_e": "A cotação do dólar no mercado à vista.",
       "como_ler": "Dólar subindo favorece exportadoras (Suzano, Embraer, petroleiras) e pressiona a inflação e as empresas endividadas em moeda estrangeira."
     },
@@ -258,10 +258,10 @@
       "id": "treasury",
       "grupo": "EUA",
       "nome": "Treasury 10 anos",
-      "valor": "4,97%",
+      "valor": "4,93%",
       "estado": "neg",
-      "selo": "+0,06 p.p. hoje",
-      "agora": "O 10 anos sobe para 4,97% (de 4,91% na sexta) às 11h42 com a volta do apetite a risco (JournalArta), perto de 5% e com a expectativa de alta do Fed em dezembro.",
+      "selo": "+0,02 p.p. hoje",
+      "agora": "O 10 anos fechou perto de 4,93% (de 4,91% na sexta) e o 2 anos a 4,68% (BPMoney), com a expectativa de alta do Fed em dezembro.",
       "o_que_e": "O rendimento do título de 10 anos do governo americano, referência global de juros.",
       "como_ler": "Acima de 4,5% os juros pesam sobre as ações no mundo todo. Quedas costumam aliviar a bolsa brasileira e o real."
     },
@@ -269,10 +269,10 @@
       "id": "vix",
       "grupo": "Global",
       "nome": "VIX",
-      "valor": "≈26,8",
+      "valor": "≈27,2",
       "estado": "neg",
-      "selo": "−25% hoje",
-      "agora": "Recua 25,4%, para 26,76, às 11h42 (JournalArta), de 35,89 na sexta, com a recuperação das ações de IA; segue acima de 20.",
+      "selo": "−24% hoje",
+      "agora": "Recuou 24,2%, para 27,20, às 15h21 (Yahoo Finance), de 35,89 na sexta, com a recuperação das ações de IA; segue acima de 20.",
       "o_que_e": "O índice de volatilidade implícita do S&P 500, conhecido como o índice do medo.",
       "como_ler": "Abaixo de 15 indica calma, entre 15 e 20 é normal, e acima de 20 o mercado está estressado. Picos costumam vir com fuga de emergentes."
     },
@@ -280,10 +280,10 @@
       "id": "brent",
       "grupo": "Global",
       "nome": "Petróleo Brent",
-      "valor": "US$ 88,15",
+      "valor": "US$ 89,37",
       "estado": "neutro",
-      "selo": "−4,8% hoje",
-      "agora": "Brent cai 4,78%, para US$ 88,15, às 11h42 (JournalArta); o WTI recua para US$ 82. O JPMorgan cortou a projeção de Brent para 2027 (Phemex).",
+      "selo": "−3,5% hoje",
+      "agora": "Brent jan/27 caiu 3,46%, para US$ 89,37, e o WTI 3,88%, para US$ 80,17 (BPMoney). O JPMorgan cortou a projeção de Brent para 2027.",
       "o_que_e": "A referência internacional de preço do petróleo.",
       "como_ler": "Brent alto favorece PETR4, PRIO3 e BRAV3, mas pressiona a inflação e os custos de aéreas e logística."
     },
@@ -291,10 +291,10 @@
       "id": "ouro",
       "grupo": "Global",
       "nome": "Ouro",
-      "valor": "US$ 3.669",
+      "valor": "US$ 3.657",
       "estado": "neutro",
-      "selo": "≈+3,9% hoje",
-      "agora": "Ouro sobe cerca de 3,9%, para perto de US$ 3.669, às 11h42 (JournalArta), recuperando-se depois da pior semana desde março e da mínima de 14 meses.",
+      "selo": "≈+4,0% hoje",
+      "agora": "Ouro (futuro) sobe 4,0%, para US$ 3.656,50, às 15h21 (Yahoo Finance), recuperando-se depois da pior semana desde março e da mínima de 14 meses.",
       "o_que_e": "O preço da onça-troy de ouro.",
       "como_ler": "Ouro subindo sinaliza busca por proteção. Quedas fortes junto com bolsas podem indicar venda forçada para cobrir perdas."
     }
@@ -303,9 +303,9 @@
     "itens": [
       {
         "nome": "BTC",
-        "valor": "US$ 63.205",
-        "var": 3.34,
-        "nota": "US$ 63.205 (+3,34% em 24h) às 11h42 de 23/11 (JournalArta), de volta acima de US$ 60 mil com a recuperação das ações de IA. A Binance segue com saques em fases após o ataque de outubro."
+        "valor": "US$ 61.443",
+        "var": 1.28,
+        "nota": "US$ 61.443 (+1,28%) às 15h21 de 23/11 (Yahoo Finance), depois de chegar perto de US$ 63 mil pela manhã. A Binance segue com saques em fases após o ataque de outubro e prevê reabertura total em breve."
       },
       {
         "nome": "ETH",
@@ -509,35 +509,41 @@
       "ibov": 166376.43,
       "dolar": 5.934,
       "btc": 61828
+    },
+    {
+      "data": "2026-11-23",
+      "ibov": 164796.05,
+      "dolar": 5.926,
+      "btc": 61443
     }
   ],
   "fontes": [
     {
-      "nome": "Portal do Agronegócio — Ibovespa a 164,6 mil, dólar acima de R$ 6 (23/11)",
-      "url": "https://www.portaldoagronegocio.com.br/economia/mercado-financeiro/noticias/ibovespa-cai-aos-164-6-mil-pontos-dolar-supera-r-6-e-futuros-de-ny-sobem"
+      "nome": "BPMoney — Ibovespa cai 0,95% e dólar recua (fechamento 23/11)",
+      "url": "https://bpmoney.com.br/mercado/ibovespa-cai-095-dolar-recua-wall-street-sobe/"
+    },
+    {
+      "nome": "BPMoney — taxas dos DIs caem com especulação de nomes na área econômica (23/11)",
+      "url": "https://bpmoney.com.br/mercado/taxas-dis-caem-especulacao-nomes-lula-area-economica/"
     },
     {
       "nome": "InfoMoney — Ibovespa ao vivo e Focus (23/11)",
       "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-23112026/"
     },
     {
-      "nome": "CNN Brasil — dólar recua após bater R$ 6 (23/11)",
+      "nome": "CNN Brasil — dólar bate R$ 6 (23/11)",
       "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-23-novembro-2026/"
     },
     {
-      "nome": "JournalArta — S&P 500 +3,9% e Nasdaq +5,8% na abertura (23/11)",
-      "url": "https://journalarta.com/en/2026/11/23/stock-market-today-sp-500-jumps-3-9-and-nasdaq-5-8-at-the-open-as-vix-drops/"
+      "nome": "Yahoo Finance — NY tem melhor dia desde abril de 2025 com Nvidia (23/11)",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html"
     },
     {
-      "nome": "Yahoo Finance — Nvidia recoloca Jensen Huang como CEO (23/11)",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-091118583.html"
-    },
-    {
-      "nome": "JournalArta — ouro e petróleo (23/11)",
-      "url": "https://journalarta.com/en/2026/11/23/gold-today-spot-price-surges-2-53-to-3622-as-silver-rallies-and-brent-oil-slides/"
+      "nome": "Fortune — preço do bitcoin (23/11)",
+      "url": "https://fortune.com/article/price-of-bitcoin-11-23-2026/"
     }
   ],
-  "notas": "Atualização parcial do pregão de 23/11 (12h40): Ibovespa e dólar das 10h30–10h35; NY, VIX, Treasury, Brent, ouro, BTC e ETH das 11h42 (abertura de NY). DIs sem cotação confiável de hoje (mantido o fechamento de 19/11). Setores mantidos do fechamento de 18/11. Histórico atualizado só após o fechamento. Informação para estudo, não recomendação de investimento.",
+  "notas": "Fechamento de 23/11: Ibovespa, dólar, NY, Brent e Treasury pelo fechamento (BPMoney); VIX, ouro e BTC das 15h21 (Yahoo Finance); ETH mantido das 11h42. DI jan/31 sem fechamento confiável de hoje (mantido 19/11); jan/28 e jan/35 atualizados. Setores mantidos do fechamento de 18/11. Informação para estudo, não recomendação de investimento.",
   "config": {
     "brapi_token": "",
     "whatsapp": "",
@@ -568,7 +574,7 @@
       ],
       "focus_fonte": "Focus de 23/11 (fim de 2026 e fim de 2027)",
       "curva": {
-        "data": "19/11 (jan/28, jan/29 e jan/31 no fechamento; jan/27 às 9h38; jan/35 às 13h07; jan/33 de 16/11)",
+        "data": "23/11 (jan/28 e jan/35 no fechamento de hoje); jan/29 e jan/31 de 19/11; jan/27 de 19/11 às 9h38; jan/33 de 16/11",
         "pontos": [
           {
             "v": "jan/27",
@@ -576,7 +582,7 @@
           },
           {
             "v": "jan/28",
-            "t": 14.85
+            "t": 14.63
           },
           {
             "v": "jan/29",
@@ -592,11 +598,11 @@
           },
           {
             "v": "jan/35",
-            "t": 15.465
+            "t": 15.335
           }
         ]
       },
-      "leitura": "Os DIs fecharam quinta nas máximas do ano: o jan/31 a 15,42% (+0,26 p.p.) e o jan/29 a 15,275%, depois da intervenção do BC no câmbio e das falas de Lula sobre o fiscal. A curva segue bem acima da Selic de 13,75%. Sem negociação hoje (feriado)."
+      "leitura": "Os DIs recuaram no fim do pregão de 23/11 com a especulação de nomes para a Fazenda: jan/28 a 14,63% e jan/35 a 15,335%. O jan/31 segue na casa de 15,4%, bem acima da Selic de 13,75%, com o dólar tocando R$ 6 e o ajuste fiscal na Câmara."
     },
     "eua": {
       "fed": "3,75–4,00%",
@@ -632,7 +638,7 @@
           }
         ]
       },
-      "leitura": "O 10 anos sobe para 4,97% em 23/11 (de 4,91%) com a volta do apetite a risco. O Fed deve subir os juros em 9/12: Polymarket ~91% e mercado de títulos ~92%."
+      "leitura": "O 10 anos fechou perto de 4,93% em 23/11 (de 4,91%) e o 2 anos a 4,68%. O Fed deve subir os juros em 9/12: Polymarket ~91% e mercado de títulos ~92%."
     },
     "credito_eua": {
       "hy_oas": 3.14,
