@@ -767,6 +767,14 @@
   },
   "noticias_radar": [
     {
+      "cat": "acoes",
+      "title": "Ásia explode com volta de Huang à Nvidia: Taiwan sobe mais de 9% e Kospi salta 6,5% um dia após pânico",
+      "link": "https://www.ksat.com/business/2026/11/24/asian-stocks-rally-after-wall-street-rebound-as-jensen-huang-returns-as-nvidias-ceo/",
+      "src": "AP",
+      "t": "2026-11-24T03:31:25+00:00",
+      "score": 4
+    },
+    {
       "cat": "cripto",
       "title": "Alerta: hack de iPhone 'nível Estado' rouba frases-semente de carteiras cripto e senhas; Forbes pede atualização do iOS",
       "link": "https://www.forbes.com/sites/digital-assets/2026/11/23/nation-state-grade-iphone-hack-leaves-crypto-wallets-password-managers-data-messages-and-photos-at-risk/",
@@ -938,14 +946,6 @@
       "src": "24/7 Wall St.",
       "t": "2026-11-21T15:01:53+00:00",
       "score": 3
-    },
-    {
-      "cat": "acoes",
-      "title": "Nvidia tem pior semana desde 2008: queda de 23% apaga cerca de US$ 1 trilhão em valor de mercado",
-      "link": "https://www.fool.com/investing/2026/11/21/after-its-worst-week-in-18-years-nvidia-now-faces-an-sec-investigation-what-it-means-for-investors/",
-      "src": "Motley Fool",
-      "t": "2026-11-21T06:10:05+00:00",
-      "score": 4
     }
   ],
   "incidentes": [
