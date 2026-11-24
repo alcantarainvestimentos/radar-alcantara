@@ -767,6 +767,23 @@
   },
   "noticias_radar": [
     {
+      "cat": "cripto",
+      "title": "Alerta: hack de iPhone 'nível Estado' rouba frases-semente de carteiras cripto e senhas; Forbes pede atualização do iOS",
+      "link": "https://www.forbes.com/sites/digital-assets/2026/11/23/nation-state-grade-iphone-hack-leaves-crypto-wallets-password-managers-data-messages-and-photos-at-risk/",
+      "src": "Forbes",
+      "t": "2026-11-23T19:15:05-05:00",
+      "score": 4,
+      "viral": true
+    },
+    {
+      "cat": "cripto",
+      "title": "EUA vão à Justiça para confiscar US$ 1,1 bi em USDC roubados da Binance por hackers da Coreia do Norte",
+      "link": "https://cointelegraph.com/news/us-seeks-11b-crypto-stolen-north-korea-binance-hack",
+      "src": "Cointelegraph",
+      "t": "2026-11-23T21:04:03+00:00",
+      "score": 4
+    },
+    {
       "cat": "acoes",
       "title": "Wall Street dispara com volta de Jensen Huang à Nvidia: Nasdaq salta mais de 6% e ação da Nvidia sobe 30%",
       "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html",
@@ -929,23 +946,6 @@
       "src": "Motley Fool",
       "t": "2026-11-21T06:10:05+00:00",
       "score": 4
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin cai à mínima em mais de dois anos com derrocada dos mercados globais",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-20/bitcoin-falls-to-more-than-two-year-low-as-global-markets-sink",
-      "src": "Bloomberg",
-      "t": "2026-11-20T18:00:00-05:00",
-      "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Nvidia desaba 14% com investigação contábil da SEC; Nasdaq afunda 5% e S&P perde os 7 mil pontos",
-      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-nvidia-s-usd2-5-trillion-rout-deepens-as-sec-accounting-probe-adds-to-wall-street-s-ai-sell-off/",
-      "src": "Motley Fool",
-      "t": "2026-11-20T16:35:00-05:00",
-      "score": 5,
-      "viral": true
     }
   ],
   "incidentes": [
