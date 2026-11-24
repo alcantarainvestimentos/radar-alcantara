@@ -1,49 +1,49 @@
 {
-  "atualizado_em": "2026-11-24T09:12:00-03:00",
-  "referencia": "Fechamento de segunda, 23/11/2026 · pré-abertura de terça 24/11",
+  "atualizado_em": "2026-11-24T12:40:00-03:00",
+  "referencia": "Pregão de terça, 24/11/2026 (parcial às 12h40)",
   "postura": {
     "estado": "RISK-OFF",
-    "positivos": 1,
+    "positivos": 0,
     "total": 6,
     "desde": "2026-11-13",
     "conviccao": "ALTA",
-    "resumo": "Postura RISK-OFF, com 1 de 6 sinais positivos e convicção ALTA. Na volta do feriado, o Ibovespa fechou em queda de 0,95%, a 164.796 pts, e o dólar, que chegou a R$ 6,006 (primeira vez acima de R$ 6 desde abril de 2025), fechou a R$ 5,926 (−0,14%), interrompendo seis altas, com a Câmara convocada para votar o ajuste fiscal de ~R$ 50 bi. Em NY, a volta de Jensen Huang à Nvidia deu o melhor dia desde abril de 2025: S&P 500 +4,74% e Nasdaq +6,51%; o VIX recuou para ~27, ainda acima de 20. O Focus piorou: IPCA 2027 a 5,12% e Selic 2027 a 13%."
+    "resumo": "Postura RISK-OFF, com 0 de 6 sinais positivos e convicção ALTA. No meio do pregão, o Ibovespa sobe 1,12%, a 166.649 pts, e o dólar cai cerca de 1,8%, para R$ 5,82, com a Câmara aprovando o ajuste fiscal sem alterações (vai à sanção) e os juros futuros em queda. Lá fora, o alívio de ontem se desfaz: a Nvidia cai mais de 5%, o S&P 500 abriu em −0,9% e a Nasdaq em −1,4%, e o VIX volta para ~29. O bitcoin perdeu os US$ 60 mil. As tendências de semana e mês seguem negativas."
   },
   "sinais": [
     {
       "nome": "Ibovespa 5 pregões",
-      "valor": "−4,33%",
+      "valor": "−3,25%",
       "estado": "neg",
       "regra": "Positivo se o índice subiu nos últimos 5 pregões"
     },
     {
       "nome": "Ibovespa 1 mês",
-      "valor": "≈ −19,64%",
+      "valor": "≈ −18,74%",
       "estado": "neg",
       "regra": "Positivo se o índice está acima de 1 mês atrás"
     },
     {
       "nome": "Dólar 5 pregões",
-      "valor": "+4,79%",
+      "valor": "+2,9%",
       "estado": "neg",
       "regra": "Positivo se o dólar caiu na semana (real mais forte)"
     },
     {
       "nome": "DI longo na semana",
-      "valor": "+0,32 p.p.",
+      "valor": "+0,11 p.p.",
       "estado": "neg",
       "regra": "Positivo se a taxa do DI longo caiu na semana"
     },
     {
       "nome": "VIX",
-      "valor": "≈27,2",
+      "valor": "≈29,2",
       "estado": "neg",
       "regra": "Positivo se o VIX está abaixo de 20"
     },
     {
       "nome": "S&P 500 no dia",
-      "valor": "+4,74%",
-      "estado": "pos",
+      "valor": "−0,90% (parcial)",
+      "estado": "neg",
       "regra": "Positivo se o S&P 500 subiu no último pregão"
     }
   ],
@@ -52,93 +52,93 @@
       "codigo": "WIN",
       "nome": "Ibovespa",
       "vies": "baixa",
-      "nivel": "164.796 pts",
-      "dia": -0.95,
-      "semana": -4.33,
-      "mes": -19.64,
-      "nota": "Fechou a 164.796,05 pts (−0,95%), com máxima de 166.373,68 e mínima de 164.129,33; volume de R$ 35,9 bi (BPMoney). Petrobras pesou (PETR4 −3,14%, PETR3 −3,48%) com o Brent em queda; Magazine Luiza (+9,88%) e RD Saúde (+6,85%) subiram. A B3 destoou da disparada de NY por causa do fiscal e do Focus pior. Semana = vs 13/11; mês = vs 23/10."
+      "nivel": "166.649 pts",
+      "dia": 1.12,
+      "semana": -3.25,
+      "mes": -18.74,
+      "nota": "Parcial: 166.649,23 pts (+1,12%) por volta de 11h15, com máxima de 167.046,44 e mínima de 164.697,83 (Times Brasil). Sobe com a aprovação do ajuste fiscal pela Câmara (PLP 299/2026, sem alterações, vai à sanção) e o recuo do dólar e dos juros; industrial (+3,9%) e materiais básicos (+3,2%) lideram, energia cai (−1,2%) mesmo com o plano de US$ 122 bi da Petrobras. Semana = vs 13/11; mês = vs 23/10."
     },
     {
       "codigo": "WDO",
       "nome": "Dólar comercial",
       "vies": "alta",
-      "nivel": "R$ 5,926",
-      "dia": -0.14,
-      "semana": 4.79,
-      "mes": 18.69,
-      "nota": "Fechou a R$ 5,926 (−0,14%), interrompendo seis altas seguidas, depois de máxima de R$ 6,006, a primeira acima de R$ 6 desde abril de 2025 (BPMoney, CNN Brasil). Dólar futuro dez/26 a R$ 5,935 às 17h03. Focus de hoje subiu o dólar do fim de 2026 para R$ 5,55 (de R$ 5,40). Semana = vs 13/11; mês = vs 23/10."
+      "nivel": "R$ 5,82",
+      "dia": -1.81,
+      "semana": 2.9,
+      "mes": 16.55,
+      "nota": "Recua cerca de 1,8%, para a casa de R$ 5,82, no fim da manhã (Forbes, TMC), depois da aprovação do ajuste fiscal e da notícia de uma PEC para conter despesas obrigatórias (InfoMoney). Ontem fechou a R$ 5,926. Semana = vs 13/11; mês = vs 23/10."
     },
     {
       "codigo": "DI F31",
       "nome": "Juros longos",
       "vies": "alta",
-      "nivel": "15,42%",
-      "dia": 0.26,
-      "semana": 0.32,
+      "nivel": "15,21%",
+      "dia": -0.055,
+      "semana": 0.11,
       "mes": null,
-      "nota": "Sem fechamento confiável do jan/31 hoje: mantido 15,42% de 19/11 (máxima do ano). No fim do dia, as taxas recuaram com a especulação de nomes para a Fazenda (Alckmin e Rafael Fonteles cotados): jan/28 a 14,63% e jan/35 a 15,335% (−17 pb) (BPMoney). Semana = vs 15,10% de 12/11."
+      "nota": "Jan/31 abriu a 15,21% (−5,5 pb) às 9h13 (InfoMoney), com jan/29 a 15,015% e jan/35 a 15,265%; os juros seguem em queda ao longo da manhã com o ajuste fiscal aprovado (Times Brasil). Semana = vs 15,10% de 12/11."
     },
     {
       "codigo": "BTC",
       "nome": "Bitcoin",
       "vies": "baixa",
-      "nivel": "US$ 61.443",
-      "dia": 1.28,
+      "nivel": "US$ 60.417",
+      "dia": -3.83,
       "semana": -5.42,
       "mes": null,
-      "nota": "US$ 61.443 (+1,28%) às 15h21 (Yahoo Finance), devolvendo parte da alta da manhã, quando chegou perto de US$ 63 mil. Semana = vs 16/11."
+      "nota": "US$ 60.417 (−3,83% em 24h) no fim da manhã (Yahoo Finance); chegou a furar US$ 60 mil, devolvendo a alta de segunda puxada pela Nvidia. Liquidações de US$ 844 mi em 24h e 5º dia de saídas dos ETFs à vista (CoinDesk). Semana = vs 16/11."
     }
   ],
   "fita": [
     {
       "nome": "IBOV",
-      "valor": "164.796",
-      "var": -0.95
+      "valor": "166.649",
+      "var": 1.12
     },
     {
       "nome": "USD/BRL",
-      "valor": "5,926",
-      "var": -0.14
+      "valor": "5,82",
+      "var": -1.81
     },
     {
       "nome": "S&P 500",
-      "valor": "7.238",
-      "var": 4.74
+      "valor": "7.172",
+      "var": -0.9
     },
     {
       "nome": "NASDAQ",
-      "valor": "24.090",
-      "var": 6.51
+      "valor": "23.746",
+      "var": -1.43
     },
     {
       "nome": "DOW",
-      "valor": "49.599",
-      "var": 3.01
+      "valor": "49.495",
+      "var": -0.2
     },
     {
       "nome": "VIX",
-      "valor": "27,2",
-      "var": -24.17
+      "valor": "29,2",
+      "var": 9.75
     },
     {
       "nome": "BRENT",
-      "valor": "89,37",
-      "var": -3.46
+      "valor": "89,21",
+      "var": -0.18
     },
     {
       "nome": "OURO",
-      "valor": "3.657",
-      "var": 4.01
+      "valor": "3.627",
+      "var": -0.67
     },
     {
       "nome": "BTC",
-      "valor": "61.443",
-      "var": 1.28
+      "valor": "60.417",
+      "var": -3.83
     },
     {
       "nome": "ETH",
-      "valor": "1.796",
-      "var": 4.37
+      "valor": "1.683",
+      "var": -5.06
     }
   ],
   "valor_justo": [
@@ -162,13 +162,13 @@
   "alertas": [
     {
       "nivel": "atencao",
-      "titulo": "Hack de iPhone mira frases-semente de carteiras cripto; Forbes pede que usuários atualizem o iOS",
-      "texto": "Campanha de anúncios maliciosos em 47 países explora iPhones desatualizados para tentar roubar frases-semente e senhas, segundo Forbes e a Confiant. Sem histeria: atualize o iOS e nunca digite a frase-semente em site ou app."
+      "titulo": "Bitcoin perde US$ 60 mil e devolve a alta de segunda; liquidações triplicam",
+      "texto": "BTC cai ~4% em 24h e ETH ~5%. As liquidações somaram US$ 844 milhões em 24h (+217%) e os ETFs à vista de bitcoin tiveram o 5º dia seguido de saídas (US$ 570 mi na segunda), segundo a CoinDesk. A Binance segue com saques em fases após o ataque de outubro. Sem histeria: alavancagem baixa e stop definido."
     },
     {
       "nivel": "atencao",
-      "titulo": "Mercado vira: Nasdaq +6,5% e S&P 500 +4,7% em Nova York; Taiwan sobe 9% e Kospi 6,5% na Ásia com a volta de Huang à Nvidia",
-      "texto": "Depois da pior semana desde 2020 para a Nasdaq, Wall Street disparou ontem com Jensen Huang de volta ao comando da Nvidia (ação perto de +30%). Na madrugada, a Ásia seguiu: Taiwan +9% e Kospi +6,5%, segundo a AP."
+      "titulo": "Rali da Nvidia esfria: ação cai mais de 5% e Nasdaq abre em −1,4%",
+      "texto": "Depois de subir ~31% na segunda com a volta de Jensen Huang, a Nvidia recua mais de 5% e puxa as ações de IA; S&P 500 abriu em −0,9% e o VIX voltou para perto de 29 (Reuters, AP). A Anthropic chegou a operar abaixo do preço de IPO no pré-mercado."
     },
     {
       "nivel": "atencao",
@@ -203,10 +203,10 @@
       "id": "curva",
       "grupo": "Brasil",
       "nome": "DI janeiro/2031",
-      "valor": "15,42%",
+      "valor": "15,21%",
       "estado": "neg",
-      "selo": "jan/31 de 19/11",
-      "agora": "Sem fechamento confiável do jan/31 hoje (mantido 15,42% de 19/11, máxima do ano). No fim do dia, os DIs recuaram com a especulação de nomes para a Fazenda: jan/28 a 14,63% (de 14,83%) e jan/35 a 15,335% (−17 pb) (BPMoney).",
+      "selo": "−5,5 pb na abertura",
+      "agora": "Jan/31 abriu hoje a 15,21% (−5,5 pb) às 9h13, jan/29 a 15,015% e jan/35 a 15,265% (InfoMoney); as taxas seguem em queda pela manhã com o ajuste fiscal aprovado pela Câmara.",
       "o_que_e": "A taxa de juros que o mercado cobra para emprestar ao governo até 2031. Mede o prêmio de risco de longo prazo.",
       "como_ler": "DI longo subindo encarece o valuation das ações, principalmente de empresas de crescimento e ligadas ao consumo. Queda costuma anteceder alta da bolsa."
     },
@@ -214,10 +214,10 @@
       "id": "cambio",
       "grupo": "Brasil",
       "nome": "Dólar comercial",
-      "valor": "R$ 5,926",
+      "valor": "R$ 5,82",
       "estado": "neg",
-      "selo": "−0,14% hoje",
-      "agora": "Fechou a R$ 5,926 (−0,14%), interrompendo seis altas, depois de máxima de R$ 6,006, a primeira acima de R$ 6 desde abril de 2025. Focus de 23/11 projeta R$ 5,55 no fim de 2026 (de R$ 5,40).",
+      "selo": "≈−1,8% hoje",
+      "agora": "Cai cerca de 1,8%, para R$ 5,82, no fim da manhã (Forbes, TMC), com o ajuste fiscal aprovado e a notícia de uma PEC para conter despesas obrigatórias. Ontem fechou a R$ 5,926. Focus de 23/11 projeta R$ 5,55 no fim de 2026.",
       "o_que_e": "A cotação do dólar no mercado à vista.",
       "como_ler": "Dólar subindo favorece exportadoras (Suzano, Embraer, petroleiras) e pressiona a inflação e as empresas endividadas em moeda estrangeira."
     },
@@ -238,8 +238,8 @@
       "nome": "Fed Funds",
       "valor": "3,75–4,00%",
       "estado": "neg",
-      "selo": "~91% de alta em dez.",
-      "agora": "O Fed deve subir os juros em 9/12: o Polymarket dá ~91% (de 98% em 12/11) e o mercado de títulos precifica ~92% (Yahoo Finance, 23/11). Na sexta, Lisa Cook disse que esperar mais arrisca deixar o Fed atrás da curva; Waller defendeu 0,50 p.p.",
+      "selo": "~97% de alta em dez.",
+      "agora": "O Fed deve subir os juros em 0,25 p.p. em 9/12: o CME FedWatch indica ~97% de probabilidade (InfoMoney, 24/11). Lisa Cook disse que esperar mais arrisca deixar o Fed atrás da curva; Waller defendeu 0,50 p.p.",
       "o_que_e": "A taxa básica de juros dos EUA, definida pelo Fomc.",
       "como_ler": "Juros altos nos EUA atraem capital para lá e tendem a fortalecer o dólar contra moedas emergentes como o real."
     },
@@ -258,10 +258,10 @@
       "id": "treasury",
       "grupo": "EUA",
       "nome": "Treasury 10 anos",
-      "valor": "4,93%",
+      "valor": "4,90%",
       "estado": "neg",
-      "selo": "+0,02 p.p. hoje",
-      "agora": "O 10 anos fechou perto de 4,93% (de 4,91% na sexta) e o 2 anos a 4,68% (BPMoney), com a expectativa de alta do Fed em dezembro.",
+      "selo": "−0,01 p.p. hoje",
+      "agora": "O 10 anos opera perto de 4,90% (−0,01 p.p.) no fim da manhã (Yahoo Finance), depois de fechar a 4,93% ontem, com a alta do Fed em dezembro praticamente precificada.",
       "o_que_e": "O rendimento do título de 10 anos do governo americano, referência global de juros.",
       "como_ler": "Acima de 4,5% os juros pesam sobre as ações no mundo todo. Quedas costumam aliviar a bolsa brasileira e o real."
     },
@@ -269,10 +269,10 @@
       "id": "vix",
       "grupo": "Global",
       "nome": "VIX",
-      "valor": "≈27,2",
+      "valor": "≈29,2",
       "estado": "neg",
-      "selo": "−24% hoje",
-      "agora": "Recuou 24,2%, para 27,20, às 15h21 (Yahoo Finance), de 35,89 na sexta, com a recuperação das ações de IA; segue acima de 20.",
+      "selo": "≈+10% hoje",
+      "agora": "Sobe ~9,8%, para 29,23 (Yahoo Finance), com a queda das ações de IA; segue bem acima de 20.",
       "o_que_e": "O índice de volatilidade implícita do S&P 500, conhecido como o índice do medo.",
       "como_ler": "Abaixo de 15 indica calma, entre 15 e 20 é normal, e acima de 20 o mercado está estressado. Picos costumam vir com fuga de emergentes."
     },
@@ -280,10 +280,10 @@
       "id": "brent",
       "grupo": "Global",
       "nome": "Petróleo Brent",
-      "valor": "US$ 89,37",
+      "valor": "US$ 89,21",
       "estado": "neutro",
-      "selo": "−3,5% hoje",
-      "agora": "Brent jan/27 caiu 3,46%, para US$ 89,37, e o WTI 3,88%, para US$ 80,17 (BPMoney). O JPMorgan cortou a projeção de Brent para 2027.",
+      "selo": "−0,2% hoje",
+      "agora": "Brent a US$ 89,21 (−0,18%) e WTI a US$ 79,90 (−0,34%) às 8h14 (InfoMoney), com as negociações EUA–Irã no radar. O Goldman elevou a previsão do Brent para dezembro para US$ 105.",
       "o_que_e": "A referência internacional de preço do petróleo.",
       "como_ler": "Brent alto favorece PETR4, PRIO3 e BRAV3, mas pressiona a inflação e os custos de aéreas e logística."
     },
@@ -291,10 +291,10 @@
       "id": "ouro",
       "grupo": "Global",
       "nome": "Ouro",
-      "valor": "US$ 3.657",
+      "valor": "US$ 3.627",
       "estado": "neutro",
-      "selo": "≈+4,0% hoje",
-      "agora": "Ouro (futuro) sobe 4,0%, para US$ 3.656,50, às 15h21 (Yahoo Finance), recuperando-se depois da pior semana desde março e da mínima de 14 meses.",
+      "selo": "≈−0,7% hoje",
+      "agora": "Ouro (futuro) recua 0,67%, para US$ 3.627,10 (Yahoo Finance), devolvendo parte da alta de 4% de ontem.",
       "o_que_e": "O preço da onça-troy de ouro.",
       "como_ler": "Ouro subindo sinaliza busca por proteção. Quedas fortes junto com bolsas podem indicar venda forçada para cobrir perdas."
     }
@@ -303,15 +303,15 @@
     "itens": [
       {
         "nome": "BTC",
-        "valor": "US$ 61.443",
-        "var": 1.28,
-        "nota": "US$ 61.443 (+1,28%) às 15h21 de 23/11 (Yahoo Finance), depois de chegar perto de US$ 63 mil pela manhã. A Binance segue com saques em fases após o ataque de outubro e prevê reabertura total em breve."
+        "valor": "US$ 60.417",
+        "var": -3.83,
+        "nota": "US$ 60.417 (−3,83% em 24h) no fim da manhã de 24/11 (Yahoo Finance); chegou a ~US$ 59.900 (CoinDesk). Liquidações de US$ 844 mi em 24h. A Binance segue com saques em fases após o ataque de outubro e prevê reabertura total em breve."
       },
       {
         "nome": "ETH",
-        "valor": "US$ 1.796",
-        "var": 4.37,
-        "nota": "US$ 1.796 (+4,37% em 24h) às 11h42 de 23/11 (JournalArta)."
+        "valor": "US$ 1.683",
+        "var": -5.06,
+        "nota": "US$ 1.683 (−5,06% em 24h) em 24/11 (CoinDesk)."
       }
     ]
   },
@@ -367,13 +367,13 @@
     {
       "data": "2026-11-24",
       "hora": "ao longo do dia",
-      "evento": "Repercussão do Plano 2027–2031 da Petrobras (US$ 122 bi em investimentos) e do ajuste fiscal aprovado pela Câmara",
+      "evento": "Sanção do ajuste fiscal (PLP 299/2026) aprovado pela Câmara e repercussão do Plano 2027–2031 da Petrobras",
       "peso": "alto"
     },
     {
       "data": "2026-11-24",
-      "hora": "12h00",
-      "evento": "Confiança do consumidor nos EUA (Conference Board)",
+      "hora": "13h00 e 16h00",
+      "evento": "Petrobras: coletiva (13h) e webcast (16h) do plano de US$ 122 bi e dividendo extra de US$ 2,63 bi",
       "peso": "medio"
     },
     {
@@ -574,11 +574,11 @@
       ],
       "focus_fonte": "Focus de 23/11 (fim de 2026 e fim de 2027)",
       "curva": {
-        "data": "23/11 (jan/28 e jan/35 no fechamento de hoje); jan/29 e jan/31 de 19/11; jan/27 de 19/11 às 9h38; jan/33 de 16/11",
+        "data": "24/11 (jan/27, jan/29, jan/31 e jan/35 na abertura de hoje); jan/28 de 23/11; jan/33 de 16/11",
         "pontos": [
           {
             "v": "jan/27",
-            "t": 13.694
+            "t": 13.696
           },
           {
             "v": "jan/28",
@@ -586,11 +586,11 @@
           },
           {
             "v": "jan/29",
-            "t": 15.275
+            "t": 15.015
           },
           {
             "v": "jan/31",
-            "t": 15.42
+            "t": 15.21
           },
           {
             "v": "jan/33",
@@ -598,20 +598,20 @@
           },
           {
             "v": "jan/35",
-            "t": 15.335
+            "t": 15.265
           }
         ]
       },
-      "leitura": "Os DIs recuaram no fim do pregão de 23/11 com a especulação de nomes para a Fazenda: jan/28 a 14,63% e jan/35 a 15,335%. O jan/31 segue na casa de 15,4%, bem acima da Selic de 13,75%, com o dólar tocando R$ 6 e o ajuste fiscal na Câmara."
+      "leitura": "Os DIs abriram em queda nesta terça com o ajuste fiscal aprovado pela Câmara: jan/29 a 15,015%, jan/31 a 15,21% e jan/35 a 15,265%, com o dólar recuando para ~R$ 5,82. A curva segue bem acima da Selic de 13,75%."
     },
     "eua": {
       "fed": "3,75–4,00%",
       "efetiva": 3.88,
       "fedwatch": {
         "reuniao": "dez/2026",
-        "alta": 100.0,
-        "manter": 0.0,
-        "fonte": "CME FedWatch via KuCoin/Benzinga, 18/11: ~100% de chance de alta em 9/12"
+        "alta": 97.0,
+        "manter": 3.0,
+        "fonte": "CME FedWatch via InfoMoney, 24/11: ~97% de chance de alta em 9/12"
       },
       "curva": {
         "data": "28/10",
@@ -638,7 +638,7 @@
           }
         ]
       },
-      "leitura": "O 10 anos fechou perto de 4,93% em 23/11 (de 4,91%) e o 2 anos a 4,68%. O Fed deve subir os juros em 9/12: Polymarket ~91% e mercado de títulos ~92%."
+      "leitura": "O 10 anos opera perto de 4,90% nesta terça (4,93% no fechamento de ontem). O Fed deve subir os juros em 9/12: o CME FedWatch indica ~97% de chance de alta de 0,25 p.p."
     },
     "credito_eua": {
       "hy_oas": 3.14,
