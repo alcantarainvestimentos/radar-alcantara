@@ -1,6 +1,6 @@
 {
-  "atualizado_em": "2026-11-23T18:45:00-03:00",
-  "referencia": "Fechamento de segunda, 23/11/2026",
+  "atualizado_em": "2026-11-24T09:12:00-03:00",
+  "referencia": "Fechamento de segunda, 23/11/2026 · pré-abertura de terça 24/11",
   "postura": {
     "estado": "RISK-OFF",
     "positivos": 1,
@@ -173,7 +173,7 @@
     {
       "nivel": "atencao",
       "titulo": "Dólar toca R$ 6 pela primeira vez desde abril de 2025; Ibovespa fecha em queda de 0,95%",
-      "texto": "O dólar bateu máxima de R$ 6,006 e fechou a R$ 5,926 (−0,14%), interrompendo seis altas. O Ibovespa caiu 0,95%, a 164.796 pts, com a Câmara convocada para votar hoje o ajuste fiscal de ~R$ 50 bi aprovado pelo Senado (resultado ainda não confirmado). O Focus subiu IPCA 2027 para 5,12%, Selic 2027 para 13% e dólar de 2026 para R$ 5,55. Fontes: BPMoney, InfoMoney, CNN Brasil. Sem histeria: é prevenção, não decisão no impulso."
+      "texto": "O dólar bateu máxima de R$ 6,006 e fechou a R$ 5,926 (−0,14%), interrompendo seis altas. O Ibovespa caiu 0,95%, a 164.796 pts, com a Câmara aprovando o ajuste fiscal (economia estimada de R$ 50 bi em 2027) sem alterações; o texto vai à sanção. O Focus subiu IPCA 2027 para 5,12%, Selic 2027 para 13% e dólar de 2026 para R$ 5,55. Fontes: BPMoney, InfoMoney, CNN Brasil. Sem histeria: é prevenção, não decisão no impulso."
     }
   ],
   "indicadores": [
@@ -365,15 +365,15 @@
   },
   "agenda": [
     {
-      "data": "2026-11-23",
-      "hora": "—",
-      "evento": "Câmara tenta votar o ajuste fiscal aprovado pelo Senado (~R$ 50 bi)",
+      "data": "2026-11-24",
+      "hora": "ao longo do dia",
+      "evento": "Repercussão do Plano 2027–2031 da Petrobras (US$ 122 bi em investimentos) e do ajuste fiscal aprovado pela Câmara",
       "peso": "alto"
     },
     {
-      "data": "2026-11-23",
-      "hora": "após o fechamento",
-      "evento": "Petrobras divulga o Plano Estratégico 2027-2031 (US$ 115–120 bi esperados)",
+      "data": "2026-11-24",
+      "hora": "12h00",
+      "evento": "Confiança do consumidor nos EUA (Conference Board)",
       "peso": "medio"
     },
     {
