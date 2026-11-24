@@ -162,6 +162,11 @@
   "alertas": [
     {
       "nivel": "atencao",
+      "titulo": "Mercado vira: Nasdaq +6,5% e S&P 500 +4,7% em Nova York; Taiwan sobe 9% e Kospi 6,5% na Ásia com a volta de Huang à Nvidia",
+      "texto": "Depois da pior semana desde 2020 para a Nasdaq, Wall Street disparou ontem com Jensen Huang de volta ao comando da Nvidia (ação perto de +30%). Na madrugada, a Ásia seguiu: Taiwan +9% e Kospi +6,5%, segundo a AP."
+    },
+    {
+      "nivel": "atencao",
       "titulo": "Nvidia investiga suposto ataque de ransomware: grupo The Gentlemen dá 10 dias para divulgar dados",
       "texto": "O grupo The Gentlemen listou a Nvidia em seu site de vazamentos com uma contagem regressiva de cerca de 10 dias. A empresa diz que apura um possível incidente ligado a terceiros. Não há confirmação de invasão nem prova publicada dos dados. Fontes: BleepingComputer, SecurityWeek, Olhar Digital, Times Brasil. Sem histeria: é prevenção, não decisão no impulso."
     },
@@ -169,11 +174,6 @@
       "nivel": "atencao",
       "titulo": "Dólar toca R$ 6 pela primeira vez desde abril de 2025; Ibovespa fecha em queda de 0,95%",
       "texto": "O dólar bateu máxima de R$ 6,006 e fechou a R$ 5,926 (−0,14%), interrompendo seis altas. O Ibovespa caiu 0,95%, a 164.796 pts, com a Câmara convocada para votar hoje o ajuste fiscal de ~R$ 50 bi aprovado pelo Senado (resultado ainda não confirmado). O Focus subiu IPCA 2027 para 5,12%, Selic 2027 para 13% e dólar de 2026 para R$ 5,55. Fontes: BPMoney, InfoMoney, CNN Brasil. Sem histeria: é prevenção, não decisão no impulso."
-    },
-    {
-      "nivel": "atencao",
-      "titulo": "Ciberataque nos EUA: FBI investiga possível invasão ao banco de dados criminal e USDA teria sistema de pagamentos violado",
-      "texto": "A CNN e a NBC informam que o FBI apura uma possível brecha no NCIC, seu banco de dados criminal — a segunda do órgão desde setembro. Relatos apontam que o sistema de pagamentos a fazendeiros do Departamento de Agricultura (USDA) também foi invadido, após uma semana de panes de tecnologia nos EUA. Autoria e alcance ainda não confirmados; não há efeito de mercado direto apurado. Sem histeria: é prevenção, não decisão no impulso."
     }
   ],
   "indicadores": [
@@ -949,6 +949,18 @@
     }
   ],
   "incidentes": [
+    {
+      "id": "virada-nasdaq-asia-2026-11-24",
+      "tipo": "virada",
+      "plataforma": "Nasdaq, Nvidia, Taiwan, Kospi",
+      "titulo": "Mercado vira: Nasdaq +6,5% e S&P 500 +4,7% em Nova York; Taiwan sobe 9% e Kospi 6,5% na Ásia com a volta de Huang à Nvidia",
+      "status": "aberto",
+      "t_detectado": "2026-11-24T08:45:00-03:00",
+      "t_atualizado": "2026-11-24T08:45:00-03:00",
+      "fontes": [
+        "https://www.ksat.com/business/2026/11/24/asian-stocks-rally-after-wall-street-rebound-as-jensen-huang-returns-as-nvidias-ceo/"
+      ]
+    },
     {
       "id": "nvidia-gentlemen-ransomware-2026-11-23",
       "tipo": "anomalia",
