@@ -785,11 +785,28 @@
     },
     {
       "cat": "cripto",
+      "title": "Bitcoin perde US$ 60 mil e acumula queda de 25% no mês; Strategy despenca 7% e XRP e SOL afundam 10%",
+      "link": "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
+      "src": "CoinDesk",
+      "t": "2026-11-24T12:47:40+00:00",
+      "score": 4
+    },
+    {
+      "cat": "cripto",
       "title": "Ameaça de tarifas derruba bitcoin de volta para US$ 60 mil; moeda segue 15% abaixo da média de 200 dias",
       "link": "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto#btc",
       "src": "CoinDesk",
       "t": "2026-11-24T07:47:00-05:00",
       "score": 3
+    },
+    {
+      "cat": "cripto",
+      "title": "Fuga recorde: ETFs de bitcoin já perdem US$ 4,71 bi em novembro, pior mês da história; BTC escorrega a US$ 60 mil",
+      "link": "https://cointelegraph.com/markets/bitcoin-etfs-bleed-ibit-shares-gain",
+      "src": "Cointelegraph",
+      "t": "2026-11-24T07:41:50+00:00",
+      "score": 4,
+      "viral": true
     },
     {
       "cat": "acoes",
@@ -938,30 +955,6 @@
       "src": "O Antagonista",
       "t": "2026-11-21T21:13:00-03:00",
       "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Lula ataca a Faria Lima: 'Não é o sistema financeiro que vai me ensinar a dirigir esse país'",
-      "link": "https://www.metropoles.com/brasil/lula-defende-ajuste-fiscal-e-diz-que-mercado-nao-o-ensinara-a-governar",
-      "src": "Metrópoles",
-      "t": "2026-11-21T12:43:00-03:00",
-      "score": 4
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin volta a US$ 60 mil após tombar perto de US$ 55 mil de madrugada; US$ 2,67 bi liquidados em 24 h",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-rebounds-60k-crash-near-55k-billions-liquidations/",
-      "src": "Bitcoin.com",
-      "t": "2026-11-21T10:18:47-05:00",
-      "score": 3
-    },
-    {
-      "cat": "acoes",
-      "title": "Semana de terror na B3: Natura derrete 12,7%, Tenda e Brava caem 11% e dólar sobe quase 5%",
-      "link": "https://www.seudinheiro.com/2026/bolsa-dolar/em-semana-turbulenta-minerva-beef3-lidera-altas-e-natura-natu3-perde-mais-de-12-quais-acoes-do-ibovespa-se-destacaram-giov/",
-      "src": "Seu Dinheiro",
-      "t": "2026-11-21T12:18:45-03:00",
-      "score": 3
     }
   ],
   "incidentes": [
