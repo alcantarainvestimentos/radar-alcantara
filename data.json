@@ -162,6 +162,11 @@
   "alertas": [
     {
       "nivel": "atencao",
+      "titulo": "EUA preparam nova onda de tarifas contra China, Japão, Coreia e mais de 10 países; Nasdaq futuro cai 2,4%",
+      "texto": "Segundo o WSJ, a Casa Branca estuda anunciar as medidas já nesta semana; não é decisão oficial. Bitcoin volta a US$ 60 mil (CoinDesk). Sem histeria: é risco de volatilidade, não decisão no impulso."
+    },
+    {
+      "nivel": "atencao",
       "titulo": "Bitcoin perde US$ 60 mil e devolve a alta de segunda; liquidações triplicam",
       "texto": "BTC cai ~4% em 24h e ETH ~5%. As liquidações somaram US$ 844 milhões em 24h (+217%) e os ETFs à vista de bitcoin tiveram o 5º dia seguido de saídas (US$ 570 mi na segunda), segundo a CoinDesk. A Binance segue com saques em fases após o ataque de outubro. Sem histeria: alavancagem baixa e stop definido."
     },
@@ -169,11 +174,6 @@
       "nivel": "atencao",
       "titulo": "Rali da Nvidia esfria: ação cai mais de 5% e Nasdaq abre em −1,4%",
       "texto": "Depois de subir ~31% na segunda com a volta de Jensen Huang, a Nvidia recua mais de 5% e puxa as ações de IA; S&P 500 abriu em −0,9% e o VIX voltou para perto de 29 (Reuters, AP). A Anthropic chegou a operar abaixo do preço de IPO no pré-mercado."
-    },
-    {
-      "nivel": "atencao",
-      "titulo": "Nvidia investiga suposto ataque de ransomware: grupo The Gentlemen dá 10 dias para divulgar dados",
-      "texto": "O grupo The Gentlemen listou a Nvidia em seu site de vazamentos com uma contagem regressiva de cerca de 10 dias. A empresa diz que apura um possível incidente ligado a terceiros. Não há confirmação de invasão nem prova publicada dos dados. Fontes: BleepingComputer, SecurityWeek, Olhar Digital, Times Brasil. Sem histeria: é prevenção, não decisão no impulso."
     }
   ],
   "indicadores": [
