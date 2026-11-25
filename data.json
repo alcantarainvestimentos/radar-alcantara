@@ -768,6 +768,14 @@
   "noticias_radar": [
     {
       "cat": "acoes",
+      "title": "Petrobras não garante dividendo extra, ação cai 1,8% e Ibovespa fecha em queda; Nasdaq tomba 1,5%",
+      "link": "https://www.moneytimes.com.br/tempo-real-24-11-2026-davs/",
+      "src": "Money Times",
+      "t": "2026-11-24T18:30:00-03:00",
+      "score": 4
+    },
+    {
+      "cat": "acoes",
       "title": "Ajuste fiscal aprovado na Câmara: dólar cai quase 2% e Ibovespa sobe cerca de 1%",
       "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-24112026/",
       "src": "InfoMoney",
@@ -806,6 +814,15 @@
       "src": "Cointelegraph",
       "t": "2026-11-24T07:41:50+00:00",
       "score": 4,
+      "viral": true
+    },
+    {
+      "cat": "cripto",
+      "title": "Saques travados: pool de US$ 159 mi da Sky fica 99,99% usado e corretoras coreanas suspendem depósitos de SKY e USDS",
+      "link": "https://www.theblock.co/newsletters/the-daily/2026-11-24-doj-binance-hack-strategy-bitcoin-more-crypto-news-445430",
+      "src": "The Block",
+      "t": "2026-11-24T00:40:00-05:00",
+      "score": 5,
       "viral": true
     },
     {
@@ -855,8 +872,7 @@
       "link": "https://www.theblock.co/news/markets/2026-11-23-bitcoin-crypto-tech-stocks-rally-nvidia-reinstates-jensen-huang-ceo-nvda-jumps-444952",
       "src": "The Block",
       "t": "2026-11-23T15:01:19+00:00",
-      "score": 5,
-      "viral": true
+      "score": 5
     },
     {
       "cat": "cripto",
@@ -946,14 +962,6 @@
       "src": "crypto.news",
       "t": "2026-11-22T08:39:51+00:00",
       "score": 3
-    },
-    {
-      "cat": "cripto",
-      "title": "PF participa de operação em 14 países contra golpes digitais: 266 presos e 576 carteiras cripto rastreadas",
-      "link": "https://oantagonista.com.br/ladooa/entretenimento/operacao-internacional-com-participacao-da-pf-termina-com-266-prisoes-e-rastreamento-de-576-carteiras-de-criptomoedas",
-      "src": "O Antagonista",
-      "t": "2026-11-21T21:13:00-03:00",
-      "score": 4
     }
   ],
   "incidentes": [
