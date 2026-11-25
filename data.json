@@ -161,6 +161,11 @@
   ],
   "alertas": [
     {
+      "nivel": "atencao",
+      "titulo": "Inflação PCE dos EUA acelera a 3,8% em outubro e futuro do Nasdaq cai mais de 2% com temor de novas tarifas",
+      "texto": "Segundo a CNBC, o PCE, medida preferida do Fed, subiu a 3,8%; a Reuters aponta futuros do Nasdaq em queda de mais de 2%. Nova York fecha na quinta (Ação de Graças). Sem histeria: é risco de volatilidade, não decisão no impulso."
+    },
+    {
       "nivel": "critico",
       "titulo": "Nova York desaba: Nasdaq −4,4%, S&P 500 −3,1% e Dow −1.039 pts com PCE alto e tarifas novas",
       "texto": "Às 12h05 de Brasília, a venda de IA e chips (Nvidia, Anthropic, Micron, Arm, AMD) se aprofundou. O PCE de outubro subiu para 3,8% ao ano (núcleo 3,3%, acima dos 3,2% esperados), reforçando a alta do Fed em dezembro, e o governo Trump propôs tarifas sob a Seção 301 a 14 parceiros, com 20% extras sobre produtos chineses (Stocktwits, Exame). A Nvidia segue investigando a ameaça do grupo de ransomware The Gentlemen. Sem histeria: reduza a mão e respeite o stop."
@@ -169,11 +174,6 @@
       "nivel": "atencao",
       "titulo": "Bitcoin cai a ~US$ 58 mil, perto da mínima de junho; medo extremo em 8",
       "texto": "BTC ≈US$ 58.078 (−3,2% em 24h) às 10h56 (Exame). ETFs à vista de BTC com a 6ª saída seguida (−US$ 231 mi) e de ETH com a 7ª; US$ 6,6 bi em opções de BTC vencem na sexta (27/11), com proteção perto de US$ 57 mil. A Binance segue com saques em fases após o ataque de outubro. Alavancagem baixa e stop definido."
-    },
-    {
-      "nivel": "atencao",
-      "titulo": "EUA propõem tarifas sobre aviões brasileiros; governo eleva projeção de déficit de 2026",
-      "texto": "O USTR propôs alíquota de 10% sobre aeronaves prontas do Brasil e mudança na Seção 301 sobre as tarifas de julho (Folha CG), o que pesa sobre a Embraer. No relatório bimestral, a projeção de déficit primário de 2026 subiu para R$ 89,3 bi, de R$ 80,9 bi. O BC faz leilões de linha de até US$ 2 bi hoje."
     }
   ],
   "indicadores": [
