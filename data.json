@@ -1,48 +1,48 @@
 {
-  "atualizado_em": "2026-11-25T09:07:00-03:00",
-  "referencia": "Fechamento de terça, 24/11/2026 · pré-abertura de quarta, 25/11",
+  "atualizado_em": "2026-11-25T12:45:00-03:00",
+  "referencia": "Pregão de quarta, 25/11/2026 (parcial às 12h45)",
   "postura": {
     "estado": "RISK-OFF",
-    "positivos": 0,
+    "positivos": 1,
     "total": 6,
     "desde": "2026-11-13",
     "conviccao": "ALTA",
-    "resumo": "Postura RISK-OFF, com 0 de 6 sinais positivos e convicção ALTA. O Ibovespa devolveu a alta da manhã e fechou em −0,43%, a 164.090 pts, pressionado por Vale (quase −5%) e Petrobras; o dólar cedeu 0,27%, a R$ 5,91, com a sanção do ajuste fiscal e a notícia de uma PEC para limitar gastos, e os DIs caíram. Em NY, a tecnologia pesou: Nasdaq −1,48% e S&P 500 −0,49%, enquanto o Dow subiu 0,86%. O bitcoin perdeu US$ 60 mil e o ether caiu ~7%. As tendências de semana e mês seguem negativas."
+    "resumo": "Postura RISK-OFF, com 1 de 6 sinais positivos e convicção ALTA. Nova York desaba no meio do dia: Nasdaq −4,4%, S&P 500 −3,1% e Dow −2,1% (−1.039 pts) às 12h05, com a venda de IA e chips, o PCE de outubro em 3,8% ao ano (núcleo 3,3%) e novas tarifas dos EUA sobre 14 parceiros. O Ibovespa resistia em leve alta (+0,29%, 164.561 pts às 11h30) e o dólar estava estável em R$ 5,90; o DI longo caiu e virou o único sinal positivo. O bitcoin recuou para ~US$ 58 mil."
   },
   "sinais": [
     {
       "nome": "Ibovespa 5 pregões",
-      "valor": "−4,74%",
+      "valor": "−4,47%",
       "estado": "neg",
       "regra": "Positivo se o índice subiu nos últimos 5 pregões"
     },
     {
       "nome": "Ibovespa 1 mês",
-      "valor": "≈ −19,99%",
+      "valor": "≈ −19,76%",
       "estado": "neg",
       "regra": "Positivo se o índice está acima de 1 mês atrás"
     },
     {
       "nome": "Dólar 5 pregões",
-      "valor": "+4,52%",
+      "valor": "+4,33%",
       "estado": "neg",
       "regra": "Positivo se o dólar caiu na semana (real mais forte)"
     },
     {
       "nome": "DI longo na semana",
-      "valor": "+0,11 p.p.",
-      "estado": "neg",
+      "valor": "−0,03 p.p.",
+      "estado": "pos",
       "regra": "Positivo se a taxa do DI longo caiu na semana"
     },
     {
       "nome": "VIX",
-      "valor": "≈29,2",
+      "valor": "≈29,2 (sem dado de hoje)",
       "estado": "neg",
       "regra": "Positivo se o VIX está abaixo de 20"
     },
     {
       "nome": "S&P 500 no dia",
-      "valor": "−0,49%",
+      "valor": "−3,1% (parcial)",
       "estado": "neg",
       "regra": "Positivo se o S&P 500 subiu no último pregão"
     }
@@ -52,68 +52,68 @@
       "codigo": "WIN",
       "nome": "Ibovespa",
       "vies": "baixa",
-      "nivel": "164.090 pts",
-      "dia": -0.43,
-      "semana": -4.74,
-      "mes": -19.99,
-      "nota": "Fechou a 164.089,81 pts (−0,43%), com máxima de 167.579,78 e mínima de 164.023,39 (BPMoney). Devolveu a alta da manhã, que veio com o ajuste fiscal e o recuo do dólar e dos juros; Vale (quase −5%) e Petrobras (PN −1,72%, após o plano de US$ 122 bi) pesaram. Semana = vs 13/11; mês = vs 23/10."
+      "nivel": "164.561 pts",
+      "dia": 0.29,
+      "semana": -4.47,
+      "mes": -19.76,
+      "nota": "Às 11h30, +0,29%, a 164.561 pts, com máxima de 165.103 (Claudio Dantas); às 11h chegou a +0,55%, perto de 165 mil (Folha CG). Pesam a nova projeção de déficit de 2026, a proposta dos EUA de tarifas sobre aviões brasileiros e o tombo de Nova York. Ontem fechou a 164.089,81 (−0,43%). Semana = vs 13/11; mês = vs 23/10."
     },
     {
       "codigo": "WDO",
       "nome": "Dólar comercial",
       "vies": "alta",
-      "nivel": "R$ 5,91",
-      "dia": -0.27,
-      "semana": 4.52,
-      "mes": 18.38,
-      "nota": "Fechou a R$ 5,9107 (−0,26/−0,27%), depois de chegar perto de R$ 5,82 de manhã (Misto Brasil, BPMoney). Ajudaram a sanção do ajuste fiscal, a notícia da PEC para conter despesas obrigatórias e o DXY mais fraco. Ptax de venda: R$ 5,8573. Semana = vs 13/11; mês = vs 23/10."
+      "nivel": "R$ 5,90",
+      "dia": -0.09,
+      "semana": 4.33,
+      "mes": 18.17,
+      "nota": "R$ 5,900 (−0,09%) por volta das 11h30 (Claudio Dantas), depois de abrir em alta a R$ 5,955. No radar: projeção de déficit primário de 2026 elevada para R$ 89,3 bi, leilões de linha de até US$ 2 bi do BC e tarifas propostas pelos EUA. Semana = vs 13/11; mês = vs 23/10."
     },
     {
       "codigo": "DI F31",
       "nome": "Juros longos",
       "vies": "alta",
-      "nivel": "15,21%",
-      "dia": -0.055,
-      "semana": 0.11,
+      "nivel": "15,075%",
+      "dia": -0.08,
+      "semana": -0.025,
       "mes": null,
-      "nota": "Sem fechamento confiável do jan/31 hoje: mantido 15,21% da abertura (InfoMoney). No fechamento, jan/28 caiu para 14,45% (−19 pb) e jan/35 para 15,245% (−10 pb), com a PEC de gastos e a sanção do pacote fiscal (InfoMoney, CNN Brasil). Semana = vs 15,10% de 12/11."
+      "nota": "Jan/31 a 15,075% (−8 pb) às 9h18; jan/28 a 14,43% (−2,5 pb) e jan/35 a 15,185% (−10 pb) (InfoMoney). Sem dado posterior confiável. Semana = vs 15,10% de 12/11."
     },
     {
       "codigo": "BTC",
       "nome": "Bitcoin",
       "vies": "baixa",
-      "nivel": "US$ 60.195",
-      "dia": -5.3,
-      "semana": -7.35,
+      "nivel": "US$ 58.078",
+      "dia": -3.2,
+      "semana": -10.6,
       "mes": null,
-      "nota": "US$ 60.195 (−5,3% em 24h) às 14h33 UTC (CoinGecko via CryptoTicker); mínima do dia ~US$ 59.314 (Kraken). Liquidações de ~US$ 830–850 mi em 24h e saídas seguidas dos ETFs à vista. Semana = vs 16/11."
+      "nota": "≈US$ 58.078 (−3,2% em 24h) às 10h56 de Brasília (Exame), perto da mínima de junho (US$ 57,8 mil). Medo e ganância em 8; ETFs à vista com 6ª saída seguida (−US$ 231 mi em 24/11). Semana = vs 16/11."
     }
   ],
   "fita": [
     {
       "nome": "IBOV",
-      "valor": "164.090",
-      "var": -0.43
+      "valor": "164.561",
+      "var": 0.29
     },
     {
       "nome": "USD/BRL",
-      "valor": "5,91",
-      "var": -0.27
+      "valor": "5,90",
+      "var": -0.09
     },
     {
       "nome": "S&P 500",
-      "valor": "7.201",
-      "var": -0.49
+      "valor": "≈6.978",
+      "var": -3.1
     },
     {
       "nome": "NASDAQ",
-      "valor": "23.733",
-      "var": -1.48
+      "valor": "≈22.689",
+      "var": -4.4
     },
     {
       "nome": "DOW",
-      "valor": "50.021",
-      "var": 0.86
+      "valor": "≈48.982",
+      "var": -2.1
     },
     {
       "nome": "VIX",
@@ -132,8 +132,8 @@
     },
     {
       "nome": "BTC",
-      "valor": "60.195",
-      "var": -5.3
+      "valor": "58.078",
+      "var": -3.2
     },
     {
       "nome": "ETH",
@@ -161,19 +161,19 @@
   ],
   "alertas": [
     {
-      "nivel": "atencao",
-      "titulo": "Bitcoin fecha o dia abaixo de US$ 60 mil por momentos; ether cai ~7%",
-      "texto": "BTC recua ~5% em 24h (mínima perto de US$ 59.300) e ETH ~7%, para ~US$ 1.690. Liquidações de US$ 827–850 milhões em 24h e saídas seguidas dos ETFs à vista; índice de medo e ganância em 11 (CryptoTicker, KuCoin). A Binance segue com saques em fases após o ataque de outubro. Sem histeria: alavancagem baixa e stop definido."
+      "nivel": "critico",
+      "titulo": "Nova York desaba: Nasdaq −4,4%, S&P 500 −3,1% e Dow −1.039 pts com PCE alto e tarifas novas",
+      "texto": "Às 12h05 de Brasília, a venda de IA e chips (Nvidia, Anthropic, Micron, Arm, AMD) se aprofundou. O PCE de outubro subiu para 3,8% ao ano (núcleo 3,3%, acima dos 3,2% esperados), reforçando a alta do Fed em dezembro, e o governo Trump propôs tarifas sob a Seção 301 a 14 parceiros, com 20% extras sobre produtos chineses (Stocktwits, Exame). A Nvidia segue investigando a ameaça do grupo de ransomware The Gentlemen. Sem histeria: reduza a mão e respeite o stop."
     },
     {
       "nivel": "atencao",
-      "titulo": "Tecnologia pesa em NY: Nasdaq fecha em −1,48% com Nvidia devolvendo o rali",
-      "texto": "O setor de tecnologia caiu ~3,7% e a Nasdaq fechou em −1,48% (23.733); o S&P 500 cedeu 0,49%, mas o Dow subiu 0,86%, a 50.021, com saúde e consumo básico. Pesaram a Nvidia, relatos de novas tarifas sobre a China e a ação da Anthropic abaixo do preço de IPO (Investrade, BPMoney)."
+      "titulo": "Bitcoin cai a ~US$ 58 mil, perto da mínima de junho; medo extremo em 8",
+      "texto": "BTC ≈US$ 58.078 (−3,2% em 24h) às 10h56 (Exame). ETFs à vista de BTC com a 6ª saída seguida (−US$ 231 mi) e de ETH com a 7ª; US$ 6,6 bi em opções de BTC vencem na sexta (27/11), com proteção perto de US$ 57 mil. A Binance segue com saques em fases após o ataque de outubro. Alavancagem baixa e stop definido."
     },
     {
       "nivel": "atencao",
-      "titulo": "Nvidia investiga suposto ataque de ransomware: grupo The Gentlemen dá 10 dias para divulgar dados",
-      "texto": "O grupo The Gentlemen listou a Nvidia em seu site de vazamentos com uma contagem regressiva de cerca de 10 dias. A empresa diz que apura um possível incidente ligado a terceiros. Não há confirmação de invasão nem prova publicada dos dados. Fontes: BleepingComputer, SecurityWeek, Olhar Digital, Times Brasil. Sem histeria: é prevenção, não decisão no impulso."
+      "titulo": "EUA propõem tarifas sobre aviões brasileiros; governo eleva projeção de déficit de 2026",
+      "texto": "O USTR propôs alíquota de 10% sobre aeronaves prontas do Brasil e mudança na Seção 301 sobre as tarifas de julho (Folha CG), o que pesa sobre a Embraer. No relatório bimestral, a projeção de déficit primário de 2026 subiu para R$ 89,3 bi, de R$ 80,9 bi. O BC faz leilões de linha de até US$ 2 bi hoje."
     }
   ],
   "indicadores": [
@@ -203,10 +203,10 @@
       "id": "curva",
       "grupo": "Brasil",
       "nome": "DI janeiro/2031",
-      "valor": "15,21%",
+      "valor": "15,075%",
       "estado": "neg",
-      "selo": "sem fechamento hoje",
-      "agora": "Jan/31 abriu a 15,21% (−5,5 pb) e não teve fechamento confiável publicado. No fim da tarde, jan/28 caiu para 14,45% (−19 pb) e jan/35 para 15,245% (−10 pb), com a PEC de gastos e a sanção do pacote fiscal (InfoMoney, CNN Brasil).",
+      "selo": "−8 pb às 9h18",
+      "agora": "Jan/31 a 15,075% (−8 pb) às 9h18; jan/28 a 14,43% e jan/35 a 15,185% (InfoMoney), após a queda de ontem com a sanção do ajuste fiscal. Hoje sai o relatório bimestral, com déficit de 2026 projetado em R$ 89,3 bi.",
       "o_que_e": "A taxa de juros que o mercado cobra para emprestar ao governo até 2031. Mede o prêmio de risco de longo prazo.",
       "como_ler": "DI longo subindo encarece o valuation das ações, principalmente de empresas de crescimento e ligadas ao consumo. Queda costuma anteceder alta da bolsa."
     },
@@ -214,10 +214,10 @@
       "id": "cambio",
       "grupo": "Brasil",
       "nome": "Dólar comercial",
-      "valor": "R$ 5,91",
+      "valor": "R$ 5,90",
       "estado": "neg",
-      "selo": "−0,27% hoje",
-      "agora": "Fechou a R$ 5,9107 (−0,27%), depois de chegar perto de R$ 5,82 de manhã (Misto Brasil, BPMoney); Ptax de venda a R$ 5,8573. Focus de 23/11 projeta R$ 5,55 no fim de 2026.",
+      "selo": "−0,09% às 11h30",
+      "agora": "R$ 5,900 (−0,09%) por volta das 11h30 (Claudio Dantas), depois de abrir em alta a R$ 5,955. BC faz leilões de linha de até US$ 2 bi. Ontem fechou a R$ 5,9107. Focus de 23/11 projeta R$ 5,55 no fim de 2026.",
       "o_que_e": "A cotação do dólar no mercado à vista.",
       "como_ler": "Dólar subindo favorece exportadoras (Suzano, Embraer, petroleiras) e pressiona a inflação e as empresas endividadas em moeda estrangeira."
     },
@@ -239,7 +239,7 @@
       "valor": "3,75–4,00%",
       "estado": "neg",
       "selo": "~97% de alta em dez.",
-      "agora": "O Fed deve subir os juros em 0,25 p.p. em 9/12: o CME FedWatch indica ~97% de probabilidade (InfoMoney, 24/11). Lisa Cook disse que esperar mais arrisca deixar o Fed atrás da curva; Waller defendeu 0,50 p.p.",
+      "agora": "O Fed deve subir os juros em 0,25 p.p. em 9/12: o CME FedWatch indicava ~97% de probabilidade em 24/11 (InfoMoney). O PCE de outubro (3,8%, núcleo 3,3%) aumentou as apostas em mais altas; o mercado já precifica até três. Waller defendeu 0,50 p.p.",
       "o_que_e": "A taxa básica de juros dos EUA, definida pelo Fomc.",
       "como_ler": "Juros altos nos EUA atraem capital para lá e tendem a fortalecer o dólar contra moedas emergentes como o real."
     },
@@ -247,10 +247,10 @@
       "id": "pce",
       "grupo": "EUA",
       "nome": "PCE (set.)",
-      "valor": "3,6% a/a",
+      "valor": "3,8% a/a",
       "estado": "neg",
-      "selo": "núcleo 3,1%",
-      "agora": "Subiu de 3,4% em agosto para 3,6% em setembro, alta de 0,5% no mês, em linha com o esperado.",
+      "selo": "núcleo 3,3%",
+      "agora": "PCE de outubro: +0,3% no mês e 3,8% em 12 meses (de 3,6%), em linha; o núcleo subiu 0,3% e foi a 3,3% (esperado 3,2%; setembro 3,1%). O PIB do 3º tri foi revisado para +4,3% anualizado (Stocktwits, Exame).",
       "o_que_e": "A medida de inflação preferida do Fed, baseada nos gastos de consumo.",
       "como_ler": "PCE subindo aumenta a chance de alta de juros nos EUA. Dados abaixo do esperado aliviam os mercados emergentes."
     },
@@ -303,15 +303,15 @@
     "itens": [
       {
         "nome": "BTC",
-        "valor": "US$ 60.195",
-        "var": -5.3,
-        "nota": "US$ 60.195 (−5,3% em 24h) às 14h33 UTC de 24/11 (CoinGecko via CryptoTicker); mínima ~US$ 59.314 (Kraken). Liquidações de ~US$ 830–850 mi em 24h. A Binance segue com saques em fases após o ataque de outubro."
+        "valor": "US$ 58.078",
+        "var": -3.2,
+        "nota": "≈US$ 58.078 (−3,2% em 24h) às 10h56 de Brasília de 25/11 (Exame). Medo e ganância em 8; ETFs à vista com 6ª saída seguida. A Binance segue com saques em fases após o ataque de outubro."
       },
       {
         "nome": "ETH",
         "valor": "US$ 1.690",
         "var": -7.1,
-        "nota": "US$ 1.689,66 (−7,1% em 24h) às 14h33 UTC de 24/11 (CoinGecko via CryptoTicker)."
+        "nota": "US$ 1.689,66 (−7,1% em 24h) às 14h33 UTC de 24/11 (CoinGecko via CryptoTicker). Sem cotação confiável de 25/11; ETFs de ETH com a 7ª saída seguida (−US$ 64 mi em 24/11)."
       }
     ]
   },
@@ -365,15 +365,15 @@
   },
   "agenda": [
     {
-      "data": "2026-11-25",
-      "hora": "—",
-      "evento": "EUA: PCE de outubro, a inflação preferida do Fed",
-      "peso": "alto"
-    },
-    {
       "data": "2026-11-26",
       "hora": "—",
       "evento": "Ação de Graças: bolsas de NY fechadas",
+      "peso": "medio"
+    },
+    {
+      "data": "2026-11-27",
+      "hora": "—",
+      "evento": "NY em sessão curta; vencimento de ~US$ 6,6 bi em opções de bitcoin",
       "peso": "medio"
     },
     {
@@ -543,7 +543,7 @@
       "url": "https://www.piranot.com.br/2026/11/24/noticias/economia/dolar-ptax-fecha-em-r-58573-nesta-terca-feira-24-11-2026-veja-a/"
     }
   ],
-  "notas": "Fechamento de 24/11: Ibovespa (BPMoney), dólar (Misto Brasil/BPMoney), NY, Brent, ouro e Treasury (Investrade); BTC e ETH das 14h33 UTC (CoinGecko). VIX sem fechamento confiável (mantido o dado da manhã). DI jan/31 mantido da abertura; jan/28 e jan/35 pelo fechamento. Setores mantidos do fechamento de 18/11. Informação para estudo, não recomendação de investimento.",
+  "notas": "Parcial de 25/11: Ibovespa e dólar das 11h30 (Claudio Dantas), DI das 9h18 (InfoMoney), NY das 12h05 de Brasília (Stocktwits; níveis calculados pela variação sobre o fechamento de 24/11), BTC das 10h56 (Exame). VIX, Brent, ouro, ETH e Treasury sem dado confiável de hoje: mantidos do fechamento de 24/11. Setores mantidos do fechamento de 18/11. Informação para estudo, não recomendação de investimento.",
   "config": {
     "brapi_token": "",
     "whatsapp": "",
@@ -574,15 +574,15 @@
       ],
       "focus_fonte": "Focus de 23/11 (fim de 2026 e fim de 2027)",
       "curva": {
-        "data": "24/11 (jan/28 e jan/35 no fechamento; jan/27, jan/29 e jan/31 na abertura); jan/33 de 16/11",
+        "data": "25/11 às 9h18 (jan/27, jan/28, jan/31 e jan/35); jan/29 de 24/11; jan/33 de 16/11",
         "pontos": [
           {
             "v": "jan/27",
-            "t": 13.696
+            "t": 13.684
           },
           {
             "v": "jan/28",
-            "t": 14.45
+            "t": 14.43
           },
           {
             "v": "jan/29",
@@ -590,7 +590,7 @@
           },
           {
             "v": "jan/31",
-            "t": 15.21
+            "t": 15.075
           },
           {
             "v": "jan/33",
@@ -598,11 +598,11 @@
           },
           {
             "v": "jan/35",
-            "t": 15.245
+            "t": 15.185
           }
         ]
       },
-      "leitura": "Os DIs caíram nesta terça com a sanção do ajuste fiscal e a notícia de uma PEC para conter despesas obrigatórias: jan/28 fechou a 14,45% (−19 pb) e jan/35 a 15,245% (−10 pb), com o dólar a R$ 5,91. A curva segue bem acima da Selic de 13,75%."
+      "leitura": "Os DIs seguiam em queda na manhã desta quarta: jan/31 a 15,075% e jan/35 a 15,185% às 9h18, ainda com o efeito do ajuste fiscal sancionado; à tarde, pesam o déficit maior no bimestral e o tombo de NY. A curva segue bem acima da Selic de 13,75%."
     },
     "eua": {
       "fed": "3,75–4,00%",
@@ -638,7 +638,7 @@
           }
         ]
       },
-      "leitura": "O 10 anos fechou perto de 4,90% nesta terça (−0,01 p.p.). O Fed deve subir os juros em 9/12: o CME FedWatch indica ~97% de chance de alta de 0,25 p.p."
+      "leitura": "O PCE de outubro subiu para 3,8% ao ano (núcleo 3,3%), acima do esperado no núcleo, e reforçou a alta do Fed em 9/12 (~97% no CME FedWatch em 24/11), com apostas em mais altas depois."
     },
     "credito_eua": {
       "hy_oas": 3.14,
