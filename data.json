@@ -768,6 +768,31 @@
   "noticias_radar": [
     {
       "cat": "acoes",
+      "title": "Nasdaq futuro desaba 3% com ameaça de novas tarifas de Trump; inflação PCE dos EUA sobe a 3,8%",
+      "link": "https://www.aol.com/articles/nasdaq-futures-slide-over-2-100822000.html",
+      "src": "Reuters",
+      "t": "2026-11-25T13:43:00+00:00",
+      "score": 5,
+      "viral": true
+    },
+    {
+      "cat": "cripto",
+      "title": "Bithumb admite vazamento maior: documentos, contas bancárias e carteiras cripto de clientes foram expostos",
+      "link": "https://crypto.news/bithumb-confirms-data-breach-information-exposure/",
+      "src": "crypto.news",
+      "t": "2026-11-25T11:54:00+00:00",
+      "score": 3
+    },
+    {
+      "cat": "acoes",
+      "title": "Hackers invadem sistemas do FinCEN, órgão antilavagem do Tesouro dos EUA; parte dos sistemas é tirada do ar",
+      "link": "https://abcnews.com/US/treasurys-fincen-cybersecurity-incident-includes-unauthorized-access-systems/story?id=138432822",
+      "src": "ABC News",
+      "t": "2026-11-25T07:41:17+00:00",
+      "score": 4
+    },
+    {
+      "cat": "acoes",
       "title": "Petrobras não garante dividendo extra, ação cai 1,8% e Ibovespa fecha em queda; Nasdaq tomba 1,5%",
       "link": "https://www.moneytimes.com.br/tempo-real-24-11-2026-davs/",
       "src": "Money Times",
@@ -888,8 +913,7 @@
       "link": "https://coindesk.com/business/2026/11/23/binance-hackers-push-usd247-million-through-transactions-designed-to-cloud-the-source",
       "src": "CoinDesk",
       "t": "2026-11-23T15:00:00+00:00",
-      "score": 5,
-      "viral": true
+      "score": 5
     },
     {
       "cat": "acoes",
@@ -946,22 +970,6 @@
       "src": "Investing.com",
       "t": "2026-11-22T15:48:00-03:00",
       "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Pânico na Ásia: Taiwan proíbe venda a descoberto e Coreia cria fundo de emergência após derrocada da IA",
-      "link": "https://br.investing.com/news/stock-market-news/paises-asiaticos-tomam-medidas-para-apoiar-mercados-apos-queda-da-ia-2134947",
-      "src": "Investing.com",
-      "t": "2026-11-22T12:12:00-03:00",
-      "score": 5
-    },
-    {
-      "cat": "cripto",
-      "title": "Strategy acumula US$ 12,8 bi de prejuízo no papel com bitcoin, mas Saylor sinaliza nova compra",
-      "link": "https://crypto.news/michael-saylor-strategy-bitcoin-buy-hint-november-2026/",
-      "src": "crypto.news",
-      "t": "2026-11-22T14:04:59+00:00",
-      "score": 3
     }
   ],
   "incidentes": [
