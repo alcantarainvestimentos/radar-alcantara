@@ -1,36 +1,36 @@
 {
-  "atualizado_em": "2026-11-26T12:45:00-03:00",
-  "referencia": "Pregão de quinta, 26/11/2026 (parcial às 11h41)",
+  "atualizado_em": "2026-11-26T18:45:00-03:00",
+  "referencia": "Fechamento de quinta, 26/11/2026",
   "postura": {
-    "estado": "NEUTRO",
-    "positivos": 3,
+    "estado": "RISK-ON",
+    "positivos": 4,
     "total": 6,
     "desde": "2026-11-26",
     "conviccao": "MÉDIA",
-    "resumo": "Postura NEUTRO, com 3 de 6 sinais positivos e convicção MÉDIA (saiu de RISK-OFF hoje). O Ibovespa dispara 4,1%, a 173.582 pts às 11h41, e o dólar cai a ~R$ 5,75 com o IPCA-15 de 0,22% (abaixo dos 0,34% esperados) e a sondagem de Lula a Luiz Carlos Trabuco para a Fazenda. Os DIs caem até 18 pb. NY está fechada (Ação de Graças), o VIX segue perto de 28 e o Fed deve subir os juros em 9/12 (97,8% no FedWatch). O bitcoin sobe para ~US$ 60,7 mil."
+    "resumo": "Postura RISK-ON, com 4 de 6 sinais positivos e convicção MÉDIA (passou a RISK-ON no fechamento de hoje, depois de sair de RISK-OFF pela manhã). O Ibovespa fechou em alta de 6,07%, a 176.800 pts, a maior alta diária desde o 1º turno, e o dólar caiu 1,25%, a R$ 5,744, com o IPCA-15 de 0,22% (abaixo dos 0,34% esperados) e a sondagem de Lula a Luiz Carlos Trabuco para a Fazenda. Com isso, o índice voltou a ficar acima de um mês atrás (+0,1%), por margem mínima. NY esteve fechada (Ação de Graças), o VIX segue perto de 28 e o Fed deve subir os juros em 9/12 (97,8% no FedWatch). O bitcoin está perto de US$ 60,7 mil."
   },
   "sinais": [
     {
       "nome": "Ibovespa 5 pregões",
-      "valor": "+4,33%",
+      "valor": "+6,26%",
       "estado": "pos",
       "regra": "Positivo se o índice subiu nos últimos 5 pregões"
     },
     {
       "nome": "Ibovespa 1 mês",
-      "valor": "≈ −1,71%",
-      "estado": "neg",
+      "valor": "≈ +0,11%",
+      "estado": "pos",
       "regra": "Positivo se o índice está acima de 1 mês atrás"
     },
     {
       "nome": "Dólar 5 pregões",
-      "valor": "−3,15%",
+      "valor": "−3,20%",
       "estado": "pos",
       "regra": "Positivo se o dólar caiu na semana (real mais forte)"
     },
     {
       "nome": "DI longo na semana",
-      "valor": "−0,38 p.p.",
+      "valor": "−0,41 p.p.",
       "estado": "pos",
       "regra": "Positivo se a taxa do DI longo caiu na semana"
     },
@@ -52,31 +52,31 @@
       "codigo": "WIN",
       "nome": "Ibovespa",
       "vies": "baixa",
-      "nivel": "173.582 pts",
-      "dia": 4.14,
-      "semana": 4.33,
-      "mes": -1.71,
-      "nota": "173.581,92 pts (+4,14%) às 11h41, máxima de 174.332 (Canal Rural). Dispara com o IPCA-15 de novembro abaixo do esperado (0,22% vs 0,34%) e a notícia de que Lula sondou Luiz Carlos Trabuco (Bradesco) para a Fazenda. Bancos lideram (Bradesco perto de +8%), Petrobras sobe mais de 4%. NY fechada (Ação de Graças): volume menor. Semana = vs 19/11; mês = vs 26/10."
+      "nivel": "176.800 pts",
+      "dia": 6.07,
+      "semana": 6.26,
+      "mes": 0.11,
+      "nota": "Fechou a 176.799,84 pts (+6,07%), maior alta diária desde o 1º turno das eleições, com volume de R$ 35,9 bi (BPMoney). IPCA-15 abaixo do esperado (0,22% vs 0,34%) e a sondagem de Lula a Luiz Carlos Trabuco para a Fazenda. Papéis sensíveis a juros lideraram: Localiza +14,4%, MRV +14,3%, Raia Drogasil +12%, C&A +10,6%, Cogna +10,3%. NY fechada (Ação de Graças). Semana = vs 19/11; mês = vs 26/10."
     },
     {
       "codigo": "WDO",
       "nome": "Dólar comercial",
       "vies": "alta",
-      "nivel": "R$ 5,75",
-      "dia": -1.22,
-      "semana": -3.15,
-      "mes": 6.29,
-      "nota": "R$ 5,747 (−1,22%) por volta das 10h30 (Folha via TVT News); mínima de R$ 5,742 e outra leitura perto de R$ 5,72 às 11h20. Cai com o IPCA-15 fraco, o nome de Trabuco para a Fazenda e a expectativa da PEC dos gastos. Semana = vs 19/11; mês = vs 26/10."
+      "nivel": "R$ 5,74",
+      "dia": -1.25,
+      "semana": -3.2,
+      "mes": 6.24,
+      "nota": "Fechou a R$ 5,744 (−1,25%), quarta queda seguida, entre R$ 5,712 e R$ 5,789 (BPMoney). Cai com o IPCA-15 fraco e o nome de Trabuco para a Fazenda; DXY +0,11%. Semana = vs 19/11; mês = vs 26/10."
     },
     {
       "codigo": "DI F31",
       "nome": "Juros longos",
       "vies": "alta",
-      "nivel": "14,72%",
-      "dia": -0.16,
-      "semana": -0.38,
+      "nivel": "14,69%",
+      "dia": -0.26,
+      "semana": -0.41,
       "mes": null,
-      "nota": "Jan/31 a 14,72% (−16 pb) às 9h17; jan/28 a 14,11% e jan/35 a 14,86% (InfoMoney). Curva toda em queda com o IPCA-15 abaixo do esperado e o nome de Trabuco; sem taxa mais recente confiável. Semana = vs 15,10% de 12/11."
+      "nota": "Jan/31 a 14,69% (−26 pb) às 9h24 (DGABC) e 14,72% às 9h17 (InfoMoney); jan/28 a 14,10%, jan/29 a 14,47% e jan/35 a 14,92% (CNN, 10h). Curva toda em queda com o IPCA-15 abaixo do esperado e o nome de Trabuco; sem taxa de fechamento confiável publicada. Semana = vs 15,10% de 12/11."
     },
     {
       "codigo": "BTC",
@@ -92,13 +92,13 @@
   "fita": [
     {
       "nome": "IBOV",
-      "valor": "173.582",
-      "var": 4.14
+      "valor": "176.800",
+      "var": 6.07
     },
     {
       "nome": "USD/BRL",
-      "valor": "5,75",
-      "var": -1.22
+      "valor": "5,74",
+      "var": -1.25
     },
     {
       "nome": "S&P 500",
@@ -122,8 +122,8 @@
     },
     {
       "nome": "BRENT",
-      "valor": "95,58",
-      "var": 1.03
+      "valor": "96,57",
+      "var": 2.07
     },
     {
       "nome": "OURO",
@@ -162,18 +162,18 @@
   "alertas": [
     {
       "nivel": "atencao",
-      "titulo": "Operação contra o Grupo Fictor, que quis comprar o Master: bloqueio de até R$ 4,3 bi",
-      "texto": "Buscas contra o CEO e sócios do Grupo Fictor e bloqueio de até R$ 4,3 bi por suspeita de fraude financeira (Metrópoles, O Tempo, Correio Braziliense). Investigados, sem condenação. A Fictor tentou comprar o Banco Master e pediu recuperação judicial."
-    },
-    {
-      "nivel": "atencao",
       "titulo": "Ibovespa dispara 4% com IPCA-15 fraco e Trabuco cotado para a Fazenda",
       "texto": "O IPCA-15 de novembro subiu 0,22% (esperado 0,34%), com 4,64% em 12 meses (IBGE, Reuters). Lula sondou Luiz Carlos Trabuco, presidente do conselho do Bradesco, para a Fazenda; ele pediu tempo e não há confirmação (Folha, CNN). O Ibovespa chegou a 174.332 pts e o dólar a R$ 5,74. Alta movida por notícia ainda não confirmada e com NY fechada: risco de devolução se o nome não se confirmar."
     },
     {
       "nivel": "atencao",
+      "titulo": "Ibovespa fecha em alta de 6,07%, a maior desde o 1º turno, com IPCA-15 fraco e Trabuco cotado para a Fazenda",
+      "texto": "O Ibovespa fechou a 176.799,84 pts (+6,07%), com volume de R$ 35,9 bi, e o dólar a R$ 5,744 (−1,25%) (BPMoney). O IPCA-15 de novembro subiu 0,22% (esperado 0,34%), com 4,64% em 12 meses (IBGE). Lula sondou Luiz Carlos Trabuco, presidente do conselho do Bradesco, para a Fazenda em 2027; não há confirmação oficial de que aceitou (Reuters, CNN). Alta movida em parte por notícia ainda não confirmada e com NY fechada: risco de devolução se o nome não se confirmar."
+    },
+    {
+      "nivel": "atencao",
       "titulo": "NY fechada pela Ação de Graças; Fed com 97,8% de chance de alta em 9/12",
-      "texto": "Bolsas americanas fechadas hoje e sessão curta na sexta: liquidez baixa no WIN e no WDO. O CME FedWatch mostra 97,8% de chance de alta de 0,25 p.p. em 9/12 (InfoMoney). O Brent sobe 1% (US$ 95,58) antes da reunião da OPEP+ no domingo (29/11), que deve prorrogar as metas de produção."
+      "texto": "Bolsas americanas fechadas hoje e sessão curta na sexta: liquidez baixa no WIN e no WDO. O CME FedWatch mostra 97,8% de chance de alta de 0,25 p.p. em 9/12 (InfoMoney). O Brent (jan/27) fechou em alta de 2,07%, a US$ 96,57 (BPMoney), antes da reunião da OPEP+ no domingo (29/11)."
     }
   ],
   "indicadores": [
@@ -203,10 +203,10 @@
       "id": "curva",
       "grupo": "Brasil",
       "nome": "DI janeiro/2031",
-      "valor": "14,72%",
+      "valor": "14,69%",
       "estado": "neutro",
-      "selo": "−16 pb às 9h17",
-      "agora": "Jan/31 a 14,72% (−16 pb) às 9h17; jan/28 a 14,11% e jan/35 a 14,86% (InfoMoney). Curva em queda com o IPCA-15 abaixo do esperado e a notícia de Trabuco para a Fazenda. Na semana, o jan/31 cai ~0,38 p.p.",
+      "selo": "−26 pb às 9h24",
+      "agora": "Jan/31 a 14,69% (−26 pb) às 9h24 (DGABC); jan/28 a 14,10% e jan/29 a 14,47%; jan/35 a 14,92% (−16 pb) às 10h (CNN). Curva em queda com o IPCA-15 abaixo do esperado e a notícia de Trabuco para a Fazenda; sem fechamento confiável publicado. Na semana, o jan/31 cai ~0,4 p.p.",
       "o_que_e": "A taxa de juros que o mercado cobra para emprestar ao governo até 2031. Mede o prêmio de risco de longo prazo.",
       "como_ler": "DI longo subindo encarece o valuation das ações, principalmente de empresas de crescimento e ligadas ao consumo. Queda costuma anteceder alta da bolsa."
     },
@@ -214,10 +214,10 @@
       "id": "cambio",
       "grupo": "Brasil",
       "nome": "Dólar comercial",
-      "valor": "R$ 5,75",
+      "valor": "R$ 5,74",
       "estado": "neg",
-      "selo": "−1,22% às 10h30",
-      "agora": "R$ 5,747 (−1,22%) por volta das 10h30, com mínima de R$ 5,742 (Folha via TVT News). Cai com o IPCA-15 fraco e a sondagem de Trabuco para a Fazenda. Ontem fechou a R$ 5,8179. Focus de 23/11 projeta R$ 5,55 no fim de 2026.",
+      "selo": "−1,25% no dia",
+      "agora": "Fechou a R$ 5,744 (−1,25%), quarta queda seguida, com mínima de R$ 5,712 (BPMoney). Cai com o IPCA-15 fraco e a sondagem de Trabuco para a Fazenda. Ontem fechou a R$ 5,8179. Focus de 23/11 projeta R$ 5,55 no fim de 2026.",
       "o_que_e": "A cotação do dólar no mercado à vista.",
       "como_ler": "Dólar subindo favorece exportadoras (Suzano, Embraer, petroleiras) e pressiona a inflação e as empresas endividadas em moeda estrangeira."
     },
@@ -280,10 +280,10 @@
       "id": "brent",
       "grupo": "Global",
       "nome": "Petróleo Brent",
-      "valor": "US$ 95,58",
+      "valor": "US$ 96,57",
       "estado": "neutro",
-      "selo": "+1,0% às 10h08",
-      "agora": "Brent (jan/27) a US$ 95,58 (+1,03%) às 13h08 GMT, terceiro dia de alta, e WTI a US$ 84,70 (+1,22%) (FinanceFeeds). A OPEP+ se reúne no domingo (29/11) e deve prorrogar as metas de produção até pelo menos o 1º tri de 2027 (Newsquawk).",
+      "selo": "+2,07% no dia",
+      "agora": "Brent (jan/27) fechou a US$ 96,57 (+2,07%), terceiro dia de alta (BPMoney). A OPEP+ se reúne no domingo (29/11) e deve prorrogar as metas de produção até pelo menos o 1º tri de 2027 (Newsquawk).",
       "o_que_e": "A referência internacional de preço do petróleo.",
       "como_ler": "Brent alto favorece PETR4, PRIO3 e BRAV3, mas pressiona a inflação e os custos de aéreas e logística."
     },
@@ -305,7 +305,7 @@
         "nome": "BTC",
         "valor": "US$ 60.734",
         "var": 4.7,
-        "nota": "≈US$ 60.734 (+4,7% em 24h) às 8h10 ET de 26/11 (Coinbase via The Company Chronicle); faixa de 24h entre US$ 57.208 e US$ 61.527. ETFs à vista com a 7ª saída seguida (−US$ 453 mi na quarta) e Fear & Greed em 10 (CoinDesk). A Binance segue com saques em fases após o ataque de outubro."
+        "nota": "≈US$ 60.734 (+4,7% em 24h) às 8h10 ET de 26/11 (Coinbase via The Company Chronicle); US$ 60.621 às 7h18 ET (TokenPost). Fear & Greed em 11, medo extremo (Alternative.me), e ETFs à vista com mais de US$ 5 bi de saídas em novembro (Coincu). A Binance segue com saques em fases após o ataque de outubro."
       },
       {
         "nome": "ETH",
@@ -352,12 +352,6 @@
     "leitura": "Altas às 10h11 (BPMoney): B3, Hapvida, Assaí e bancos puxam o índice; depois o Bradesco chegou perto de +8% e a Petrobras passou de +4% (Canal Rural, 11h41). Poucas quedas: Suzano (−0,54%) e Santander (−0,37%) às 11h20, com o dólar em baixa."
   },
   "agenda": [
-    {
-      "data": "2026-11-26",
-      "hora": "—",
-      "evento": "Ação de Graças: bolsas de NY fechadas",
-      "peso": "medio"
-    },
     {
       "data": "2026-11-27",
       "hora": "—",
@@ -515,6 +509,12 @@
       "ibov": 166684.61,
       "dolar": 5.817,
       "btc": 60225
+    },
+    {
+      "data": "2026-11-26",
+      "ibov": 176799.84,
+      "dolar": 5.744,
+      "btc": 60734
     }
   ],
   "fontes": [
