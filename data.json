@@ -773,11 +773,27 @@
   },
   "noticias_radar": [
     {
+      "cat": "acoes",
+      "title": "Dólar cai 1,6% e fecha a R$ 5,81; Ibovespa sobe 1,66% mesmo com novas tarifas de Trump no radar",
+      "link": "https://www.metro1.com.br/noticias/economia/191970,dolar-cai-158percent-e-fecha-a-rdollar-581-ibovespa-sobe-166percent",
+      "src": "Metro1",
+      "t": "2026-11-25T18:14:00-03:00",
+      "score": 3
+    },
+    {
       "cat": "cripto",
       "title": "Ataque sequestra hashrate de mineradores de bitcoin: mais de 1.000 locais visados e até 1,9 EH/s desviados para hackers",
       "link": "https://www.theblock.co/news/ecosystems/2026-11-25-bitcoin-miners-hit-hashrate-hijacking-attack-exploiting-unencrypted-connections-446723",
       "src": "The Block",
       "t": "2026-11-25T19:36:08+00:00",
+      "score": 4
+    },
+    {
+      "cat": "acoes",
+      "title": "Venda em IA derruba Nvidia mais de 7% e Nasdaq cai 2,4%; inflação PCE núcleo vem acima do esperado",
+      "link": "https://www.foxbusiness.com/markets/stocks-11-25-2026",
+      "src": "Fox Business",
+      "t": "2026-11-25T11:36:00-05:00",
       "score": 4
     },
     {
@@ -959,22 +975,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/us-futures-bounce-while-asia-234419517.html",
       "src": "Reuters",
       "t": "2026-11-23T04:44:00+00:00",
-      "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Nasdaq teve pior semana desde 2020 (-10%) e Taiwan, desde 1990 (-17%); Kospi abre caindo mais de 3%",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/us-futures-bounce-while-asia-234419517.html",
-      "src": "Reuters",
-      "t": "2026-11-22T16:17:00-08:00",
-      "score": 5
-    },
-    {
-      "cat": "cripto",
-      "title": "Hacker cria tokens do nada e leva US$ 2 mi da ponte da Fusionist; traders saqueiam mais US$ 3,7 mi",
-      "link": "https://www.theblock.co/news/defi/2026-11-22-a-2-million-exploit-leads-to-a-3-7-million-free-for-all-as-traders-empty-fusionists-ace-bridge-444838",
-      "src": "The Block",
-      "t": "2026-11-22T23:16:06+00:00",
       "score": 4
     }
   ],
