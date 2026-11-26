@@ -773,6 +773,23 @@
   },
   "noticias_radar": [
     {
+      "cat": "acoes",
+      "title": "Polícia e Justiça miram Grupo Fictor, que quis comprar o Master: R$ 4,3 bi bloqueados por suspeita de fraude",
+      "link": "https://www.metropoles.com/sao-paulo/grupo-fictor-e-alvo-de-operacao-da-policia-de-sp-contra-fraude-financeira",
+      "src": "Metrópoles",
+      "t": "2026-11-26T06:52:00-03:00",
+      "score": 5,
+      "viral": true
+    },
+    {
+      "cat": "acoes",
+      "title": "Ibovespa dispara e retoma os 172 mil pontos; dólar cai a R$ 5,77 após IPCA-15 de 0,22%",
+      "link": "https://www.moneytimes.com.br/tempo-real-26-11-2026-davs/",
+      "src": "Money Times",
+      "t": "2026-11-26T06:00:00-03:00",
+      "score": 3
+    },
+    {
       "cat": "cripto",
       "title": "21Shares alerta que bitcoin pode cair a US$ 53 mil; stablecoins têm maior encolhimento desde colapso da Terra",
       "link": "https://crypto.news/bitcoin-price-21shares-53250-stablecoin-supply-decline/",
@@ -802,7 +819,8 @@
       "link": "https://www.theblock.co/news/ecosystems/2026-11-25-bitcoin-miners-hit-hashrate-hijacking-attack-exploiting-unencrypted-connections-446723",
       "src": "The Block",
       "t": "2026-11-25T19:36:08+00:00",
-      "score": 4
+      "score": 4,
+      "viral": true
     },
     {
       "cat": "acoes",
@@ -810,7 +828,8 @@
       "link": "https://www.foxbusiness.com/markets/stocks-11-25-2026",
       "src": "Fox Business",
       "t": "2026-11-25T11:36:00-05:00",
-      "score": 4
+      "score": 4,
+      "viral": true
     },
     {
       "cat": "acoes",
@@ -843,7 +862,8 @@
       "link": "https://abcnews.com/US/treasurys-fincen-cybersecurity-incident-includes-unauthorized-access-systems/story?id=138432822",
       "src": "ABC News",
       "t": "2026-11-25T07:41:17+00:00",
-      "score": 4
+      "score": 4,
+      "viral": true
     },
     {
       "cat": "acoes",
@@ -867,8 +887,7 @@
       "link": "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
       "src": "CoinDesk",
       "t": "2026-11-24T08:08:00-05:00",
-      "score": 5,
-      "viral": true
+      "score": 5
     },
     {
       "cat": "cripto",
@@ -876,8 +895,7 @@
       "link": "https://www.otempo.com.br/brasil/2026/11/24/pf-faz-operacao-contra-esquema-suspeito-de-movimentar-r-4-bilhoes-com-golpes-e-criptomoedas",
       "src": "O Tempo",
       "t": "2026-11-24T09:55:00-03:00",
-      "score": 5,
-      "viral": true
+      "score": 5
     },
     {
       "cat": "cripto",
@@ -901,8 +919,7 @@
       "link": "https://cointelegraph.com/markets/bitcoin-etfs-bleed-ibit-shares-gain",
       "src": "Cointelegraph",
       "t": "2026-11-24T07:41:50+00:00",
-      "score": 4,
-      "viral": true
+      "score": 4
     },
     {
       "cat": "cripto",
@@ -910,8 +927,7 @@
       "link": "https://www.theblock.co/newsletters/the-daily/2026-11-24-doj-binance-hack-strategy-bitcoin-more-crypto-news-445430",
       "src": "The Block",
       "t": "2026-11-24T00:40:00-05:00",
-      "score": 5,
-      "viral": true
+      "score": 5
     },
     {
       "cat": "acoes",
@@ -952,38 +968,6 @@
       "src": "CNN Brasil",
       "t": "2026-11-23T17:30:00-03:00",
       "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Nvidia devolve o comando a Jensen Huang e ação dispara 30% no pré-mercado; bitcoin volta a US$ 63 mil",
-      "link": "https://www.theblock.co/news/markets/2026-11-23-bitcoin-crypto-tech-stocks-rally-nvidia-reinstates-jensen-huang-ceo-nvda-jumps-444952",
-      "src": "The Block",
-      "t": "2026-11-23T15:01:19+00:00",
-      "score": 5
-    },
-    {
-      "cat": "cripto",
-      "title": "Hackers da Binance lavam US$ 247 mi em bitcoin por mixers; ainda restam US$ 2,35 bi roubados sem lavar",
-      "link": "https://coindesk.com/business/2026/11/23/binance-hackers-push-usd247-million-through-transactions-designed-to-cloud-the-source",
-      "src": "CoinDesk",
-      "t": "2026-11-23T15:00:00+00:00",
-      "score": 5
-    },
-    {
-      "cat": "acoes",
-      "title": "Dólar encosta em R$ 6 e Ibovespa futuro cai 1%; Focus eleva Selic de 2027 para 13%",
-      "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-23112026/",
-      "src": "InfoMoney",
-      "t": "2026-11-23T09:33:38-03:00",
-      "score": 4
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin quebra 18 dias seguidos de topos mais baixos após tombo a US$ 55,1 mil; novembro já cai 21%",
-      "link": "https://www.coindesk.com/markets/2026/11/23/bitcoin-breaks-a-record-streak-of-lower-highs-here-s-what-it-means",
-      "src": "CoinDesk",
-      "t": "2026-11-23T10:31:02+00:00",
-      "score": 3
     }
   ],
   "incidentes": [
