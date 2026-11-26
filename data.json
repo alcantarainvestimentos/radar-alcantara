@@ -1,36 +1,36 @@
 {
-  "atualizado_em": "2026-11-26T09:10:00-03:00",
-  "referencia": "Fechamento de quarta, 25/11/2026 · pré-abertura 9h (quinta: NY fechada, Ação de Graças)",
+  "atualizado_em": "2026-11-26T12:45:00-03:00",
+  "referencia": "Pregão de quinta, 26/11/2026 (parcial às 11h41)",
   "postura": {
-    "estado": "RISK-OFF",
-    "positivos": 1,
+    "estado": "NEUTRO",
+    "positivos": 3,
     "total": 6,
-    "desde": "2026-11-13",
-    "conviccao": "ALTA",
-    "resumo": "Postura RISK-OFF, com 1 de 6 sinais positivos e convicção ALTA. Dia de virada: Nova York apagou quase todo o tombo da manhã (Dow fechou +0,33% após cair 1.100 pts; Nasdaq −0,62% e S&P 500 −0,25%), e o Ibovespa subiu 1,58%, a 166.685 pts, com o dólar caindo 1,58%, a R$ 5,82, na expectativa da PEC dos gastos. O PCE de 3,8% (núcleo 3,3%) mantém a alta do Fed em dezembro quase certa e o VIX segue perto de 28. O bitcoin voltou a ~US$ 60 mil."
+    "desde": "2026-11-26",
+    "conviccao": "MÉDIA",
+    "resumo": "Postura NEUTRO, com 3 de 6 sinais positivos e convicção MÉDIA (saiu de RISK-OFF hoje). O Ibovespa dispara 4,1%, a 173.582 pts às 11h41, e o dólar cai a ~R$ 5,75 com o IPCA-15 de 0,22% (abaixo dos 0,34% esperados) e a sondagem de Lula a Luiz Carlos Trabuco para a Fazenda. Os DIs caem até 18 pb. NY está fechada (Ação de Graças), o VIX segue perto de 28 e o Fed deve subir os juros em 9/12 (97,8% no FedWatch). O bitcoin sobe para ~US$ 60,7 mil."
   },
   "sinais": [
     {
       "nome": "Ibovespa 5 pregões",
-      "valor": "−3,24%",
-      "estado": "neg",
+      "valor": "+4,33%",
+      "estado": "pos",
       "regra": "Positivo se o índice subiu nos últimos 5 pregões"
     },
     {
       "nome": "Ibovespa 1 mês",
-      "valor": "≈ −18,72%",
+      "valor": "≈ −1,71%",
       "estado": "neg",
       "regra": "Positivo se o índice está acima de 1 mês atrás"
     },
     {
       "nome": "Dólar 5 pregões",
-      "valor": "+2,86%",
-      "estado": "neg",
+      "valor": "−3,15%",
+      "estado": "pos",
       "regra": "Positivo se o dólar caiu na semana (real mais forte)"
     },
     {
       "nome": "DI longo na semana",
-      "valor": "−0,03 p.p.",
+      "valor": "−0,38 p.p.",
       "estado": "pos",
       "regra": "Positivo se a taxa do DI longo caiu na semana"
     },
@@ -52,53 +52,53 @@
       "codigo": "WIN",
       "nome": "Ibovespa",
       "vies": "baixa",
-      "nivel": "166.685 pts",
-      "dia": 1.58,
-      "semana": -3.24,
-      "mes": -18.72,
-      "nota": "Fechou a 166.684,61 pts (+1,58%), máxima de 167.105 e mínima de 164.042, volume de R$ 36,3 bi (BPMoney). Virou com o dólar em queda, a expectativa pela PEC de contenção de gastos e rumores sobre Luiz Carlos Trabuco na Fazenda. Natura (+10,1%) e Magalu (+6,6%) lideraram; Embraer caiu 3,3% com a tarifa proposta pelos EUA. Semana = vs 13/11; mês = vs 23/10."
+      "nivel": "173.582 pts",
+      "dia": 4.14,
+      "semana": 4.33,
+      "mes": -1.71,
+      "nota": "173.581,92 pts (+4,14%) às 11h41, máxima de 174.332 (Canal Rural). Dispara com o IPCA-15 de novembro abaixo do esperado (0,22% vs 0,34%) e a notícia de que Lula sondou Luiz Carlos Trabuco (Bradesco) para a Fazenda. Bancos lideram (Bradesco perto de +8%), Petrobras sobe mais de 4%. NY fechada (Ação de Graças): volume menor. Semana = vs 19/11; mês = vs 26/10."
     },
     {
       "codigo": "WDO",
       "nome": "Dólar comercial",
       "vies": "alta",
-      "nivel": "R$ 5,82",
-      "dia": -1.58,
-      "semana": 2.86,
-      "mes": 16.51,
-      "nota": "Fechou a R$ 5,817 (−1,58%), entre R$ 5,805 e R$ 5,970 no dia (BPMoney), depois de abrir em alta perto de R$ 5,96. Ajudaram os leilões de linha de até US$ 2 bi do BC e a expectativa por medidas fiscais (PEC dos gastos). Semana = vs 13/11; mês = vs 23/10."
+      "nivel": "R$ 5,75",
+      "dia": -1.22,
+      "semana": -3.15,
+      "mes": 6.29,
+      "nota": "R$ 5,747 (−1,22%) por volta das 10h30 (Folha via TVT News); mínima de R$ 5,742 e outra leitura perto de R$ 5,72 às 11h20. Cai com o IPCA-15 fraco, o nome de Trabuco para a Fazenda e a expectativa da PEC dos gastos. Semana = vs 19/11; mês = vs 26/10."
     },
     {
       "codigo": "DI F31",
       "nome": "Juros longos",
       "vies": "alta",
-      "nivel": "15,075%",
-      "dia": -0.08,
-      "semana": -0.025,
+      "nivel": "14,72%",
+      "dia": -0.16,
+      "semana": -0.38,
       "mes": null,
-      "nota": "Jan/31 a 15,075% (−8 pb) às 9h18; jan/28 a 14,43% e jan/35 a 15,185% (InfoMoney). Sem fechamento confiável publicado; com o dólar em queda forte à tarde, a tendência foi de alívio. Semana = vs 15,10% de 12/11."
+      "nota": "Jan/31 a 14,72% (−16 pb) às 9h17; jan/28 a 14,11% e jan/35 a 14,86% (InfoMoney). Curva toda em queda com o IPCA-15 abaixo do esperado e o nome de Trabuco; sem taxa mais recente confiável. Semana = vs 15,10% de 12/11."
     },
     {
       "codigo": "BTC",
       "nome": "Bitcoin",
       "vies": "baixa",
-      "nivel": "US$ 60.225",
-      "dia": 0.88,
-      "semana": -7.3,
+      "nivel": "US$ 60.734",
+      "dia": 4.7,
+      "semana": -1.77,
       "mes": null,
-      "nota": "≈US$ 60.225 (+0,9% em 24h) às 18h de Brasília (CoinGecko via MarketAlleys), recuperando-se da mínima perto de US$ 58 mil pela manhã. ETFs à vista com a 6ª saída seguida. Semana = vs 16/11."
+      "nota": "≈US$ 60.734 (+4,7% em 24h) às 10h10 de Brasília (Coinbase via The Company Chronicle), entre US$ 57.208 e US$ 61.527 em 24h. ETFs à vista com a 7ª saída seguida (−US$ 453 mi na quarta) e Fear & Greed em 10, medo extremo (CoinDesk). Semana = vs 19/11."
     }
   ],
   "fita": [
     {
       "nome": "IBOV",
-      "valor": "166.685",
-      "var": 1.58
+      "valor": "173.582",
+      "var": 4.14
     },
     {
       "nome": "USD/BRL",
-      "valor": "5,82",
-      "var": -1.58
+      "valor": "5,75",
+      "var": -1.22
     },
     {
       "nome": "S&P 500",
@@ -122,8 +122,8 @@
     },
     {
       "nome": "BRENT",
-      "valor": "94,61",
-      "var": 3.51
+      "valor": "95,58",
+      "var": 1.03
     },
     {
       "nome": "OURO",
@@ -132,13 +132,13 @@
     },
     {
       "nome": "BTC",
-      "valor": "60.225",
-      "var": 0.88
+      "valor": "60.734",
+      "var": 4.7
     },
     {
       "nome": "ETH",
-      "valor": "1.688",
-      "var": 0.84
+      "valor": "1.704",
+      "var": 4.5
     }
   ],
   "valor_justo": [
@@ -146,34 +146,34 @@
       "titulo": "Ibovespa",
       "rotulo": "Abaixo da média histórica",
       "justo": "P/L 10x (média)",
-      "atual": "166.685 pts (~7,8x)",
-      "gap": -21.6,
-      "detalhe": "Referência Itaú BBA (27/10): Ibovespa a 7,9x P/L com 167.922 pts, contra média de 10 anos de 10x. Ajustado proporcionalmente ao fechamento de 25/11 (166.685), ~7,8x, desconto de ~22%."
+      "atual": "173.582 pts (~8,2x)",
+      "gap": -18.3,
+      "detalhe": "Referência Itaú BBA (27/10): Ibovespa a 7,9x P/L com 167.922 pts, contra média de 10 anos de 10x. Ajustado proporcionalmente aos 173.582 pts das 11h41 de 26/11, ~8,2x, desconto de ~18%."
     },
     {
       "titulo": "Dólar vs Focus",
       "rotulo": "Acima da expectativa",
       "justo": "R$ 5,55",
-      "atual": "R$ 5,82",
-      "gap": 4.8,
-      "detalhe": "Focus de 23/11 elevou o dólar do fim de 2026 para R$ 5,55 (de R$ 5,40). No fechamento de hoje, a R$ 5,82, ~4,8% acima."
+      "atual": "R$ 5,75",
+      "gap": 3.5,
+      "detalhe": "Focus de 23/11 projeta o dólar do fim de 2026 a R$ 5,55. A R$ 5,747 (10h30 de 26/11), ~3,5% acima."
     }
   ],
   "alertas": [
     {
       "nivel": "atencao",
-      "titulo": "Virada em Nova York: Dow fecha em alta após cair 1.100 pontos; Nasdaq reduz queda de 4,6% para 0,62%",
-      "texto": "O S&P 500 fechou a 7.183 (−0,25%), o Nasdaq a 23.586 (−0,62%) e o Dow a 50.184 (+0,33%) (BPMoney, TradingKey). A venda de chips e IA perdeu força, mas o VIX seguia perto de 28 à tarde. NY fecha na quinta (Ação de Graças) e tem sessão curta na sexta: liquidez baixa, cuidado com o tamanho da mão."
+      "titulo": "Ibovespa dispara 4% com IPCA-15 fraco e Trabuco cotado para a Fazenda",
+      "texto": "O IPCA-15 de novembro subiu 0,22% (esperado 0,34%), com 4,64% em 12 meses (IBGE, Reuters). Lula sondou Luiz Carlos Trabuco, presidente do conselho do Bradesco, para a Fazenda; ele pediu tempo e não há confirmação (Folha, CNN). O Ibovespa chegou a 174.332 pts e o dólar a R$ 5,74. Alta movida por notícia ainda não confirmada e com NY fechada: risco de devolução se o nome não se confirmar."
     },
     {
       "nivel": "atencao",
-      "titulo": "PCE de 3,8% e núcleo de 3,3% deixam alta do Fed em dezembro quase certa",
-      "texto": "O núcleo veio acima dos 3,2% esperados; o CME FedWatch indicava entre 95% e 98% de chance de alta de 0,25 p.p. em 9/12 (DGABC, Yahoo Finance). O ouro caiu 0,73%, a US$ 3.536, e o Brent subiu 3,5%, a US$ 94,61. Sem histeria: é risco de volatilidade, não decisão no impulso."
+      "titulo": "NY fechada pela Ação de Graças; Fed com 97,8% de chance de alta em 9/12",
+      "texto": "Bolsas americanas fechadas hoje e sessão curta na sexta: liquidez baixa no WIN e no WDO. O CME FedWatch mostra 97,8% de chance de alta de 0,25 p.p. em 9/12 (InfoMoney). O Brent sobe 1% (US$ 95,58) antes da reunião da OPEP+ no domingo (29/11), que deve prorrogar as metas de produção."
     },
     {
       "nivel": "atencao",
-      "titulo": "Bitcoin volta a ~US$ 60 mil, mas ETFs seguem com saídas; Binance ainda com saques em fases",
-      "texto": "BTC ≈US$ 60.225 (+0,9% em 24h) e ETH ≈US$ 1.688 no fim da tarde (CoinGecko), depois de testar ~US$ 58 mil pela manhã. ETFs à vista de BTC com a 6ª saída seguida; US$ 6,6 bi em opções vencem na sexta (27/11). A Binance segue com saques em fases após o ataque de outubro. Alavancagem baixa e stop definido."
+      "titulo": "Bitcoin volta a US$ 60,7 mil, mas ETFs têm 7ª saída seguida; Binance ainda com saques em fases",
+      "texto": "BTC ≈US$ 60.734 (+4,7% em 24h) e ETH ≈US$ 1.704 (+4,5%) pela manhã (Coinbase). ETFs à vista de BTC perderam US$ 453 mi na quarta, 7ª saída seguida, e o Fear & Greed está em 10 (CoinDesk). Cerca de US$ 6,6 bi em opções vencem na sexta. A Binance segue com saques em fases após o ataque de outubro. Alavancagem baixa e stop definido."
     }
   ],
   "indicadores": [
@@ -194,8 +194,8 @@
       "nome": "IPCA 2026 (Focus)",
       "valor": "5,15%",
       "estado": "neg",
-      "selo": "Focus 2027: 5,12%",
-      "agora": "Focus de 23/11: IPCA de 2026 subiu para 5,15% (de 5,11%) e o de 2027 para 5,12% (de 5,00%), acima do teto de 4,5%. IPCA de outubro: 0,14% no mês e 4,63% em 12 meses.",
+      "selo": "IPCA-15 nov.: 0,22%",
+      "agora": "IPCA-15 de novembro: 0,22% (esperado 0,34%; outubro 0,32%) e 4,64% em 12 meses, ainda acima do teto de 4,5% (IBGE). Focus de 23/11: IPCA de 2026 em 5,15% e de 2027 em 5,12%.",
       "o_que_e": "A inflação oficial do Brasil, aqui pela mediana das projeções do Boletim Focus para o ano.",
       "como_ler": "Projeções subindo reduzem o espaço para cortes da Selic. Acima de 4,5% o Banco Central está fora da meta."
     },
@@ -203,10 +203,10 @@
       "id": "curva",
       "grupo": "Brasil",
       "nome": "DI janeiro/2031",
-      "valor": "15,075%",
-      "estado": "neg",
-      "selo": "−8 pb às 9h18",
-      "agora": "Jan/31 a 15,075% (−8 pb) às 9h18; jan/28 a 14,43% e jan/35 a 15,185% (InfoMoney). Sem taxa de fechamento confiável; à tarde o dólar caiu 1,6% com a expectativa da PEC dos gastos. O bimestral elevou o déficit projetado de 2026 para R$ 89,3 bi.",
+      "valor": "14,72%",
+      "estado": "neutro",
+      "selo": "−16 pb às 9h17",
+      "agora": "Jan/31 a 14,72% (−16 pb) às 9h17; jan/28 a 14,11% e jan/35 a 14,86% (InfoMoney). Curva em queda com o IPCA-15 abaixo do esperado e a notícia de Trabuco para a Fazenda. Na semana, o jan/31 cai ~0,38 p.p.",
       "o_que_e": "A taxa de juros que o mercado cobra para emprestar ao governo até 2031. Mede o prêmio de risco de longo prazo.",
       "como_ler": "DI longo subindo encarece o valuation das ações, principalmente de empresas de crescimento e ligadas ao consumo. Queda costuma anteceder alta da bolsa."
     },
@@ -214,10 +214,10 @@
       "id": "cambio",
       "grupo": "Brasil",
       "nome": "Dólar comercial",
-      "valor": "R$ 5,82",
+      "valor": "R$ 5,75",
       "estado": "neg",
-      "selo": "−1,58% no dia",
-      "agora": "Fechou a R$ 5,817 (−1,58%), maior queda em semanas, com os leilões de linha de até US$ 2 bi do BC e a expectativa pela PEC dos gastos (BPMoney). Ontem fechou a R$ 5,9107. Focus de 23/11 projeta R$ 5,55 no fim de 2026.",
+      "selo": "−1,22% às 10h30",
+      "agora": "R$ 5,747 (−1,22%) por volta das 10h30, com mínima de R$ 5,742 (Folha via TVT News). Cai com o IPCA-15 fraco e a sondagem de Trabuco para a Fazenda. Ontem fechou a R$ 5,8179. Focus de 23/11 projeta R$ 5,55 no fim de 2026.",
       "o_que_e": "A cotação do dólar no mercado à vista.",
       "como_ler": "Dólar subindo favorece exportadoras (Suzano, Embraer, petroleiras) e pressiona a inflação e as empresas endividadas em moeda estrangeira."
     },
@@ -238,8 +238,8 @@
       "nome": "Fed Funds",
       "valor": "3,75–4,00%",
       "estado": "neg",
-      "selo": "~97% de alta em dez.",
-      "agora": "O Fed deve subir os juros em 0,25 p.p. em 9/12: o CME FedWatch indicava ~97% de probabilidade em 24/11 (InfoMoney) e entre 95% e 98% hoje, após o PCE (DGABC, Yahoo Finance). O PCE de outubro (3,8%, núcleo 3,3%) aumentou as apostas em mais altas; o mercado já precifica até três. Waller defendeu 0,50 p.p.",
+      "selo": "97,8% de alta em dez.",
+      "agora": "O CME FedWatch mostra 97,8% de chance de alta de 0,25 p.p. em 9/12, para 4,00–4,25% (InfoMoney, 26/11). O PCE de outubro (3,8%, núcleo 3,3%) reforçou as apostas em mais altas. NY fechada hoje (Ação de Graças).",
       "o_que_e": "A taxa básica de juros dos EUA, definida pelo Fomc.",
       "como_ler": "Juros altos nos EUA atraem capital para lá e tendem a fortalecer o dólar contra moedas emergentes como o real."
     },
@@ -280,10 +280,10 @@
       "id": "brent",
       "grupo": "Global",
       "nome": "Petróleo Brent",
-      "valor": "US$ 94,61",
+      "valor": "US$ 95,58",
       "estado": "neutro",
-      "selo": "+3,5% hoje",
-      "agora": "Brent (jan/27) fechou a US$ 94,61 (+3,51%) e WTI a US$ 83,68 (+1,99%) (BPMoney). O Goldman elevou a previsão do Brent para dezembro para US$ 105.",
+      "selo": "+1,0% às 10h08",
+      "agora": "Brent (jan/27) a US$ 95,58 (+1,03%) às 13h08 GMT, terceiro dia de alta, e WTI a US$ 84,70 (+1,22%) (FinanceFeeds). A OPEP+ se reúne no domingo (29/11) e deve prorrogar as metas de produção até pelo menos o 1º tri de 2027 (Newsquawk).",
       "o_que_e": "A referência internacional de preço do petróleo.",
       "como_ler": "Brent alto favorece PETR4, PRIO3 e BRAV3, mas pressiona a inflação e os custos de aéreas e logística."
     },
@@ -303,65 +303,53 @@
     "itens": [
       {
         "nome": "BTC",
-        "valor": "US$ 60.225",
-        "var": 0.88,
-        "nota": "≈US$ 60.225 (+0,88% em 24h) às 21h UTC de 25/11 (CoinGecko via MarketAlleys); pela manhã testou ~US$ 58,6 mil (CoinDesk). ETFs à vista com 6ª saída seguida. A Binance segue com saques em fases após o ataque de outubro."
+        "valor": "US$ 60.734",
+        "var": 4.7,
+        "nota": "≈US$ 60.734 (+4,7% em 24h) às 8h10 ET de 26/11 (Coinbase via The Company Chronicle); faixa de 24h entre US$ 57.208 e US$ 61.527. ETFs à vista com a 7ª saída seguida (−US$ 453 mi na quarta) e Fear & Greed em 10 (CoinDesk). A Binance segue com saques em fases após o ataque de outubro."
       },
       {
         "nome": "ETH",
-        "valor": "US$ 1.688",
-        "var": 0.84,
-        "nota": "≈US$ 1.688 (+0,84% em 24h) às 21h UTC de 25/11 (CoinGecko via MarketAlleys); caiu mais que o bitcoin pela manhã (CoinDesk). ETFs de ETH com a 7ª saída seguida."
+        "valor": "US$ 1.704",
+        "var": 4.5,
+        "nota": "≈US$ 1.704 (+4,5% em 24h) às 8h10 ET de 26/11 (Coinbase via The Company Chronicle); −4,0% em 7 dias. Tokens de DeFi lideram o repique (CoinDesk)."
       }
     ]
   },
   "setores": {
-    "periodo": "25/11/2026 (fechamento)",
+    "periodo": "26/11/2026 (parcial)",
     "altas": [
       {
-        "ticker": "NATU3",
-        "var": 10.09
+        "ticker": "B3SA3",
+        "var": 5.62
       },
       {
-        "ticker": "AZZA3",
-        "var": 7.05
+        "ticker": "HAPV3",
+        "var": 5.41
       },
       {
-        "ticker": "VAMO3",
-        "var": 6.98
+        "ticker": "ASAI3",
+        "var": 5.08
       },
       {
-        "ticker": "MGLU3",
-        "var": 6.63
+        "ticker": "BBDC4",
+        "var": 4.79
       },
       {
-        "ticker": "MRVE3",
-        "var": 6.45
+        "ticker": "BBAS3",
+        "var": 4.22
       }
     ],
     "baixas": [
       {
-        "ticker": "EMBJ3",
-        "var": -3.27
+        "ticker": "SUZB3",
+        "var": -0.54
       },
       {
         "ticker": "SANB11",
-        "var": -2.63
-      },
-      {
-        "ticker": "MBRF3",
-        "var": -1.69
-      },
-      {
-        "ticker": "ABEV3",
-        "var": -1.55
-      },
-      {
-        "ticker": "CPFE3",
-        "var": -1.13
+        "var": -0.37
       }
     ],
-    "leitura": "Varejo e construção puxaram a alta com o alívio no dólar: Natura (+10,09%), Azzas (+7,05%), Vamos (+6,98%), Magalu (+6,63%) e MRV (+6,45%). Embraer (−3,27%) caiu com a tarifa proposta pelos EUA sobre aviões brasileiros (BPMoney)."
+    "leitura": "Altas às 10h11 (BPMoney): B3, Hapvida, Assaí e bancos puxam o índice; depois o Bradesco chegou perto de +8% e a Petrobras passou de +4% (Canal Rural, 11h41). Poucas quedas: Suzano (−0,54%) e Santander (−0,37%) às 11h20, com o dólar em baixa."
   },
   "agenda": [
     {
@@ -374,6 +362,12 @@
       "data": "2026-11-27",
       "hora": "—",
       "evento": "NY em sessão curta; vencimento de ~US$ 6,6 bi em opções de bitcoin",
+      "peso": "medio"
+    },
+    {
+      "data": "2026-11-29",
+      "hora": "—",
+      "evento": "Reunião da OPEP+ sobre a produção de 2027",
       "peso": "medio"
     },
     {
@@ -525,31 +519,39 @@
   ],
   "fontes": [
     {
-      "nome": "BPMoney — Ibovespa fecha em queda com pressão de Vale e Petrobras (24/11)",
-      "url": "https://bpmoney.com.br/mercado/ibovespa-fecha-em-queda-com-pressao-de-vale-e-petrobras/"
+      "nome": "Canal Rural — Ibovespa sobe mais de 4% com IPCA-15 e Trabuco (26/11)",
+      "url": "https://www.canalrural.com.br/economia/ibovespa-sobe-mais-de-4-com-ipca-15-abaixo-do-esperado-e-nome-de-trabuco-em-alta/"
     },
     {
-      "nome": "Misto Brasil — Ibovespa devolve ganhos; dólar a R$ 5,9107 (24/11)",
-      "url": "https://mistobrasil.com/2026/11/24/ibovespa-devolve-ganhos-e-fecha-em-leve-queda-aos-1647-mil/"
+      "nome": "InfoMoney — Ibovespa hoje ao vivo (26/11)",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26112026/"
     },
     {
-      "nome": "InfoMoney — taxas dos DIs caem com notícias sobre PEC (24/11)",
-      "url": "https://www.infomoney.com.br/mercados/taxas-dos-dis-caem-com-noticias-sobre-pec-do-governo-para-limitar-gastos/"
+      "nome": "TVT News — Dólar hoje cai após IPCA-15 (26/11)",
+      "url": "https://tvtnews.com.br/dolar-hoje-26-novembro-2026/"
     },
     {
-      "nome": "Investrade — Market Review (24/11)",
-      "url": "https://investrade.com/market-review-november-24-2026/"
+      "nome": "BPMoney — Ibovespa dispara com bancos e Petrobras (26/11)",
+      "url": "https://bpmoney.com.br/economia/ibovespa-dispara-mais-de-2-com-bancos-e-petrobras-dolar-cai-a-r-577/"
     },
     {
-      "nome": "CryptoTicker — bitcoin abaixo de US$ 60 mil, ether −7% (24/11)",
-      "url": "https://cryptoticker.io/en/crypto-news-bitcoin-below-60000-ether-7-percent/"
+      "nome": "CNN Brasil — Lula sonda Trabuco; dólar despenca (26/11)",
+      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-26-novembro-2026/"
     },
     {
-      "nome": "Piranot — Ptax fecha a R$ 5,8573 (24/11)",
-      "url": "https://www.piranot.com.br/2026/11/24/noticias/economia/dolar-ptax-fecha-em-r-58573-nesta-terca-feira-24-11-2026-veja-a/"
+      "nome": "CoinDesk — Crypto Markets Today (26/11)",
+      "url": "https://www.coindesk.com/markets/2026/11/26/bitcoin-little-changed-defi-tokens-lead-the-bounce-as-u-s-marks-thanksgiving"
+    },
+    {
+      "nome": "The Company Chronicle — preços cripto (26/11)",
+      "url": "https://thecompanychronicle.com/story/crypto-prices-today-november-26-2026"
+    },
+    {
+      "nome": "FinanceFeeds — Brent a US$ 95,58 (26/11)",
+      "url": "https://financefeeds.com/brent-crude-oil-price-95-58-thursday-three-day-rally-before-opec-plus-sunday-bull-100-bear-91/"
     }
   ],
-  "notas": "Fechamento de 25/11: Ibovespa, dólar, NY, Brent e destaques da B3 (BPMoney, 18h21); ouro (DGABC); BTC e ETH às 21h UTC (CoinGecko via MarketAlleys); VIX e Treasury 10 anos do meio da tarde (Yahoo Finance), sem fechamento confiável. DI sem taxa de fechamento publicada: mantido o das 9h18. Informação para estudo, não recomendação de investimento.",
+  "notas": "Parcial de 26/11: Ibovespa às 11h41 (Canal Rural); dólar às 10h30 (Folha via TVT News); DI às 9h17 (InfoMoney); BTC e ETH às 8h10 ET (Coinbase); Brent às 13h08 GMT (FinanceFeeds). NY fechada (Ação de Graças): S&P 500, Nasdaq, Dow e VIX mantidos do fechamento de 25/11; ouro sem dado confiável de hoje, mantido o de 25/11. Informação para estudo, não recomendação de investimento.",
   "config": {
     "brapi_token": "",
     "whatsapp": "",
@@ -580,44 +582,44 @@
       ],
       "focus_fonte": "Focus de 23/11 (fim de 2026 e fim de 2027)",
       "curva": {
-        "data": "25/11 às 9h18 (jan/27, jan/28, jan/31 e jan/35); jan/29 de 24/11; jan/33 de 16/11",
+        "data": "26/11 às 9h17 (InfoMoney)",
         "pontos": [
           {
             "v": "jan/27",
-            "t": 13.684
+            "t": 13.672
           },
           {
             "v": "jan/28",
-            "t": 14.43
+            "t": 14.11
           },
           {
             "v": "jan/29",
-            "t": 15.015
+            "t": 14.48
           },
           {
             "v": "jan/31",
-            "t": 15.075
+            "t": 14.72
           },
           {
             "v": "jan/33",
-            "t": 15.155
+            "t": 14.85
           },
           {
             "v": "jan/35",
-            "t": 15.185
+            "t": 14.86
           }
         ]
       },
-      "leitura": "Os DIs seguiam em queda na manhã desta quarta: jan/31 a 15,075% e jan/35 a 15,185% às 9h18, ainda com o efeito do ajuste fiscal sancionado; à tarde, pesam o déficit maior no bimestral e o tombo de NY. A curva segue bem acima da Selic de 13,75%."
+      "leitura": "Os DIs caem forte nesta quinta: jan/31 a 14,72% e jan/35 a 14,86% às 9h17 (−14 a −18 pb nos vértices longos), com o IPCA-15 de 0,22% abaixo do esperado e a sondagem de Trabuco para a Fazenda. A curva segue acima da Selic de 13,75%."
     },
     "eua": {
       "fed": "3,75–4,00%",
       "efetiva": 3.88,
       "fedwatch": {
         "reuniao": "dez/2026",
-        "alta": 97.0,
-        "manter": 3.0,
-        "fonte": "CME FedWatch via InfoMoney, 24/11: ~97% de chance de alta em 9/12"
+        "alta": 97.8,
+        "manter": 2.2,
+        "fonte": "CME FedWatch via InfoMoney, 26/11: 97,8% de chance de alta em 9/12"
       },
       "curva": {
         "data": "28/10",
