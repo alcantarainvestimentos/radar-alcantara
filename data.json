@@ -162,6 +162,11 @@
   "alertas": [
     {
       "nivel": "atencao",
+      "titulo": "Operação contra o Grupo Fictor, que quis comprar o Master: bloqueio de até R$ 4,3 bi",
+      "texto": "Buscas contra o CEO e sócios do Grupo Fictor e bloqueio de até R$ 4,3 bi por suspeita de fraude financeira (Metrópoles, O Tempo, Correio Braziliense). Investigados, sem condenação. A Fictor tentou comprar o Banco Master e pediu recuperação judicial."
+    },
+    {
+      "nivel": "atencao",
       "titulo": "Ibovespa dispara 4% com IPCA-15 fraco e Trabuco cotado para a Fazenda",
       "texto": "O IPCA-15 de novembro subiu 0,22% (esperado 0,34%), com 4,64% em 12 meses (IBGE, Reuters). Lula sondou Luiz Carlos Trabuco, presidente do conselho do Bradesco, para a Fazenda; ele pediu tempo e não há confirmação (Folha, CNN). O Ibovespa chegou a 174.332 pts e o dólar a R$ 5,74. Alta movida por notícia ainda não confirmada e com NY fechada: risco de devolução se o nome não se confirmar."
     },
@@ -169,11 +174,6 @@
       "nivel": "atencao",
       "titulo": "NY fechada pela Ação de Graças; Fed com 97,8% de chance de alta em 9/12",
       "texto": "Bolsas americanas fechadas hoje e sessão curta na sexta: liquidez baixa no WIN e no WDO. O CME FedWatch mostra 97,8% de chance de alta de 0,25 p.p. em 9/12 (InfoMoney). O Brent sobe 1% (US$ 95,58) antes da reunião da OPEP+ no domingo (29/11), que deve prorrogar as metas de produção."
-    },
-    {
-      "nivel": "atencao",
-      "titulo": "Bitcoin volta a US$ 60,7 mil, mas ETFs têm 7ª saída seguida; Binance ainda com saques em fases",
-      "texto": "BTC ≈US$ 60.734 (+4,7% em 24h) e ETH ≈US$ 1.704 (+4,5%) pela manhã (Coinbase). ETFs à vista de BTC perderam US$ 453 mi na quarta, 7ª saída seguida, e o Fear & Greed está em 10 (CoinDesk). Cerca de US$ 6,6 bi em opções vencem na sexta. A Binance segue com saques em fases após o ataque de outubro. Alavancagem baixa e stop definido."
     }
   ],
   "indicadores": [
@@ -974,6 +974,21 @@
   ],
   "incidentes": [
     "Câmara aprova ajuste fiscal sem alterações (vai à sanção); dólar recua quase 2% e Ibovespa sobe cerca de 1% na manhã de 24/11",
+    {
+      "id": "fictor-operacao-2026-11-26",
+      "tipo": "escandalo",
+      "plataforma": "Grupo Fictor",
+      "titulo": "Operação mira o Grupo Fictor, que tentou comprar o Master: buscas contra CEO e sócios e bloqueio de até R$ 4,3 bi por suspeita de fraude financeira",
+      "status": "aberto",
+      "t_detectado": "2026-11-26T13:45:00-03:00",
+      "t_atualizado": "2026-11-26T13:45:00-03:00",
+      "fontes": [
+        "https://www.metropoles.com/sao-paulo/grupo-fictor-e-alvo-de-operacao-da-policia-de-sp-contra-fraude-financeira",
+        "https://www.otempo.com.br/politica/judiciario/2026/11/26/ceo-do-grupo-fictor-que-tentou-comprar-o-master-e-alvo-de-buscas-e-bloqueio-de-ate-r-4-3-bilhoes",
+        "https://www.correiobraziliense.com.br/brasil/2026/11/7544729-ceo-da-fictor-e-alvo-de-operacao-da-pf-contra-fraudes-na-caixa.html"
+      ],
+      "nota": "Confirmado: buscas e bloqueio determinados. Não confirmado: culpa dos investigados; não há condenação."
+    },
     {
       "id": "virada-nasdaq-asia-2026-11-24",
       "tipo": "virada",
