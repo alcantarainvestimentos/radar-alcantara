@@ -773,6 +773,22 @@
   },
   "noticias_radar": [
     {
+      "cat": "cripto",
+      "title": "21Shares alerta que bitcoin pode cair a US$ 53 mil; stablecoins têm maior encolhimento desde colapso da Terra",
+      "link": "https://crypto.news/bitcoin-price-21shares-53250-stablecoin-supply-decline/",
+      "src": "crypto.news",
+      "t": "2026-11-26T08:28:38+00:00",
+      "score": 3
+    },
+    {
+      "cat": "acoes",
+      "title": "Trabuco cotado para a Fazenda: Ibovespa quebra 4 quedas seguidas, BTG sobe 5,9% e dólar cai a R$ 5,82",
+      "link": "https://mais.opovo.com.br/jornal/farol/2026/11/26/ibovespa-rompe-sequencia-de-quedas-e-dolar-recua-com-possivel-ida-de-trabuco-para-fazenda.html",
+      "src": "O Povo",
+      "t": "2026-11-25T22:15:00-03:00",
+      "score": 3
+    },
+    {
       "cat": "acoes",
       "title": "Dólar cai 1,6% e fecha a R$ 5,81; Ibovespa sobe 1,66% mesmo com novas tarifas de Trump no radar",
       "link": "https://www.metro1.com.br/noticias/economia/191970,dolar-cai-158percent-e-fecha-a-rdollar-581-ibovespa-sobe-166percent",
@@ -968,14 +984,6 @@
       "src": "CoinDesk",
       "t": "2026-11-23T10:31:02+00:00",
       "score": 3
-    },
-    {
-      "cat": "acoes",
-      "title": "Kospi afunda 5% e já perdeu metade do pico; futuros do Nasdaq sobem 3% após pior semana desde 2020",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/us-futures-bounce-while-asia-234419517.html",
-      "src": "Reuters",
-      "t": "2026-11-23T04:44:00+00:00",
-      "score": 4
     }
   ],
   "incidentes": [
