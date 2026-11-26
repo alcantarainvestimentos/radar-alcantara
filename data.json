@@ -776,6 +776,14 @@
   "noticias_radar": [
     {
       "cat": "acoes",
+      "title": "Efeito Trabuco: Ibovespa dispara mais de 3% e dólar cai firme após Lula sondar banqueiro para a Fazenda",
+      "link": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-26-novembro-2026/",
+      "src": "CNN Brasil",
+      "t": "2026-11-26T17:15:00-03:00",
+      "score": 4
+    },
+    {
+      "cat": "acoes",
       "title": "Polícia e Justiça miram Grupo Fictor, que quis comprar o Master: R$ 4,3 bi bloqueados por suspeita de fraude",
       "link": "https://www.metropoles.com/sao-paulo/grupo-fictor-e-alvo-de-operacao-da-policia-de-sp-contra-fraude-financeira",
       "src": "Metrópoles",
