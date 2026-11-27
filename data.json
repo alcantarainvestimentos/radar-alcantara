@@ -173,7 +173,7 @@
     {
       "nivel": "atencao",
       "titulo": "NY sobe na sessão curta de Black Friday; liquidez reduzida",
-      "texto": "S&P 500 +1,15%, Nasdaq +1,47% e Dow +1,02%, com o VIX em ~25,6 (−4,6%) (Yahoo Finance). O pregão fecha às 15h de Brasília. Vencem hoje ~US$ 6,6 bi em opções de bitcoin. A Binance segue com saques em fases após o ataque de outubro."
+      "texto": "S&P 500 +1,15%, Nasdaq +1,47% e Dow +1,02%, com o VIX em ~25,6 (−4,6%) (Yahoo Finance). O pregão fecha às 15h de Brasília. Vencem hoje ~US$ 6,6 bi em opções de bitcoin. A Binance encerrou a suspensão de saques e diz ter concluído a recuperação, quatro semanas após o ataque de US$ 6,3 bi (CoinDesk)."
     }
   ],
   "indicadores": [
@@ -1179,13 +1179,13 @@
     {
       "id": "binance-2026-10",
       "plataforma": "Binance",
-      "titulo": "Ataque de US$ 6,3 bi; retomada de saques em fases (fase 9 em 6/11)",
-      "status": "retomada em fases",
+      "titulo": "Ataque de US$ 6,3 bi: Binance encerra a suspensão de saques e diz ter concluído a recuperação (27/11)",
+      "status": "saques normalizados",
       "t_detectado": "2026-11-06T14:30:00Z",
-      "t_atualizado": "2026-11-15T09:00:00Z",
+      "t_atualizado": "2026-11-27T15:40:00-03:00",
       "fontes": [
-        "https://acritica.net/economia/binance-retoma-saques-em-fases-e-diz-ter-reposto-95-por-cento-das-perdas-com-ataque-hacker/",
-        "https://www.business-standard.com/markets/cryptocurrency/crypto-s-slow-motion-selloff-leaves-investors-weary-as-bitcoin-nears-lows-126111500203_1.html"
+        "https://www.coindesk.com/markets/2026/11/27/binance-says-its-withdrawal-suspension-is-over-four-weeks-after-a-usd6-3-billion-hack",
+        "https://finance.yahoo.com/markets/crypto/articles/binance-lifts-withdrawal-suspension-6-101518918.html"
       ],
       "tipo": "financeiro"
     },
