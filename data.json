@@ -1,6 +1,6 @@
 {
-  "atualizado_em": "2026-11-26T18:45:00-03:00",
-  "referencia": "Fechamento de quinta, 26/11/2026",
+  "atualizado_em": "2026-11-27T09:20:00-03:00",
+  "referencia": "Fechamento de quinta, 26/11/2026 · pré-abertura 9h",
   "postura": {
     "estado": "RISK-ON",
     "positivos": 4,
@@ -352,6 +352,18 @@
     "leitura": "Altas às 10h11 (BPMoney): B3, Hapvida, Assaí e bancos puxam o índice; depois o Bradesco chegou perto de +8% e a Petrobras passou de +4% (Canal Rural, 11h41). Poucas quedas: Suzano (−0,54%) e Santander (−0,37%) às 11h20, com o dólar em baixa."
   },
   "agenda": [
+    {
+      "data": "2026-11-27",
+      "hora": "8h",
+      "evento": "IGP-M de novembro (FGV)",
+      "peso": "medio"
+    },
+    {
+      "data": "2026-11-27",
+      "hora": "9h",
+      "evento": "PNAD Contínua, taxa de desemprego (IBGE)",
+      "peso": "medio"
+    },
     {
       "data": "2026-11-27",
       "hora": "—",
