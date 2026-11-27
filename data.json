@@ -162,6 +162,11 @@
   "alertas": [
     {
       "nivel": "atencao",
+      "titulo": "Bolsas da China têm a maior alta em 2 anos após Pequim prometer apoio; Ásia sobe com chips e IA",
+      "texto": "O Conselho de Estado chinês prometeu mais apoio ao mercado e as ações da China tiveram a maior alta em dois anos (Reuters via Yahoo Finance). As bolsas da Ásia fecharam em forte alta com ações de IA (O Povo) e a Nasdaq se recupera perto da zona de bear market (XTB). NY fechada hoje e sessão curta: liquidez baixa."
+    },
+    {
+      "nivel": "atencao",
       "titulo": "Ibovespa dispara 4% com IPCA-15 fraco e Trabuco cotado para a Fazenda",
       "texto": "O IPCA-15 de novembro subiu 0,22% (esperado 0,34%), com 4,64% em 12 meses (IBGE, Reuters). Lula sondou Luiz Carlos Trabuco, presidente do conselho do Bradesco, para a Fazenda; ele pediu tempo e não há confirmação (Folha, CNN). O Ibovespa chegou a 174.332 pts e o dólar a R$ 5,74. Alta movida por notícia ainda não confirmada e com NY fechada: risco de devolução se o nome não se confirmar."
     },
@@ -169,11 +174,6 @@
       "nivel": "atencao",
       "titulo": "Ibovespa fecha em alta de 6,07%, a maior desde o 1º turno, com IPCA-15 fraco e Trabuco cotado para a Fazenda",
       "texto": "O Ibovespa fechou a 176.799,84 pts (+6,07%), com volume de R$ 35,9 bi, e o dólar a R$ 5,744 (−1,25%) (BPMoney). O IPCA-15 de novembro subiu 0,22% (esperado 0,34%), com 4,64% em 12 meses (IBGE). Lula sondou Luiz Carlos Trabuco, presidente do conselho do Bradesco, para a Fazenda em 2027; não há confirmação oficial de que aceitou (Reuters, CNN). Alta movida em parte por notícia ainda não confirmada e com NY fechada: risco de devolução se o nome não se confirmar."
-    },
-    {
-      "nivel": "atencao",
-      "titulo": "NY fechada pela Ação de Graças; Fed com 97,8% de chance de alta em 9/12",
-      "texto": "Bolsas americanas fechadas hoje e sessão curta na sexta: liquidez baixa no WIN e no WDO. O CME FedWatch mostra 97,8% de chance de alta de 0,25 p.p. em 9/12 (InfoMoney). O Brent (jan/27) fechou em alta de 2,07%, a US$ 96,57 (BPMoney), antes da reunião da OPEP+ no domingo (29/11)."
     }
   ],
   "indicadores": [
