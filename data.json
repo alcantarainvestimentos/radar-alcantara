@@ -1,30 +1,30 @@
 {
-  "atualizado_em": "2026-11-27T12:40:00-03:00",
-  "referencia": "Pregão de sexta, 27/11/2026 (parcial às 12h10)",
+  "atualizado_em": "2026-11-27T18:50:00-03:00",
+  "referencia": "Fechamento de sexta, 27/11/2026",
   "postura": {
     "estado": "RISK-ON",
     "positivos": 5,
     "total": 6,
     "desde": "2026-11-26",
     "conviccao": "ALTA",
-    "resumo": "Postura RISK-ON, com 5 de 6 sinais positivos e convicção ALTA (RISK-ON desde 26/11). Com a confirmação de Luiz Carlos Trabuco como ministro da Fazenda a partir de 2027, o Ibovespa sobe 0,94%, a 178.463 pts às 12h10, depois de tocar 183.625 pts, e o dólar cai 2,94%, a R$ 5,575, após mínima de R$ 5,48. Os DIs longos desabam (jan/31 perto de 13,66%) e tiveram negociação suspensa por limite. Em NY, na sessão curta de Black Friday, o S&P 500 sobe 1,15% e o VIX recua para ~25,6. Único sinal negativo: o VIX segue acima de 20. O Fed deve subir os juros em 9/12."
+    "resumo": "Postura RISK-ON, com 5 de 6 sinais positivos e convicção ALTA (RISK-ON desde 26/11). Com Luiz Carlos Trabuco confirmado como ministro da Fazenda a partir de 2027, o dólar fechou em queda de 3,97%, a R$ 5,5156 (−7,07% na semana), e os DIs longos desabaram. O Ibovespa tocou 183.625 pts, mas devolveu a alta com realização de lucros e fechou a 176.573 pts (−0,13%), ainda +6,13% na semana. Em NY, na sessão curta de Black Friday, o S&P 500 subiu 1,60% e o VIX caiu para 24,0. Único sinal negativo: o VIX segue acima de 20. O Fed deve subir os juros em 9/12."
   },
   "sinais": [
     {
       "nome": "Ibovespa 5 pregões",
-      "valor": "+7,26%",
+      "valor": "+6,13%",
       "estado": "pos",
       "regra": "Positivo se o índice subiu nos últimos 5 pregões"
     },
     {
       "nome": "Ibovespa 1 mês",
-      "valor": "≈ +1,57%",
+      "valor": "≈ +0,49%",
       "estado": "pos",
       "regra": "Positivo se o índice está acima de 1 mês atrás"
     },
     {
       "nome": "Dólar 5 pregões",
-      "valor": "−6,05%",
+      "valor": "−7,05%",
       "estado": "pos",
       "regra": "Positivo se o dólar caiu na semana (real mais forte)"
     },
@@ -36,13 +36,13 @@
     },
     {
       "nome": "VIX",
-      "valor": "≈25,6",
+      "valor": "24,0",
       "estado": "neg",
       "regra": "Positivo se o VIX está abaixo de 20"
     },
     {
       "nome": "S&P 500 no dia",
-      "valor": "+1,15%",
+      "valor": "+1,60%",
       "estado": "pos",
       "regra": "Positivo se o S&P 500 subiu no último pregão"
     }
@@ -52,21 +52,21 @@
       "codigo": "WIN",
       "nome": "Ibovespa",
       "vies": "baixa",
-      "nivel": "178.463 pts",
-      "dia": 0.94,
-      "semana": 7.26,
-      "mes": 1.57,
-      "nota": "178.462,94 pts (+0,94%) às 12h10 (InfoMoney), depois de abrir em disparada e tocar a máxima de 183.625 pts (+3,86%) pela manhã. Trabuco aceitou ser ministro da Fazenda a partir de 2027 (Planalto, quinta à noite). Altas: Hapvida +11,4%, MRV +10,9%, Vamos +10,7%, Magalu +10,1%; Petrobras (PETR4 −3,2%) e Vale (−2,1%) pesam. Semana = vs 19/11; mês = vs 27/10."
+      "nivel": "176.573 pts",
+      "dia": -0.13,
+      "semana": 6.13,
+      "mes": 0.49,
+      "nota": "Fechou a 176.573,35 pts (−0,13%) (Money Times, BPMoney), depois de tocar a máxima de 183.625 pts (+3,86%) na abertura com a confirmação de Trabuco na Fazenda; realização de lucros à tarde. Altas: Hapvida +12,0%, Magalu +10,5%, Vamos +10,4%, MRV +9,4%, Tenda +9,2%; Petrobras (PETR4 −3,2%, PETR3 −4,1%), Suzano (−2,6%) e Vale (−2,2%) pesaram. Semana +6,13% (vs 19/11); mês = vs 27/10."
     },
     {
       "codigo": "WDO",
       "nome": "Dólar comercial",
       "vies": "alta",
-      "nivel": "R$ 5,58",
-      "dia": -2.94,
-      "semana": -6.05,
-      "mes": 4.23,
-      "nota": "R$ 5,575 (−2,94%) às 12h04 (InfoMoney), após mínima de R$ 5,479 (−4,6%) às 10h40 (Seu Dinheiro); PTAX parcial de R$ 5,5768 às 12h13. A B3 ampliou só hoje o limite de baixa do DOL/WDO de −6% para −8,4%. Quinta queda seguida, com a confirmação de Trabuco na Fazenda. Semana = vs 19/11; mês = vs 27/10."
+      "nivel": "R$ 5,52",
+      "dia": -3.97,
+      "semana": -7.05,
+      "mes": 3.11,
+      "nota": "Fechou a R$ 5,5156 (−3,97%), quinta queda seguida e −7,07% na semana (Money Times, A Crítica); mínima de R$ 5,479 (−4,6%) às 10h40. A B3 ampliou só hoje o limite de baixa do DOL/WDO para −8,4%. Semana = vs 19/11; mês = vs 27/10."
     },
     {
       "codigo": "DI F31",
@@ -76,7 +76,7 @@
       "dia": -0.68,
       "semana": -1.44,
       "mes": null,
-      "nota": "Jan/31 a 13,66% (−67,5 pb) na abertura, às 9h12 (InfoMoney); chegou a cair 97 pb na mínima e quase todos os contratos tiveram negociação suspensa por limite de oscilação (Seu Dinheiro, 11h48). Jan/28 a 13,65%, jan/29 a 13,56%, jan/35 a 13,88%: a curva longa voltou para perto da Selic. Semana = vs 15,10% de 12/11."
+      "nota": "Jan/31 a 13,66% (−67,5 pb) às 9h12 (InfoMoney); chegou a cair 97 pb e quase todos os contratos tiveram negociação suspensa por limite; o Tesouro Direto também suspendeu negociações. As taxas fecharam em forte baixa (Money Times), sem taxas de fechamento confirmadas: mantido o dado das 9h12. Semana = vs 15,10% de 12/11."
     },
     {
       "codigo": "BTC",
@@ -92,38 +92,38 @@
   "fita": [
     {
       "nome": "IBOV",
-      "valor": "178.463",
-      "var": 0.94
+      "valor": "176.573",
+      "var": -0.13
     },
     {
       "nome": "USD/BRL",
-      "valor": "5,58",
-      "var": -2.94
+      "valor": "5,52",
+      "var": -3.97
     },
     {
       "nome": "S&P 500",
-      "valor": "7.265",
-      "var": 1.15
+      "valor": "7.297",
+      "var": 1.6
     },
     {
       "nome": "NASDAQ",
-      "valor": "23.932",
-      "var": 1.47
+      "valor": "24.130",
+      "var": 2.3
     },
     {
       "nome": "DOW",
-      "valor": "50.693",
-      "var": 1.02
+      "valor": "50.775",
+      "var": 1.18
     },
     {
       "nome": "VIX",
-      "valor": "≈25,6",
-      "var": -4.6
+      "valor": "24,0",
+      "var": -15.1
     },
     {
       "nome": "BRENT",
-      "valor": "96,57",
-      "var": 2.07
+      "valor": "94,87",
+      "var": -1.76
     },
     {
       "nome": "OURO",
@@ -146,34 +146,34 @@
       "titulo": "Ibovespa",
       "rotulo": "Abaixo da média histórica",
       "justo": "P/L 10x (média)",
-      "atual": "173.582 pts (~8,2x)",
-      "gap": -18.3,
-      "detalhe": "Referência Itaú BBA (27/10): Ibovespa a 7,9x P/L com 167.922 pts, contra média de 10 anos de 10x. Ajustado proporcionalmente aos 173.582 pts das 11h41 de 26/11, ~8,2x, desconto de ~18%."
+      "atual": "176.573 pts (~8,3x)",
+      "gap": -16.9,
+      "detalhe": "Referência Itaú BBA (27/10): Ibovespa a 7,9x P/L com 167.922 pts, contra média de 10 anos de 10x. Ajustado proporcionalmente ao fechamento de 27/11 (176.573 pts), ~8,3x, desconto de ~17%."
     },
     {
       "titulo": "Dólar vs Focus",
-      "rotulo": "Acima da expectativa",
+      "rotulo": "Em linha com a expectativa",
       "justo": "R$ 5,55",
-      "atual": "R$ 5,75",
-      "gap": 3.5,
-      "detalhe": "Focus de 23/11 projeta o dólar do fim de 2026 a R$ 5,55. A R$ 5,747 (10h30 de 26/11), ~3,5% acima."
+      "atual": "R$ 5,52",
+      "gap": -0.6,
+      "detalhe": "Focus de 23/11 projeta o dólar do fim de 2026 a R$ 5,55. Com o fechamento de 27/11 a R$ 5,5156, o câmbio já está ~0,6% abaixo da projeção."
     }
   ],
   "alertas": [
     {
       "nivel": "atencao",
-      "titulo": "Trabuco confirmado na Fazenda: dólar chega a cair 4,6%, DI desaba e Ibovespa devolve parte da alta",
-      "texto": "Luiz Carlos Trabuco aceitou ser ministro da Fazenda a partir de 2027 (Planalto, quinta à noite; InfoMoney). O dólar foi a R$ 5,479 (−4,6%) às 10h40 e estava a R$ 5,575 (−2,94%) às 12h04; a B3 ampliou só hoje o limite de baixa do DOL/WDO para −8,4%. Os DIs tiveram negociação suspensa por limite (jan/31 caiu até 97 pb). O Ibovespa tocou 183.625 pts (+3,86%) e reduziu para +0,94% às 12h10: volatilidade alta, cuidado com stops."
+      "titulo": "Efeito Trabuco: dólar fecha em queda de 3,97% e Ibovespa devolve a alta",
+      "texto": "Com Luiz Carlos Trabuco confirmado na Fazenda a partir de 2027, o dólar fechou a R$ 5,5156 (−3,97%; −7,07% na semana) e os DIs tiveram negociação suspensa por limite (jan/31 chegou a cair 97 pb). O Ibovespa tocou 183.625 pts (+3,86%), mas fechou a 176.573 pts (−0,13%) com realização de lucros, puxado por Petrobras, Vale e Suzano. Volatilidade alta: cuidado com stops."
     },
     {
       "nivel": "atencao",
-      "titulo": "IGP-M de novembro sobe 1,24%, acima do esperado; desemprego fica em 5,1%",
-      "texto": "O IGP-M subiu 1,24% em novembro (esperado 0,94%; outubro 1,47%), com 6,26% em 12 meses (FGV via Reuters). A PNAD mostrou desemprego de 5,1% no trimestre até outubro, em linha (IBGE). O governo central teve superávit primário de R$ 52,3 bi em outubro."
+      "titulo": "NY fecha em forte alta na sessão curta; VIX cai para 24",
+      "texto": "S&P 500 +1,60% (7.297), Nasdaq +2,30% e Dow +1,18%, com o VIX em 24,0 (−15%), ainda acima de 20. Na semana, o S&P 500 subiu ~5,6%. O Brent recuou 1,76%, a US$ 94,87, antes da reunião da OPEP+ no domingo. IGP-M de novembro veio em 1,24%, acima do esperado."
     },
     {
       "nivel": "atencao",
-      "titulo": "NY sobe na sessão curta de Black Friday; liquidez reduzida",
-      "texto": "S&P 500 +1,15%, Nasdaq +1,47% e Dow +1,02%, com o VIX em ~25,6 (−4,6%) (Yahoo Finance). O pregão fecha às 15h de Brasília. Vencem hoje ~US$ 6,6 bi em opções de bitcoin. A Binance encerrou a suspensão de saques e diz ter concluído a recuperação, quatro semanas após o ataque de US$ 6,3 bi (CoinDesk)."
+      "titulo": "Binance segue com saques em fases após o ataque de outubro",
+      "texto": "Sem novidade hoje sobre a Binance; os saques continuam em fases após o ataque de outubro. O bitcoin segue perto de US$ 61 mil, com o Fear & Greed em medo extremo."
     }
   ],
   "indicadores": [
@@ -206,7 +206,7 @@
       "valor": "13,66%",
       "estado": "neutro",
       "selo": "−67,5 pb às 9h12",
-      "agora": "Jan/31 a 13,66% (−67,5 pb) às 9h12 (InfoMoney); chegou a cair 97 pb e quase todos os contratos tiveram negociação suspensa por limite de oscilação (Seu Dinheiro). Jan/28 a 13,65%, jan/29 a 13,56%, jan/35 a 13,88%. A queda vem da confirmação de Trabuco na Fazenda. Na semana, o jan/31 cai ~1,4 p.p.",
+      "agora": "Jan/31 a 13,66% (−67,5 pb) às 9h12 (InfoMoney); chegou a cair 97 pb e quase todos os contratos tiveram negociação suspensa por limite de oscilação; o Tesouro Direto também suspendeu as negociações. As taxas fecharam em forte baixa (Money Times), mas sem taxas de fechamento confirmadas. Na semana, o jan/31 cai ~1,4 p.p.",
       "o_que_e": "A taxa de juros que o mercado cobra para emprestar ao governo até 2031. Mede o prêmio de risco de longo prazo.",
       "como_ler": "DI longo subindo encarece o valuation das ações, principalmente de empresas de crescimento e ligadas ao consumo. Queda costuma anteceder alta da bolsa."
     },
@@ -214,10 +214,10 @@
       "id": "cambio",
       "grupo": "Brasil",
       "nome": "Dólar comercial",
-      "valor": "R$ 5,58",
+      "valor": "R$ 5,52",
       "estado": "neg",
-      "selo": "−2,94% às 12h",
-      "agora": "R$ 5,575 (−2,94%) às 12h04 (InfoMoney), após mínima de R$ 5,479 (−4,6%) às 10h40; PTAX parcial de R$ 5,5768. A B3 ampliou o limite de baixa do DOL/WDO para −8,4% só hoje. Ontem fechou a R$ 5,744. Focus de 23/11 projeta R$ 5,55 no fim de 2026.",
+      "selo": "−3,97% no dia",
+      "agora": "Fechou a R$ 5,5156 (−3,97%), quinta queda seguida e −7,07% na semana (Money Times), com a confirmação de Trabuco na Fazenda; mínima de R$ 5,479 às 10h40. A B3 ampliou o limite de baixa do DOL/WDO para −8,4% só hoje. Focus de 23/11 projeta R$ 5,55 no fim de 2026.",
       "o_que_e": "A cotação do dólar no mercado à vista.",
       "como_ler": "Dólar subindo favorece exportadoras (Suzano, Embraer, petroleiras) e pressiona a inflação e as empresas endividadas em moeda estrangeira."
     },
@@ -239,7 +239,7 @@
       "valor": "3,75–4,00%",
       "estado": "neg",
       "selo": "97,8% de alta em dez.",
-      "agora": "O CME FedWatch mostra 97,8% de chance de alta de 0,25 p.p. em 9/12, para 4,00–4,25% (InfoMoney, 26/11). O PCE de outubro (3,8%, núcleo 3,3%) reforçou as apostas em mais altas. NY tem sessão curta hoje (Black Friday).",
+      "agora": "O CME FedWatch mostra 97,8% de chance de alta de 0,25 p.p. em 9/12, para 4,00–4,25% (InfoMoney, 26/11). O PCE de outubro (3,8%, núcleo 3,3%) reforçou as apostas em mais altas. NY fechou em forte alta na sessão curta de Black Friday.",
       "o_que_e": "A taxa básica de juros dos EUA, definida pelo Fomc.",
       "como_ler": "Juros altos nos EUA atraem capital para lá e tendem a fortalecer o dólar contra moedas emergentes como o real."
     },
@@ -269,10 +269,10 @@
       "id": "vix",
       "grupo": "Global",
       "nome": "VIX",
-      "valor": "≈25,6",
+      "valor": "24,0",
       "estado": "neg",
-      "selo": "−4,6% hoje",
-      "agora": "25,57 (−4,60%) no fim da manhã (Yahoo Finance), com NY em alta na sessão curta de Black Friday. Segue acima de 20, ainda em zona de estresse.",
+      "selo": "−15% hoje",
+      "agora": "24,01 (−4,28 pts, ~−15%) no fechamento da sessão curta de Black Friday, com NY em forte alta (The Company Chronicle). Segue acima de 20, ainda em zona de estresse.",
       "o_que_e": "O índice de volatilidade implícita do S&P 500, conhecido como o índice do medo.",
       "como_ler": "Abaixo de 15 indica calma, entre 15 e 20 é normal, e acima de 20 o mercado está estressado. Picos costumam vir com fuga de emergentes."
     },
@@ -280,10 +280,10 @@
       "id": "brent",
       "grupo": "Global",
       "nome": "Petróleo Brent",
-      "valor": "US$ 96,57",
+      "valor": "US$ 94,87",
       "estado": "neutro",
-      "selo": "+2,07% no dia",
-      "agora": "Brent (jan/27) fechou a US$ 96,57 (+2,07%), terceiro dia de alta (BPMoney). A OPEP+ se reúne no domingo (29/11) e deve prorrogar as metas de produção até pelo menos o 1º tri de 2027 (Newsquawk).",
+      "selo": "−1,76% no dia",
+      "agora": "Brent a US$ 94,87 (−1,76%) no fim da tarde (Misto Brasil), devolvendo parte da alta de três dias; ainda sobe ~4% na semana. A OPEP+ se reúne no domingo (29/11) e deve manter as metas de produção no 1º tri de 2027 (FinanceFeeds).",
       "o_que_e": "A referência internacional de preço do petróleo.",
       "como_ler": "Brent alto favorece PETR4, PRIO3 e BRAV3, mas pressiona a inflação e os custos de aéreas e logística."
     },
@@ -316,52 +316,60 @@
     ]
   },
   "setores": {
-    "periodo": "26/11/2026 (parcial)",
+    "periodo": "27/11/2026 (fechamento)",
     "altas": [
       {
-        "ticker": "B3SA3",
-        "var": 5.62
-      },
-      {
         "ticker": "HAPV3",
-        "var": 5.41
+        "var": 12.0
       },
       {
-        "ticker": "ASAI3",
-        "var": 5.08
+        "ticker": "MGLU3",
+        "var": 10.47
       },
       {
-        "ticker": "BBDC4",
-        "var": 4.79
+        "ticker": "VAMO3",
+        "var": 10.36
       },
       {
-        "ticker": "BBAS3",
-        "var": 4.22
+        "ticker": "MRVE3",
+        "var": 9.38
+      },
+      {
+        "ticker": "TEND3",
+        "var": 9.15
       }
     ],
     "baixas": [
       {
-        "ticker": "SUZB3",
-        "var": -0.54
+        "ticker": "PETR3",
+        "var": -4.11
       },
       {
-        "ticker": "SANB11",
-        "var": -0.37
+        "ticker": "PETR4",
+        "var": -3.17
+      },
+      {
+        "ticker": "SUZB3",
+        "var": -2.57
+      },
+      {
+        "ticker": "VALE3",
+        "var": -2.21
       }
     ],
-    "leitura": "Altas às 10h11 (BPMoney): B3, Hapvida, Assaí e bancos puxam o índice; depois o Bradesco chegou perto de +8% e a Petrobras passou de +4% (Canal Rural, 11h41). Poucas quedas: Suzano (−0,54%) e Santander (−0,37%) às 11h20, com o dólar em baixa."
+    "leitura": "Fechamento (Misto Brasil): varejo, construção e saúde, sensíveis a juros, dispararam com a queda dos DIs; bancos (BTG +4,45%, BB +3,39%) também subiram. Petrobras caiu com a compra de participação em bloco na Bacia de Campos e o Brent em baixa; Vale e Suzano sofreram com o real forte (BPMoney)."
   },
   "agenda": [
-    {
-      "data": "2026-11-27",
-      "hora": "—",
-      "evento": "NY em sessão curta; vencimento de ~US$ 6,6 bi em opções de bitcoin",
-      "peso": "medio"
-    },
     {
       "data": "2026-11-29",
       "hora": "—",
       "evento": "Reunião da OPEP+ sobre a produção de 2027",
+      "peso": "medio"
+    },
+    {
+      "data": "2026-11-30",
+      "hora": "08:25",
+      "evento": "Boletim Focus (BC)",
       "peso": "medio"
     },
     {
@@ -515,43 +523,53 @@
       "ibov": 176799.84,
       "dolar": 5.744,
       "btc": 60734
+    },
+    {
+      "data": "2026-11-27",
+      "ibov": 176573.35,
+      "dolar": 5.5156,
+      "btc": 61095
     }
   ],
   "fontes": [
     {
-      "nome": "Canal Rural — Ibovespa sobe mais de 4% com IPCA-15 e Trabuco (26/11)",
-      "url": "https://www.canalrural.com.br/economia/ibovespa-sobe-mais-de-4-com-ipca-15-abaixo-do-esperado-e-nome-de-trabuco-em-alta/"
+      "nome": "Money Times — Ibovespa fecha em queda após euforia com Trabuco (27/11)",
+      "url": "https://www.moneytimes.com.br/ibovespa-fecha-em-queda-apos-euforia-com-trabuco-na-fazenda-mas-acumula-ganhos-de-mais-de-6-na-semana-davs/"
     },
     {
-      "nome": "InfoMoney — Ibovespa hoje ao vivo (26/11)",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26112026/"
+      "nome": "BPMoney — Ibovespa fecha em queda após perder força do efeito Trabuco (27/11)",
+      "url": "https://bpmoney.com.br/mercado/ibovespa-fecha-em-queda-apos-perder-forca-do-efeito-trabuco/"
     },
     {
-      "nome": "TVT News — Dólar hoje cai após IPCA-15 (26/11)",
-      "url": "https://tvtnews.com.br/dolar-hoje-26-novembro-2026/"
+      "nome": "Misto Brasil — Dólar despenca 4% a R$ 5,51 (27/11)",
+      "url": "https://mistobrasil.com/2026/11/27/dolar-despenca-4-a-r-551-e-ibovespa-fecha-em-leve-alta/"
     },
     {
-      "nome": "BPMoney — Ibovespa dispara com bancos e Petrobras (26/11)",
-      "url": "https://bpmoney.com.br/economia/ibovespa-dispara-mais-de-2-com-bancos-e-petrobras-dolar-cai-a-r-577/"
+      "nome": "A Crítica — Dólar despenca a R$ 5,51 com efeito Trabuco (27/11)",
+      "url": "https://acritica.net/economia/dolar-despenca-r-5-51-efeito-trabuco-ibovespa-devolve-ganhos-fecha-estavel/"
     },
     {
-      "nome": "CNN Brasil — Lula sonda Trabuco; dólar despenca (26/11)",
-      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-26-novembro-2026/"
+      "nome": "InfoMoney — Ibovespa hoje ao vivo (27/11)",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27112026/"
     },
     {
-      "nome": "CoinDesk — Crypto Markets Today (26/11)",
-      "url": "https://www.coindesk.com/markets/2026/11/26/bitcoin-little-changed-defi-tokens-lead-the-bounce-as-u-s-marks-thanksgiving"
+      "nome": "Gazeta Mercantil — Juros futuros desabam com Trabuco (27/11)",
+      "url": "https://gazetamercantil.com/juros-futuros-dis-queda-trabuco-ministerio-fazenda"
     },
     {
-      "nome": "The Company Chronicle — preços cripto (26/11)",
-      "url": "https://thecompanychronicle.com/story/crypto-prices-today-november-26-2026"
+      "nome": "The Company Chronicle — S&P 500 +1,6% na sessão curta (27/11)",
+      "url": "https://thecompanychronicle.com/story/stocks-close-sp500-up-1-6-percent-nasdaq-up-2-3-percent-vix-24-half-day-november-27-2026"
     },
     {
-      "nome": "FinanceFeeds — Brent a US$ 95,58 (26/11)",
-      "url": "https://financefeeds.com/brent-crude-oil-price-95-58-thursday-three-day-rally-before-opec-plus-sunday-bull-100-bear-91/"
+      "nome": "FinanceFeeds — Brent antes da OPEP+ (27/11)",
+      "url": "https://financefeeds.com/brent-crude-oil-price-96-30-friday-opec-plus-set-to-hold-q1-output-sunday-bull-100-bear-92-57/"
+    },
+    {
+      "nome": "FinFly — preços cripto (27/11)",
+      "url": "https://finfly.news/en/crypto/crypto-prices-2026-11-27"
     }
   ],
-  "notas": "Parcial de 26/11: Ibovespa às 11h41 (Canal Rural); dólar às 10h30 (Folha via TVT News); DI às 9h17 (InfoMoney); BTC e ETH às 8h10 ET (Coinbase); Brent às 13h08 GMT (FinanceFeeds). NY fechada (Ação de Graças): S&P 500, Nasdaq, Dow e VIX mantidos do fechamento de 25/11; ouro sem dado confiável de hoje, mantido o de 25/11. Informação para estudo, não recomendação de investimento.",
+  "notas": "Fechamento de 27/11: Ibovespa e dólar (Money Times, 18h31); NY no fechamento da sessão curta (13h ET, The Company Chronicle/JBizNews); Brent no fim da tarde (Misto Brasil). DIs sem taxa de fechamento confirmada: mantidas as das 9h12 (InfoMoney). Ouro, BTC, ETH e Treasury 10 anos sem dado de fechamento confiável: mantidos os da manhã. Informação para estudo, não recomendação de investimento.",
   "config": {
     "brapi_token": "",
     "whatsapp": "",
