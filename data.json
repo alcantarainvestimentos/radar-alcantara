@@ -946,38 +946,6 @@
       "src": "AP",
       "t": "2026-11-24T03:31:25+00:00",
       "score": 4
-    },
-    {
-      "cat": "cripto",
-      "title": "Alerta: hack de iPhone 'nível Estado' rouba frases-semente de carteiras cripto e senhas; Forbes pede atualização do iOS",
-      "link": "https://www.forbes.com/sites/digital-assets/2026/11/23/nation-state-grade-iphone-hack-leaves-crypto-wallets-password-managers-data-messages-and-photos-at-risk/",
-      "src": "Forbes",
-      "t": "2026-11-23T19:15:05-05:00",
-      "score": 4
-    },
-    {
-      "cat": "cripto",
-      "title": "EUA vão à Justiça para confiscar US$ 1,1 bi em USDC roubados da Binance por hackers da Coreia do Norte",
-      "link": "https://cointelegraph.com/news/us-seeks-11b-crypto-stolen-north-korea-binance-hack",
-      "src": "Cointelegraph",
-      "t": "2026-11-23T21:04:03+00:00",
-      "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Wall Street dispara com volta de Jensen Huang à Nvidia: Nasdaq salta mais de 6% e ação da Nvidia sobe 30%",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html",
-      "src": "Yahoo Finance",
-      "t": "2026-11-23T21:00:00+00:00",
-      "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Dólar sobe após romper R$ 6 com fiscal no radar e Ibovespa cai",
-      "link": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-23-novembro-2026/",
-      "src": "CNN Brasil",
-      "t": "2026-11-23T17:30:00-03:00",
-      "score": 4
     }
   ],
   "incidentes": [
