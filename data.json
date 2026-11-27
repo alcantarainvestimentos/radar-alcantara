@@ -1,49 +1,49 @@
 {
-  "atualizado_em": "2026-11-27T09:20:00-03:00",
-  "referencia": "Fechamento de quinta, 26/11/2026 · pré-abertura 9h",
+  "atualizado_em": "2026-11-27T12:40:00-03:00",
+  "referencia": "Pregão de sexta, 27/11/2026 (parcial às 12h10)",
   "postura": {
     "estado": "RISK-ON",
-    "positivos": 4,
+    "positivos": 5,
     "total": 6,
     "desde": "2026-11-26",
-    "conviccao": "MÉDIA",
-    "resumo": "Postura RISK-ON, com 4 de 6 sinais positivos e convicção MÉDIA (passou a RISK-ON no fechamento de hoje, depois de sair de RISK-OFF pela manhã). O Ibovespa fechou em alta de 6,07%, a 176.800 pts, a maior alta diária desde o 1º turno, e o dólar caiu 1,25%, a R$ 5,744, com o IPCA-15 de 0,22% (abaixo dos 0,34% esperados) e a sondagem de Lula a Luiz Carlos Trabuco para a Fazenda. Com isso, o índice voltou a ficar acima de um mês atrás (+0,1%), por margem mínima. NY esteve fechada (Ação de Graças), o VIX segue perto de 28 e o Fed deve subir os juros em 9/12 (97,8% no FedWatch). O bitcoin está perto de US$ 60,7 mil."
+    "conviccao": "ALTA",
+    "resumo": "Postura RISK-ON, com 5 de 6 sinais positivos e convicção ALTA (RISK-ON desde 26/11). Com a confirmação de Luiz Carlos Trabuco como ministro da Fazenda a partir de 2027, o Ibovespa sobe 0,94%, a 178.463 pts às 12h10, depois de tocar 183.625 pts, e o dólar cai 2,94%, a R$ 5,575, após mínima de R$ 5,48. Os DIs longos desabam (jan/31 perto de 13,66%) e tiveram negociação suspensa por limite. Em NY, na sessão curta de Black Friday, o S&P 500 sobe 1,15% e o VIX recua para ~25,6. Único sinal negativo: o VIX segue acima de 20. O Fed deve subir os juros em 9/12."
   },
   "sinais": [
     {
       "nome": "Ibovespa 5 pregões",
-      "valor": "+6,26%",
+      "valor": "+7,26%",
       "estado": "pos",
       "regra": "Positivo se o índice subiu nos últimos 5 pregões"
     },
     {
       "nome": "Ibovespa 1 mês",
-      "valor": "≈ +0,11%",
+      "valor": "≈ +1,57%",
       "estado": "pos",
       "regra": "Positivo se o índice está acima de 1 mês atrás"
     },
     {
       "nome": "Dólar 5 pregões",
-      "valor": "−3,20%",
+      "valor": "−6,05%",
       "estado": "pos",
       "regra": "Positivo se o dólar caiu na semana (real mais forte)"
     },
     {
       "nome": "DI longo na semana",
-      "valor": "−0,41 p.p.",
+      "valor": "−1,44 p.p.",
       "estado": "pos",
       "regra": "Positivo se a taxa do DI longo caiu na semana"
     },
     {
       "nome": "VIX",
-      "valor": "≈27,8",
+      "valor": "≈25,6",
       "estado": "neg",
       "regra": "Positivo se o VIX está abaixo de 20"
     },
     {
       "nome": "S&P 500 no dia",
-      "valor": "−0,25%",
-      "estado": "neg",
+      "valor": "+1,15%",
+      "estado": "pos",
       "regra": "Positivo se o S&P 500 subiu no último pregão"
     }
   ],
@@ -52,73 +52,73 @@
       "codigo": "WIN",
       "nome": "Ibovespa",
       "vies": "baixa",
-      "nivel": "176.800 pts",
-      "dia": 6.07,
-      "semana": 6.26,
-      "mes": 0.11,
-      "nota": "Fechou a 176.799,84 pts (+6,07%), maior alta diária desde o 1º turno das eleições, com volume de R$ 35,9 bi (BPMoney). IPCA-15 abaixo do esperado (0,22% vs 0,34%) e a sondagem de Lula a Luiz Carlos Trabuco para a Fazenda. Papéis sensíveis a juros lideraram: Localiza +14,4%, MRV +14,3%, Raia Drogasil +12%, C&A +10,6%, Cogna +10,3%. NY fechada (Ação de Graças). Semana = vs 19/11; mês = vs 26/10."
+      "nivel": "178.463 pts",
+      "dia": 0.94,
+      "semana": 7.26,
+      "mes": 1.57,
+      "nota": "178.462,94 pts (+0,94%) às 12h10 (InfoMoney), depois de abrir em disparada e tocar a máxima de 183.625 pts (+3,86%) pela manhã. Trabuco aceitou ser ministro da Fazenda a partir de 2027 (Planalto, quinta à noite). Altas: Hapvida +11,4%, MRV +10,9%, Vamos +10,7%, Magalu +10,1%; Petrobras (PETR4 −3,2%) e Vale (−2,1%) pesam. Semana = vs 19/11; mês = vs 27/10."
     },
     {
       "codigo": "WDO",
       "nome": "Dólar comercial",
       "vies": "alta",
-      "nivel": "R$ 5,74",
-      "dia": -1.25,
-      "semana": -3.2,
-      "mes": 6.24,
-      "nota": "Fechou a R$ 5,744 (−1,25%), quarta queda seguida, entre R$ 5,712 e R$ 5,789 (BPMoney). Cai com o IPCA-15 fraco e o nome de Trabuco para a Fazenda; DXY +0,11%. Semana = vs 19/11; mês = vs 26/10."
+      "nivel": "R$ 5,58",
+      "dia": -2.94,
+      "semana": -6.05,
+      "mes": 4.23,
+      "nota": "R$ 5,575 (−2,94%) às 12h04 (InfoMoney), após mínima de R$ 5,479 (−4,6%) às 10h40 (Seu Dinheiro); PTAX parcial de R$ 5,5768 às 12h13. A B3 ampliou só hoje o limite de baixa do DOL/WDO de −6% para −8,4%. Quinta queda seguida, com a confirmação de Trabuco na Fazenda. Semana = vs 19/11; mês = vs 27/10."
     },
     {
       "codigo": "DI F31",
       "nome": "Juros longos",
       "vies": "alta",
-      "nivel": "14,69%",
-      "dia": -0.26,
-      "semana": -0.41,
+      "nivel": "13,66%",
+      "dia": -0.68,
+      "semana": -1.44,
       "mes": null,
-      "nota": "Jan/31 a 14,69% (−26 pb) às 9h24 (DGABC) e 14,72% às 9h17 (InfoMoney); jan/28 a 14,10%, jan/29 a 14,47% e jan/35 a 14,92% (CNN, 10h). Curva toda em queda com o IPCA-15 abaixo do esperado e o nome de Trabuco; sem taxa de fechamento confiável publicada. Semana = vs 15,10% de 12/11."
+      "nota": "Jan/31 a 13,66% (−67,5 pb) na abertura, às 9h12 (InfoMoney); chegou a cair 97 pb na mínima e quase todos os contratos tiveram negociação suspensa por limite de oscilação (Seu Dinheiro, 11h48). Jan/28 a 13,65%, jan/29 a 13,56%, jan/35 a 13,88%: a curva longa voltou para perto da Selic. Semana = vs 15,10% de 12/11."
     },
     {
       "codigo": "BTC",
       "nome": "Bitcoin",
       "vies": "baixa",
-      "nivel": "US$ 60.734",
-      "dia": 4.7,
-      "semana": -1.77,
+      "nivel": "US$ 61.095",
+      "dia": 0.73,
+      "semana": -1.19,
       "mes": null,
-      "nota": "≈US$ 60.734 (+4,7% em 24h) às 10h10 de Brasília (Coinbase via The Company Chronicle), entre US$ 57.208 e US$ 61.527 em 24h. ETFs à vista com a 7ª saída seguida (−US$ 453 mi na quarta) e Fear & Greed em 10, medo extremo (CoinDesk). Semana = vs 19/11."
+      "nota": "≈US$ 61.095 (+0,73%) no fim da manhã (Yahoo Finance); US$ 61.579 (+1,1% em 24h) pela madrugada (CoinGecko via FinFly). Vencimento de ~US$ 6,6 bi em opções de bitcoin hoje. Fear & Greed em medo extremo. Semana = vs 19/11."
     }
   ],
   "fita": [
     {
       "nome": "IBOV",
-      "valor": "176.800",
-      "var": 6.07
+      "valor": "178.463",
+      "var": 0.94
     },
     {
       "nome": "USD/BRL",
-      "valor": "5,74",
-      "var": -1.25
+      "valor": "5,58",
+      "var": -2.94
     },
     {
       "nome": "S&P 500",
-      "valor": "7.183",
-      "var": -0.25
+      "valor": "7.265",
+      "var": 1.15
     },
     {
       "nome": "NASDAQ",
-      "valor": "23.586",
-      "var": -0.62
+      "valor": "23.932",
+      "var": 1.47
     },
     {
       "nome": "DOW",
-      "valor": "50.184",
-      "var": 0.33
+      "valor": "50.693",
+      "var": 1.02
     },
     {
       "nome": "VIX",
-      "valor": "≈27,8",
-      "var": 5.57
+      "valor": "≈25,6",
+      "var": -4.6
     },
     {
       "nome": "BRENT",
@@ -127,18 +127,18 @@
     },
     {
       "nome": "OURO",
-      "valor": "3.536",
-      "var": -0.73
+      "valor": "≈3.666",
+      "var": 2.85
     },
     {
       "nome": "BTC",
-      "valor": "60.734",
-      "var": 4.7
+      "valor": "61.095",
+      "var": 0.73
     },
     {
       "nome": "ETH",
-      "valor": "1.704",
-      "var": 4.5
+      "valor": "1.738",
+      "var": 2.31
     }
   ],
   "valor_justo": [
@@ -162,18 +162,18 @@
   "alertas": [
     {
       "nivel": "atencao",
-      "titulo": "Bolsas da China têm a maior alta em 2 anos após Pequim prometer apoio; Ásia sobe com chips e IA",
-      "texto": "O Conselho de Estado chinês prometeu mais apoio ao mercado e as ações da China tiveram a maior alta em dois anos (Reuters via Yahoo Finance). As bolsas da Ásia fecharam em forte alta com ações de IA (O Povo) e a Nasdaq se recupera perto da zona de bear market (XTB). NY fechada hoje e sessão curta: liquidez baixa."
+      "titulo": "Trabuco confirmado na Fazenda: dólar chega a cair 4,6%, DI desaba e Ibovespa devolve parte da alta",
+      "texto": "Luiz Carlos Trabuco aceitou ser ministro da Fazenda a partir de 2027 (Planalto, quinta à noite; InfoMoney). O dólar foi a R$ 5,479 (−4,6%) às 10h40 e estava a R$ 5,575 (−2,94%) às 12h04; a B3 ampliou só hoje o limite de baixa do DOL/WDO para −8,4%. Os DIs tiveram negociação suspensa por limite (jan/31 caiu até 97 pb). O Ibovespa tocou 183.625 pts (+3,86%) e reduziu para +0,94% às 12h10: volatilidade alta, cuidado com stops."
     },
     {
       "nivel": "atencao",
-      "titulo": "Ibovespa dispara 4% com IPCA-15 fraco e Trabuco cotado para a Fazenda",
-      "texto": "O IPCA-15 de novembro subiu 0,22% (esperado 0,34%), com 4,64% em 12 meses (IBGE, Reuters). Lula sondou Luiz Carlos Trabuco, presidente do conselho do Bradesco, para a Fazenda; ele pediu tempo e não há confirmação (Folha, CNN). O Ibovespa chegou a 174.332 pts e o dólar a R$ 5,74. Alta movida por notícia ainda não confirmada e com NY fechada: risco de devolução se o nome não se confirmar."
+      "titulo": "IGP-M de novembro sobe 1,24%, acima do esperado; desemprego fica em 5,1%",
+      "texto": "O IGP-M subiu 1,24% em novembro (esperado 0,94%; outubro 1,47%), com 6,26% em 12 meses (FGV via Reuters). A PNAD mostrou desemprego de 5,1% no trimestre até outubro, em linha (IBGE). O governo central teve superávit primário de R$ 52,3 bi em outubro."
     },
     {
       "nivel": "atencao",
-      "titulo": "Ibovespa fecha em alta de 6,07%, a maior desde o 1º turno, com IPCA-15 fraco e Trabuco cotado para a Fazenda",
-      "texto": "O Ibovespa fechou a 176.799,84 pts (+6,07%), com volume de R$ 35,9 bi, e o dólar a R$ 5,744 (−1,25%) (BPMoney). O IPCA-15 de novembro subiu 0,22% (esperado 0,34%), com 4,64% em 12 meses (IBGE). Lula sondou Luiz Carlos Trabuco, presidente do conselho do Bradesco, para a Fazenda em 2027; não há confirmação oficial de que aceitou (Reuters, CNN). Alta movida em parte por notícia ainda não confirmada e com NY fechada: risco de devolução se o nome não se confirmar."
+      "titulo": "NY sobe na sessão curta de Black Friday; liquidez reduzida",
+      "texto": "S&P 500 +1,15%, Nasdaq +1,47% e Dow +1,02%, com o VIX em ~25,6 (−4,6%) (Yahoo Finance). O pregão fecha às 15h de Brasília. Vencem hoje ~US$ 6,6 bi em opções de bitcoin. A Binance segue com saques em fases após o ataque de outubro."
     }
   ],
   "indicadores": [
@@ -184,7 +184,7 @@
       "valor": "13,75%",
       "estado": "neutro",
       "selo": "próx. Copom 9/12",
-      "agora": "Mantida em 13,75% em 4/11; o mercado espera manutenção em 9/12. Focus de 23/11: 13,75% no fim de 2026 e 13% no fim de 2027. Lula sancionou hoje o ajuste fiscal e autorizou o envio de uma PEC para conter despesas obrigatórias; Galípolo disse que a função de reação do BC não mudou.",
+      "agora": "Mantida em 13,75% em 4/11; o mercado espera manutenção em 9/12. Focus de 23/11: 13,75% no fim de 2026 e 13% no fim de 2027. Luiz Carlos Trabuco aceitou ser ministro da Fazenda a partir de 2027, e os DIs longos caíram para perto da Selic.",
       "o_que_e": "A taxa básica de juros definida pelo Copom a cada 45 dias. Serve de base para o CDI e para o custo do crédito no país.",
       "como_ler": "Selic em queda tende a favorecer bolsa, varejo e construção. Uma pausa ou alta pressiona esses setores e fortalece a renda fixa."
     },
@@ -195,7 +195,7 @@
       "valor": "5,15%",
       "estado": "neg",
       "selo": "IPCA-15 nov.: 0,22%",
-      "agora": "IPCA-15 de novembro: 0,22% (esperado 0,34%; outubro 0,32%) e 4,64% em 12 meses, ainda acima do teto de 4,5% (IBGE). Focus de 23/11: IPCA de 2026 em 5,15% e de 2027 em 5,12%.",
+      "agora": "IPCA-15 de novembro: 0,22% (esperado 0,34%) e 4,64% em 12 meses (IBGE). O IGP-M de novembro subiu 1,24% (esperado 0,94%), com 6,26% em 12 meses (FGV). Focus de 23/11: IPCA de 2026 em 5,15% e de 2027 em 5,12%.",
       "o_que_e": "A inflação oficial do Brasil, aqui pela mediana das projeções do Boletim Focus para o ano.",
       "como_ler": "Projeções subindo reduzem o espaço para cortes da Selic. Acima de 4,5% o Banco Central está fora da meta."
     },
@@ -203,10 +203,10 @@
       "id": "curva",
       "grupo": "Brasil",
       "nome": "DI janeiro/2031",
-      "valor": "14,69%",
+      "valor": "13,66%",
       "estado": "neutro",
-      "selo": "−26 pb às 9h24",
-      "agora": "Jan/31 a 14,69% (−26 pb) às 9h24 (DGABC); jan/28 a 14,10% e jan/29 a 14,47%; jan/35 a 14,92% (−16 pb) às 10h (CNN). Curva em queda com o IPCA-15 abaixo do esperado e a notícia de Trabuco para a Fazenda; sem fechamento confiável publicado. Na semana, o jan/31 cai ~0,4 p.p.",
+      "selo": "−67,5 pb às 9h12",
+      "agora": "Jan/31 a 13,66% (−67,5 pb) às 9h12 (InfoMoney); chegou a cair 97 pb e quase todos os contratos tiveram negociação suspensa por limite de oscilação (Seu Dinheiro). Jan/28 a 13,65%, jan/29 a 13,56%, jan/35 a 13,88%. A queda vem da confirmação de Trabuco na Fazenda. Na semana, o jan/31 cai ~1,4 p.p.",
       "o_que_e": "A taxa de juros que o mercado cobra para emprestar ao governo até 2031. Mede o prêmio de risco de longo prazo.",
       "como_ler": "DI longo subindo encarece o valuation das ações, principalmente de empresas de crescimento e ligadas ao consumo. Queda costuma anteceder alta da bolsa."
     },
@@ -214,10 +214,10 @@
       "id": "cambio",
       "grupo": "Brasil",
       "nome": "Dólar comercial",
-      "valor": "R$ 5,74",
+      "valor": "R$ 5,58",
       "estado": "neg",
-      "selo": "−1,25% no dia",
-      "agora": "Fechou a R$ 5,744 (−1,25%), quarta queda seguida, com mínima de R$ 5,712 (BPMoney). Cai com o IPCA-15 fraco e a sondagem de Trabuco para a Fazenda. Ontem fechou a R$ 5,8179. Focus de 23/11 projeta R$ 5,55 no fim de 2026.",
+      "selo": "−2,94% às 12h",
+      "agora": "R$ 5,575 (−2,94%) às 12h04 (InfoMoney), após mínima de R$ 5,479 (−4,6%) às 10h40; PTAX parcial de R$ 5,5768. A B3 ampliou o limite de baixa do DOL/WDO para −8,4% só hoje. Ontem fechou a R$ 5,744. Focus de 23/11 projeta R$ 5,55 no fim de 2026.",
       "o_que_e": "A cotação do dólar no mercado à vista.",
       "como_ler": "Dólar subindo favorece exportadoras (Suzano, Embraer, petroleiras) e pressiona a inflação e as empresas endividadas em moeda estrangeira."
     },
@@ -225,10 +225,10 @@
       "id": "emprego",
       "grupo": "Brasil",
       "nome": "Desemprego (IBGE)",
-      "valor": "5,2%",
+      "valor": "5,1%",
       "estado": "pos",
-      "selo": "trimestre até set.",
-      "agora": "O mercado de trabalho segue apertado, o que sustenta o consumo, mas também a inflação de serviços.",
+      "selo": "trimestre até out.",
+      "agora": "5,1% no trimestre até outubro, em linha com o esperado e abaixo dos 5,2% anteriores (IBGE). O mercado de trabalho segue apertado, o que sustenta o consumo, mas também a inflação de serviços.",
       "o_que_e": "A taxa de desocupação da PNAD Contínua, em trimestre móvel.",
       "como_ler": "Desemprego baixo é bom para a economia, mas dificulta a queda da inflação e o corte de juros."
     },
@@ -239,7 +239,7 @@
       "valor": "3,75–4,00%",
       "estado": "neg",
       "selo": "97,8% de alta em dez.",
-      "agora": "O CME FedWatch mostra 97,8% de chance de alta de 0,25 p.p. em 9/12, para 4,00–4,25% (InfoMoney, 26/11). O PCE de outubro (3,8%, núcleo 3,3%) reforçou as apostas em mais altas. NY fechada hoje (Ação de Graças).",
+      "agora": "O CME FedWatch mostra 97,8% de chance de alta de 0,25 p.p. em 9/12, para 4,00–4,25% (InfoMoney, 26/11). O PCE de outubro (3,8%, núcleo 3,3%) reforçou as apostas em mais altas. NY tem sessão curta hoje (Black Friday).",
       "o_que_e": "A taxa básica de juros dos EUA, definida pelo Fomc.",
       "como_ler": "Juros altos nos EUA atraem capital para lá e tendem a fortalecer o dólar contra moedas emergentes como o real."
     },
@@ -258,10 +258,10 @@
       "id": "treasury",
       "grupo": "EUA",
       "nome": "Treasury 10 anos",
-      "valor": "≈4,82%",
+      "valor": "≈4,84%",
       "estado": "neg",
-      "selo": "à tarde",
-      "agora": "O 10 anos operava perto de 4,82% no meio da tarde (Yahoo Finance), contra ~4,90% ontem, mesmo com o núcleo do PCE acima do esperado. Sem fechamento confiável publicado.",
+      "selo": "manhã",
+      "agora": "O 10 anos caiu para perto de 4,84% pela manhã (Yahoo Finance), contra ~4,90% na quarta; o painel do Yahoo mostra 4,906%, sem horário. NY tem sessão curta hoje (Black Friday).",
       "o_que_e": "O rendimento do título de 10 anos do governo americano, referência global de juros.",
       "como_ler": "Acima de 4,5% os juros pesam sobre as ações no mundo todo. Quedas costumam aliviar a bolsa brasileira e o real."
     },
@@ -269,10 +269,10 @@
       "id": "vix",
       "grupo": "Global",
       "nome": "VIX",
-      "valor": "≈27,8",
+      "valor": "≈25,6",
       "estado": "neg",
-      "selo": "+5,6% à tarde",
-      "agora": "27,83 (+5,57%) às 17h08 de Brasília (Yahoo Finance), abaixo do pico da manhã, quando passou de 29; sem fechamento confiável publicado. Ontem fechou a 26,62 (Saxo).",
+      "selo": "−4,6% hoje",
+      "agora": "25,57 (−4,60%) no fim da manhã (Yahoo Finance), com NY em alta na sessão curta de Black Friday. Segue acima de 20, ainda em zona de estresse.",
       "o_que_e": "O índice de volatilidade implícita do S&P 500, conhecido como o índice do medo.",
       "como_ler": "Abaixo de 15 indica calma, entre 15 e 20 é normal, e acima de 20 o mercado está estressado. Picos costumam vir com fuga de emergentes."
     },
@@ -291,10 +291,10 @@
       "id": "ouro",
       "grupo": "Global",
       "nome": "Ouro",
-      "valor": "US$ 3.536",
+      "valor": "≈US$ 3.666",
       "estado": "neutro",
-      "selo": "−0,73% hoje",
-      "agora": "Ouro (Comex, dezembro) fechou em queda de 0,73%, a US$ 3.535,80, com a perspectiva de alta do Fed após o PCE; a prata caiu 1,77% (DGABC).",
+      "selo": "+2,85% hoje",
+      "agora": "Ouro a US$ 3.666 (+2,85%) no fim da manhã (Yahoo Finance); Investing mostra US$ 3.630 (+2,67%).",
       "o_que_e": "O preço da onça-troy de ouro.",
       "como_ler": "Ouro subindo sinaliza busca por proteção. Quedas fortes junto com bolsas podem indicar venda forçada para cobrir perdas."
     }
@@ -303,15 +303,15 @@
     "itens": [
       {
         "nome": "BTC",
-        "valor": "US$ 60.734",
-        "var": 4.7,
-        "nota": "≈US$ 60.734 (+4,7% em 24h) às 8h10 ET de 26/11 (Coinbase via The Company Chronicle); US$ 60.621 às 7h18 ET (TokenPost). Fear & Greed em 11, medo extremo (Alternative.me), e ETFs à vista com mais de US$ 5 bi de saídas em novembro (Coincu). A Binance segue com saques em fases após o ataque de outubro."
+        "valor": "US$ 61.095",
+        "var": 0.73,
+        "nota": "≈US$ 61.095 (+0,73%) no fim da manhã de 27/11 (Yahoo Finance); US$ 61.579 (+1,13% em 24h) pela madrugada (CoinGecko via FinFly). Vencimento de ~US$ 6,6 bi em opções hoje. Fear & Greed em medo extremo. A Binance segue com saques em fases após o ataque de outubro."
       },
       {
         "nome": "ETH",
-        "valor": "US$ 1.704",
-        "var": 4.5,
-        "nota": "≈US$ 1.704 (+4,5% em 24h) às 8h10 ET de 26/11 (Coinbase via The Company Chronicle); −4,0% em 7 dias. Tokens de DeFi lideram o repique (CoinDesk)."
+        "valor": "US$ 1.738",
+        "var": 2.31,
+        "nota": "≈US$ 1.738 (+2,31% em 24h) em 27/11 (CoinGecko via FinFly). BNB a US$ 565 (+1%) e Solana a US$ 73 (+2,6%)."
       }
     ]
   },
@@ -352,18 +352,6 @@
     "leitura": "Altas às 10h11 (BPMoney): B3, Hapvida, Assaí e bancos puxam o índice; depois o Bradesco chegou perto de +8% e a Petrobras passou de +4% (Canal Rural, 11h41). Poucas quedas: Suzano (−0,54%) e Santander (−0,37%) às 11h20, com o dólar em baixa."
   },
   "agenda": [
-    {
-      "data": "2026-11-27",
-      "hora": "8h",
-      "evento": "IGP-M de novembro (FGV)",
-      "peso": "medio"
-    },
-    {
-      "data": "2026-11-27",
-      "hora": "9h",
-      "evento": "PNAD Contínua, taxa de desemprego (IBGE)",
-      "peso": "medio"
-    },
     {
       "data": "2026-11-27",
       "hora": "—",
@@ -594,35 +582,35 @@
       ],
       "focus_fonte": "Focus de 23/11 (fim de 2026 e fim de 2027)",
       "curva": {
-        "data": "26/11 às 9h17 (InfoMoney)",
+        "data": "27/11 às 9h12 (InfoMoney)",
         "pontos": [
           {
             "v": "jan/27",
-            "t": 13.672
+            "t": 13.65
           },
           {
             "v": "jan/28",
-            "t": 14.11
+            "t": 13.645
           },
           {
             "v": "jan/29",
-            "t": 14.48
+            "t": 13.56
           },
           {
             "v": "jan/31",
-            "t": 14.72
+            "t": 13.66
           },
           {
             "v": "jan/33",
-            "t": 14.85
+            "t": 13.895
           },
           {
             "v": "jan/35",
-            "t": 14.86
+            "t": 13.88
           }
         ]
       },
-      "leitura": "Os DIs caem forte nesta quinta: jan/31 a 14,72% e jan/35 a 14,86% às 9h17 (−14 a −18 pb nos vértices longos), com o IPCA-15 de 0,22% abaixo do esperado e a sondagem de Trabuco para a Fazenda. A curva segue acima da Selic de 13,75%."
+      "leitura": "Os DIs desabam nesta sexta com a confirmação de Trabuco na Fazenda: na abertura, jan/31 a 13,66% e jan/35 a 13,88% (−60 a −68 pb nos vértices longos), com negociação suspensa por limite de oscilação. A curva longa voltou para perto da Selic de 13,75%."
     },
     "eua": {
       "fed": "3,75–4,00%",
