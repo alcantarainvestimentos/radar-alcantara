@@ -787,6 +787,15 @@
   },
   "noticias_radar": [
     {
+      "cat": "acoes",
+      "title": "Trabuco aceita a Fazenda e dólar despenca mais de 3%, a R$ 5,54; Ibovespa disparou 6,07% na véspera",
+      "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27112026/",
+      "src": "InfoMoney",
+      "t": "2026-11-27T09:24:00-03:00",
+      "score": 5,
+      "viral": true
+    },
+    {
       "cat": "cripto",
       "title": "Bitcoin volta a US$ 61 mil após mínima de 2 anos em US$ 57 mil e mira 1ª alta semanal em 8 semanas",
       "link": "https://www.analyticsinsight.net/news/bitcoin-recovers-above-usd-61400-eyes-first-weekly-gain-in-eight-weeks-as-crypto-markets-rebound",
@@ -900,8 +909,7 @@
       "link": "https://abcnews.com/US/treasurys-fincen-cybersecurity-incident-includes-unauthorized-access-systems/story?id=138432822",
       "src": "ABC News",
       "t": "2026-11-25T07:41:17+00:00",
-      "score": 4,
-      "viral": true
+      "score": 4
     },
     {
       "cat": "acoes",
@@ -910,46 +918,6 @@
       "src": "Money Times",
       "t": "2026-11-24T18:30:00-03:00",
       "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Ajuste fiscal aprovado na Câmara: dólar cai quase 2% e Ibovespa sobe cerca de 1%",
-      "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-24112026/",
-      "src": "InfoMoney",
-      "t": "2026-11-24T11:30:00-03:00",
-      "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Trump pode anunciar novas tarifas contra China, Japão, Coreia e mais de 10 países já nesta semana; Nasdaq futuro cai 2,4%",
-      "link": "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
-      "src": "CoinDesk",
-      "t": "2026-11-24T08:08:00-05:00",
-      "score": 5
-    },
-    {
-      "cat": "cripto",
-      "title": "PF bloqueia mais de R$ 4 bi de quadrilha que lavava dinheiro de golpes e apostas com criptomoedas",
-      "link": "https://www.otempo.com.br/brasil/2026/11/24/pf-faz-operacao-contra-esquema-suspeito-de-movimentar-r-4-bilhoes-com-golpes-e-criptomoedas",
-      "src": "O Tempo",
-      "t": "2026-11-24T09:55:00-03:00",
-      "score": 5
-    },
-    {
-      "cat": "cripto",
-      "title": "Bitcoin perde US$ 60 mil e acumula queda de 25% no mês; Strategy despenca 7% e XRP e SOL afundam 10%",
-      "link": "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
-      "src": "CoinDesk",
-      "t": "2026-11-24T12:47:40+00:00",
-      "score": 4
-    },
-    {
-      "cat": "cripto",
-      "title": "Ameaça de tarifas derruba bitcoin de volta para US$ 60 mil; moeda segue 15% abaixo da média de 200 dias",
-      "link": "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto#btc",
-      "src": "CoinDesk",
-      "t": "2026-11-24T07:47:00-05:00",
-      "score": 3
     }
   ],
   "incidentes": [
