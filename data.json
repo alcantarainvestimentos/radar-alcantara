@@ -775,6 +775,22 @@
   },
   "noticias_radar": [
     {
+      "cat": "cripto",
+      "title": "Bitcoin volta a US$ 61 mil após mínima de 2 anos em US$ 57 mil e mira 1ª alta semanal em 8 semanas",
+      "link": "https://www.analyticsinsight.net/news/bitcoin-recovers-above-usd-61400-eyes-first-weekly-gain-in-eight-weeks-as-crypto-markets-rebound",
+      "src": "Analytics Insight",
+      "t": "2026-11-27T09:00:00+05:30",
+      "score": 2
+    },
+    {
+      "cat": "cripto",
+      "title": "PF caça hackers em MT que invadiram e-mail, extorquiram vítima e desviaram R$ 350 mil em cripto; alerta veio do Reino Unido",
+      "link": "https://livecoins.com.br/alerta-do-reino-unido-leva-pf-a-investigar-furto-de-r-350-mil-em-criptomoedas-no-mato-grosso/",
+      "src": "Livecoins",
+      "t": "2026-11-26T18:27:05-03:00",
+      "score": 3
+    },
+    {
       "cat": "acoes",
       "title": "Efeito Trabuco: Ibovespa dispara mais de 3% e dólar cai firme após Lula sondar banqueiro para a Fazenda",
       "link": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-26-novembro-2026/",
@@ -922,30 +938,6 @@
       "src": "CoinDesk",
       "t": "2026-11-24T07:47:00-05:00",
       "score": 3
-    },
-    {
-      "cat": "cripto",
-      "title": "Fuga recorde: ETFs de bitcoin já perdem US$ 4,71 bi em novembro, pior mês da história; BTC escorrega a US$ 60 mil",
-      "link": "https://cointelegraph.com/markets/bitcoin-etfs-bleed-ibit-shares-gain",
-      "src": "Cointelegraph",
-      "t": "2026-11-24T07:41:50+00:00",
-      "score": 4
-    },
-    {
-      "cat": "cripto",
-      "title": "Saques travados: pool de US$ 159 mi da Sky fica 99,99% usado e corretoras coreanas suspendem depósitos de SKY e USDS",
-      "link": "https://www.theblock.co/newsletters/the-daily/2026-11-24-doj-binance-hack-strategy-bitcoin-more-crypto-news-445430",
-      "src": "The Block",
-      "t": "2026-11-24T00:40:00-05:00",
-      "score": 5
-    },
-    {
-      "cat": "acoes",
-      "title": "Ásia explode com volta de Huang à Nvidia: Taiwan sobe mais de 9% e Kospi salta 6,5% um dia após pânico",
-      "link": "https://www.ksat.com/business/2026/11/24/asian-stocks-rally-after-wall-street-rebound-as-jensen-huang-returns-as-nvidias-ceo/",
-      "src": "AP",
-      "t": "2026-11-24T03:31:25+00:00",
-      "score": 4
     }
   ],
   "incidentes": [
