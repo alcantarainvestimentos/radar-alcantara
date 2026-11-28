@@ -793,6 +793,22 @@
   },
   "noticias_radar": [
     {
+      "cat": "cripto",
+      "title": "Bitcoin perde os US$ 60 mil mesmo com Wall Street na melhor semana em mais de um ano; ETFs somam US$ 5,4 bi de saques em novembro",
+      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/27/crypto-market-today-nov-27-bitcoin-falls-below-usd60-000-as-crypto-markets-struggle-despite-wall-street-s-biggest-rally-in-over-a-year/",
+      "src": "Motley Fool",
+      "t": "2026-11-27T17:13:00-05:00",
+      "score": 3
+    },
+    {
+      "cat": "acoes",
+      "title": "Efeito Trabuco: dólar desaba 3,97% e fecha a R$ 5,51; Ibovespa encerra o dia perto dos 177 mil pontos",
+      "link": "https://www.band.com.br/economia/dolar-fecha-a-r-551-com-efeito-trabuco-e-ibovespa-vai-aos-177-mil-pts",
+      "src": "Band",
+      "t": "2026-11-27T17:45:00-03:00",
+      "score": 4
+    },
+    {
       "cat": "acoes",
       "title": "Trabuco aceita a Fazenda e dólar despenca mais de 3%, a R$ 5,54; Ibovespa disparou 6,07% na véspera",
       "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27112026/",
@@ -898,8 +914,7 @@
       "link": "https://www.aol.com/articles/nasdaq-futures-slide-over-2-100822000.html",
       "src": "Reuters",
       "t": "2026-11-25T13:43:00+00:00",
-      "score": 5,
-      "viral": true
+      "score": 5
     },
     {
       "cat": "acoes",
@@ -923,14 +938,6 @@
       "link": "https://abcnews.com/US/treasurys-fincen-cybersecurity-incident-includes-unauthorized-access-systems/story?id=138432822",
       "src": "ABC News",
       "t": "2026-11-25T07:41:17+00:00",
-      "score": 4
-    },
-    {
-      "cat": "acoes",
-      "title": "Petrobras não garante dividendo extra, ação cai 1,8% e Ibovespa fecha em queda; Nasdaq tomba 1,5%",
-      "link": "https://www.moneytimes.com.br/tempo-real-24-11-2026-davs/",
-      "src": "Money Times",
-      "t": "2026-11-24T18:30:00-03:00",
       "score": 4
     }
   ],
