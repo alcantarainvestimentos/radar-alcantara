@@ -4,10 +4,10 @@
 Ibovespa 176.573 pts (−0,13%; +6,13% na semana) · Dólar R$ 5,516 (−3,97%; −7,07% na semana)
 S&P 500 7.297 (+1,6%) · Nasdaq 24.130 (+2,3%) · Dow 50.775 (+1,18%)
 VIX 24,0 (−15%) · Brent US$ 94,87 (−1,8%) · Ouro ≈US$ 3.666 (+2,9%)
-₿ BTC abaixo de US$ 60 mil na sexta à noite · ETH perto de US$ 1.700
+₿ BTC US$ 61.095 (+0,7%) de manhã, abaixo de US$ 60 mil à noite · ETH US$ 1.738 (+2,3%)
 
 *O que move o mercado*
-• Efeito Trabuco: com a confirmação na Fazenda, o dólar teve a 5ª queda seguida e a maior baixa semanal em anos; Ibovespa tocou 183.625 pts na abertura e realizou à tarde
+• Efeito Trabuco: com a confirmação na Fazenda, o dólar teve a 5ª queda seguida e caiu 7% na semana; Ibovespa tocou 183.625 pts na abertura e realizou à tarde
 • Wall Street fechou a melhor semana em mais de um ano, com a Nasdaq subindo 6,7% no acumulado
 • Bitcoin perdeu os US$ 60 mil mesmo com NY em alta; ETFs somam cerca de US$ 5,4 bi em saques em novembro
 • Ponte da Atoshi sofreu ataque após phishing (token ATOS −79%): desconfie de links e carteiras desconhecidas
