@@ -794,6 +794,14 @@
   "noticias_radar": [
     {
       "cat": "cripto",
+      "title": "Hacker drena 201 mi de tokens ATOS da ponte da Atoshi após phishing; token desaba 79% e negociação é suspensa",
+      "link": "https://crypto.news/atoshi-bridge-exploit-201-million-atos/",
+      "src": "crypto.news",
+      "t": "2026-11-28T10:09:47+00:00",
+      "score": 2
+    },
+    {
+      "cat": "cripto",
       "title": "Bitcoin perde os US$ 60 mil mesmo com Wall Street na melhor semana em mais de um ano; ETFs somam US$ 5,4 bi de saques em novembro",
       "link": "https://www.fool.com/coverage/stock-market-today/2026/11/27/crypto-market-today-nov-27-bitcoin-falls-below-usd60-000-as-crypto-markets-struggle-despite-wall-street-s-biggest-rally-in-over-a-year/",
       "src": "Motley Fool",
@@ -931,14 +939,6 @@
       "src": "crypto.news",
       "t": "2026-11-25T11:54:00+00:00",
       "score": 3
-    },
-    {
-      "cat": "acoes",
-      "title": "Hackers invadem sistemas do FinCEN, órgão antilavagem do Tesouro dos EUA; parte dos sistemas é tirada do ar",
-      "link": "https://abcnews.com/US/treasurys-fincen-cybersecurity-incident-includes-unauthorized-access-systems/story?id=138432822",
-      "src": "ABC News",
-      "t": "2026-11-25T07:41:17+00:00",
-      "score": 4
     }
   ],
   "incidentes": [
